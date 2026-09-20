@@ -33,7 +33,7 @@ contributors:
 cut_id: 4b484d868384
 skills_count: 3246
 tools_count: 867
-workflows_count: 0
+workflows_count: 2
 skills:
 - 16s-amplicon-consensus-calling
 - 16s-rrna-reference-alignment

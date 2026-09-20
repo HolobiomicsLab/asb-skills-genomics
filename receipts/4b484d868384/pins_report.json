@@ -1,0 +1,107 @@
+{
+  "workflows": {
+    "long_read_structural_variant": {
+      "workflow_id": "long_read_structural_variant",
+      "prefer": [
+        {
+          "stage": "align_long_reads",
+          "pin": "long-read-genome-alignment--8cec567f57b0cb03",
+          "status": "resolved",
+          "resolved_slug": "long-read-genome-alignment--8cec567f57b0cb03"
+        },
+        {
+          "stage": "call_structural_variants",
+          "pin": "nanopore-structural-variant-calling",
+          "status": "resolved",
+          "resolved_slug": "nanopore-structural-variant-calling"
+        },
+        {
+          "stage": "filter_per_caller_calls",
+          "pin": "coverage-based-sv-filtering",
+          "status": "resolved",
+          "resolved_slug": "coverage-based-sv-filtering"
+        },
+        {
+          "stage": "merge_consensus_calls",
+          "pin": "multi-caller-sv-callset-merging",
+          "status": "resolved",
+          "resolved_slug": "multi-caller-sv-callset-merging"
+        },
+        {
+          "stage": "benchmark_callset",
+          "pin": "truvari-parameter-tuning-evaluation",
+          "status": "resolved",
+          "resolved_slug": "truvari-parameter-tuning-evaluation"
+        }
+      ],
+      "avoid": [
+        {
+          "scope": "call_structural_variants",
+          "pin": "structural-variant-callset-merging",
+          "status": "resolved",
+          "resolved_slug": "structural-variant-callset-merging"
+        },
+        {
+          "scope": "merge_consensus_calls",
+          "pin": "vcf-manipulation-for-sv-curation",
+          "status": "resolved",
+          "resolved_slug": "vcf-manipulation-for-sv-curation"
+        },
+        {
+          "scope": "benchmark_callset",
+          "pin": "vcf-truth-set-benchmarking-rtg-vcfeval",
+          "status": "resolved",
+          "resolved_slug": "vcf-truth-set-benchmarking-rtg-vcfeval"
+        }
+      ],
+      "summary": {
+        "prefer_total": 5,
+        "prefer_resolved": 5,
+        "avoid_total": 3,
+        "avoid_resolved": 3
+      }
+    },
+    "nanopore_5mcpg_detection": {
+      "workflow_id": "nanopore_5mcpg_detection",
+      "prefer": [
+        {
+          "stage": "basecall_with_move_tables",
+          "pin": "basecalling-with-move-tables",
+          "status": "resolved",
+          "resolved_slug": "basecalling-with-move-tables"
+        },
+        {
+          "stage": "align_move_table_bam",
+          "pin": "ont-read-alignment-to-reference-genome",
+          "status": "resolved",
+          "resolved_slug": "ont-read-alignment-to-reference-genome"
+        },
+        {
+          "stage": "detect_5mcpg",
+          "pin": "signal-based-cpg-methylation-detection",
+          "status": "resolved",
+          "resolved_slug": "signal-based-cpg-methylation-detection"
+        },
+        {
+          "stage": "aggregate_5mcpg_sites",
+          "pin": "modkit-modification-pileup",
+          "status": "resolved",
+          "resolved_slug": "modkit-modification-pileup"
+        },
+        {
+          "stage": "validate_methylation_profile",
+          "pin": "bisulfite-methylation-ground-truth-matching",
+          "status": "resolved",
+          "resolved_slug": "bisulfite-methylation-ground-truth-matching"
+        }
+      ],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 5,
+        "prefer_resolved": 5,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    }
+  }
+}

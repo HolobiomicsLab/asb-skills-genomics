@@ -1,8 +1,8 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-09-20T00:42:53.475410+00:00",
-  "collection_dir": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/genomics",
-  "corpus_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/genomics/corpus.yaml",
+  "generated_at": "2026-09-20T13:33:10.238360+00:00",
+  "collection_dir": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/genomics/candidate",
+  "corpus_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/genomics/candidate/corpus.yaml",
   "mode": "strict",
   "strict": true,
   "promote_logic_source": "agentic_science_builder.release.promote",
@@ -41,7 +41,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "e1fdf0abcb9c497ca170d07082f3a6fac4b2a4ead8eb169b6c5e1f9d57e56ca9",
+      "sha256": "57f0a7bcce8f6d95a17fedbea1f24fa48a753953615fb78f442e387449cee152",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -51,6 +51,11 @@
           "path": ".claude-plugin/plugin.json",
           "bytes": 506,
           "sha256": "644f5c1548b33ec122fbc93798a0d9882f8496ea767a5a9030c290084e73e009"
+        },
+        {
+          "path": ".zenodo.json",
+          "bytes": 2719,
+          "sha256": "0939c97356fba3f1b5397c469af900ecc86b66fdb3a6f5b6d0ea32e0d4b35f4d"
         },
         {
           "path": "CITATION.cff",
@@ -69,7 +74,7 @@
         {
           "path": "collection.yaml",
           "bytes": 148837,
-          "sha256": "24dc7a10d1239b8b656561d3187188c82d71a9a38a71eb3d7ef730f14ab4dba4"
+          "sha256": "74168c0caabfa77483b11e1e1a264091552b19eb9a73f47b5a10eb5e97cf1c30"
         },
         {
           "path": "corpus.yaml",
@@ -33665,6 +33670,62 @@
           "path": "tools_index.json",
           "bytes": 905598,
           "sha256": "15fef92e821eedf617bd79e85a671db6d9e980a0ad10752fc2e04ccb32bc3cb0"
+        },
+        {
+          "path": "workflows",
+          "directory": true
+        },
+        {
+          "path": "workflows/_workflow_router",
+          "directory": true
+        },
+        {
+          "path": "workflows/_workflow_router/SKILL.md",
+          "bytes": 3011,
+          "sha256": "ec3c9fe9cde816fa8ca08bacf85e8f44c63688295d65547ad79577c03743ef39"
+        },
+        {
+          "path": "workflows/long-read-structural-variant",
+          "directory": true
+        },
+        {
+          "path": "workflows/long-read-structural-variant/README.md",
+          "bytes": 2132,
+          "sha256": "90c352ce23178e4dd6e57678060fc9d5ced469f85d3a0821f4358a71172a3a2d"
+        },
+        {
+          "path": "workflows/long-read-structural-variant/SKILL.md",
+          "bytes": 7750,
+          "sha256": "d342b6a406818be1c6f2ab208463a5934bc7b926b85d77cabdd80a1ec249de59"
+        },
+        {
+          "path": "workflows/long-read-structural-variant/workflow.yaml",
+          "bytes": 6241,
+          "sha256": "00717e550ca5d8b638027151ccf898ec3007ae5fc4a5a438dd6a4c976e20ac69"
+        },
+        {
+          "path": "workflows/nanopore-5mcpg-detection",
+          "directory": true
+        },
+        {
+          "path": "workflows/nanopore-5mcpg-detection/README.md",
+          "bytes": 2095,
+          "sha256": "5424249bb721ba7651af6e434660efe9d6ba9243e593544ff0d63e943dd7ade6"
+        },
+        {
+          "path": "workflows/nanopore-5mcpg-detection/SKILL.md",
+          "bytes": 7034,
+          "sha256": "4aae380803f8d7b6b77b1f51ffbb9110f10a8135f92da5eb1bf04e9e3728b71f"
+        },
+        {
+          "path": "workflows/nanopore-5mcpg-detection/workflow.yaml",
+          "bytes": 5244,
+          "sha256": "dcfd9006957d9ad73aa3863fd060c99d80f7ba6fd7bc7c8fd2873d991ab45040"
+        },
+        {
+          "path": "workflows/workflows_index.json",
+          "bytes": 1837,
+          "sha256": "d8962afd89d8fef3a9f205ef9b57f81847fb0a051fa2922dbe01ce73564aef9b"
         }
       ],
       "excluded_paths": [
@@ -33683,7 +33744,7 @@
   "inventory": {
     "skills": 3246,
     "tools": 867,
-    "workflows": 0,
+    "workflows": 2,
     "papers": 137,
     "dois": 137
   },
@@ -33692,7 +33753,6 @@
   "verification_scope": "content-policy checks and bound artifact integrity",
   "release_verified": true,
   "zero_item_checks": [
-    "composite_workflows",
     "layout_packaging",
     "unit_closure",
     "catalogue_membership",
@@ -33702,11 +33762,11 @@
   "blocking": false,
   "exit_code": 0,
   "summary_counts": {
-    "pass": 10,
+    "pass": 11,
     "warn": 1,
     "fail": 0,
     "uncheckable": 0,
-    "not_applicable": 2
+    "not_applicable": 1
   },
   "hard_gate_ids": [
     2,
@@ -33845,21 +33905,16 @@
     },
     {
       "name": "composite_workflows",
-      "status": "not_applicable",
+      "status": "pass",
       "gates": [],
       "hard_gate": false,
-      "summary": "Composite workflow super-skills resolve to real leaves with a valid typed DAG and matching layout count.",
-      "n_findings": 1,
-      "details": [
-        {
-          "status": "not_applicable",
-          "message": "No workflows/ subtree; no workflow validation performed."
-        }
-      ],
+      "summary": "Composite workflow super-skills resolve to real leaves with a valid typed DAG and matching layout count.  (2 workflows checked)",
+      "n_findings": 0,
+      "details": [],
       "scope": "composite workflows",
-      "required": false,
+      "required": true,
       "counts": {
-        "checked": 0,
+        "checked": 2,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -33935,7 +33990,7 @@
       "scope": "payload files",
       "required": true,
       "counts": {
-        "checked": 4123,
+        "checked": 4132,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -34022,5 +34077,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "1dde28d7bccd756ef57134d5ae6f5113b5c91e5c789bf9f64d750313c9fa46a6"
+  "receipt_sha256": "5323fb41da87cd1757857bc71276b63ffa2a3605dce56312efefe9db4c2d465d"
 }

@@ -1,0 +1,67 @@
+[
+  {
+    "slug": "long-read-structural-variant",
+    "name": "long-read-structural-variant-workflow",
+    "description": "Use when long-read FASTQ data must be aligned, called by multiple structural-variant methods, verified per caller for read-depth support of copy-number events, merged, and compared with an external truth or high-confidence call set.\n",
+    "techniques": [],
+    "stage_count": 5,
+    "stages": [
+      "align_long_reads",
+      "call_structural_variants",
+      "filter_per_caller_calls",
+      "merge_consensus_calls",
+      "benchmark_callset"
+    ],
+    "member_tools": [
+      "CuteSV",
+      "NGMLR",
+      "NanoVar",
+      "SVIM",
+      "Sniffles",
+      "disCoverage",
+      "lra",
+      "minimap2",
+      "nanopore_pipeline_21",
+      "mosdepth",
+      "SURVIVOR",
+      "DeBreak",
+      "MAMnet",
+      "PBSIM",
+      "SVDSS",
+      "SVIM-asm",
+      "Sniffles2",
+      "Truvari",
+      "VISOR",
+      "VolcanoSV",
+      "pbsv"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  },
+  {
+    "slug": "nanopore-5mcpg-detection",
+    "name": "nanopore-5mcpg-detection-workflow",
+    "description": "Use when nanopore POD5 or FAST5 signal must be basecalled with move tables, aligned while preserving move tags, analysed for 5mCpG with DeepMod2, aggregated with modkit, and checked against orthogonal methylation measurements.\n",
+    "techniques": [],
+    "stage_count": 5,
+    "stages": [
+      "basecall_with_move_tables",
+      "align_move_table_bam",
+      "detect_5mcpg",
+      "aggregate_5mcpg_sites",
+      "validate_methylation_profile"
+    ],
+    "member_tools": [
+      "DeepMod2",
+      "Dorado",
+      "Guppy",
+      "minimap2",
+      "modkit",
+      "samtools",
+      "Dogme",
+      "bedtools"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  }
+]

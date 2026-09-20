@@ -1,7 +1,7 @@
 ASBB release gate — strict mode
   scope      : content-policy checks and bound artifact integrity
-  collection : /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/genomics
-  corpus     : /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/genomics/corpus.yaml
+  collection : /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/genomics/candidate
+  corpus     : /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/genomics/candidate/corpus.yaml
   reuse      : agentic_science_builder.release.promote
   parser     : scripts.release_gate (gate-owned)
   checks:
@@ -15,16 +15,15 @@ ASBB release gate — strict mode
             · [WARN] leaves/sv-recall-fpr-evaluation/SKILL.md: suspected low-confidence PII 'placeholder_subject' in span — route to human.
             · [WARN] leaves/trio-based-phasing-validation/SKILL.md: suspected low-confidence PII 'placeholder_subject' in span — route to human.
     PASS  provenance_doi_license (gates [8]) [hard-gate] — checked=3246 / skipped=0 / missing=0 / failed=0 [leaf skills]
-    NOT_APPLICABLE  composite_workflows (gates []) — checked=0 / skipped=0 / missing=0 / failed=0 [composite workflows]
-            · [NOT_APPLICABLE] No workflows/ subtree; no workflow validation performed.
+    PASS  composite_workflows (gates []) — checked=2 / skipped=0 / missing=0 / failed=0 [composite workflows]
     PASS  layout_packaging (gates [10]) [hard-gate] — checked=0 / skipped=0 / missing=0 / failed=0 [items]
     PASS  unit_closure (gates [10]) [hard-gate] — checked=0 / skipped=0 / missing=0 / failed=0 [items]
     PASS  gate_input_files (gates []) [hard-gate] — checked=2 / skipped=0 / missing=0 / failed=0 [gate input files]
-    PASS  target_binding (gates []) [hard-gate] — checked=4123 / skipped=0 / missing=0 / failed=0 [payload files]
+    PASS  target_binding (gates []) [hard-gate] — checked=4132 / skipped=0 / missing=0 / failed=0 [payload files]
     PASS  catalogue_membership (gates [10]) [hard-gate] — checked=0 / skipped=0 / missing=0 / failed=0 [items]
             · [PASS] All 1 collection catalogues agree.
     PASS  collection_inventory (gates []) [hard-gate] — checked=5 / skipped=0 / missing=0 / failed=0 [inventory fields]
     NOT_APPLICABLE  cut_manifest (gates []) [hard-gate] — checked=0 / skipped=0 / missing=0 / failed=0 [manifest bindings]
     PASS  target_stability (gates []) [hard-gate] — checked=1 / skipped=0 / missing=0 / failed=0 [target and input snapshots]
   overall    : WARN  (exit 0)
-  report     : /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/genomics-receipts/gate_report.json
+  report     : /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/genomics/receipts/gate_report.json
