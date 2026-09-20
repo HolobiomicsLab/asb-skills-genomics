@@ -1,0 +1,18 @@
+name: Mandalorion
+slug: mandalorion
+version_used: null
+edam_topics: []
+evidence_spans:
+- python3 Mandalorion.py [OPTIONS]
+derived_from:
+- doi: 10.1038/ncomms16027
+  title: Nanopore long-read RNAseq reveals widespread transcriptional variation among the surface receptors of individual B cells
+source_repos:
+- https://github.com/christopher-vollmers/Mandalorion
+- https://github.com/rvolden/Mandalorion
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/christopher-vollmers/Mandalorion

@@ -1,0 +1,66 @@
+name: Racon
+slug: racon
+version_used: null
+edam_topics: []
+evidence_spans:
+- We used Minimap2 [34] and Miniasm [35] to generate a draft genome, then Racon [36] was used to polish on the draft genome for 10 rounds.
+- polish each with CONSENT and RACON, and evaluate with QUAST-LG
+- '[racon](https://github.com/isovic/racon)'
+- racon (https://github.com/isovic/racon)
+- Allele Wrangler min coverage 30, RACON error correction
+- minimap2, miniasm, Racon
+- minimap2 mapping, miniasm assembly, Racon polishing
+- Consensus generation (default)
+- such as Pilon [13], Racon [14], and NextPolish [15]
+- uses racon with `polish_cns_options` to polish the contigs
+- cannot be resolved by taking a consensus of nanopore data only (e.g. using Racon)
+- see Racon15, the error correction module of the assembler Canu16, and FLAS17
+- '- [racon](https://github.com/lbcb-sci/racon)'
+- Modified `racon` dependency will be built automatically.
+- lbcb-sci/racon
+derived_from:
+- doi: 10.1093/gigascience/giy037
+  title: 'Chiron: translating nanopore raw signal directly into nucleotide sequence using deep learning'
+- doi: 10.1038/s41598-020-80757-5
+  title: Scalable long read self-correction and assembly polishing with multiple sequence alignment
+- doi: 10.1016/j.isci.2020.101389
+  title: 'HASLR: Fast Hybrid Assembly of Long Reads'
+- doi: 10.1038/ncomms16027
+  title: Nanopore long-read RNAseq reveals widespread transcriptional variation among the surface receptors of individual B cells
+- doi: 10.1093/gigascience/giz006
+  title: Nanopore sequencing of long ribosomal DNA amplicons enables portable and simple biodiversity assessments with high phylogenetic resolution across broad taxonomic scale
+- doi: 10.1093/gigascience/giaa105
+  title: 'NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy'
+- doi: 10.1093/nar/gkad526
+  title: Precise characterization of somatic complex structural variations from tumor/control paired long-read sequencing data with nanomonsv
+- doi: 10.1093/gpbjnl/qzad009
+  title: 'NextPolish2: A Repeat-aware Polishing Tool for Genomes Assembled Using HiFi Long Reads'
+- doi: 10.1038/s41467-024-47349-7
+  title: De novo diploid genome assembly using long noisy reads
+- doi: 10.1038/s41598-017-07650-6
+  title: Rapid de novo assembly of the European eel genome from nanopore sequencing reads
+- doi: 10.1038/s41467-022-34381-8
+  title: 'VeChat: correcting errors in long reads using variation graphs'
+- doi: 10.1002/cpz1.733
+  title: "ntLink: A Toolkit for\n                    <i>De Novo</i>\n                    Genome Assembly Scaffolding and Mapping Using Long Reads"
+source_repos:
+- https://github.com/haotianteng/Chiron
+- https://github.com/morispi/CONSENT
+- https://github.com/vpc-ccg/haslr
+- https://github.com/isovic/racon
+- https://github.com/rvolden/Mandalorion
+- https://github.com/calacademy-research/minibar
+- https://github.com/mmiladi/galaxy-nanopore
+- https://github.com/friend1ws/nanomonsv
+- https://github.com/Nextomics/NextPolish2
+- https://github.com/lbcb-sci/racon
+- https://github.com/lemene/PECAT
+- https://github.com/Generade-nl/TULIP
+- https://github.com/HaploKit/vechat
+- https://github.com/BirolLab/ntLink
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/haotianteng/Chiron

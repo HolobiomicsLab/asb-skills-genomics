@@ -1,0 +1,20 @@
+name: Nucmer
+slug: nucmer
+version_used: null
+edam_topics: []
+evidence_spans:
+- The [wiki page](https://github.com/adigenova/fast-sg/wiki/Hybrid-scaffolding-of-NA12878) provide a full example of the use of Fast-SG for the hybrid assembly of NA12878.
+derived_from:
+- doi: 10.1093/gigascience/giy048
+  title: 'Fast-SG: an alignment-free algorithm for hybrid assembly'
+- doi: 10.1038/srep06480
+  title: Improved Assemblies Using a Source-Agnostic Pipeline for MetaGenomic Assembly by Merging (MeGAMerge) of Contigs
+source_repos:
+- https://github.com/adigenova/fast-sg
+- https://github.com/LANL-Bioinformatics/MeGAMerge
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/adigenova/fast-sg

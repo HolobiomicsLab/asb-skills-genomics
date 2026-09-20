@@ -1,0 +1,19 @@
+name: RedNano
+slug: rednano
+version_used: null
+edam_topics: []
+evidence_spans:
+- python scripts/extract_features.py -i /path/to/fast5_guppy/workspace/ -o test/features/ --errors_dir test/tmp/ --corrected_group RawGenomeCorrected_001
+- we propose RedNano, a deep-learning method designed to detect m6A from Nanopore DRS reads by utilizing both raw signals and basecalling errors
+- Here, we propose RedNano, a deep-learning method designed to detect m6A from Nanopore DRS reads by utilizing both raw signals and basecalling errors.
+derived_from:
+- doi: 10.1093/bioinformatics/btae375
+  title: RNA m6A detection using raw current signals and basecalling errors from Nanopore direct RNA sequencing reads
+source_repos:
+- https://github.com/Derryxu/RedNano
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Derryxu/RedNano

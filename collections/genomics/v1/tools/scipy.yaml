@@ -1,0 +1,39 @@
+name: SciPy
+slug: scipy
+version_used: '1.1'
+edam_topics: []
+evidence_spans:
+- '* scipy>=1.1'
+- scipy
+- NanoCount only relies on a few robustly maintained third party python libraries
+- scipy
+- Map subtelomeric anchor sequences to chromosome ends based on T2T-CHM13 assembly
+derived_from:
+- doi: 10.1093/gigascience/giab074
+  title: 'CNVpytor: a tool for copy number variation detection and analysis from read depth and allele imbalance in whole-genome sequencing'
+- doi: 10.1038/s41467-019-08289-9
+  title: Single-molecule sequencing detection of N6-methyladenine in microbial reference materials
+- doi: 10.1093/nar/gkab1129
+  title: Accurate expression quantification from nanopore direct RNA sequencing with NanoCount
+- doi: 10.1093/bioinformatics/btad702
+  title: 'Snapper: high-sensitive detection of methylation motifs based on Oxford Nanopore reads'
+- doi: 10.1038/s41467-023-35823-7
+  title: High-throughput telomere length measurement at nucleotide resolution using the PacBio high fidelity sequencing platform
+- doi: 10.1016/j.crmeth.2025.101172
+  title: Toward universal immunofluorescence normalization for multiplex tissue imaging with UniFORM
+- doi: 10.1002/mp.18079
+  title: 'Software Article: A generalized cascaded linear system model implementation for x‐ray detectors'
+source_repos:
+- https://github.com/abyzovlab/CNVpytor
+- https://github.com/al-mcintyre/mCaller
+- https://github.com/a-slide/NanoCount
+- https://github.com/DNKonanov/Snapper
+- https://github.com/cytham/telomap
+- https://github.com/kunlunW/UniFORM
+- https://github.com/radboud-axti/casymir_public
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/abyzovlab/CNVpytor

@@ -1,0 +1,17 @@
+name: Kallisto
+slug: kallisto
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Table S15: Kallisto results for all datasets.'
+derived_from:
+- doi: 10.1093/gigascience/giz100
+  title: "rnaSPAdes: a\n                    <i>de novo</i>\n                    transcriptome assembler and its application to RNA-Seq data"
+source_repos:
+- https://github.com/ablab/spades
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ablab/spades

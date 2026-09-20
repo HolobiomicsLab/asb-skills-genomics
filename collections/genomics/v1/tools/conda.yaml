@@ -1,0 +1,43 @@
+name: conda
+slug: conda
+version_used: null
+edam_topics: []
+evidence_spans:
+- conda install -c malab fmalign2
+- We recommend installing **FMAlign2** with **conda**.
+- All tools and their dependencies are installed on the Galaxy platform and are managed by the Conda framework for dependency management
+- All tools and their dependencies are installed on the Galaxy platform and are managed by the Conda framework
+- Use Nanoident/env/freeze.yml to generate the environment directly under conda.
+- Alternatively, you can install NanoSimFormer in a conda environment.
+- seq2squiggle-dev conda environment
+- VirDetector can be installed with either Conda **or** Docker.
+- VirDetector can be installed either via the Conda package manager or via Docker
+derived_from:
+- doi: 10.1093/bioinformatics/btae014
+  title: 'FMAlign2: a novel fast multiple nucleotide sequence alignment method for ultralong datasets'
+- doi: 10.1093/gigascience/giaa105
+  title: 'NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy'
+- doi: 10.1093/bioinformatics/btaf397
+  title: Identifying DNA methylation types and methylated base positions from bacteria using nanopore sequencing with multi-scale neural network
+- doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+- doi: 10.1093/bioinformatics/btae744
+  title: End-to-end simulation of nanopore sequencing signals with feed-forward transformers
+- doi: 10.1093/bioinformatics/btaf029
+  title: 'VirDetector: a bioinformatic pipeline for virus surveillance using nanopore sequencing'
+- doi: 10.1002/ijc.33749
+  title: "Cancer Predisposition Sequencing Reporter (\n                    <scp>CPSR</scp>\n                    ): A flexible variant report engine for high‐throughput germline screening in cancer"
+source_repos:
+- https://github.com/malabz/FMAlign2
+- https://github.com/mmiladi/galaxy-nanopore
+- https://github.com/cz-csu/Nanoident
+- https://github.com/BioinfoSZU/NanoSimFormer
+- https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle
+- https://github.com/NLKaiser/VirDetector
+- https://github.com/sigven/cpsr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/malabz/FMAlign2

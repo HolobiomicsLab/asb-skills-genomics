@@ -1,0 +1,17 @@
+name: Apache Maven
+slug: apache-maven
+version_used: 3.3.9
+edam_topics: []
+evidence_spans:
+- VIBE comes with a unit test suite written in TestNG (v7.0.0) and is compiled using Apache Maven (v3.3.9).
+derived_from:
+- doi: 10.1002/ggn2.10023
+  title: A pipeline‐friendly software tool for genome diagnostics to prioritize genes by matching patient symptoms to literature
+source_repos:
+- https://github.com/molgenis/vibe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/molgenis/vibe

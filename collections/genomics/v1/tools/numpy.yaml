@@ -1,0 +1,53 @@
+name: numpy
+slug: numpy
+version_used: '1.16'
+edam_topics: []
+evidence_spans:
+- cap `numpy` at 1.x for the time being
+- '* numpy>=1.16'
+- Python libraries numpy, pandas, plotly
+- '> - numpy'
+- '- numpy (v1.26.4)'
+- they can be written to a `.npy` Numpy file for further processing in a `Numpy` environment
+- Python packages:rpy2,pandas,numpy
+derived_from:
+- doi: 10.1093/bioinformatics/btae546
+  title: Bin2cell reconstructs cells from high resolution Visium HD data
+- doi: 10.1093/gigascience/giab074
+  title: 'CNVpytor: a tool for copy number variation detection and analysis from read depth and allele imbalance in whole-genome sequencing'
+- doi: 10.1093/bib/bbae413
+  title: 'DeepBAM: a high-accuracy single-molecule CpG methylation detection tool for Oxford nanopore sequencing'
+- doi: 10.1093/bioinformatics/btaf680
+  title: 'isoSeQL: comparing long-read isoforms across multiple datasets'
+- doi: 10.1038/s41467-019-08289-9
+  title: Single-molecule sequencing detection of N6-methyladenine in microbial reference materials
+- doi: 10.1093/bioinformatics/btae665
+  title: 'Pod5Viewer: a GUI for inspecting raw nanopore sequencing data'
+- doi: 10.1016/j.isci.2022.104530
+  title: Fast and accurate matching of cellular barcodes across short-reads and long-reads of single-cell RNA-seq experiments
+- doi: 10.1038/s41467-023-41649-0
+  title: 'TAGET: a toolkit for analyzing full-length transcripts from long-read sequencing'
+- doi: 10.1016/j.crmeth.2025.101172
+  title: Toward universal immunofluorescence normalization for multiplex tissue imaging with UniFORM
+- doi: 10.1002/mp.18079
+  title: 'Software Article: A generalized cascaded linear system model implementation for x‐ray detectors'
+- doi: 10.1002/humu.23785
+  title: Predicting the change of exon splicing caused by genetic variant using support vector regression
+source_repos:
+- https://github.com/Teichlab/bin2cell
+- https://github.com/abyzovlab/CNVpytor
+- https://github.com/xiaochuanle/DeepBAM
+- https://github.com/christine-liu/isoSeQL
+- https://github.com/al-mcintyre/mCaller
+- https://github.com/dietvin/pod5Viewer
+- https://github.com/vpc-ccg/scTagger
+- https://github.com/XiDsLab/TAGET
+- https://github.com/kunlunW/UniFORM
+- https://github.com/radboud-axti/casymir_public
+- https://github.com/chenkenbio/PredPSI-SVR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Teichlab/bin2cell

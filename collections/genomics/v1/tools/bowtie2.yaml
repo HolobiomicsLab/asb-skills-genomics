@@ -1,0 +1,33 @@
+name: Bowtie2
+slug: bowtie2
+version_used: null
+edam_topics: []
+evidence_spans:
+- Fast-SG outperforms the state-of-the-art short-read aligners when building the scaffoldinggraph
+- mapped to their respective Nanopore consensus sequences using bowtie2 (Bowtie, RRID:SCR_005476)
+- For short-reads, we used Bowtie2 (Langmead and Salzberg 2012) to generate the mapping (BAM) files
+- raw reads were mapped to the predicted exons with Bowtie2
+- Finally, raw reads were mapped to the predicted exons with Bowtie2 (Langmead & Salzberg, 2012), and we performed SNP calling with BCFTools
+derived_from:
+- doi: 10.1093/gigascience/giy048
+  title: 'Fast-SG: an alignment-free algorithm for hybrid assembly'
+- doi: 10.1038/srep06480
+  title: Improved Assemblies Using a Source-Agnostic Pipeline for MetaGenomic Assembly by Merging (MeGAMerge) of Contigs
+- doi: 10.1093/gigascience/giz006
+  title: Nanopore sequencing of long ribosomal DNA amplicons enables portable and simple biodiversity assessments with high phylogenetic resolution across broad taxonomic scale
+- doi: 10.1093/bioinformatics/btad209
+  title: 'SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing'
+- doi: 10.1002/ece3.6587
+  title: 'EXFI: Exon and splice graph prediction without a reference genome'
+source_repos:
+- https://github.com/adigenova/fast-sg
+- https://github.com/LANL-Bioinformatics/MeGAMerge
+- https://github.com/calacademy-research/minibar
+- https://github.com/BigDataBiology/SemiBin
+- https://github.com/jlanga/exfi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/adigenova/fast-sg

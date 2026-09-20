@@ -1,0 +1,17 @@
+name: MEME
+slug: meme
+version_used: null
+edam_topics: []
+evidence_spans:
+- the MEME suit does not extract all Helicobacter pylori methylation sites de novo even using the iterative approach
+derived_from:
+- doi: 10.1093/bioinformatics/btad702
+  title: 'Snapper: high-sensitive detection of methylation motifs based on Oxford Nanopore reads'
+source_repos:
+- https://github.com/DNKonanov/Snapper
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DNKonanov/Snapper

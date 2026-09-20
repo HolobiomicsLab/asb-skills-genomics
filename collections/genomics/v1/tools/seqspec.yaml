@@ -1,0 +1,17 @@
+name: seqspec
+slug: seqspec
+version_used: null
+edam_topics: []
+evidence_spans:
+- The renderer must run in an image that provides `seqspec`, `seqspec upgrade`, `seqspec format`, and `seqspec check`.
+derived_from:
+- doi: 10.1093/bioinformatics/btag066
+  title: 'Dogme: a nextflow pipeline for reprocessing nanopore RNA and DNA modifications'
+source_repos:
+- https://github.com/mortazavilab/dogme
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mortazavilab/dogme

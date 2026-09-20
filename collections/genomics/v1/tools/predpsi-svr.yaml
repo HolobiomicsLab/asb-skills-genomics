@@ -1,0 +1,16 @@
+name: PredPSI-SVR
+slug: predpsi-svr
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/humu.23785
+  title: Predicting the change of exon splicing caused by genetic variant using support vector regression
+source_repos:
+- https://github.com/chenkenbio/PredPSI-SVR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/chenkenbio/PredPSI-SVR

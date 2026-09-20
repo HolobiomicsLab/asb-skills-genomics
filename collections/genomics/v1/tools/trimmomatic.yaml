@@ -1,0 +1,33 @@
+name: Trimmomatic
+slug: trimmomatic
+version_used: '0.36'
+edam_topics: []
+evidence_spans:
+- The resulting paired-end reads were trimmed and filtered using Trimmomatic v0.36
+- 'sequenced
+
+  with Illumina MiSeq and are trimmed
+
+  with trimmomatic'
+- sequenced with Illumina MiSeq and are trimmed with trimmomatic
+- The data (FASTQ) are then forwarded to the Trimmomatic tool
+- The data (FASTQ) are then forwarded to the Trimmomatic tool [40, 41] for the trimming of low‐quality sequences, filtering adapters, and base cutting.
+- forwarded to the Trimmomatic tool [40, 41] for the trimming of low‐quality sequences, filtering adapters, and base cutting
+- The data (FASTQ) are then forwarded to the Trimmomatic tool [40, 41] for the trimming of low-quality sequences, filtering adapters, and base cutting.
+derived_from:
+- doi: 10.1093/gigascience/giz006
+  title: Nanopore sequencing of long ribosomal DNA amplicons enables portable and simple biodiversity assessments with high phylogenetic resolution across broad taxonomic scale
+- doi: 10.1038/ncomms14515
+  title: Scaffolding and completing genome assemblies in real-time with nanopore sequencing
+- doi: 10.1002/2211-5463.13261
+  title: 'JWES: a new pipeline for whole genome/exome sequence data processing, management, and gene‐variant discovery, annotation, prediction, and genotyping'
+source_repos:
+- https://github.com/calacademy-research/minibar
+- https://github.com/mdcao/npScarf
+- https://github.com/drzeeshanahmed/JWES-DB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/calacademy-research/minibar

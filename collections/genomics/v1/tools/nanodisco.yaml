@@ -1,0 +1,23 @@
+name: nanodisco
+slug: nanodisco
+version_used: null
+edam_topics: []
+evidence_spans:
+- follow the nanodisco (https://github.com/fanglab/nanodisco/tree/master) to build the virtual environment
+- follow the nanodisco (https://github.com/fanglab/nanodisco/tree/master) to build the virtual environment using Singularity (v3.2.1 and above)
+- even using the iterative approach implemented in the most up-to-date methylation analysis tool Nanodisco
+derived_from:
+- doi: 10.1093/bioinformatics/btaf397
+  title: Identifying DNA methylation types and methylated base positions from bacteria using nanopore sequencing with multi-scale neural network
+- doi: 10.1093/bioinformatics/btad702
+  title: 'Snapper: high-sensitive detection of methylation motifs based on Oxford Nanopore reads'
+source_repos:
+- https://github.com/fanglab/nanodisco
+- https://github.com/cz-csu/Nanoident
+- https://github.com/DNKonanov/Snapper
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fanglab/nanodisco

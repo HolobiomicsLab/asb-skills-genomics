@@ -1,0 +1,18 @@
+name: gfatools
+slug: gfatools
+version_used: null
+edam_topics: []
+evidence_spans:
+- The bubble regions of the pangenome were identified using gfatools (https://github.com/lh3/gfatools)
+derived_from:
+- doi: 10.1002/advs.202515308
+  title: "Reference‐Guided Chromosome‐by‐Chromosome\n                    <i>de novo</i>\n                    Assembly at Scale Using Low‐Coverage High‐Fidelity Long‐Reads with HiFiCCL"
+source_repos:
+- https://github.com/lh3/gfatools
+- https://github.com/zjjbuqi/HiFiCCL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lh3/gfatools

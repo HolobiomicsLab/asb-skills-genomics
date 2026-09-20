@@ -1,0 +1,45 @@
+name: megalodon
+slug: megalodon
+version_used: 2.5.0
+edam_topics: []
+evidence_spans:
+- methylation detection tools developed for the R9.4 platform, such as Tombo17, Megalodon18
+- The basecalling-based methods, such as Megalodon28, directly call modified bases using an extended alphabet during basecalling22.
+- We tested with Megalodon (v2.5.0), Guppy (v6.1.1, GPU on linux), Remora (v1.0.0).
+- Similarly, for Megalodon we used the difference of the log-probabilities to obtain a log-ratio.
+- Megalodon provided overall the best performance but relies on GPUs to be time efficient.
+- Here we provide the training datasets of the three best performing tools (Nanopolish, DeepSignal, Megalodon)
+- Here we used the most recent modified basecalling models in **Remora** that provides the most accurate methylation result.
+- We highly recommend to use [Megalodon](https://github.com/nanoporetech/megalodon) (ONT-developed tool) coupled with Guppy for methylation calling
+- Megalodon anchors the Guppy basecalling output to the reference and assigns a score for the candidate modified base
+- many tools have been developed to call 5mC at CpG sites, like Nanopolish27, Megalodon32, Guppy33, DeepMod34, and Remora35
+- only the ONT-provided computational tools Megalodon and Guppy are currently available to identify 6mAs in all possible contexts and 5mCs in CpG context
+- Megalodon (v2.5.0) using model res_dna_r941_min_modbases-all-context_v001.cfg
+- only the ONT-provided computational tools Megalodon and Guppy are currently available to identify 6mAs in all possible contexts
+derived_from:
+- doi: 10.1093/bib/bbae413
+  title: 'DeepBAM: a high-accuracy single-molecule CpG methylation detection tool for Oxford nanopore sequencing'
+- doi: 10.1038/s41467-025-58576-x
+  title: Accurate cross-species 5mC detection for Oxford Nanopore sequencing in plants with DeepPlant
+- doi: 10.1038/s41467-021-26278-9
+  title: Genome-wide detection of cytosine methylations in plant from Nanopore data using deep learning
+- doi: 10.1038/s41467-021-23778-6
+  title: Systematic benchmarking of tools for CpG methylation detection from nanopore sequencing
+- doi: 10.1038/s41467-024-49588-0
+  title: 'MethPhaser: methylation-based long-read haplotype phasing of human genomes'
+- doi: 10.1038/s41467-022-35650-2
+  title: Simultaneous profiling of histone modifications and DNA methylation via nanopore sequencing
+source_repos:
+- https://github.com/xiaochuanle/DeepBAM
+- https://github.com/xiaochuanle/DeepPlant
+- https://github.com/PengNi/deepsignal-plant
+- https://github.com/nanoporetech/megalodon
+- https://github.com/comprna/METEORE
+- https://github.com/treangenlab/methphaser
+- https://github.com/YinLabTJ/nanoHiMe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiaochuanle/DeepBAM

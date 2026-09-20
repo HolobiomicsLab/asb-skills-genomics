@@ -1,0 +1,21 @@
+name: Mana
+slug: mana
+version_used: null
+edam_topics: []
+evidence_spans:
+- Command-line tool that analyses ONT alignments (.BAM) to report quality control statistics.
+- git clone https://github.com/scchess/Mana.git
+- python3 mana.py --mrna
+- docker run mana python3 mana.py
+- docker pull scchess/mana && docker tag scchess/mana mana
+derived_from:
+- doi: 10.1038/s41467-023-41354-y
+  title: mRNA vaccine quality analysis using RNA sequencing
+source_repos:
+- https://github.com/scchess/Mana
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scchess/Mana

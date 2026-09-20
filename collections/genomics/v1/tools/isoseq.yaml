@@ -1,0 +1,23 @@
+name: IsoSeq
+slug: isoseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- Well-established PacBio-only based pipelines such as IsoSeq [8, 9] and IsoCon [10] often perform well on these tasks
+- isoseq collapse is used to generate a set of unique isoforms.
+- '[isoseq](https://isoseq.how) cluster2 generates clusters of isoforms with the support of at least 2 FLNC reads'
+- '[isoseq](https://isoseq.how) refine is used to trim polyA tails and remove concatemeric sequences'
+derived_from:
+- doi: 10.1093/gigascience/giac099
+  title: 'annotate_my_genomes: an easy-to-use pipeline to improve genome annotation and uncover neglected genes by hybrid RNA sequencing'
+- doi: 10.1093/bioinformatics/btaf680
+  title: 'isoSeQL: comparing long-read isoforms across multiple datasets'
+source_repos:
+- https://github.com/cfarkas/annotate_my_genomes
+- https://github.com/christine-liu/isoSeQL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cfarkas/annotate_my_genomes

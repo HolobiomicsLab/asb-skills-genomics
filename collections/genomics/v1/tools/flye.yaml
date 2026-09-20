@@ -1,0 +1,26 @@
+name: Flye
+slug: flye
+version_used: null
+edam_topics: []
+evidence_spans:
+- our experiments show that error correction with CONSENT improves the quality of Flye assemblies.
+- '**Step 1**: Assemble it into a contigs FASTA file.'
+- By default, VolcanoSV uses hifiasm for Hifi data and Flye for CLR and ONT data.
+derived_from:
+- doi: 10.1038/s41598-020-80757-5
+  title: Scalable long read self-correction and assembly polishing with multiple sequence alignment
+- doi: 10.1093/bioinformatics/btad209
+  title: 'SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing'
+- doi: 10.1038/s41467-024-51282-0
+  title: VolcanoSV enables accurate and robust structural variant calling in diploid genomes from single-molecule long read sequencing
+source_repos:
+- https://github.com/morispi/CONSENT
+- https://github.com/BigDataBiology/SemiBin
+- https://github.com/fenderglass/Flye
+- https://github.com/maiziezhoulab/VolcanoSV
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/morispi/CONSENT

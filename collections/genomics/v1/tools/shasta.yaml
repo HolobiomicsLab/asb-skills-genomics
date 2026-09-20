@@ -1,0 +1,18 @@
+name: Shasta
+slug: shasta
+version_used: null
+edam_topics: []
+evidence_spans:
+- By integrating Fedrann into the Shasta assembler, we successfully reconstructed human whole genomes
+derived_from:
+- doi: 10.1093/gigascience/giag048
+  title: 'FEDRANN: effective long-read overlap detection based on dimensionality reduction and approximate nearest neighbors'
+source_repos:
+- https://github.com/jzhang-dev/Fedrann-Shasta
+- https://github.com/jzhang-dev/fedrann
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jzhang-dev/Fedrann-Shasta

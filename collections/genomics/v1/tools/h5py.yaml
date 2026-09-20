@@ -1,0 +1,28 @@
+name: h5py
+slug: h5py
+version_used: '2.9'
+edam_topics: []
+evidence_spans:
+- This will install Chiron, and [`h5py`](https://github.com/h5py/h5py) (required for reading in `.fast5` files).
+- This will install Chiron, and [`h5py`](https://github.com/h5py/h5py) (required for reading in `.fast5` files)
+- '* h5py>=2.9'
+- h5py>=2.9
+- '|h5py | 3.4.0|'
+derived_from:
+- doi: 10.1093/gigascience/giy037
+  title: 'Chiron: translating nanopore raw signal directly into nucleotide sequence using deep learning'
+- doi: 10.1093/gigascience/giab074
+  title: 'CNVpytor: a tool for copy number variation detection and analysis from read depth and allele imbalance in whole-genome sequencing'
+- doi: 10.1093/bioinformatics/btae375
+  title: RNA m6A detection using raw current signals and basecalling errors from Nanopore direct RNA sequencing reads
+source_repos:
+- https://github.com/h5py/h5py
+- https://github.com/haotianteng/Chiron
+- https://github.com/abyzovlab/CNVpytor
+- https://github.com/Derryxu/RedNano
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/h5py/h5py

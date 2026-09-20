@@ -1,0 +1,26 @@
+name: seqtk
+slug: seqtk
+version_used: null
+edam_topics: []
+evidence_spans:
+- These reads were downsampled using the seqtk tool
+- lh3/seqtk
+- The zebrafish datasets were sampled in 10% increments with Seqtk (Li, 2018)
+derived_from:
+- doi: 10.1002/advs.202515308
+  title: "Reference‐Guided Chromosome‐by‐Chromosome\n                    <i>de novo</i>\n                    Assembly at Scale Using Low‐Coverage High‐Fidelity Long‐Reads with HiFiCCL"
+- doi: 10.1093/bioinformatics/btaf687
+  title: 'ViMOP: a user-friendly and field-applicable pipeline for untargeted viral genome nanopore sequencing'
+- doi: 10.1002/ece3.6587
+  title: 'EXFI: Exon and splice graph prediction without a reference genome'
+source_repos:
+- https://github.com/lh3/seqtk
+- https://github.com/zjjbuqi/HiFiCCL
+- https://github.com/opr-group-bnitm/vimop
+- https://github.com/jlanga/exfi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lh3/seqtk

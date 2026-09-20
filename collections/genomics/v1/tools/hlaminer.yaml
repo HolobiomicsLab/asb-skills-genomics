@@ -1,0 +1,22 @@
+name: HLAminer
+slug: hlaminer
+version_used: '1.4'
+edam_topics: []
+evidence_spans:
+- predicting HLA signatures from whole-genome shotgun (WGS) long-read sequencing data by directly streaming sequence alignments into HLAminer
+- HLAminer v1.4 implements a streaming approach to reading .sam alignment files
+- a streamlined protocol for predicting HLA signatures from whole-genome shotgun (WGS) long-read sequencing data by directly streaming sequence alignments into HLAminer
+- The .csv file contains HLAminer predictions.
+- Follow these instructions to download updated HLA sequences from ebi/imgt (shell scripts to automatically download and format the databases exist in ./database/)
+derived_from:
+- doi: 10.1002/cpz1.70124
+  title: Streaming Long‐Read Sequence Alignments for HLA Predictions Using HLAminer
+source_repos:
+- https://github.com/bcgsc/HLAminer
+- https://github.com/BirolLab/HLAminer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bcgsc/HLAminer

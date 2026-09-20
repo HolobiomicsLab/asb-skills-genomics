@@ -1,0 +1,20 @@
+name: minigraph
+slug: minigraph
+version_used: null
+edam_topics: []
+evidence_spans:
+- the pangenome graph constructed by minigraph from the HPRC release
+- the input dataset was aligned to Hifiasm_graph, HiFiCCL‐Hifiasm_graph, and HPRC_graph using minigraph
+- reads that fail to align in the primary mode are assigned chromosome classes by aligning them to the pangenome graph using minigraph [36] with parameters set to “‐cx lr”.
+derived_from:
+- doi: 10.1002/advs.202515308
+  title: "Reference‐Guided Chromosome‐by‐Chromosome\n                    <i>de novo</i>\n                    Assembly at Scale Using Low‐Coverage High‐Fidelity Long‐Reads with HiFiCCL"
+source_repos:
+- https://github.com/lh3/minigraph
+- https://github.com/zjjbuqi/HiFiCCL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lh3/minigraph

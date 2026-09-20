@@ -1,0 +1,20 @@
+name: Pilon
+slug: pilon
+version_used: null
+edam_topics: []
+evidence_spans:
+- the nanopore data are therefore corrected using Illumina data obtained from a different eel specimen than used for nanopore sequencing
+derived_from:
+- doi: 10.1016/j.isci.2020.101389
+  title: 'HASLR: Fast Hybrid Assembly of Long Reads'
+- doi: 10.1038/s41598-017-07650-6
+  title: Rapid de novo assembly of the European eel genome from nanopore sequencing reads
+source_repos:
+- https://github.com/vpc-ccg/haslr
+- https://github.com/Generade-nl/TULIP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/vpc-ccg/haslr

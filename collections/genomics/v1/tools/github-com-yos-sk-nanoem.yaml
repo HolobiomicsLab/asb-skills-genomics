@@ -1,0 +1,16 @@
+name: github.com/yos-sk/nanoEM
+slug: github-com-yos-sk-nanoem
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/nar/gkab397
+  title: Long-read whole-genome methylation patterning using enzymatic base conversion and nanopore sequencing
+source_repos:
+- https://github.com/yos-sk/nanoEM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yos-sk/nanoEM

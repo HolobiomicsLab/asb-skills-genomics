@@ -1,0 +1,18 @@
+name: COSG
+slug: cosg
+version_used: null
+edam_topics: []
+evidence_spans:
+- remotes::install_github(repo = 'genecell/COSGR')
+derived_from:
+- doi: 10.1093/nar/gkab1275
+  title: 'scMAGIC: accurately annotating single cells using two rounds of reference-based classification'
+source_repos:
+- https://github.com/genecell/COSGR
+- https://github.com/TianLab-Bioinfo/scMAGIC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/genecell/COSGR

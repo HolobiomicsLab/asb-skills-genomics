@@ -1,0 +1,24 @@
+name: Squigulator
+slug: squigulator
+version_used: 0.4.0
+edam_topics: []
+evidence_spans:
+- Squigulator (v0.4.0)
+- It faithfully recapitulates experimental variant calling performance across the five human samples, achieving F1-scores of 0.9953–0.9973 and 0.7862–0.8612 for single-nucleotide polymorphisms and
+- with both simulators
+- Seq2squiggle consistently outperforms existing tools across multiple datasets
+- Seq2squiggle consistently outperforms existing tools across multiple datasets, demonstrating superior similarity to real data
+derived_from:
+- doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+- doi: 10.1093/bioinformatics/btae744
+  title: End-to-end simulation of nanopore sequencing signals with feed-forward transformers
+source_repos:
+- https://github.com/BioinfoSZU/NanoSimFormer
+- https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BioinfoSZU/NanoSimFormer

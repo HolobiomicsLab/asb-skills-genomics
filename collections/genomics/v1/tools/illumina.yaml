@@ -1,0 +1,46 @@
+name: Illumina
+slug: illumina
+version_used: null
+edam_topics: []
+evidence_spans:
+- using Illumina, PacBio, and Oxford Nanopore data, respectively
+- We constructed separate Nextera XT library (with a unique pair of indices) for each primer pair-sample combination.
+- DNA sequencing using Nanostring Technologies8 or Illumina platforms3
+- we evaluate the use of both short- (Illumina (ILM)) and long-read (Oxford Nanopore Technologies (ONT)) sequencing
+- ONT RNAseq cannot only quantify known genes with a high correlation to Illumina RNAseq
+- We compare the qualitative (species richness) and quantitative (species abundance) recovery of taxa in simple mock communities by long-amplicon sequencing with that based on short read Illumina
+- could not be found in matching Illumina sequencing data (despite extensive variant calling using six different variant calling methods
+- '**SHORT=**: The short read SAM or BAM file (STAR aligned external ressource)'
+- If Illumina data are available a tsv file with cell barcodes (e.g. from Cellranger) can be provided.
+derived_from:
+- doi: 10.1038/s41467-019-09025-z
+  title: A multi-task convolutional deep neural network for variant calling in single molecule sequencing
+- doi: 10.1016/j.isci.2020.101389
+  title: 'HASLR: Fast Hybrid Assembly of Long Reads'
+- doi: 10.1038/s41467-018-06910-x
+  title: Deciphering highly similar multigene family transcripts from Iso-Seq data with IsoCon
+- doi: 10.1038/s41467-023-41354-y
+  title: mRNA vaccine quality analysis using RNA sequencing
+- doi: 10.1038/ncomms16027
+  title: Nanopore long-read RNAseq reveals widespread transcriptional variation among the surface receptors of individual B cells
+- doi: 10.1093/gigascience/giz006
+  title: Nanopore sequencing of long ribosomal DNA amplicons enables portable and simple biodiversity assessments with high phylogenetic resolution across broad taxonomic scale
+- doi: 10.1038/s41467-017-01343-4
+  title: Mapping and phasing of structural variation in patient genomes using nanopore sequencing
+- doi: 10.1038/s41467-020-17800-6
+  title: High throughput error corrected Nanopore single cell transcriptome sequencing
+source_repos:
+- https://github.com/aquaskyline/Clairvoyante
+- https://github.com/vpc-ccg/haslr
+- https://github.com/ksahlin/IsoCon
+- https://github.com/scchess/Mana
+- https://github.com/rvolden/Mandalorion
+- https://github.com/calacademy-research/minibar
+- https://github.com/mroosmalen/nanosv
+- https://github.com/ucagenomix/sicelore-2.1
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aquaskyline/Clairvoyante

@@ -1,0 +1,31 @@
+name: biopython
+slug: biopython
+version_used: null
+edam_topics: []
+evidence_spans:
+- '> - biopython'
+- '- biopython'
+- and Bioinformatics (BioPython; Cock et al., 2009) packages
+derived_from:
+- doi: 10.1038/s41467-019-08289-9
+  title: Single-molecule sequencing detection of N6-methyladenine in microbial reference materials
+- doi: 10.1093/bioinformatics/btad702
+  title: 'Snapper: high-sensitive detection of methylation motifs based on Oxford Nanopore reads'
+- doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+- doi: 10.1002/ece3.6587
+  title: 'EXFI: Exon and splice graph prediction without a reference genome'
+- doi: 10.1002/humu.23798
+  title: 'MetaDome: Pathogenicity analysis of genetic variants through aggregation of homologous human protein domains'
+source_repos:
+- https://github.com/al-mcintyre/mCaller
+- https://github.com/DNKonanov/Snapper
+- https://github.com/skbinfo/tncRNA-Toolkit
+- https://github.com/jlanga/exfi
+- https://github.com/laurensvdwiel/metadome
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/al-mcintyre/mCaller

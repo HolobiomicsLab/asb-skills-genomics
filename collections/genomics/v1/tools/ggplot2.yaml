@@ -1,0 +1,35 @@
+name: ggplot2
+slug: ggplot2
+version_used: 3.4.377
+edam_topics: []
+evidence_spans:
+- p_load(ggplot2)
+- '- `ggplot2 (Imports)`'
+- library(ggplot2)
+- 'The correlation plots were generated in R (v4.2.0) using the following packages: ggplot2 (Wickham 2016)'
+derived_from:
+- doi: 10.1038/s41467-025-57088-y
+  title: Species-resolved profiling of antibiotic resistance genes in complex metagenomes through long-read overlapping with Argo
+- doi: 10.1093/nar/gkad244
+  title: "<i>Insplico</i>\n                    : effective computational tool for studying splicing order of adjacent introns genome-wide with short and long RNA-seq reads"
+- doi: 10.1038/s41467-020-17009-7
+  title: Comprehensive identification of mRNA isoforms reveals the diversity of neural cell-surface molecules with roles in retinal development and disease
+- doi: 10.1093/nar/gkab1275
+  title: 'scMAGIC: accurately annotating single cells using two rounds of reference-based classification'
+- doi: 10.1093/bioinformatics/btae549
+  title: 'Scywalker: scalable end-to-end data analysis workflow for long-read single-cell transcriptome sequencing'
+- doi: 10.1002/cyto.a.24541
+  title: 'MIRIAM: A machine and deep learning single‐cell segmentation and quantification pipeline for multi‐dimensional tissue images'
+source_repos:
+- https://github.com/xinehc/argo
+- https://github.com/liniguez/Insplico_simulations
+- https://github.com/kellycochran/IsoPops
+- https://github.com/TianLab-Bioinfo/scMAGIC
+- https://github.com/derijkp/scywalker
+- https://github.com/Coffey-Lab/MIRIAM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xinehc/argo

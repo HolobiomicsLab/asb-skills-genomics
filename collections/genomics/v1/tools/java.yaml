@@ -1,0 +1,39 @@
+name: Java
+slug: java
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'requires: * Java >= 13'
+- '* Java >= 13'
+- It is programmed in Java
+- It is programmed in Java, designed to be deployed in a high‐performance computing (HPC) environment
+- We have programmed the JWES in Java‐8 using Eclipse IDE 2020‐09
+- java -jar -Xmx100G MacroHapCaller0.3.jar [options]
+- 'usage: java -jar -Xmx100G MacroHapCaller0.3.jar [options]'
+- MacroHapCaller is programmed in Java with parallel computing enabled
+- 'usage: `java -jar -Xmx100G MacroHapCaller0.3.jar [options]`'
+- java -jar MacroHapCaller##.jar
+- VIBE (version 2.0) was programmed in Java 8,
+derived_from:
+- doi: 10.1038/s41467-020-17800-6
+  title: High throughput error corrected Nanopore single cell transcriptome sequencing
+- doi: 10.1002/2211-5463.13261
+  title: 'JWES: a new pipeline for whole genome/exome sequence data processing, management, and gene‐variant discovery, annotation, prediction, and genotyping'
+- doi: 10.1002/elps.202300143
+  title: A complete pipeline enables haplotyping and phasing macrohaplotype in long sequencing reads for polyploidy samples and a multi‐source DNA mixture
+- doi: 10.1002/1873-3468.12746
+  title: mi<scp>RP</scp>ursuit—a pipeline for automated analyses of small <scp>RNA</scp>s in model and nonmodel plants
+- doi: 10.1002/ggn2.10023
+  title: A pipeline‐friendly software tool for genome diagnostics to prioritize genes by matching patient symptoms to literature
+source_repos:
+- https://github.com/ucagenomix/sicelore-2.1
+- https://github.com/drzeeshanahmed/JWES-DB
+- https://github.com/Ge-Lab/MacroHapCaller
+- https://github.com/forestbiotech-lab/miRPursuit
+- https://github.com/molgenis/vibe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ucagenomix/sicelore-2.1

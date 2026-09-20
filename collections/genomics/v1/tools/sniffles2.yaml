@@ -1,0 +1,36 @@
+name: Sniffles2
+slug: sniffles2
+version_used: null
+edam_topics: []
+evidence_spans:
+- similar to PBSV and Sniffles2 using 10× PacBio Hi-Fi long-read coverage
+- similar to PBSV and Sniffles2 using 10× PacBio Hi-Fi long-read coverage.
+- Compared with previous simulators, NanoSimFormer also substantially reduces false positives in homopolymer and short tandem repeat regions.
+- Run sawfish, Sniffles2, and pbsv on HG002 HiFi data subsampled to 10-, 15-, and 30-fold coverage
+- Run sawfish, Sniffles2, and pbsv on HG002 32x HiFi data
+- sawfish has over 9000 more pedigree-concordant calls than other state-of-the-art SV callers
+- including NanoVar16, cuteSV17, pbsv18, Sniffles219, MAMnet20, SVDSS21, and DeBreak22
+derived_from:
+- doi: 10.1093/bioadv/vbaf151
+  title: 'Blackbird: structural variant detection using synthetic and low-coverage long-reads'
+- doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+- doi: 10.1038/s41598-025-98847-7
+  title: Advanced analysis of retrotransposon variation in the human genome with nanopore sequencing using RetroInspector
+- doi: 10.1093/bioinformatics/btaf136
+  title: 'Sawfish: improving long-read structural variant discovery and genotyping with local haplotype modeling'
+- doi: 10.1038/s41467-024-51282-0
+  title: VolcanoSV enables accurate and robust structural variant calling in diploid genomes from single-molecule long read sequencing
+source_repos:
+- https://github.com/1dayac/Blackbird
+- https://github.com/BioinfoSZU/NanoSimFormer
+- https://github.com/fritzsedlazeck/Sniffles
+- https://github.com/javiercguard/retroinspector
+- https://github.com/PacificBiosciences/sawfish
+- https://github.com/maiziezhoulab/VolcanoSV
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/1dayac/Blackbird

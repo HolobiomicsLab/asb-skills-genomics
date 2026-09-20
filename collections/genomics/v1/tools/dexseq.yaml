@@ -1,0 +1,17 @@
+name: DEXSeq
+slug: dexseq
+version_used: '1.32'
+edam_topics: []
+evidence_spans:
+- The DIU statistical analysis was performed within IsoformSwitchAnalyzeR with DEXSeq (v1.32)
+derived_from:
+- doi: 10.1093/nar/gkab1129
+  title: Accurate expression quantification from nanopore direct RNA sequencing with NanoCount
+source_repos:
+- https://github.com/a-slide/NanoCount
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/a-slide/NanoCount

@@ -1,0 +1,16 @@
+name: PBcR
+slug: pbcr
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.isci.2020.101389
+  title: 'HASLR: Fast Hybrid Assembly of Long Reads'
+source_repos:
+- https://github.com/vpc-ccg/haslr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/vpc-ccg/haslr

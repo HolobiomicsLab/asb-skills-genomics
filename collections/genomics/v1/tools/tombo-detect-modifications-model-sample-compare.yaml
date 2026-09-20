@@ -1,0 +1,16 @@
+name: tombo detect_modifications model_sample_compare
+slug: tombo-detect-modifications-model-sample-compare
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.xgen.2022.100097
+  title: Direct detection of RNA modifications and structure using single-molecule nanopore sequencing
+source_repos:
+- https://github.com/physnano/rRNA_nanoSHAPE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/physnano/rRNA_nanoSHAPE

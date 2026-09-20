@@ -1,0 +1,17 @@
+name: COSMIC Mutational Signatures
+slug: cosmic-mutational-signatures
+version_used: '3.2'
+edam_topics: []
+evidence_spans:
+- We used COSMIC Mutational Signatures (v3.2 ‐ March 2021 and v2.0 ‐ March 2015)
+derived_from:
+- doi: 10.1002/cam4.4717
+  title: A practical framework <scp>RNMF</scp> for exploring the association between mutational signatures and genes using gene cumulative contribution abundance
+source_repos:
+- https://github.com/zhenzhang-li/RNMF
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhenzhang-li/RNMF

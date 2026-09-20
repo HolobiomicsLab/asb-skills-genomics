@@ -1,0 +1,19 @@
+name: Sassy
+slug: sassy
+version_used: null
+edam_topics: []
+evidence_spans:
+- using [Sassy V2](https://github.com/RagnarGrootKoerkamp/sassy) and other speedups
+- Current git version is around 5x faster than the releases by using [Sassy V2](https://github.com/RagnarGrootKoerkamp/sassy)
+derived_from:
+- doi: 10.1093/bioinformatics/btag349
+  title: Barbell reveals and resolves demultiplexing and trimming issues in Nanopore data
+source_repos:
+- https://github.com/RagnarGrootKoerkamp/sassy
+- https://github.com/rickbeeloo/barbell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/RagnarGrootKoerkamp/sassy

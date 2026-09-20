@@ -1,0 +1,17 @@
+name: Python 2.7
+slug: python-2-7
+version_used: '2.7'
+edam_topics: []
+evidence_spans:
+- 'Programming language: Python 2.7 (but can be run in Python 3)'
+derived_from:
+- doi: 10.1093/gigascience/giz006
+  title: Nanopore sequencing of long ribosomal DNA amplicons enables portable and simple biodiversity assessments with high phylogenetic resolution across broad taxonomic scale
+source_repos:
+- https://github.com/calacademy-research/minibar
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/calacademy-research/minibar

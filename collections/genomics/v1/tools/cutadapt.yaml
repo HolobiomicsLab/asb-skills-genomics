@@ -1,0 +1,18 @@
+name: cutadapt
+slug: cutadapt
+version_used: '2.4'
+edam_topics: []
+evidence_spans:
+- Download the 57 GEO RNA-seq datasets listed in Supplementary Table S1, trim adapters with cutadapt, map to hg19 with STAR
+- we removed the Illumina universal adapter AGATCGGAAGAGC with cutadapt v2.4 from the 3' ends of read1 and read2
+derived_from:
+- doi: 10.1093/nar/gkad244
+  title: "<i>Insplico</i>\n                    : effective computational tool for studying splicing order of adjacent introns genome-wide with short and long RNA-seq reads"
+source_repos:
+- https://github.com/liniguez/Insplico_simulations
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/liniguez/Insplico_simulations

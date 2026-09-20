@@ -1,0 +1,26 @@
+name: NGMLR
+slug: ngmlr
+version_used: '73.4'
+edam_topics: []
+evidence_spans:
+- A preprint is available in [bioRxiv](https://biorxiv.org/cgi/content/short/865782v1)
+- this study presents a novel long-read mapping algorithm (named as invMap)
+- NGMLR (73.4%),
+- _No usage/docs found._
+derived_from:
+- doi: 10.1038/s41467-019-09025-z
+  title: A multi-task convolutional deep neural network for variant calling in single molecule sequencing
+- doi: 10.1016/j.jare.2022.10.012
+  title: Improvement of large copy number variant detection by whole genome nanopore sequencing
+- doi: 10.1093/bioinformatics/btad726
+  title: 'invMap: a sensitive mapping tool for long noisy reads with inversion structural variants'
+source_repos:
+- https://github.com/aquaskyline/Clairvoyante
+- https://github.com/javiercguard/disCoverage
+- https://github.com/zhang134/invMap
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aquaskyline/Clairvoyante

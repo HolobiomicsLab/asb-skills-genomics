@@ -1,0 +1,17 @@
+name: NVIDIA-Docker
+slug: nvidia-docker
+version_used: null
+edam_topics: []
+evidence_spans:
+- We also containerized Galaxy-methyl by creating an NVIDIA-Docker container, which is available at the Docker repository gulsumgudukbay/galaxy-methyl
+derived_from:
+- doi: 10.1093/bioadv/vbac088
+  title: GPU-accelerated and pipelined methylation calling
+source_repos:
+- https://github.com/fengyilin118/Galaxy-methyl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fengyilin118/Galaxy-methyl

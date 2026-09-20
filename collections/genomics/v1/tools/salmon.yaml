@@ -1,0 +1,22 @@
+name: Salmon
+slug: salmon
+version_used: null
+edam_topics: []
+evidence_spans:
+- Compute Ex90N50 (via Salmon-based script)
+- We tested the performance of NanoCount against other transcript quantification programs, including Salmon, StringTie2, FLAIR and LIQA
+- 'Salmon was run in three separate modes: default; disabling the error model (–noErrorModel)'
+derived_from:
+- doi: 10.1093/gigascience/giac099
+  title: 'annotate_my_genomes: an easy-to-use pipeline to improve genome annotation and uncover neglected genes by hybrid RNA sequencing'
+- doi: 10.1093/nar/gkab1129
+  title: Accurate expression quantification from nanopore direct RNA sequencing with NanoCount
+source_repos:
+- https://github.com/cfarkas/annotate_my_genomes
+- https://github.com/a-slide/NanoCount
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cfarkas/annotate_my_genomes

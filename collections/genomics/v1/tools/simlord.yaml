@@ -1,0 +1,17 @@
+name: SimLoRD
+slug: simlord
+version_used: null
+edam_topics: []
+evidence_spans:
+- 30x coverage simulated pacbio reads generated using [SimLoRD](https://bitbucket.org/genomeinformatics/simlord/)
+derived_from:
+- doi: 10.1038/s41467-019-12493-y
+  title: Longshot enables accurate variant calling in diploid genomes from single-molecule long read sequencing
+source_repos:
+- https://github.com/pjedge/longshot
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pjedge/longshot

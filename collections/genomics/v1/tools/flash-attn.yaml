@@ -1,0 +1,18 @@
+name: flash-attn
+slug: flash-attn
+version_used: null
+edam_topics: []
+evidence_spans:
+- '# install flash-attn'
+derived_from:
+- doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+source_repos:
+- https://github.com/mjun0812/flash-attention-prebuild-wheels
+- https://github.com/BioinfoSZU/NanoSimFormer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mjun0812/flash-attention-prebuild-wheels

@@ -1,0 +1,29 @@
+name: FastQC
+slug: fastqc
+version_used: 0.11.9
+edam_topics: []
+evidence_spans:
+- The quality of the reads within these files were checked with FastQC (v0.11.9).
+- The JWES pipeline starts with the FastQC, a command‐line‐based tool that takes FASTQ/FASTA files as input and performs QC
+- The JWES pipeline starts with the FastQC, a command-line-based tool that takes FASTQ/FASTA files as input and performs QC
+- tools developed for bulk RNA-seq, such as FastQC 25 or Kraken 26
+derived_from:
+- doi: 10.1038/s41467-023-41354-y
+  title: mRNA vaccine quality analysis using RNA sequencing
+- doi: 10.1002/2211-5463.13261
+  title: 'JWES: a new pipeline for whole genome/exome sequence data processing, management, and gene‐variant discovery, annotation, prediction, and genotyping'
+- doi: 10.1002/1873-3468.12684
+  title: Computational approaches for interpreting sc<scp>RNA</scp>‐seq data
+- doi: 10.1002/1873-3468.12746
+  title: mi<scp>RP</scp>ursuit—a pipeline for automated analyses of small <scp>RNA</scp>s in model and nonmodel plants
+source_repos:
+- https://github.com/scchess/Mana
+- https://github.com/drzeeshanahmed/JWES-DB
+- https://github.com/tallulandrews/M3Drop
+- https://github.com/forestbiotech-lab/miRPursuit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scchess/Mana

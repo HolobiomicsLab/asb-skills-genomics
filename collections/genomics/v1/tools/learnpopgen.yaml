@@ -1,0 +1,18 @@
+name: learnPopGen
+slug: learnpopgen
+version_used: null
+edam_topics: []
+evidence_spans:
+- a new R package called learnPopGen that has been designed primarily for the purposes of teaching evolutionary biology, population genetics, and evolutionary theory
+- a new R package called learnPopGen
+derived_from:
+- doi: 10.1002/ece3.5412
+  title: '<i>learnPopGen</i>: An R package for population genetic simulation and numerical analysis'
+source_repos:
+- https://github.com/liamrevell/learnPopGen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/liamrevell/learnPopGen

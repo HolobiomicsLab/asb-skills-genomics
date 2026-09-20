@@ -1,0 +1,21 @@
+name: uTR
+slug: utr
+version_used: null
+edam_topics: []
+evidence_spans:
+- our program named uTR outperforms TRF and RepeatMasker in terms of prediction accuracy
+- '-t : Output the wall clock time to process each read in the input fasta file.'
+- uTR [-f input fasta file] [-o output fasta file with annotation] [-l locus information] [-u input representative unit string]
+- In the directory named "test_public", codes for generating simulated datasets and checking the accuracy of uTR and RepeatMasker are available
+- The program uTR decomposes a DNA string into mosaic tandem repeats with different repeat units.
+derived_from:
+- doi: 10.1093/bioinformatics/btad185
+  title: Decomposing mosaic tandem repeats accurately from long reads
+source_repos:
+- https://github.com/morisUtokyo/uTR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/morisUtokyo/uTR

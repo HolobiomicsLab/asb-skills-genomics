@@ -1,0 +1,17 @@
+name: R survival package
+slug: r-survival-package
+version_used: '2.40'
+edam_topics: []
+evidence_spans:
+- Kaplan–Meier survival and Cox regression analyses were carried out with the R survival package (2.40–1).
+derived_from:
+- doi: 10.1002/cam4.4717
+  title: A practical framework <scp>RNMF</scp> for exploring the association between mutational signatures and genes using gene cumulative contribution abundance
+source_repos:
+- https://github.com/zhenzhang-li/RNMF
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhenzhang-li/RNMF

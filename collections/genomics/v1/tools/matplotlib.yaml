@@ -1,0 +1,28 @@
+name: matplotlib
+slug: matplotlib
+version_used: '2.2'
+edam_topics: []
+evidence_spans:
+- '* matplotlib>=2.2'
+- matplotlib
+- '- matplotlib (v3.9.2)'
+derived_from:
+- doi: 10.1093/gigascience/giab074
+  title: 'CNVpytor: a tool for copy number variation detection and analysis from read depth and allele imbalance in whole-genome sequencing'
+- doi: 10.1038/s41467-019-08289-9
+  title: Single-molecule sequencing detection of N6-methyladenine in microbial reference materials
+- doi: 10.1093/bioinformatics/btae665
+  title: 'Pod5Viewer: a GUI for inspecting raw nanopore sequencing data'
+- doi: 10.1016/j.crmeth.2025.101172
+  title: Toward universal immunofluorescence normalization for multiplex tissue imaging with UniFORM
+source_repos:
+- https://github.com/abyzovlab/CNVpytor
+- https://github.com/al-mcintyre/mCaller
+- https://github.com/dietvin/pod5Viewer
+- https://github.com/kunlunW/UniFORM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/abyzovlab/CNVpytor

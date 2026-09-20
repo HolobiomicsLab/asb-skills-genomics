@@ -1,0 +1,27 @@
+name: ont_fast5_api
+slug: ont-fast5-api
+version_used: 4.0.2
+edam_topics: []
+evidence_spans:
+- Please use the `multi_to_single_fast5` command from the [ont_fast5_api package]
+- '|ont-fast5-api | 4.0.2|'
+- converted to the multi-fast5 format using [ont_fast5_api](https://github.com/nanoporetech/ont_fast5_api)
+- converted to the multi-fast5 format using [ont_fast5_api](https://github.com/nanoporetech/ont_fast5_api).
+derived_from:
+- doi: 10.1038/s41467-021-23778-6
+  title: Systematic benchmarking of tools for CpG methylation detection from nanopore sequencing
+- doi: 10.1093/bioinformatics/btae375
+  title: RNA m6A detection using raw current signals and basecalling errors from Nanopore direct RNA sequencing reads
+- doi: 10.1093/bioinformatics/btad702
+  title: 'Snapper: high-sensitive detection of methylation motifs based on Oxford Nanopore reads'
+source_repos:
+- https://github.com/nanoporetech/ont_fast5_api
+- https://github.com/comprna/METEORE
+- https://github.com/Derryxu/RedNano
+- https://github.com/DNKonanov/Snapper
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nanoporetech/ont_fast5_api

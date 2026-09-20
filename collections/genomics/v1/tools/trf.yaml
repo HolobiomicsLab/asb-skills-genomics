@@ -1,0 +1,17 @@
+name: TRF
+slug: trf
+version_used: null
+edam_topics: []
+evidence_spans:
+- our program named uTR outperforms TRF and RepeatMasker in terms of prediction accuracy
+derived_from:
+- doi: 10.1093/bioinformatics/btad185
+  title: Decomposing mosaic tandem repeats accurately from long reads
+source_repos:
+- https://github.com/morisUtokyo/uTR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/morisUtokyo/uTR

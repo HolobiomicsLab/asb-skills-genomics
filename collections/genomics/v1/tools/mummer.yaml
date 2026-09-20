@@ -1,0 +1,20 @@
+name: MUMmer
+slug: mummer
+version_used: null
+edam_topics: []
+evidence_spans:
+- select two regions of which length >100 and identity score >0.99 as repeat pairs
+derived_from:
+- doi: 10.1038/s41467-021-26278-9
+  title: Genome-wide detection of cytosine methylations in plant from Nanopore data using deep learning
+- doi: 10.1038/srep06480
+  title: Improved Assemblies Using a Source-Agnostic Pipeline for MetaGenomic Assembly by Merging (MeGAMerge) of Contigs
+source_repos:
+- https://github.com/PengNi/deepsignal-plant
+- https://github.com/LANL-Bioinformatics/MeGAMerge
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PengNi/deepsignal-plant

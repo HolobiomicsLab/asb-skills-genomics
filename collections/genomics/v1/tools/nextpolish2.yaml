@@ -1,0 +1,20 @@
+name: NextPolish2
+slug: nextpolish2
+version_used: null
+edam_topics: []
+evidence_spans:
+- NextPolish2 takes a genome assembly file, a HiFi mapping file and one or more k-mer dataset files from short reads as input
+- nextPolish2 -t 5 hifi.map.sort.bam asm.fa.gz k21.yak k31.yak > asm.np2.fa
+- Run NextPolish2 on BAM, assembly, and k-mer datasets
+- ./target/release/nextPolish2 -t 5 hifi.map.sort.bam asm.fa.gz k21.yak k31.yak > asm.np2.fa
+derived_from:
+- doi: 10.1093/gpbjnl/qzad009
+  title: 'NextPolish2: A Repeat-aware Polishing Tool for Genomes Assembled Using HiFi Long Reads'
+source_repos:
+- https://github.com/Nextomics/NextPolish2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Nextomics/NextPolish2

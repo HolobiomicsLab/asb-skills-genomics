@@ -1,0 +1,21 @@
+name: Integrative Genomics Viewer (IGV)
+slug: integrative-genomics-viewer-igv
+version_used: null
+edam_topics: []
+evidence_spans:
+- Genome Browsers as Integrative Genomics Viewer (IGV) can be used for visually inspecting
+- Open the BAM file ${OUTPUT_DIR}/deepmod2/output.sorted.bam in IGV, select Color alignments by base modificaition (5mC)
+derived_from:
+- doi: 10.1038/s41467-023-42336-w
+  title: Identification of errors in draft genome assemblies at single-nucleotide resolution for quality assessment and improvement
+- doi: 10.1038/s41467-024-45778-y
+  title: A signal processing and deep learning framework for methylation detection using Oxford Nanopore sequencing
+source_repos:
+- https://github.com/JiaoLaboratory/CRAQ
+- https://github.com/WGLab/DeepMod2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JiaoLaboratory/CRAQ

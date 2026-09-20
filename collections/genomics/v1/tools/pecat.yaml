@@ -1,0 +1,23 @@
+name: PECAT
+slug: pecat
+version_used: null
+edam_topics: []
+evidence_spans:
+- PECAT corrects the raw reads with `corr_correct_options`.
+- PECAT calls the heterozygous SNP sites based on the base frequency of the alignments
+- PECAT (`asm1_assmeble_options`)  assembles the overlaps to haplotype-collapsed contigs.
+- git clone --recursive https://github.com/lemene/PECAT.git
+- PECAT follows the correct-then-assemble strategy, including an error correction module
+- $ pecat.pl unzip cfgfile
+- $ git clone --recursive https://github.com/lemene/PECAT.git
+derived_from:
+- doi: 10.1038/s41467-024-47349-7
+  title: De novo diploid genome assembly using long noisy reads
+source_repos:
+- https://github.com/lemene/PECAT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lemene/PECAT

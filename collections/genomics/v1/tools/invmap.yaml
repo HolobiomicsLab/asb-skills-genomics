@@ -1,0 +1,20 @@
+name: invMap
+slug: invmap
+version_used: null
+edam_topics: []
+evidence_spans:
+- this study presents a novel long-read mapping algorithm (named as invMap)
+- ./invMap genome.fa reads.fa > invMap_aligned.sam
+- _No usage/docs found._
+derived_from:
+- doi: 10.1093/bioinformatics/btad726
+  title: 'invMap: a sensitive mapping tool for long noisy reads with inversion structural variants'
+source_repos:
+- https://github.com/zhang134/invMap.git
+- https://github.com/zhang134/invMap
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhang134/invMap.git

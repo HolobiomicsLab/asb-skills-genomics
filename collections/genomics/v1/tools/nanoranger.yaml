@@ -1,0 +1,19 @@
+name: nanoranger
+slug: nanoranger
+version_used: null
+edam_topics: []
+evidence_spans:
+- we devise a flexible long-read sequencing workflow and analysis pipeline, termed nanoranger
+- we devise a flexible long-read sequencing workflow and analysis pipeline, termed nanoranger, that starts from intermediate single-cell cDNA libraries
+- The schematic of our workflow is demonstrated below.
+derived_from:
+- doi: 10.1038/s41467-023-44137-7
+  title: Integrative genotyping of cancer and immune phenotypes by long-read sequencing
+source_repos:
+- https://github.com/mehdiborji/nanoranger
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mehdiborji/nanoranger

@@ -1,0 +1,30 @@
+name: Oxford Nanopore
+slug: oxford-nanopore
+version_used: null
+edam_topics: []
+evidence_spans:
+- '## The successor of Clairvoyante'
+- using Illumina, PacBio, and Oxford Nanopore data, respectively
+- Longer reads produced by PacBio or Oxford Nanopore sequencers could more frequently span the breakpoints of structural variations (SVs) than shorter reads
+- direct RNA-sequencing (dRNA-Seq) on the Oxford Nanopore platform
+derived_from:
+- doi: 10.1038/s41467-019-09025-z
+  title: A multi-task convolutional deep neural network for variant calling in single molecule sequencing
+- doi: 10.1016/j.isci.2020.101389
+  title: 'HASLR: Fast Hybrid Assembly of Long Reads'
+- doi: 10.1093/bioinformatics/btad726
+  title: 'invMap: a sensitive mapping tool for long noisy reads with inversion structural variants'
+- doi: 10.1038/s41467-024-47661-2
+  title: Detecting m6A at single-molecular resolution via direct RNA sequencing and realistic training data
+source_repos:
+- https://github.com/nanopore-wgs-consortium/NA12878
+- https://github.com/aquaskyline/Clairvoyante
+- https://github.com/vpc-ccg/haslr
+- https://github.com/zhang134/invMap
+- https://github.com/dieterich-lab/mAFiA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nanopore-wgs-consortium/NA12878

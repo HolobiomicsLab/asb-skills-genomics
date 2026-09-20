@@ -1,0 +1,19 @@
+name: svbench
+slug: svbench
+version_used: null
+edam_topics: []
+evidence_spans:
+- Svbench is also released under the MIT license and can be found at https://github.com/kcleal/svbench.
+- Analysis scripts used to reproduce results found in this paper can be found under https://github.com/kcleal/svbench.
+derived_from:
+- doi: 10.1093/nar/gkac039
+  title: 'Dysgu: efficient structural variant calling using short or long reads'
+source_repos:
+- https://github.com/kcleal/svbench
+- https://github.com/kcleal/dysgu
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kcleal/svbench

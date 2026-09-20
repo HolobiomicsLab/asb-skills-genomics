@@ -1,0 +1,17 @@
+name: hmmer
+slug: hmmer
+version_used: null
+edam_topics: []
+evidence_spans:
+- the external command-line tools (samtools, bedtools, hmmer, mmseqs2, prodigal, fraggenescan)
+derived_from:
+- doi: 10.1093/bioinformatics/btad209
+  title: 'SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing'
+source_repos:
+- https://github.com/BigDataBiology/SemiBin
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BigDataBiology/SemiBin

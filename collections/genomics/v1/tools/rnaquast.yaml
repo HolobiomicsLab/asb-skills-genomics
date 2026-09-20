@@ -1,0 +1,23 @@
+name: rnaQUAST
+slug: rnaquast
+version_used: null
+edam_topics: []
+evidence_spans:
+- After assessing the best transcriptome assembly with tools such as rnaQUAST [14], SQANTI [15]
+- metrics reported by rnaQUAST, DETONATE and Transrate across all datasets
+- To perform the benchmarking we have used the rnaQUAST tool [16], which was designed for quality evaluation of de novo assemblies
+- The most representative metrics reported by rnaQUAST, DETONATE and Transrate across all datasets
+derived_from:
+- doi: 10.1093/gigascience/giac099
+  title: 'annotate_my_genomes: an easy-to-use pipeline to improve genome annotation and uncover neglected genes by hybrid RNA sequencing'
+- doi: 10.1093/gigascience/giz100
+  title: "rnaSPAdes: a\n                    <i>de novo</i>\n                    transcriptome assembler and its application to RNA-Seq data"
+source_repos:
+- https://github.com/cfarkas/annotate_my_genomes
+- https://github.com/ablab/spades
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cfarkas/annotate_my_genomes

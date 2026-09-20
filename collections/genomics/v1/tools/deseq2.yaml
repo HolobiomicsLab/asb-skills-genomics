@@ -1,0 +1,35 @@
+name: DESeq2
+slug: deseq2
+version_used: '1.24'
+edam_topics: []
+evidence_spans:
+- We additionally defined and implemented Differential Isoform Usage (DIU) and co-Differential Isoform Usage (coDIU) analyses in order to leverage the multiple cell types contained in single-cell
+- Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2
+- Differential expression analysis was performed with DESeq2 (v1.24)
+- methods such as DESeq2 64 and EdgeR 65 are also widely used in scRNA-seq experiments
+derived_from:
+- doi: 10.1038/s41467-022-29497-w
+  title: acorde unravels functionally interpretable networks of isoform co-usage from single cell data
+- doi: 10.1038/s41467-024-47953-7
+  title: Prediction of m6A and m5C at single-molecule resolution reveals a transcriptome-wide co-occurrence of RNA modifications
+- doi: 10.1093/nar/gkab1129
+  title: Accurate expression quantification from nanopore direct RNA sequencing with NanoCount
+- doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+- doi: 10.1002/1873-3468.12684
+  title: Computational approaches for interpreting sc<scp>RNA</scp>‐seq data
+- doi: 10.1002/gepi.22361
+  title: 'TWO‐SIGMA: A novel two‐component single cell model‐based association method for single‐cell RNA‐seq data'
+source_repos:
+- https://github.com/ConesaLab/acorde
+- https://github.com/comprna/CHEUI-public
+- https://github.com/a-slide/NanoCount
+- https://github.com/skbinfo/tncRNA-Toolkit
+- https://github.com/tallulandrews/M3Drop
+- https://github.com/edvanburen/twosigma
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ConesaLab/acorde

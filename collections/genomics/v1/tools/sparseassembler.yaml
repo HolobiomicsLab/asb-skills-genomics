@@ -1,0 +1,20 @@
+name: SparseAssembler
+slug: sparseassembler
+version_used: null
+edam_topics: []
+evidence_spans:
+- ./SparseAssembler LD 0 k 51 g 15 NodeCovTh 1 EdgeCovTh 0 GS 12000000 f ../Illumina_data/Illumina_50x.fastq
+- we used SparseAssembler (Ye et al.5) to preassemble 50x Illumina short reads into contigs
+- The output Contigs.txt will be used by DBG2OLC.
+derived_from:
+- doi: 10.1038/srep31900
+  title: 'DBG2OLC: Efficient Assembly of Large Genomes Using Long Erroneous Reads of the Third Generation Sequencing Technologies'
+source_repos:
+- https://github.com/yechengxi/SparseAssembler
+- https://github.com/yechengxi/DBG2OLC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yechengxi/SparseAssembler

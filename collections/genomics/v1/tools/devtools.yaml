@@ -1,0 +1,25 @@
+name: devtools
+slug: devtools
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(devtools)
+- 'library(devtools)
+
+  install_github("cyhsuTN/scKWARN")'
+- install_github("cyhsuTN/scKWARN")
+- install.packages("devtools")
+derived_from:
+- doi: 10.1093/bioinformatics/btae008
+  title: 'scKWARN: Kernel-weighted-average robust normalization for single-cell RNA-seq data'
+- doi: 10.1002/aps3.1216
+  title: 'ReFernment: An R package for annotating <scp>RNA</scp> editing in plastid genomes'
+source_repos:
+- https://github.com/cyhsuTN/scKWARN
+- https://github.com/TARobison/ReFernment
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cyhsuTN/scKWARN

@@ -1,0 +1,19 @@
+name: acorn
+slug: acorn
+version_used: null
+edam_topics: []
+evidence_spans:
+- you can install the R package acorn
+- If you would like to do some followup statistics on the output from HAT, you can install the R package acorn
+derived_from:
+- doi: 10.1093/bioinformatics/btad775
+  title: 'HAT: <i>de novo</i> variant calling for highly accurate short-read and long-read sequencing data'
+source_repos:
+- https://github.com/TNTurnerLab/acorn
+- https://github.com/TNTurnerLab/HAT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TNTurnerLab/acorn

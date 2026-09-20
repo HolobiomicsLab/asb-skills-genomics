@@ -1,0 +1,35 @@
+name: Oxford Nanopore Technologies (ONT)
+slug: oxford-nanopore-technologies-ont
+version_used: null
+edam_topics: []
+evidence_spans:
+- such as the platforms provided by Oxford Nanopore Technologies (ONT)18
+- third-generation sequencing technologies, such as the platforms provided by Oxford Nanopore Technologies (ONT)18
+- deposited yeast wt/ime4Δ raw fast5 signal data
+- long-read (Oxford Nanopore Technologies (ONT)) sequencing for mRNA vaccine and therapy analysis
+- with Oxford Nanopore Technologies (ONT) and PacBio platform
+- on raw signal-level data of ONT sequencing
+- with Oxford Nanopore Technologies (ONT) or Pacific Biosciences devices
+derived_from:
+- doi: 10.1038/s41467-019-11713-9
+  title: Accurate detection of m6A RNA modifications in native RNA sequences
+- doi: 10.1038/s41467-023-41354-y
+  title: mRNA vaccine quality analysis using RNA sequencing
+- doi: 10.1093/bib/bbae473
+  title: 'miniSNV: accurate and fast single nucleotide variant calling from nanopore sequencing data'
+- doi: 10.1093/nar/gkad526
+  title: Precise characterization of somatic complex structural variations from tumor/control paired long-read sequencing data with nanomonsv
+- doi: 10.1038/s41467-023-44137-7
+  title: Integrative genotyping of cancer and immune phenotypes by long-read sequencing
+source_repos:
+- https://github.com/enovoa/EpiNano
+- https://github.com/scchess/Mana
+- https://github.com/CuiMiao-HIT/miniSNV
+- https://github.com/friend1ws/nanomonsv
+- https://github.com/mehdiborji/nanoranger
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/enovoa/EpiNano

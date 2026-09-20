@@ -1,0 +1,17 @@
+name: PartitionFinder
+slug: partitionfinder
+version_used: null
+edam_topics: []
+evidence_spans:
+- We test the utility of the ribosomal cluster for molecular taxonomy and phylogenetics across divergent plant and animal taxa
+derived_from:
+- doi: 10.1093/gigascience/giz006
+  title: Nanopore sequencing of long ribosomal DNA amplicons enables portable and simple biodiversity assessments with high phylogenetic resolution across broad taxonomic scale
+source_repos:
+- https://github.com/calacademy-research/minibar
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/calacademy-research/minibar

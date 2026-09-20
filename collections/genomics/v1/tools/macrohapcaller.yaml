@@ -1,0 +1,22 @@
+name: MacroHapCaller
+slug: macrohapcaller
+version_used: '0.3'
+edam_topics: []
+evidence_spans:
+- 'java -jar MacroHapCaller##.jar where ## is the version number, e.g.: 0.3'
+- we developed a bioinformatics software, MacroHapCaller, in which targeted loci (i.e., short TRs [STRs], single nucleotide polymorphisms, and insertion and deletions) are genotyped
+- 'where ## is the version number, e.g.: 0.3'
+- '## is the version number, e.g.: 0.3'
+- java -jar -Xmx100G MacroHapCaller0.3.jar [options]
+derived_from:
+- doi: 10.1002/elps.202300143
+  title: A complete pipeline enables haplotyping and phasing macrohaplotype in long sequencing reads for polyploidy samples and a multi‐source DNA mixture
+source_repos:
+- https://github.com/Ge-Lab/MacroHapCaller
+- https://github.com/XuewenWangUGA/USAT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Ge-Lab/MacroHapCaller

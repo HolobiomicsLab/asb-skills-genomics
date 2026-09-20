@@ -1,0 +1,27 @@
+name: lumpy
+slug: lumpy
+version_used: null
+edam_topics: []
+evidence_spans:
+- Performance was compared to the popular SV callers manta (9), delly (42), and lumpy (43)
+- '## NanoSV'
+- Run NanoSV, Lumpy, and Sniffles on public NA12878 MinION R9.4 chromosome 1 data
+- Run NanoSV on the deposited Patient 1 and Patient 2 MinION reads (EGA EGAS00001002333) plus Lumpy/Sniffles on the nanopore data
+- we applied four inference software packages (Delly, Lumpy, Pindel and cn.MOPs)24252627 to existing short-read data
+derived_from:
+- doi: 10.1093/nar/gkac039
+  title: 'Dysgu: efficient structural variant calling using short or long reads'
+- doi: 10.1038/s41467-017-01343-4
+  title: Mapping and phasing of structural variation in patient genomes using nanopore sequencing
+- doi: 10.1038/ncomms14061
+  title: Transient structural variations have strong effects on quantitative traits and reproductive isolation in fission yeast
+source_repos:
+- https://github.com/kcleal/dysgu
+- https://github.com/mroosmalen/nanosv
+- https://github.com/fritzsedlazeck/SURVIVOR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kcleal/dysgu

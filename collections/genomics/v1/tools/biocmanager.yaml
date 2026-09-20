@@ -1,0 +1,23 @@
+name: BiocManager
+slug: biocmanager
+version_used: null
+edam_topics: []
+evidence_spans:
+- if (!require("BiocManager", quietly = TRUE))
+- "if (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")"
+- BiocManager::install("M3Drop")
+- if (!require("BiocManager", quietly = TRUE))
+derived_from:
+- doi: 10.1093/nar/gkad244
+  title: "<i>Insplico</i>\n                    : effective computational tool for studying splicing order of adjacent introns genome-wide with short and long RNA-seq reads"
+- doi: 10.1002/1873-3468.12684
+  title: Computational approaches for interpreting sc<scp>RNA</scp>‐seq data
+source_repos:
+- https://github.com/liniguez/Insplico_simulations
+- https://github.com/tallulandrews/M3Drop
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/liniguez/Insplico_simulations

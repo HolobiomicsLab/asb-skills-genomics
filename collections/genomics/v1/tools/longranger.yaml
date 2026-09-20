@@ -1,0 +1,19 @@
+name: LongRanger
+slug: longranger
+version_used: null
+edam_topics: []
+evidence_spans:
+- For aligning 10x Genomics barcoded reads, the standard LongRanger package
+- LongRanger is the standard aligner for synthetic long-read platforms.
+- LongRanger is the standard aligner for synthetic long-read platforms
+derived_from:
+- doi: 10.1093/nar/gkac653
+  title: Efficient detection and assembly of non-reference DNA sequences with synthetic long reads
+source_repos:
+- https://github.com/1dayac/Novel-X
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/1dayac/Novel-X

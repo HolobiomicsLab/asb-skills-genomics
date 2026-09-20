@@ -1,0 +1,28 @@
+name: ABySS
+slug: abyss
+version_used: 2.3.2
+edam_topics: []
+evidence_spans:
+- the remaining reads are used to build a cascading Bloom filter with ABySS
+- '[ABySS](https://github.com/BirolLab/abyss) v2.3.2+ (includes Sealer and ABySS-Bloom)'
+- ABySS v2.3.0+
+- '[ABySS v2.3.0+](https://github.com/BirolLab/abyss)'
+derived_from:
+- doi: 10.1002/ece3.6587
+  title: 'EXFI: Exon and splice graph prediction without a reference genome'
+- doi: 10.1002/cpz1.442
+  title: 'ntEdit+Sealer: Efficient Targeted Error Resolution and Automated Finishing of Long‐Read Genome Assemblies'
+- doi: 10.1002/cpz1.733
+  title: "ntLink: A Toolkit for\n                    <i>De Novo</i>\n                    Genome Assembly Scaffolding and Mapping Using Long Reads"
+source_repos:
+- https://github.com/bcgsc/abyss
+- https://github.com/jlanga/exfi
+- https://github.com/BirolLab/ntedit_sealer_protocol
+- https://github.com/BirolLab/abyss
+- https://github.com/BirolLab/ntLink
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bcgsc/abyss

@@ -1,0 +1,20 @@
+name: vegan
+slug: vegan
+version_used: '2.6'
+edam_topics: []
+evidence_spans:
+- '- `vegan (Suggests)`'
+derived_from:
+- doi: 10.1038/s41467-025-57088-y
+  title: Species-resolved profiling of antibiotic resistance genes in complex metagenomes through long-read overlapping with Argo
+- doi: 10.1038/s41467-020-17009-7
+  title: Comprehensive identification of mRNA isoforms reveals the diversity of neural cell-surface molecules with roles in retinal development and disease
+source_repos:
+- https://github.com/xinehc/argo
+- https://github.com/kellycochran/IsoPops
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xinehc/argo

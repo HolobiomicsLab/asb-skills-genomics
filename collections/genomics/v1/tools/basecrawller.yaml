@@ -1,0 +1,18 @@
+name: BasecRAWller
+slug: basecrawller
+version_used: '0.1'
+edam_topics: []
+evidence_spans:
+- All basecalling with Albacore (v1.1.1 and v2.0.1) and BasecRAWller [13] (version 0.1) was done with default parameters.
+- BasecRAWller [13] uses a pair of unidirectional RNNs
+derived_from:
+- doi: 10.1093/gigascience/giy037
+  title: 'Chiron: translating nanopore raw signal directly into nucleotide sequence using deep learning'
+source_repos:
+- https://github.com/haotianteng/Chiron
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/haotianteng/Chiron

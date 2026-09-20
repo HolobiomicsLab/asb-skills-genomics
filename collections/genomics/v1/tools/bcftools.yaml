@@ -1,0 +1,55 @@
+name: BCFtools
+slug: bcftools
+version_used: '1.16'
+edam_topics: []
+evidence_spans:
+- '* [BCFtools 1.16](http://www.htslib.org)'
+- Variant calling and consensus sequence generation was completed using bcftools (v1.15)
+- We called Illumina read-based consensus sequences for each Peperomia species using bcftools [48]
+- filter variants after annotation with filter_vep and bcftools
+- Twelve years of SAMtools and BCFtools
+- The variant calling results were filtered to exclude low-quality calls (QUAL > 0 and DP > 1) using bcftools
+- bcftools view -i 'INFO/SVTYPE!="."' -Oz
+- bcftools view -i 'INFO/SVTYPE!="."' -Oz -o GRCh38_HG2-T2TQ100-V1.1_stvar.svtype.vcf.gz
+- error when inversions denoted with <INV> are in the vcf-file before consensus calling with bcftools
+- These are integrated into a first draft genome using BCFtools
+- and we performed SNP calling with BCFTools
+- we performed SNP calling with BCFTools (Li et al., 2009).
+derived_from:
+- doi: 10.1038/s41467-023-41354-y
+  title: mRNA vaccine quality analysis using RNA sequencing
+- doi: 10.1093/gigascience/giz006
+  title: Nanopore sequencing of long ribosomal DNA amplicons enables portable and simple biodiversity assessments with high phylogenetic resolution across broad taxonomic scale
+- doi: 10.1093/bioinformatics/btag086
+  title: 'Nallo: a Nextflow pipeline for comprehensive human long-read genome analysis'
+- doi: 10.1038/s41467-023-44137-7
+  title: Integrative genotyping of cancer and immune phenotypes by long-read sequencing
+- doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+- doi: 10.1038/s41598-025-98847-7
+  title: Advanced analysis of retrotransposon variation in the human genome with nanopore sequencing using RetroInspector
+- doi: 10.1093/bioinformatics/btaf136
+  title: 'Sawfish: improving long-read structural variant discovery and genotyping with local haplotype modeling'
+- doi: 10.1093/bioinformatics/btaf687
+  title: 'ViMOP: a user-friendly and field-applicable pipeline for untargeted viral genome nanopore sequencing'
+- doi: 10.1002/ece3.6587
+  title: 'EXFI: Exon and splice graph prediction without a reference genome'
+- doi: 10.1002/aps3.11499
+  title: 'InDelGT: An integrated pipeline for extracting indel genotypes for genetic mapping in a hybrid population using next‐generation sequencing data'
+source_repos:
+- https://github.com/scchess/Mana
+- https://github.com/calacademy-research/minibar
+- https://github.com/genomic-medicine-sweden/nallo
+- https://github.com/mehdiborji/nanoranger
+- https://github.com/BioinfoSZU/NanoSimFormer
+- https://github.com/javiercguard/retroinspector
+- https://github.com/PacificBiosciences/sawfish
+- https://github.com/opr-group-bnitm/vimop
+- https://github.com/jlanga/exfi
+- https://github.com/tongchf/InDelGT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scchess/Mana

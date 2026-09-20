@@ -1,0 +1,24 @@
+name: CNVpytor
+slug: cnvpytor
+version_used: null
+edam_topics: []
+evidence_spans:
+- '> git clone https://github.com/abyzovlab/CNVpytor.git'
+- cnvpytor -root file.pytor -rd file.bam
+- cnvpytor -root file.pytor -baf 10000 100000
+- '> cnvpytor -root file.pytor -mask_snps'
+- we present an extension of CNVnator developed in Python—CNVpytor
+- '> cnvpytor -root file.pytor -genotype 10000 100000'
+- '> pip install cnvpytor'
+- cnvpytor -root file.pytor -view 100000
+derived_from:
+- doi: 10.1093/gigascience/giab074
+  title: 'CNVpytor: a tool for copy number variation detection and analysis from read depth and allele imbalance in whole-genome sequencing'
+source_repos:
+- https://github.com/abyzovlab/CNVpytor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/abyzovlab/CNVpytor

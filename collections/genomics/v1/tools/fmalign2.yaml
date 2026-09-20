@@ -1,0 +1,20 @@
+name: FMAlign2
+slug: fmalign2
+version_used: null
+edam_topics: []
+evidence_spans:
+- We recommend installing **FMAlign2** with **conda**.
+- FMAlign2 -i /path/to/input.fasta -o /path/to/output.fasta [other options]
+- '-p <method|file>` (default: `mafft`). MSA backend — `mafft`, `clustalo`, `halign3`, or `halign4` — or a path to a custom MSA command file.'
+- FMAlign2 leverages the suffix array to identify maximal exact matches, redefining the approach of FMAlign from searching for global chains to partial chains.
+derived_from:
+- doi: 10.1093/bioinformatics/btae014
+  title: 'FMAlign2: a novel fast multiple nucleotide sequence alignment method for ultralong datasets'
+source_repos:
+- https://github.com/malabz/FMAlign2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/malabz/FMAlign2

@@ -1,0 +1,19 @@
+name: ReFernment
+slug: refernment
+version_used: null
+edam_topics: []
+evidence_spans:
+- install_github("TARobison/ReFernment")
+- We developed an R package to automatically annotate apparent nonsense mutations in plastid genomes.
+- library("ReFernment")
+derived_from:
+- doi: 10.1002/aps3.1216
+  title: 'ReFernment: An R package for annotating <scp>RNA</scp> editing in plastid genomes'
+source_repos:
+- https://github.com/TARobison/ReFernment
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TARobison/ReFernment

@@ -1,0 +1,18 @@
+name: parallel
+slug: parallel
+version_used: 4.0.0
+edam_topics: []
+evidence_spans:
+- install.packages('parallel')
+- 'install.packages(''parallel'')        # 4.0.0'
+derived_from:
+- doi: 10.1093/nar/gkab1275
+  title: 'scMAGIC: accurately annotating single cells using two rounds of reference-based classification'
+source_repos:
+- https://github.com/TianLab-Bioinfo/scMAGIC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TianLab-Bioinfo/scMAGIC

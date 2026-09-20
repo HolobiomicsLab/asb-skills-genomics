@@ -1,0 +1,31 @@
+name: ccs
+slug: ccs
+version_used: null
+edam_topics: []
+evidence_spans:
+- you'll want to use the [ccs tool](https://ccs.how) to generate HiFi reads
+- ccs sample_subreads.bam --report-file /outdir/sample_isoSeqccs_report.txt /outdir/sample_isoSeqccs.bam
+- '[CCS](https://github.com/PacificBiosciences/ccs) generate a Circular Consensus Sequence from subreads.'
+- ccs movieX.subreads.bam movieX.ccs.bam --noPolish --minPasses 1 &>ccs.log
+- ccs movieX.subreads.bam movieX.ccs.bam --richQVs &>ccs.log
+- ccs movieX.subreads.bam movieX.ccs.bam --noPolish --minPasses 1
+derived_from:
+- doi: 10.1093/bioinformatics/btaf680
+  title: 'isoSeQL: comparing long-read isoforms across multiple datasets'
+- doi: 10.1093/bioinformatics/btad150
+  title: 'nf-core/isoseq: simple gene and isoform annotation with PacBio Iso-Seq long-read sequencing'
+- doi: 10.1038/s41467-019-13228-9
+  title: Poly(A) inclusive RNA isoform sequencing (PAIso−seq) reveals wide-spread non-adenosine residues within RNA poly(A) tails
+source_repos:
+- https://github.com/christine-liu/isoSeQL
+- https://github.com/PacificBiosciences/ccs
+- https://github.com/nf-core/isoseq
+- https://github.com/PacificBiosciences/IsoSeq
+- https://github.com/PacificBiosciences/IsoSeq3
+- https://github.com/niehu2018/GV_oocyte_PAIsoSeqAnalysis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/christine-liu/isoSeQL

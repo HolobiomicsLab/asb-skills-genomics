@@ -1,0 +1,17 @@
+name: Inspector
+slug: inspector
+version_used: null
+edam_topics: []
+evidence_spans:
+- Chen et al. developed Inspector9, which classifies assembly errors as small-scale (<50 bp) or structural collapse and expansion (≥50 bp) errors.
+derived_from:
+- doi: 10.1038/s41467-023-42336-w
+  title: Identification of errors in draft genome assemblies at single-nucleotide resolution for quality assessment and improvement
+source_repos:
+- https://github.com/JiaoLaboratory/CRAQ
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JiaoLaboratory/CRAQ

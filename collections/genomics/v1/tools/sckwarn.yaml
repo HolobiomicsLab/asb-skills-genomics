@@ -1,0 +1,22 @@
+name: scKWARN
+slug: sckwarn
+version_used: '1.2'
+edam_topics: []
+evidence_spans:
+- 'library(devtools)
+
+  install_github("cyhsuTN/scKWARN")'
+- Download scKWARN_1.1.2.tar.gz and locally install it
+- Result <- LocASN(countmatrix = countsimdata)
+- We present scKWARN, a Kernel Weighted Average Robust Normalization designed to correct known or hidden technical confounders
+derived_from:
+- doi: 10.1093/bioinformatics/btae008
+  title: 'scKWARN: Kernel-weighted-average robust normalization for single-cell RNA-seq data'
+source_repos:
+- https://github.com/cyhsuTN/scKWARN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cyhsuTN/scKWARN

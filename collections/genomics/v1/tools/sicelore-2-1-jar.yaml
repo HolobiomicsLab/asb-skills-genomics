@@ -1,0 +1,17 @@
+name: Sicelore-2.1.jar
+slug: sicelore-2-1-jar
+version_used: '2.1'
+edam_topics: []
+evidence_spans:
+- java -jar -Xmx64g Sicelore-2.1.jar IsoformMatrix I=molecules.GE.tags.bam
+derived_from:
+- doi: 10.1038/s41467-020-17800-6
+  title: High throughput error corrected Nanopore single cell transcriptome sequencing
+source_repos:
+- https://github.com/ucagenomix/sicelore-2.1
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ucagenomix/sicelore-2.1

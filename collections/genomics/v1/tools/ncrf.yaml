@@ -1,0 +1,17 @@
+name: NCRF
+slug: ncrf
+version_used: null
+edam_topics: []
+evidence_spans:
+- Examples include PacmonSTR [9], NCRF [10], TideHunter [11], NanoSatellite [12], and Tandem-genotypes [13].
+derived_from:
+- doi: 10.1093/gigascience/giaa101
+  title: 'TRiCoLOR: tandem repeat profiling using whole-genome long-read sequencing data'
+source_repos:
+- https://github.com/davidebolo1993/TRiCoLOR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/davidebolo1993/TRiCoLOR

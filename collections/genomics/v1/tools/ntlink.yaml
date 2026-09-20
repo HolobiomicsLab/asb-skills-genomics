@@ -1,0 +1,21 @@
+name: ntLink
+slug: ntlink
+version_used: null
+edam_topics: []
+evidence_spans:
+- ntLink uses minimizers to perform a lightweight mapping between the input target assembly and the supplied long reads
+- 'ntLink: Scaffolding assemblies using long reads'
+- The post-ntLink scaffolds file will have the suffix `*ntLink.scaffolds.fa`
+- If True, outputs read to contig mappings in PAF-like format [False]
+derived_from:
+- doi: 10.1002/cpz1.733
+  title: "ntLink: A Toolkit for\n                    <i>De Novo</i>\n                    Genome Assembly Scaffolding and Mapping Using Long Reads"
+source_repos:
+- https://github.com/BirolLab/ntLink
+- https://github.com/bcgsc/ntLink
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BirolLab/ntLink

@@ -1,0 +1,24 @@
+name: SQANTI3
+slug: sqanti3
+version_used: null
+edam_topics: []
+evidence_spans:
+- Annotate and filter isoforms using SQANTI3
+- '### Annotate and filter isoforms using SQANTI3'
+- This outputs filtered versions of several files, including the classfication file that will be used as an input to isoSeQL.
+- we using `SQANTI3`(https://github.com/ConesaLab/SQANTI3) to characterization non-redundant isoforms
+derived_from:
+- doi: 10.1093/bioinformatics/btaf680
+  title: 'isoSeQL: comparing long-read isoforms across multiple datasets'
+- doi: 10.1038/s41467-023-38324-9
+  title: High-throughput and high-accuracy single-cell RNA isoform analysis using PacBio circular consensus sequencing
+source_repos:
+- https://github.com/ConesaLab/SQANTI3
+- https://github.com/christine-liu/isoSeQL
+- https://github.com/shizhuoxing/scISA-Tools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ConesaLab/SQANTI3

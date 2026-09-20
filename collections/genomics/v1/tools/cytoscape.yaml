@@ -1,0 +1,20 @@
+name: Cytoscape
+slug: cytoscape
+version_used: 3.4.0
+edam_topics: []
+evidence_spans:
+- The graph was visualized using Cytoscape (version 3.4.0).
+derived_from:
+- doi: 10.1038/s41598-017-07650-6
+  title: Rapid de novo assembly of the European eel genome from nanopore sequencing reads
+- doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+source_repos:
+- https://github.com/Generade-nl/TULIP
+- https://github.com/skbinfo/tncRNA-Toolkit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Generade-nl/TULIP

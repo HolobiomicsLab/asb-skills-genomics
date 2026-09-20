@@ -1,0 +1,45 @@
+name: BWA
+slug: bwa
+version_used: 0.7.17
+edam_topics: []
+evidence_spans:
+- '`--rerefence` or `-r` [required] - BWA-indexed reference genome'
+- '- BWA-indexed reference genome'
+- Fast-SG outperforms the state-of-the-art short-read aligners when building the scaffoldinggraph
+- bwa mem -x ont2d -t <num_threads> <reference>.fasta <filename>.fastq | samtools view -Sb - | samtools sort -T /tmp/<filename>.sorted -o <filename>.sorted.bam
+- an aligner to create a bam file (has been tested with graphmap and bwa mem)
+- --align
+- a read mapper such as Minimap2 (Li 2018) or BWA (Li and Durbin 2009)
+- The Burrows–Wheeler Aligner (BWA) tool is then used for mapping sequence data against the reference human genome (hg38)
+derived_from:
+- doi: 10.1093/bioadv/vbaf151
+  title: 'Blackbird: structural variant detection using synthetic and low-coverage long-reads'
+- doi: 10.1093/gigascience/giy048
+  title: 'Fast-SG: an alignment-free algorithm for hybrid assembly'
+- doi: 10.1038/s41467-019-08289-9
+  title: Single-molecule sequencing detection of N6-methyladenine in microbial reference materials
+- doi: 10.1038/srep06480
+  title: Improved Assemblies Using a Source-Agnostic Pipeline for MetaGenomic Assembly by Merging (MeGAMerge) of Contigs
+- doi: 10.1038/ncomms8438
+  title: Single molecule-level detection and long read-based phasing of epigenetic variations in bacterial methylomes
+- doi: 10.1093/bioinformatics/btad317
+  title: 'ViralConsensus: a fast and memory-efficient tool for calling viral consensus genome sequences directly from read alignment data'
+- doi: 10.1002/aps3.11499
+  title: 'InDelGT: An integrated pipeline for extracting indel genotypes for genetic mapping in a hybrid population using next‐generation sequencing data'
+- doi: 10.1002/2211-5463.13261
+  title: 'JWES: a new pipeline for whole genome/exome sequence data processing, management, and gene‐variant discovery, annotation, prediction, and genotyping'
+source_repos:
+- https://github.com/1dayac/Blackbird
+- https://github.com/adigenova/fast-sg
+- https://github.com/al-mcintyre/mCaller
+- https://github.com/LANL-Bioinformatics/MeGAMerge
+- https://github.com/fanglab/SMALR
+- https://github.com/niemasd/ViralConsensus
+- https://github.com/tongchf/InDelGT
+- https://github.com/drzeeshanahmed/JWES-DB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/1dayac/Blackbird

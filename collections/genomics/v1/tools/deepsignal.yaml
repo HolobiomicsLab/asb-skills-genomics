@@ -1,0 +1,22 @@
+name: DeepSignal
+slug: deepsignal
+version_used: null
+edam_topics: []
+evidence_spans:
+- A Snakefile named `Deepsignal1` contains rules to generate default output files from DeepSignal in the Snakemake workflow.
+- for DeepSignal we give the log-ratio of the probabilities for a site to be methylated over the probablity of being unmethylated for each read.
+- The combination of Megalodon and DeepSignal struck a good balance for accuracy and running times but would require a GPU for efficiency.
+- Here we provide the training datasets of the three best performing tools (Nanopolish, DeepSignal, Megalodon)
+- a Python script *call_modification_frequency.py* provided by `DeepSignal`
+derived_from:
+- doi: 10.1038/s41467-021-23778-6
+  title: Systematic benchmarking of tools for CpG methylation detection from nanopore sequencing
+source_repos:
+- https://github.com/bioinfomaticsCSU/deepsignal
+- https://github.com/comprna/METEORE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bioinfomaticsCSU/deepsignal

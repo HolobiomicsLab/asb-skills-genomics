@@ -1,0 +1,18 @@
+name: RTG vcfeval
+slug: rtg-vcfeval
+version_used: null
+edam_topics: []
+evidence_spans:
+- (absent — flagged as missing)
+- compute Precision/Recall/F1 with RTG vcfeval
+derived_from:
+- doi: 10.1038/s41467-019-09025-z
+  title: A multi-task convolutional deep neural network for variant calling in single molecule sequencing
+source_repos:
+- https://github.com/aquaskyline/Clairvoyante
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aquaskyline/Clairvoyante

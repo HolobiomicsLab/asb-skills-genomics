@@ -1,0 +1,18 @@
+name: jsa.np.npreader
+slug: jsa-np-npreader
+version_used: null
+edam_topics: []
+evidence_spans:
+- jsa.np.npreader  --realtime --folder Downloads --fail --stat --number --output -
+derived_from:
+- doi: 10.1038/ncomms14515
+  title: Scaffolding and completing genome assemblies in real-time with nanopore sequencing
+source_repos:
+- https://github.com/mdcao/npReader
+- https://github.com/mdcao/npScarf
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mdcao/npReader

@@ -1,0 +1,18 @@
+name: mamba
+slug: mamba
+version_used: null
+edam_topics: []
+evidence_spans:
+- we use mamba, a faster replacement for the conda package manager
+- mamba, a faster replacement for the conda package manager
+derived_from:
+- doi: 10.1093/bioinformatics/btae744
+  title: End-to-end simulation of nanopore sequencing signals with feed-forward transformers
+source_repos:
+- https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle

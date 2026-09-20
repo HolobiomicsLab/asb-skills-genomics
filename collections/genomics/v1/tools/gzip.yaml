@@ -1,0 +1,18 @@
+name: gzip
+slug: gzip
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'which is 3-6[Formula: see text] lower than general purpose compressors like gzip'
+- '0.35-0.65 bits per base which is 3-6[Formula: see text] lower than general purpose compressors like gzip'
+derived_from:
+- doi: 10.1038/s41598-023-29267-8
+  title: Reference-free lossless compression of nanopore sequencing reads using an approximate assembly approach
+source_repos:
+- https://github.com/qm2/NanoSpring
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/qm2/NanoSpring

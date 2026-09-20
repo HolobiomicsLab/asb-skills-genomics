@@ -1,0 +1,21 @@
+name: deepsimulator
+slug: deepsimulator
+version_used: '1.5'
+edam_topics: []
+evidence_spans:
+- Seq2squiggle consistently outperforms existing tools across multiple datasets, demonstrating superior similarity to real data
+derived_from:
+- doi: 10.1016/j.fmre.2024.04.014
+  title: Generating barcodes for nanopore sequencing data with PRO
+- doi: 10.1093/bioinformatics/btae744
+  title: End-to-end simulation of nanopore sequencing signals with feed-forward transformers
+source_repos:
+- https://github.com/liyu95/DeepSimulator
+- https://github.com/rztongr/PRO
+- https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/liyu95/DeepSimulator

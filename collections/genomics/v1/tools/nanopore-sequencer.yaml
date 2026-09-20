@@ -1,0 +1,17 @@
+name: nanopore sequencer
+slug: nanopore-sequencer
+version_used: null
+edam_topics: []
+evidence_spans:
+- Nanopore sequencing, in particular, has proven to be suitable for this purpose, as it is readily available and provides rapid results.
+derived_from:
+- doi: 10.1093/bioinformatics/btaf029
+  title: 'VirDetector: a bioinformatic pipeline for virus surveillance using nanopore sequencing'
+source_repos:
+- https://github.com/NLKaiser/VirDetector
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NLKaiser/VirDetector

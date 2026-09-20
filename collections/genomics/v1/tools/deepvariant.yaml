@@ -1,0 +1,29 @@
+name: DeepVariant
+slug: deepvariant
+version_used: 1.4.0
+edam_topics: []
+evidence_spans:
+- The recent DeepVariant10 package repurposed the inception convolutional neural network for DNA variant detection
+- and DeepVariant v1.4.0
+- This workflow is effect for WGS, WES and PacBio data.
+- The pipeline detects a wide range of genetic variants, performs genome assembly, and reports CpG methylation.
+derived_from:
+- doi: 10.1038/s41467-019-09025-z
+  title: A multi-task convolutional deep neural network for variant calling in single molecule sequencing
+- doi: 10.1093/bioinformatics/btad775
+  title: 'HAT: <i>de novo</i> variant calling for highly accurate short-read and long-read sequencing data'
+- doi: 10.1093/bib/bbae473
+  title: 'miniSNV: accurate and fast single nucleotide variant calling from nanopore sequencing data'
+- doi: 10.1093/bioinformatics/btag086
+  title: 'Nallo: a Nextflow pipeline for comprehensive human long-read genome analysis'
+source_repos:
+- https://github.com/aquaskyline/Clairvoyante
+- https://github.com/TNTurnerLab/HAT
+- https://github.com/CuiMiao-HIT/miniSNV
+- https://github.com/genomic-medicine-sweden/nallo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aquaskyline/Clairvoyante

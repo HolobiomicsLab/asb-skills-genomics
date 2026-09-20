@@ -1,0 +1,23 @@
+name: graphmap
+slug: graphmap
+version_used: null
+edam_topics: []
+evidence_spans:
+- aligned to the reference genome using graphmap[33] with the default parameters
+- progressively refines candidate alignments to robustly handle potentially high-error rates and a fast graph traversal to align long reads with speed and high precision (>95%)
+- Here we present GraphMap, a mapping algorithm designed to analyse nanopore sequencing reads
+- You will need a recent GCC/G++ version (>=4.7) to compile the source.
+derived_from:
+- doi: 10.1093/gigascience/giy037
+  title: 'Chiron: translating nanopore raw signal directly into nucleotide sequence using deep learning'
+- doi: 10.1038/ncomms11307
+  title: Fast and sensitive mapping of nanopore sequencing reads with GraphMap
+source_repos:
+- https://github.com/haotianteng/Chiron
+- https://github.com/isovic/graphmap
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/haotianteng/Chiron

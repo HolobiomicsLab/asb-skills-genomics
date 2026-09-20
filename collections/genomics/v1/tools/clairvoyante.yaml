@@ -1,0 +1,19 @@
+name: Clairvoyante
+slug: clairvoyante
+version_used: null
+edam_topics: []
+evidence_spans:
+- we developed Clairvoyante, a multi-task five-layer convolutional neural network model for predicting variant type (SNP or indel), zygosity, alternative allele and indel length
+- '## The successor of Clairvoyante'
+- The successor of Clairvoyante
+derived_from:
+- doi: 10.1038/s41467-019-09025-z
+  title: A multi-task convolutional deep neural network for variant calling in single molecule sequencing
+source_repos:
+- https://github.com/aquaskyline/Clairvoyante
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aquaskyline/Clairvoyante

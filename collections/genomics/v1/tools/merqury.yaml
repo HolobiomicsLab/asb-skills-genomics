@@ -1,0 +1,31 @@
+name: Merqury
+slug: merqury
+version_used: '1.3'
+edam_topics: []
+evidence_spans:
+- Merqury (version 1.3)10 was used to calculate QV scores and detect errors.
+- several k-mer based approaches, such as JASPER22, ntEdit23, KAT24, Merqury10, and Merfin25, have been developed to evaluate assembly accuracy
+- Merqury [35] was used to evaluate assembly completeness and quality value (QV) scores
+- 1. **Merqury:** To assess the quality value (QV).
+- '**Merqury:** To assess the quality value (QV).'
+- VeChat achieves approximately 1.5 times lower error rate (QV) and 1.2 times lower switch error on HG002 compared with CONSENT
+derived_from:
+- doi: 10.1038/s41467-023-42336-w
+  title: Identification of errors in draft genome assemblies at single-nucleotide resolution for quality assessment and improvement
+- doi: 10.1002/advs.202515308
+  title: "Reference‐Guided Chromosome‐by‐Chromosome\n                    <i>de novo</i>\n                    Assembly at Scale Using Low‐Coverage High‐Fidelity Long‐Reads with HiFiCCL"
+- doi: 10.1093/gpbjnl/qzad009
+  title: 'NextPolish2: A Repeat-aware Polishing Tool for Genomes Assembled Using HiFi Long Reads'
+- doi: 10.1038/s41467-022-34381-8
+  title: 'VeChat: correcting errors in long reads using variation graphs'
+source_repos:
+- https://github.com/JiaoLaboratory/CRAQ
+- https://github.com/zjjbuqi/HiFiCCL
+- https://github.com/Nextomics/NextPolish2
+- https://github.com/HaploKit/vechat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JiaoLaboratory/CRAQ

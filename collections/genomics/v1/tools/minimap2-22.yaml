@@ -1,0 +1,18 @@
+name: minimap2.22
+slug: minimap2-22
+version_used: null
+edam_topics: []
+evidence_spans:
+- basecalled reads are aligned to reference sequences containing all possible random combinations of constituent oligos using minimap2.22
+- aligned to the TAIR10 genome reference (https://www.arabidopsis.org/) with minimap2.22
+derived_from:
+- doi: 10.1038/s41467-024-47661-2
+  title: Detecting m6A at single-molecular resolution via direct RNA sequencing and realistic training data
+source_repos:
+- https://github.com/dieterich-lab/mAFiA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dieterich-lab/mAFiA

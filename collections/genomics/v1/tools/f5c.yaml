@@ -1,0 +1,24 @@
+name: f5c
+slug: f5c
+version_used: null
+edam_topics: []
+evidence_spans:
+- f5c is optimised re-implementation of the call-methylation and eventalign modules in Nanopolish
+- the prior work, f5c, has already parallelized and optimized ABEA on GPU
+- Convert basecaller's move table to [ss string](https://hasindu2008.github.io/f5c/docs/output#ss-tag) format.
+- 4. Eventalign using f5c
+derived_from:
+- doi: 10.1093/bioadv/vbac088
+  title: GPU-accelerated and pipelined methylation calling
+- doi: 10.1093/bioinformatics/btae501
+  title: Interactive visualization of nanopore sequencing signal data with <i>Squigualiser</i>
+source_repos:
+- https://github.com/hasindu2008/f5c
+- https://github.com/fengyilin118/Galaxy-methyl
+- https://github.com/hiruna72/squigualiser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hasindu2008/f5c

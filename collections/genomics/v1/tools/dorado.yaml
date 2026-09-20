@@ -1,0 +1,77 @@
+name: Dorado
+slug: dorado
+version_used: 7.2.13
+edam_topics: []
+evidence_spans:
+- Widely used demultiplexers, including Dorado, fail to resolve these cases
+- ${INPUT_DIR}/dorado-0.5.3-linux-x64/bin/dorado basecaller --emit-moves --recursive
+- Download Dorado Basecaller and model
+- ${INPUT_DIR}/dorado-0.5.3-linux-x64/bin/dorado basecaller --emit-moves --recursive --reference ${INPUT_DIR}/GRCh38.fa
+- dorado download --model  dna_r10.4.1_e8.2_400bps_hac@v4.3.0
+- Dorado, the only tool for plant 5mC detection on the R10.4 platform, lacks extensive species testing
+- Dorado, the only tool for plant 5mC detection on the R10.4 platform, lacks extensive species testing.
+- ONT has introduced new 5mC detection models for their Dorado19 software. While Dorado performs well in detecting high-methylation levels of CpG and CHG in plants on R10.4, it struggles with CHH
+- Dogme automates the reprocessing of ONT POD5 files by integrating basecalling using Dorado
+- integrating basecalling using Dorado, read mapping using minimap2 and subsequent analysis steps such as running modkit
+- ONT has combined Remora into its official state-of-the-art basecallers Bonito36 and Dorado37
+- automatically runs [Dorado](https://github.com/nanoporetech/dorado) to basecall the simulated reads into a FASTQ file after signal simulation
+- github.com/nanoporetech/dorado
+- automatically runs Dorado to basecall the simulated reads into a FASTQ file after signal simulation
+- The `--basecall` option automatically runs [Dorado](https://github.com/nanoporetech/dorado) to basecall the simulated reads into a FASTQ file after signal simulation.
+- option automatically runs [Dorado](https://github.com/nanoporetech/dorado) to basecall the simulated reads into a FASTQ file after signal simulation.
+- Coupled with the latest official basecaller Dorado (https://github.com/nanoporetech/dorado) and the released Transformer-based super-accuracy basecalling models (v5)
+- using a single GPU for basecalling with the RNA R9.4.1 fast configuration
+- As in the MinKNOW AS implementation, the Dorado basecalling server16 was used for basecalling and mapping
+- basecall with dorado
+- Basecalling was performed with dorado (v0.8.0) using the models specified in Supplementary Table S1
+- The installation includes the basecallers Guppy and Dorado.
+- For basecalling, the user can choose between Dorado, if a GPU is available, and the CPU version of Guppy
+- NA24385 guppy v5.0.6 (dataset D) and dorado kit14‐2022‐12 (dataset E) base‐called ONT datasets
+derived_from:
+- doi: 10.1038/s41467-025-57088-y
+  title: Species-resolved profiling of antibiotic resistance genes in complex metagenomes through long-read overlapping with Argo
+- doi: 10.1093/bioinformatics/btag349
+  title: Barbell reveals and resolves demultiplexing and trimming issues in Nanopore data
+- doi: 10.1093/bib/bbae413
+  title: 'DeepBAM: a high-accuracy single-molecule CpG methylation detection tool for Oxford nanopore sequencing'
+- doi: 10.1038/s41467-024-45778-y
+  title: A signal processing and deep learning framework for methylation detection using Oxford Nanopore sequencing
+- doi: 10.1038/s41467-025-58576-x
+  title: Accurate cross-species 5mC detection for Oxford Nanopore sequencing in plants with DeepPlant
+- doi: 10.1093/bioinformatics/btag066
+  title: 'Dogme: a nextflow pipeline for reprocessing nanopore RNA and DNA modifications'
+- doi: 10.1038/s41467-024-49588-0
+  title: 'MethPhaser: methylation-based long-read haplotype phasing of human genomes'
+- doi: 10.1093/bib/bbae473
+  title: 'miniSNV: accurate and fast single nucleotide variant calling from nanopore sequencing data'
+- doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+- doi: 10.1038/s41467-024-48673-8
+  title: Biochemical-free enrichment or depletion of RNA classes in real-time during direct RNA sequencing with RISER
+- doi: 10.1093/bioinformatics/btae744
+  title: End-to-end simulation of nanopore sequencing signals with feed-forward transformers
+- doi: 10.1093/bioinformatics/btaf029
+  title: 'VirDetector: a bioinformatic pipeline for virus surveillance using nanopore sequencing'
+- doi: 10.1002/cpz1.70124
+  title: Streaming Long‐Read Sequence Alignments for HLA Predictions Using HLAminer
+source_repos:
+- https://github.com/xinehc/argo
+- https://github.com/nanoporetech/dorado
+- https://github.com/rickbeeloo/barbell
+- https://github.com/xiaochuanle/DeepBAM
+- https://github.com/WGLab/DeepMod2
+- https://github.com/xiaochuanle/DeepPlant
+- https://github.com/mortazavilab/dogme
+- https://github.com/treangenlab/methphaser
+- https://github.com/CuiMiao-HIT/miniSNV
+- https://github.com/BioinfoSZU/NanoSimFormer
+- https://github.com/comprna/riser
+- https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle
+- https://github.com/NLKaiser/VirDetector
+- https://github.com/BirolLab/HLAminer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xinehc/argo

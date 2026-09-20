@@ -1,0 +1,19 @@
+name: Pomoxis
+slug: pomoxis
+version_used: null
+edam_topics: []
+evidence_spans:
+- We use the reference-based evaluation tool Pomoxis (https://github.com/nanoporetech/pomoxis)
+- We use the reference-based evaluation tool Pomoxis
+derived_from:
+- doi: 10.1038/s41467-024-47349-7
+  title: De novo diploid genome assembly using long noisy reads
+source_repos:
+- https://github.com/nanoporetech/pomoxis
+- https://github.com/lemene/PECAT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nanoporetech/pomoxis

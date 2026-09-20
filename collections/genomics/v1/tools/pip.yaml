@@ -1,0 +1,29 @@
+name: pip
+slug: pip
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'pip install isocirc            # first time installation'
+- The package can be installed with pip
+- pip install nanosimformer -i https://pypi.org/simple --extra-index-url https://download.pytorch.org/whl/cu126
+- pip install snapper-ont
+derived_from:
+- doi: 10.1038/s41467-020-20459-8
+  title: isoCirc catalogs full-length circular RNA isoforms in human transcriptomes
+- doi: 10.1093/bioinformatics/btad364
+  title: 'IsoTools: a flexible workflow for long-read transcriptome sequencing analysis'
+- doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+- doi: 10.1093/bioinformatics/btad702
+  title: 'Snapper: high-sensitive detection of methylation motifs based on Oxford Nanopore reads'
+source_repos:
+- https://github.com/Xinglab/isoCirc
+- https://github.com/MatthiasLienhard/isotools
+- https://github.com/BioinfoSZU/NanoSimFormer
+- https://github.com/DNKonanov/Snapper
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Xinglab/isoCirc

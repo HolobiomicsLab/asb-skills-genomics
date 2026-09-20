@@ -1,0 +1,4 @@
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12195.95it/s]
+{"components_ge_0_90": 264, "components_ge_0_95": 20, "dry_run": false, "model": "BAAI/bge-small-en-v1.5", "output_status": "written", "pairs_0_90_to_0_95": 490, "pairs_ge_0_95": 25, "runs": 137, "skills": 3246, "surplus_leaves": {"ge_0_90": 445, "ge_0_95": 23}}

@@ -1,0 +1,18 @@
+name: Squigualiser
+slug: squigualiser
+version_used: null
+edam_topics: []
+evidence_spans:
+- Squigualiser (Squiggle visualiser) is a toolkit for intuitive, interactive visualization of sequence-aligned signal data
+- Squigualiser's [realign method](realign.md) is robust to the methylated Us as it uses the basecaller's move table
+derived_from:
+- doi: 10.1093/bioinformatics/btae501
+  title: Interactive visualization of nanopore sequencing signal data with <i>Squigualiser</i>
+source_repos:
+- https://github.com/hiruna72/squigualiser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hiruna72/squigualiser

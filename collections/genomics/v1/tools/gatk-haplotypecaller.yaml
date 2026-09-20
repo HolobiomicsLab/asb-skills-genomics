@@ -1,0 +1,21 @@
+name: GATK HaplotypeCaller
+slug: gatk-haplotypecaller
+version_used: null
+edam_topics: []
+evidence_spans:
+- specifically for Haplotyecaller GATK 4.2.0
+- could not be found in matching Illumina sequencing data (despite extensive variant calling using six different variant calling methods
+derived_from:
+- doi: 10.1093/bioinformatics/btad775
+  title: 'HAT: <i>de novo</i> variant calling for highly accurate short-read and long-read sequencing data'
+- doi: 10.1038/s41467-017-01343-4
+  title: Mapping and phasing of structural variation in patient genomes using nanopore sequencing
+source_repos:
+- https://github.com/TNTurnerLab/HAT
+- https://github.com/mroosmalen/nanosv
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TNTurnerLab/HAT

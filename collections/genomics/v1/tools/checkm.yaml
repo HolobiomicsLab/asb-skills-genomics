@@ -1,0 +1,18 @@
+name: CheckM
+slug: checkm
+version_used: 1.1.9
+edam_topics: []
+evidence_spans:
+- (absent — flagged as missing)
+- we evaluated the results using CheckM (version 1.1.9, using lineage_wf workflow) (Parks et al. 2015) and GUNC (version 1.0.5).
+derived_from:
+- doi: 10.1093/bioinformatics/btad209
+  title: 'SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing'
+source_repos:
+- https://github.com/BigDataBiology/SemiBin
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BigDataBiology/SemiBin

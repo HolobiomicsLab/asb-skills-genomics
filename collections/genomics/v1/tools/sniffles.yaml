@@ -1,0 +1,43 @@
+name: Sniffles
+slug: sniffles
+version_used: 1.0.9
+edam_topics: []
+evidence_spans:
+- We analyzed deletions in samples using SVIM, Sniffles, PBSV and cuteSV, using precision, recall and F1 score of the calling results as comparison metrics.
+- 'Compared with four widely used genome structural variation calling tools: cuteSV, SVIM, Sniffles and PBSV'
+- Performance was compared to the popular SV callers manta (9), delly (42), and lumpy (43)
+- 'or Sniffles (v.1.0.9)28 with default parameters: ‘-s 2 -n -1 --genotype’ to detect SVs.'
+- 'Sniffles: ‘–minsupport 1 –non-germline’'
+- '## NanoSV'
+- Run NanoSV, Lumpy, and Sniffles on public NA12878 MinION R9.4 chromosome 1 data
+- plus Lumpy/Sniffles on the nanopore data and Manta/Delly on the matched Illumina data
+derived_from:
+- doi: 10.1038/s41598-025-01486-1
+  title: ConsensuSV-ONT – A modern method for accurate structural variant calling
+- doi: 10.1093/bib/bbae269
+  title: Deletion variants calling in third-generation sequencing data based on a dual-attention mechanism
+- doi: 10.1016/j.jare.2022.10.012
+  title: Improvement of large copy number variant detection by whole genome nanopore sequencing
+- doi: 10.1093/nar/gkac039
+  title: 'Dysgu: efficient structural variant calling using short or long reads'
+- doi: 10.1038/s41467-020-16641-7
+  title: Partner independent fusion gene detection by multiplexed CRISPR-Cas9 enrichment and long read nanopore sequencing
+- doi: 10.1093/nar/gkad526
+  title: Precise characterization of somatic complex structural variations from tumor/control paired long-read sequencing data with nanomonsv
+- doi: 10.1038/s41467-017-01343-4
+  title: Mapping and phasing of structural variation in patient genomes using nanopore sequencing
+source_repos:
+- https://github.com/SFGLab/ConsensuSV-ONT-pipeline
+- https://github.com/deconvolution-w/DASV
+- https://github.com/javiercguard/disCoverage
+- https://github.com/fritzsedlazeck/Sniffles
+- https://github.com/kcleal/dysgu
+- https://github.com/SdeBlank/NanoFG
+- https://github.com/friend1ws/nanomonsv
+- https://github.com/mroosmalen/nanosv
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SFGLab/ConsensuSV-ONT-pipeline

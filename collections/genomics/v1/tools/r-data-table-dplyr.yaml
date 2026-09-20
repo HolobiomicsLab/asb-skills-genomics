@@ -1,0 +1,17 @@
+name: R data.table/dplyr
+slug: r-data-table-dplyr
+version_used: null
+edam_topics: []
+evidence_spans:
+- r-data.table r-dplyr
+derived_from:
+- doi: 10.1038/s41467-021-23778-6
+  title: Systematic benchmarking of tools for CpG methylation detection from nanopore sequencing
+source_repos:
+- https://github.com/comprna/METEORE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/comprna/METEORE

@@ -1,0 +1,18 @@
+name: Japsa (jsa.seq.sort)
+slug: japsa-jsa-seq-sort
+version_used: null
+edam_topics: []
+evidence_spans:
+- The contig list is then sorted with
+derived_from:
+- doi: 10.1038/ncomms14515
+  title: Scaffolding and completing genome assemblies in real-time with nanopore sequencing
+source_repos:
+- https://github.com/mdcao/japsa
+- https://github.com/mdcao/npScarf
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mdcao/japsa

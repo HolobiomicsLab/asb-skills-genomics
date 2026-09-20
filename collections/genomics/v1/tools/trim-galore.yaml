@@ -1,0 +1,21 @@
+name: Trim Galore
+slug: trim-galore
+version_used: 0.6.6
+edam_topics: []
+evidence_spans:
+- includes Trim Galore [47], Porechop [26], and Filtlong [27] for quality trimming
+derived_from:
+- doi: 10.1093/gigascience/giaa105
+  title: 'NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy'
+- doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+source_repos:
+- https://github.com/mmiladi/galaxy-nanopore
+- https://github.com/FelixKrueger/TrimGalore
+- https://github.com/skbinfo/tncRNA-Toolkit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mmiladi/galaxy-nanopore

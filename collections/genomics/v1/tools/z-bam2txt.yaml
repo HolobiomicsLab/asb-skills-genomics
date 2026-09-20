@@ -1,0 +1,16 @@
+name: z-bam2txt
+slug: z-bam2txt
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s42003-026-09849-8
+  title: 'Z-Calling: a tool for A/Z (2,6-diaminopurine) base calling and dZ-DNA detection using PacBio HiFi reads'
+source_repos:
+- https://github.com/xiaochuanle/Z-Calling
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiaochuanle/Z-Calling

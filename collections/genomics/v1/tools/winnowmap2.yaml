@@ -1,0 +1,19 @@
+name: Winnowmap2
+slug: winnowmap2
+version_used: '67.10'
+edam_topics: []
+evidence_spans:
+- this study presents a novel long-read mapping algorithm (named as invMap)
+- Winnowmap2 67.10%
+- _No usage/docs found._
+derived_from:
+- doi: 10.1093/bioinformatics/btad726
+  title: 'invMap: a sensitive mapping tool for long noisy reads with inversion structural variants'
+source_repos:
+- https://github.com/zhang134/invMap
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhang134/invMap

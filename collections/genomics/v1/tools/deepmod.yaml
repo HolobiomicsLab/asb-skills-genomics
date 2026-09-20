@@ -1,0 +1,19 @@
+name: DeepMod
+slug: deepmod
+version_used: null
+edam_topics: []
+evidence_spans:
+- python bin/DeepMod.py detect --wrkBase <path_to_METEORE>/data/example/
+- Note that DeepMod does not produce per-read predictions
+derived_from:
+- doi: 10.1038/s41467-021-23778-6
+  title: Systematic benchmarking of tools for CpG methylation detection from nanopore sequencing
+source_repos:
+- https://github.com/WGLab/DeepMod
+- https://github.com/comprna/METEORE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WGLab/DeepMod

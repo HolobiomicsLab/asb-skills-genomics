@@ -1,0 +1,20 @@
+name: DeepPlant
+slug: deepplant
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we develop DeepPlant, a deep learning model incorporating both Bi-LSTM and Transformer architectures
+- You can directly run `DeepPlant extract_and_call_mods -h` to view the input parameters. The model directory is located at `/DeepPlant/model/bilstm`.
+- You can directly run `DeepPlant extract_and_call_mods -h` to view the input parameters.
+- extract_hc_sites [--help] [--version] pod5_dir bam_path reference_path ref_type write_dir pos neg kmer_size
+derived_from:
+- doi: 10.1038/s41467-025-58576-x
+  title: Accurate cross-species 5mC detection for Oxford Nanopore sequencing in plants with DeepPlant
+source_repos:
+- https://github.com/xiaochuanle/DeepPlant
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiaochuanle/DeepPlant

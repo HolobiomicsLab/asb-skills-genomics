@@ -1,0 +1,21 @@
+name: Pindel
+slug: pindel
+version_used: null
+edam_topics: []
+evidence_spans:
+- could not be found in matching Illumina sequencing data (despite extensive variant calling using six different variant calling methods
+- we applied four inference software packages (Delly, Lumpy, Pindel and cn.MOPs)24252627 to existing short-read data
+derived_from:
+- doi: 10.1038/s41467-017-01343-4
+  title: Mapping and phasing of structural variation in patient genomes using nanopore sequencing
+- doi: 10.1038/ncomms14061
+  title: Transient structural variations have strong effects on quantitative traits and reproductive isolation in fission yeast
+source_repos:
+- https://github.com/mroosmalen/nanosv
+- https://github.com/fritzsedlazeck/SURVIVOR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mroosmalen/nanosv

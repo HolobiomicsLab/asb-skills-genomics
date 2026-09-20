@@ -1,0 +1,17 @@
+name: rasusa
+slug: rasusa
+version_used: 0.6.0
+edam_topics: []
+evidence_spans:
+- All three datasets were subsampled to 40x, 30x, 20x, 10x, and 5x coverage using rasusa (v0.6.0)37
+derived_from:
+- doi: 10.1038/s41467-024-51282-0
+  title: VolcanoSV enables accurate and robust structural variant calling in diploid genomes from single-molecule long read sequencing
+source_repos:
+- https://github.com/maiziezhoulab/VolcanoSV
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/maiziezhoulab/VolcanoSV

@@ -1,0 +1,17 @@
+name: emptydrops
+slug: emptydrops
+version_used: null
+edam_topics: []
+evidence_spans:
+- This information is required for filtering cells using emptydrops
+derived_from:
+- doi: 10.1093/bioinformatics/btae549
+  title: 'Scywalker: scalable end-to-end data analysis workflow for long-read single-cell transcriptome sequencing'
+source_repos:
+- https://github.com/derijkp/scywalker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/derijkp/scywalker

@@ -1,0 +1,29 @@
+name: MAFFT
+slug: mafft
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'the Conda environment installs four MSA methods: [MAFFT](https://mafft.cbrc.jp/alignment/software/)'
+- We test the utility of the ribosomal cluster for molecular taxonomy and phylogenetics across divergent plant and animal taxa
+- All assessment below uses truvari 4.2.2 with MAFFT for refinement.
+- you can choose between two different alignment tools, MAFFT or MUSCLE. While MAFFT is generally faster, MUSCLE is more precise but requires more computing resources.
+derived_from:
+- doi: 10.1093/bioinformatics/btae014
+  title: 'FMAlign2: a novel fast multiple nucleotide sequence alignment method for ultralong datasets'
+- doi: 10.1093/gigascience/giz006
+  title: Nanopore sequencing of long ribosomal DNA amplicons enables portable and simple biodiversity assessments with high phylogenetic resolution across broad taxonomic scale
+- doi: 10.1093/bioinformatics/btaf136
+  title: 'Sawfish: improving long-read structural variant discovery and genotyping with local haplotype modeling'
+- doi: 10.1093/bioinformatics/btaf029
+  title: 'VirDetector: a bioinformatic pipeline for virus surveillance using nanopore sequencing'
+source_repos:
+- https://github.com/malabz/FMAlign2
+- https://github.com/calacademy-research/minibar
+- https://github.com/PacificBiosciences/sawfish
+- https://github.com/NLKaiser/VirDetector
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/malabz/FMAlign2

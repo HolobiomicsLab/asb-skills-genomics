@@ -1,0 +1,34 @@
+name: Canu
+slug: canu
+version_used: null
+edam_topics: []
+evidence_spans:
+- CONSENT has been developed and tested on x86-64 GNU/Linux
+- we use the assembler Canu22, specifically designed for noisy long reads
+- the error correction module of the assembler Canu16
+- (absent — flagged as missing)
+- This procedure is repeated until a maximum number of cycles is reached, no reads are left after filtering or no contigs are produced by the canu assembly.
+- params.canu_genome_size = "11k"
+derived_from:
+- doi: 10.1038/s41598-020-80757-5
+  title: Scalable long read self-correction and assembly polishing with multiple sequence alignment
+- doi: 10.1038/s41598-018-28364-3
+  title: 'HECIL: A Hybrid Error Correction Algorithm for Long Reads with Iterative Learning'
+- doi: 10.1038/s41467-022-34381-8
+  title: 'VeChat: correcting errors in long reads using variation graphs'
+- doi: 10.1093/bioinformatics/btaf687
+  title: 'ViMOP: a user-friendly and field-applicable pipeline for untargeted viral genome nanopore sequencing'
+- doi: 10.1093/bioinformatics/btaf029
+  title: 'VirDetector: a bioinformatic pipeline for virus surveillance using nanopore sequencing'
+source_repos:
+- https://github.com/morispi/CONSENT
+- https://github.com/NDBL/HECIL
+- https://github.com/HaploKit/vechat
+- https://github.com/opr-group-bnitm/vimop
+- https://github.com/NLKaiser/VirDetector
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/morispi/CONSENT

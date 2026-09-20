@@ -1,0 +1,17 @@
+name: Monocle
+slug: monocle
+version_used: null
+edam_topics: []
+evidence_spans:
+- One of the initial methods for so called Pseudotime analysis of single cells was Monocle 41, which used a minimum spanning tree (MST) strategy
+derived_from:
+- doi: 10.1002/1873-3468.12684
+  title: Computational approaches for interpreting sc<scp>RNA</scp>‐seq data
+source_repos:
+- https://github.com/tallulandrews/M3Drop
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tallulandrews/M3Drop

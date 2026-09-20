@@ -1,0 +1,2472 @@
+schema: asb-corpus/1.0
+collection: genomics
+version: 1
+summary:
+  total: 137
+  included: 137
+  hold: 0
+papers:
+- name: asbb_wave250_2026-09-01__coll_m3drop_cq
+  doi: 10.1002/1873-3468.12684
+  title: Computational approaches for interpreting sc RNA ‐seq data
+  category: genomics
+  repo_url: https://github.com/tallulandrews/M3Drop
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_srna_workflow_cq
+  doi: 10.1002/1873-3468.12746
+  title: mi RP ursuit—a pipeline for automated analyses of small RNA s in model and nonmodel plants
+  category: genomics
+  repo_url: https://github.com/forestbiotech-lab/miRPursuit
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: link-only
+    license: null
+    is_oa: true
+    oa_status_raw: bronze
+    verified_on: '2026-08-25'
+    source_reuse: none
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_jwes_cq
+  doi: 10.1002/2211-5463.13261
+  title: 'JWES: a new pipeline for whole genome/exome sequence data processing, management, and gene‐variant discovery, annotation, prediction, and genotyping'
+  category: genomics
+  repo_url: https://github.com/drzeeshanahmed/JWES-DB
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_hificcl_cq
+  doi: 10.1002/advs.202515308
+  title: Reference‐Guided Chromosome‐by‐Chromosome de novo Assembly at Scale Using Low‐Coverage High‐Fidelity Long‐Reads with HiFiCCL
+  category: genomics
+  repo_url: https://github.com/zjjbuqi/HiFiCCL
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_indelgt_cq
+  doi: 10.1002/aps3.11499
+  title: 'InDelGT: An integrated pipeline for extracting indel genotypes for genetic mapping in a hybrid population using next‐generation sequencing data'
+  category: genomics
+  repo_url: https://github.com/tongchf/InDelGT
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_refernment_cq
+  doi: 10.1002/aps3.1216
+  title: 'ReFernment: An R package for annotating RNA editing in plastid genomes'
+  category: genomics
+  repo_url: https://github.com/TARobison/ReFernment
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_rnmf_cq
+  doi: 10.1002/cam4.4717
+  title: A practical framework RNMF for exploring the association between mutational signatures and genes using gene cumulative contribution abundance
+  category: genomics
+  repo_url: https://github.com/zhenzhang-li/RNMF
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_nteditsealer_cq
+  doi: 10.1002/cpz1.442
+  title: 'ntEdit+Sealer: Efficient Targeted Error Resolution and Automated Finishing of Long‐Read Genome Assemblies'
+  category: genomics
+  repo_url: https://github.com/BirolLab/ntedit_sealer_protocol
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_hlaminer_cq
+  doi: 10.1002/cpz1.70124
+  title: Streaming Long‐Read Sequence Alignments for HLA Predictions Using HLAminer
+  category: genomics
+  repo_url: https://github.com/BirolLab/HLAminer
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_ntlink_cq
+  doi: 10.1002/cpz1.733
+  title: 'ntLink: A Toolkit for De Novo Genome Assembly Scaffolding and Mapping Using Long Reads'
+  category: genomics
+  repo_url: https://github.com/BirolLab/ntLink
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_miriam_pipeline_cq
+  doi: 10.1002/cyto.a.24541
+  title: 'MIRIAM: A machine and deep learning single‐cell segmentation and quantification pipeline for multi‐dimensional tissue images'
+  category: genomics
+  repo_url: https://github.com/Coffey-Lab/MIRIAM
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_learnpopgen_cq
+  doi: 10.1002/ece3.5412
+  title: 'learnPopGen: An R package for population genetic simulation and numerical analysis'
+  category: genomics
+  repo_url: https://github.com/liamrevell/learnPopGen
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_exfi_cq
+  doi: 10.1002/ece3.6587
+  title: 'EXFI: Exon and splice graph prediction without a reference genome'
+  category: genomics
+  repo_url: https://github.com/jlanga/exfi
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_macrohapcaller_cq
+  doi: 10.1002/elps.202300143
+  title: A complete pipeline enables haplotyping and phasing macrohaplotype in long sequencing reads for polyploidy samples and a multi‐source DNA mixture
+  category: genomics
+  repo_url: https://github.com/Ge-Lab/MacroHapCaller
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_ordinalgwas_jl_cq
+  doi: 10.1002/gepi.22276
+  title: Ordered multinomial regression for genetic association analysis of ordinal phenotypes at Biobank scale
+  category: genomics
+  repo_url: https://github.com/OpenMendel/OrdinalGWAS.jl
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_two_sigma_cq
+  doi: 10.1002/gepi.22361
+  title: 'TWO‐SIGMA: A novel two‐component single cell model‐based association method for single‐cell RNA‐seq data'
+  category: genomics
+  repo_url: https://github.com/edvanburen/twosigma
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_simmrd_cq
+  doi: 10.1002/gepi.22544
+  title: 'simmrd: An open‐source tool to perform simulations in Mendelian randomization'
+  category: genomics
+  repo_url: https://github.com/noahlorinczcomi/simmrd
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_vibe_cq
+  doi: 10.1002/ggn2.10023
+  title: A pipeline‐friendly software tool for genome diagnostics to prioritize genes by matching patient symptoms to literature
+  category: genomics
+  repo_url: https://github.com/molgenis/vibe
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_ediva_cq
+  doi: 10.1002/humu.23772
+  title: eDiVA—Classification and prioritization of pathogenic variants for clinical diagnostics
+  category: genomics
+  repo_url: https://github.com/mbosio85/ediva
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_predpsi_svr_cq
+  doi: 10.1002/humu.23785
+  title: Predicting the change of exon splicing caused by genetic variant using support vector regression
+  category: genomics
+  repo_url: https://github.com/chenkenbio/PredPSI-SVR
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_metadome_cq
+  doi: 10.1002/humu.23798
+  title: 'MetaDome: Pathogenicity analysis of genetic variants through aggregation of homologous human protein domains'
+  category: genomics
+  repo_url: https://github.com/laurensvdwiel/metadome
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_variantalert_cq
+  doi: 10.1002/humu.24495
+  title: 'VariantAlert: A web‐based tool to notify updates in genetic variant annotations'
+  category: genomics
+  repo_url: https://github.com/next-crs4/VariantAlert
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_cpsr_cq
+  doi: 10.1002/ijc.33749
+  title: 'Cancer Predisposition Sequencing Reporter ( CPSR ): A flexible variant report engine for high‐throughput germline screening in cancer'
+  category: genomics
+  repo_url: https://github.com/sigven/cpsr
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_gutudb_cq
+  doi: 10.1002/imt2.195
+  title: 'GutUDB: A comprehensive multiomics database for intestinal diseases'
+  category: genomics
+  repo_url: https://github.com/Ansanqi/GutUDB
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_idbp_dep_cq
+  doi: 10.1002/minf.202000006
+  title: Sequence‐based Detection of DNA‐binding Proteins using Multiple‐view Features Allied with Feature Selection
+  category: genomics
+  repo_url: https://github.com/Zll-codeside/iDBP-DEP
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: link-only
+    license: null
+    is_oa: false
+    oa_status_raw: closed
+    verified_on: '2026-08-25'
+    source_reuse: none
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_casymir_cq
+  doi: 10.1002/mp.18079
+  title: 'Software Article: A generalized cascaded linear system model implementation for x‐ray detectors'
+  category: genomics
+  repo_url: https://github.com/radboud-axti/casymir_public
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave_2026-08-31__coll_uniform_cq
+  doi: 10.1016/j.crmeth.2025.101172
+  title: Toward universal immunofluorescence normalization for multiplex tissue imaging with UniFORM
+  category: genomics
+  repo_url: https://github.com/kunlunW/UniFORM
+  status: included
+  wave: asbb_subwave_2026-08-31
+  access:
+    type: open-access
+    license: null
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_subwave_2026-08-31__coll_tncrnas_cq
+  doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+  category: genomics
+  repo_url: https://github.com/skbinfo/tncRNA-Toolkit
+  status: included
+  wave: asbb_subwave_2026-08-31
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave_2026-08-31__coll_cnnsplice_cq
+  doi: 10.1016/j.csbj.2023.05.031
+  title: 'CNNSplice: Robust models for splice site prediction using convolutional neural networks'
+  category: genomics
+  repo_url: https://github.com/OluwadareLab/CNNSplice
+  status: included
+  wave: asbb_subwave_2026-08-31
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_pro_cq
+  doi: 10.1016/j.fmre.2024.04.014
+  title: Generating barcodes for nanopore sequencing data with PRO
+  category: genomics
+  repo_url: https://github.com/rztongr/PRO
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_openhicamm_cq
+  doi: 10.1016/j.isci.2018.03.017
+  title: 'OpenHiCAMM: High-Content Screening Software for Complex Microscope Imaging Workflows'
+  category: genomics
+  repo_url: https://github.com/bdgp/OpenHiCAMM
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_haslr_cq
+  doi: 10.1016/j.isci.2020.101389
+  title: 'HASLR: Fast Hybrid Assembly of Long Reads'
+  category: genomics
+  repo_url: https://github.com/vpc-ccg/haslr
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_sctagger_cq
+  doi: 10.1016/j.isci.2022.104530
+  title: Fast and accurate matching of cellular barcodes across short-reads and long-reads of single-cell RNA-seq experiments
+  category: genomics
+  repo_url: https://github.com/vpc-ccg/scTagger
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_discoverage_cq
+  doi: 10.1016/j.jare.2022.10.012
+  title: Improvement of large copy number variant detection by whole genome nanopore sequencing
+  category: genomics
+  repo_url: https://github.com/javiercguard/disCoverage
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanoshape_cq
+  doi: 10.1016/j.xgen.2022.100097
+  title: Direct detection of RNA modifications and structure using single-molecule nanopore sequencing
+  category: genomics
+  repo_url: https://github.com/physnano/rRNA_nanoSHAPE
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_graphmap_cq
+  doi: 10.1038/ncomms11307
+  title: Fast and sensitive mapping of nanopore sequencing reads with GraphMap
+  category: genomics
+  repo_url: https://github.com/isovic/graphmap
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_survivor_cq
+  doi: 10.1038/ncomms14061
+  title: Transient structural variations have strong effects on quantitative traits and reproductive isolation in fission yeast
+  category: genomics
+  repo_url: https://github.com/fritzsedlazeck/SURVIVOR
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_npscarf_cq
+  doi: 10.1038/ncomms14515
+  title: Scaffolding and completing genome assemblies in real-time with nanopore sequencing
+  category: genomics
+  repo_url: https://github.com/mdcao/npScarf
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_mandalorion_cq
+  doi: 10.1038/ncomms16027
+  title: Nanopore long-read RNAseq reveals widespread transcriptional variation among the surface receptors of individual B cells
+  category: genomics
+  repo_url: https://github.com/rvolden/Mandalorion
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_smalr_cq
+  doi: 10.1038/ncomms8438
+  title: Single molecule-level detection and long read-based phasing of epigenetic variations in bacterial methylomes
+  category: genomics
+  repo_url: https://github.com/fanglab/SMALR
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanosv_cq
+  doi: 10.1038/s41467-017-01343-4
+  title: Mapping and phasing of structural variation in patient genomes using nanopore sequencing
+  category: genomics
+  repo_url: https://github.com/mroosmalen/nanosv
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_isocon_cq
+  doi: 10.1038/s41467-018-06910-x
+  title: Deciphering highly similar multigene family transcripts from Iso-Seq data with IsoCon
+  category: genomics
+  repo_url: https://github.com/ksahlin/IsoCon
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_mcaller_cq
+  doi: 10.1038/s41467-019-08289-9
+  title: Single-molecule sequencing detection of N6-methyladenine in microbial reference materials
+  category: genomics
+  repo_url: https://github.com/al-mcintyre/mCaller
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_clairvoyante_cq
+  doi: 10.1038/s41467-019-09025-z
+  title: A multi-task convolutional deep neural network for variant calling in single molecule sequencing
+  category: genomics
+  repo_url: https://github.com/aquaskyline/Clairvoyante
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_epinano_cq
+  doi: 10.1038/s41467-019-11713-9
+  title: Accurate detection of m6A RNA modifications in native RNA sequences
+  category: genomics
+  repo_url: https://github.com/enovoa/EpiNano
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_longshot_cq
+  doi: 10.1038/s41467-019-12493-y
+  title: Longshot enables accurate variant calling in diploid genomes from single-molecule long read sequencing
+  category: genomics
+  repo_url: https://github.com/pjedge/longshot
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_paisoseqanalysis_cq
+  doi: 10.1038/s41467-019-13228-9
+  title: Poly(A) inclusive RNA isoform sequencing (PAIso−seq) reveals wide-spread non-adenosine residues within RNA poly(A) tails
+  category: genomics
+  repo_url: https://github.com/niehu2018/GV_oocyte_PAIsoSeqAnalysis
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanofg_cq
+  doi: 10.1038/s41467-020-16641-7
+  title: Partner independent fusion gene detection by multiplexed CRISPR-Cas9 enrichment and long read nanopore sequencing
+  category: genomics
+  repo_url: https://github.com/SdeBlank/NanoFG
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_isopops_cq
+  doi: 10.1038/s41467-020-17009-7
+  title: Comprehensive identification of mRNA isoforms reveals the diversity of neural cell-surface molecules with roles in retinal development and disease
+  category: genomics
+  repo_url: https://github.com/kellycochran/IsoPops
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_sicelore_cq
+  doi: 10.1038/s41467-020-17800-6
+  title: High throughput error corrected Nanopore single cell transcriptome sequencing
+  category: genomics
+  repo_url: https://github.com/ucagenomix/sicelore-2.1
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_isocirc_cq
+  doi: 10.1038/s41467-020-20459-8
+  title: isoCirc catalogs full-length circular RNA isoforms in human transcriptomes
+  category: genomics
+  repo_url: https://github.com/Xinglab/isoCirc
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_meteore_cq
+  doi: 10.1038/s41467-021-23778-6
+  title: Systematic benchmarking of tools for CpG methylation detection from nanopore sequencing
+  category: genomics
+  repo_url: https://github.com/comprna/METEORE
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_deepsignal_plant_cq
+  doi: 10.1038/s41467-021-26278-9
+  title: Genome-wide detection of cytosine methylations in plant from Nanopore data using deep learning
+  category: genomics
+  repo_url: https://github.com/PengNi/deepsignal-plant
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_acorde_cq
+  doi: 10.1038/s41467-022-29497-w
+  title: acorde unravels functionally interpretable networks of isoform co-usage from single cell data
+  category: genomics
+  repo_url: https://github.com/ConesaLab/acorde
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_vechat_cq
+  doi: 10.1038/s41467-022-34381-8
+  title: 'VeChat: correcting errors in long reads using variation graphs'
+  category: genomics
+  repo_url: https://github.com/HaploKit/vechat
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanohime_cq
+  doi: 10.1038/s41467-022-35650-2
+  title: Simultaneous profiling of histone modifications and DNA methylation via nanopore sequencing
+  category: genomics
+  repo_url: https://github.com/YinLabTJ/nanoHiMe
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_telomap_cq
+  doi: 10.1038/s41467-023-35823-7
+  title: High-throughput telomere length measurement at nucleotide resolution using the PacBio high fidelity sequencing platform
+  category: genomics
+  repo_url: https://github.com/cytham/telomap
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_sclsa_tools_cq
+  doi: 10.1038/s41467-023-38324-9
+  title: High-throughput and high-accuracy single-cell RNA isoform analysis using PacBio circular consensus sequencing
+  category: genomics
+  repo_url: https://github.com/shizhuoxing/scISA-Tools
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_ccsmethphase_cq
+  doi: 10.1038/s41467-023-39784-9
+  title: DNA 5-methylcytosine detection and methylation phasing using PacBio circular consensus sequencing
+  category: genomics
+  repo_url: https://github.com/PengNi/ccsmethphase
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_mana_cq
+  doi: 10.1038/s41467-023-41354-y
+  title: mRNA vaccine quality analysis using RNA sequencing
+  category: genomics
+  repo_url: https://github.com/scchess/Mana
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_taget_cq
+  doi: 10.1038/s41467-023-41649-0
+  title: 'TAGET: a toolkit for analyzing full-length transcripts from long-read sequencing'
+  category: genomics
+  repo_url: https://github.com/XiDsLab/TAGET
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_craq_cq
+  doi: 10.1038/s41467-023-42336-w
+  title: Identification of errors in draft genome assemblies at single-nucleotide resolution for quality assessment and improvement
+  category: genomics
+  repo_url: https://github.com/JiaoLaboratory/CRAQ
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanoranger_cq
+  doi: 10.1038/s41467-023-44137-7
+  title: Integrative genotyping of cancer and immune phenotypes by long-read sequencing
+  category: genomics
+  repo_url: https://github.com/mehdiborji/nanoranger
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_deepmod2_cq
+  doi: 10.1038/s41467-024-45778-y
+  title: A signal processing and deep learning framework for methylation detection using Oxford Nanopore sequencing
+  category: genomics
+  repo_url: https://github.com/WGLab/DeepMod2
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_pecat_cq
+  doi: 10.1038/s41467-024-47349-7
+  title: De novo diploid genome assembly using long noisy reads
+  category: genomics
+  repo_url: https://github.com/lemene/PECAT
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_mafia_cq
+  doi: 10.1038/s41467-024-47661-2
+  title: Detecting m6A at single-molecular resolution via direct RNA sequencing and realistic training data
+  category: genomics
+  repo_url: https://github.com/dieterich-lab/mAFiA
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_cheui_cq
+  doi: 10.1038/s41467-024-47953-7
+  title: Prediction of m6A and m5C at single-molecule resolution reveals a transcriptome-wide co-occurrence of RNA modifications
+  category: genomics
+  repo_url: https://github.com/comprna/CHEUI-public
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_riser_cq
+  doi: 10.1038/s41467-024-48673-8
+  title: Biochemical-free enrichment or depletion of RNA classes in real-time during direct RNA sequencing with RISER
+  category: genomics
+  repo_url: https://github.com/comprna/riser
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_methphaser_cq
+  doi: 10.1038/s41467-024-49588-0
+  title: 'MethPhaser: methylation-based long-read haplotype phasing of human genomes'
+  category: genomics
+  repo_url: https://github.com/treangenlab/methphaser
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_volcanosv_cq
+  doi: 10.1038/s41467-024-51282-0
+  title: VolcanoSV enables accurate and robust structural variant calling in diploid genomes from single-molecule long read sequencing
+  category: genomics
+  repo_url: https://github.com/maiziezhoulab/VolcanoSV
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanodynamo_cq
+  doi: 10.1038/s41467-024-51917-2
+  title: Nanodynamo quantifies subcellular RNA dynamics revealing extensive coupling between steps of the RNA life cycle
+  category: genomics
+  repo_url: https://github.com/mfurla/Nanodynamo
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_argo_cq
+  doi: 10.1038/s41467-025-57088-y
+  title: Species-resolved profiling of antibiotic resistance genes in complex metagenomes through long-read overlapping with Argo
+  category: genomics
+  repo_url: https://github.com/xinehc/argo
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_deepplant_cq
+  doi: 10.1038/s41467-025-58576-x
+  title: Accurate cross-species 5mC detection for Oxford Nanopore sequencing in plants with DeepPlant
+  category: genomics
+  repo_url: https://github.com/xiaochuanle/DeepPlant
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_tulip_cq
+  doi: 10.1038/s41598-017-07650-6
+  title: Rapid de novo assembly of the European eel genome from nanopore sequencing reads
+  category: genomics
+  repo_url: https://github.com/Generade-nl/TULIP
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_hecil_cq
+  doi: 10.1038/s41598-018-28364-3
+  title: 'HECIL: A Hybrid Error Correction Algorithm for Long Reads with Iterative Learning'
+  category: genomics
+  repo_url: https://github.com/NDBL/HECIL
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_consent_cq
+  doi: 10.1038/s41598-020-80757-5
+  title: Scalable long read self-correction and assembly polishing with multiple sequence alignment
+  category: genomics
+  repo_url: https://github.com/morispi/CONSENT
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanospring_cq
+  doi: 10.1038/s41598-023-29267-8
+  title: Reference-free lossless compression of nanopore sequencing reads using an approximate assembly approach
+  category: genomics
+  repo_url: https://github.com/qm2/NanoSpring
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_consensussv_ont_cq
+  doi: 10.1038/s41598-025-01486-1
+  title: ConsensuSV-ONT – A modern method for accurate structural variant calling
+  category: genomics
+  repo_url: https://github.com/SFGLab/ConsensuSV-ONT-pipeline
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_retroinspector_cq
+  doi: 10.1038/s41598-025-98847-7
+  title: Advanced analysis of retrotransposon variation in the human genome with nanopore sequencing using RetroInspector
+  category: genomics
+  repo_url: https://github.com/javiercguard/retroinspector
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_z_calling_cq
+  doi: 10.1038/s42003-026-09849-8
+  title: 'Z-Calling: a tool for A/Z (2,6-diaminopurine) base calling and dZ-DNA detection using PacBio HiFi reads'
+  category: genomics
+  repo_url: https://github.com/xiaochuanle/Z-Calling
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_megamerge_cq
+  doi: 10.1038/srep06480
+  title: Improved Assemblies Using a Source-Agnostic Pipeline for MetaGenomic Assembly by Merging (MeGAMerge) of Contigs
+  category: genomics
+  repo_url: https://github.com/LANL-Bioinformatics/MeGAMerge
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: cc-by-nc-sa
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_dbg2olc_cq
+  doi: 10.1038/srep31900
+  title: 'DBG2OLC: Efficient Assembly of Large Genomes Using Long Erroneous Reads of the Third Generation Sequencing Technologies'
+  category: genomics
+  repo_url: https://github.com/yechengxi/DBG2OLC
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanolympicsmod_cq
+  doi: 10.1093/bib/bbae001
+  title: Benchmarking of computational methods for m6A profiling with Nanopore direct RNA sequencing
+  category: genomics
+  repo_url: https://github.com/mfurla/NanOlympicsMod
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_dasv_cq
+  doi: 10.1093/bib/bbae269
+  title: Deletion variants calling in third-generation sequencing data based on a dual-attention mechanism
+  category: genomics
+  repo_url: https://github.com/deconvolution-w/DASV
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_deepbam_cq
+  doi: 10.1093/bib/bbae413
+  title: 'DeepBAM: a high-accuracy single-molecule CpG methylation detection tool for Oxford nanopore sequencing'
+  category: genomics
+  repo_url: https://github.com/xiaochuanle/DeepBAM
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_minisnv_cq
+  doi: 10.1093/bib/bbae473
+  title: 'miniSNV: accurate and fast single nucleotide variant calling from nanopore sequencing data'
+  category: genomics
+  repo_url: https://github.com/CuiMiao-HIT/miniSNV
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_galaxy_methyl_cq
+  doi: 10.1093/bioadv/vbac088
+  title: GPU-accelerated and pipelined methylation calling
+  category: genomics
+  repo_url: https://github.com/fengyilin118/Galaxy-methyl
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_blackbird_cq
+  doi: 10.1093/bioadv/vbaf151
+  title: 'Blackbird: structural variant detection using synthetic and low-coverage long-reads'
+  category: genomics
+  repo_url: https://github.com/1dayac/Blackbird
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nf_core_isoseq_cq
+  doi: 10.1093/bioinformatics/btad150
+  title: 'nf-core/isoseq: simple gene and isoform annotation with PacBio Iso-Seq long-read sequencing'
+  category: genomics
+  repo_url: https://github.com/nf-core/isoseq
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_utr_cq
+  doi: 10.1093/bioinformatics/btad185
+  title: Decomposing mosaic tandem repeats accurately from long reads
+  category: genomics
+  repo_url: https://github.com/morisUtokyo/uTR
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_semibin2_cq
+  doi: 10.1093/bioinformatics/btad209
+  title: 'SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing'
+  category: genomics
+  repo_url: https://github.com/BigDataBiology/SemiBin
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_viralconsensus_cq
+  doi: 10.1093/bioinformatics/btad317
+  title: 'ViralConsensus: a fast and memory-efficient tool for calling viral consensus genome sequences directly from read alignment data'
+  category: genomics
+  repo_url: https://github.com/niemasd/ViralConsensus
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_isotools_cq
+  doi: 10.1093/bioinformatics/btad364
+  title: 'IsoTools: a flexible workflow for long-read transcriptome sequencing analysis'
+  category: genomics
+  repo_url: https://github.com/MatthiasLienhard/isotools
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_snapper_cq
+  doi: 10.1093/bioinformatics/btad702
+  title: 'Snapper: high-sensitive detection of methylation motifs based on Oxford Nanopore reads'
+  category: genomics
+  repo_url: https://github.com/DNKonanov/Snapper
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_invmap_cq
+  doi: 10.1093/bioinformatics/btad726
+  title: 'invMap: a sensitive mapping tool for long noisy reads with inversion structural variants'
+  category: genomics
+  repo_url: https://github.com/zhang134/invMap
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_hare_and_tortoise_hat_cq
+  doi: 10.1093/bioinformatics/btad775
+  title: 'HAT: de novo variant calling for highly accurate short-read and long-read sequencing data'
+  category: genomics
+  repo_url: https://github.com/TNTurnerLab/HAT
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_sckwarn_cq
+  doi: 10.1093/bioinformatics/btae008
+  title: 'scKWARN: Kernel-weighted-average robust normalization for single-cell RNA-seq data'
+  category: genomics
+  repo_url: https://github.com/cyhsuTN/scKWARN
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_fmalign2_cq
+  doi: 10.1093/bioinformatics/btae014
+  title: 'FMAlign2: a novel fast multiple nucleotide sequence alignment method for ultralong datasets'
+  category: genomics
+  repo_url: https://github.com/malabz/FMAlign2
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanometa_live_cq
+  doi: 10.1093/bioinformatics/btae108
+  title: 'Nanometa Live: a user-friendly application for real-time metagenomic data analysis and pathogen identification'
+  category: genomics
+  repo_url: https://github.com/FOI-Bioinformatics/nanometa_live
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_rednano_cq
+  doi: 10.1093/bioinformatics/btae375
+  title: RNA m6A detection using raw current signals and basecalling errors from Nanopore direct RNA sequencing reads
+  category: genomics
+  repo_url: https://github.com/Derryxu/RedNano
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_rawhash2_cq
+  doi: 10.1093/bioinformatics/btae478
+  title: 'RawHash2: mapping raw nanopore signals using hash-based seeding and adaptive quantization'
+  category: genomics
+  repo_url: https://github.com/CMU-SAFARI/RawHash
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_squigualiser_cq
+  doi: 10.1093/bioinformatics/btae501
+  title: Interactive visualization of nanopore sequencing signal data with Squigualiser
+  category: genomics
+  repo_url: https://github.com/hiruna72/squigualiser
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_bin2cell_cq
+  doi: 10.1093/bioinformatics/btae546
+  title: Bin2cell reconstructs cells from high resolution Visium HD data
+  category: genomics
+  repo_url: https://github.com/Teichlab/bin2cell
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_scywalker_cq
+  doi: 10.1093/bioinformatics/btae549
+  title: 'Scywalker: scalable end-to-end data analysis workflow for long-read single-cell transcriptome sequencing'
+  category: genomics
+  repo_url: https://github.com/derijkp/scywalker
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_pod5viewer_cq
+  doi: 10.1093/bioinformatics/btae665
+  title: 'Pod5Viewer: a GUI for inspecting raw nanopore sequencing data'
+  category: genomics
+  repo_url: https://github.com/dietvin/pod5Viewer
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_steller_cq
+  doi: 10.1093/bioinformatics/btae686
+  title: Detecting transposable elements in long-read genomes using sTELLeR
+  category: genomics
+  repo_url: https://github.com/kristinebilgrav/sTELLeR
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_seq2squiggle_cq
+  doi: 10.1093/bioinformatics/btae744
+  title: End-to-end simulation of nanopore sequencing signals with feed-forward transformers
+  category: genomics
+  repo_url: https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_virdetector_cq
+  doi: 10.1093/bioinformatics/btaf029
+  title: 'VirDetector: a bioinformatic pipeline for virus surveillance using nanopore sequencing'
+  category: genomics
+  repo_url: https://github.com/NLKaiser/VirDetector
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_sawfish_cq
+  doi: 10.1093/bioinformatics/btaf136
+  title: 'Sawfish: improving long-read structural variant discovery and genotyping with local haplotype modeling'
+  category: genomics
+  repo_url: https://github.com/PacificBiosciences/sawfish
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanoident_cq
+  doi: 10.1093/bioinformatics/btaf397
+  title: Identifying DNA methylation types and methylated base positions from bacteria using nanopore sequencing with multi-scale neural network
+  category: genomics
+  repo_url: https://github.com/cz-csu/Nanoident
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_isoseql_cq
+  doi: 10.1093/bioinformatics/btaf680
+  title: 'isoSeQL: comparing long-read isoforms across multiple datasets'
+  category: genomics
+  repo_url: https://github.com/christine-liu/isoSeQL
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_vimop_cq
+  doi: 10.1093/bioinformatics/btaf687
+  title: 'ViMOP: a user-friendly and field-applicable pipeline for untargeted viral genome nanopore sequencing'
+  category: genomics
+  repo_url: https://github.com/opr-group-bnitm/vimop
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_dogme_cq
+  doi: 10.1093/bioinformatics/btag066
+  title: 'Dogme: a nextflow pipeline for reprocessing nanopore RNA and DNA modifications'
+  category: genomics
+  repo_url: https://github.com/mortazavilab/dogme
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nallo_cq
+  doi: 10.1093/bioinformatics/btag086
+  title: 'Nallo: a Nextflow pipeline for comprehensive human long-read genome analysis'
+  category: genomics
+  repo_url: https://github.com/genomic-medicine-sweden/nallo
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_agilestructure_cq
+  doi: 10.1093/bioinformatics/btag294
+  title: Utilization of long-read sequencing for the detection of structural rearrangements with AgileStructure
+  category: genomics
+  repo_url: https://github.com/msjimc/AgileStructure
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_barbell_cq
+  doi: 10.1093/bioinformatics/btag349
+  title: Barbell reveals and resolves demultiplexing and trimming issues in Nanopore data
+  category: genomics
+  repo_url: https://github.com/rickbeeloo/barbell
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanosimformer_cq
+  doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+  category: genomics
+  repo_url: https://github.com/BioinfoSZU/NanoSimFormer
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_tricolor_cq
+  doi: 10.1093/gigascience/giaa101
+  title: 'TRiCoLOR: tandem repeat profiling using whole-genome long-read sequencing data'
+  category: genomics
+  repo_url: https://github.com/davidebolo1993/TRiCoLOR
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanogalaxy_cq
+  doi: 10.1093/gigascience/giaa105
+  title: 'NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy'
+  category: genomics
+  repo_url: https://github.com/mmiladi/galaxy-nanopore
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_cnvpytor_cq
+  doi: 10.1093/gigascience/giab074
+  title: 'CNVpytor: a tool for copy number variation detection and analysis from read depth and allele imbalance in whole-genome sequencing'
+  category: genomics
+  repo_url: https://github.com/abyzovlab/CNVpytor
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_annotate_my_genomes_cq
+  doi: 10.1093/gigascience/giac099
+  title: 'annotate_my_genomes: an easy-to-use pipeline to improve genome annotation and uncover neglected genes by hybrid RNA sequencing'
+  category: genomics
+  repo_url: https://github.com/cfarkas/annotate_my_genomes
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_haru_cq
+  doi: 10.1093/gigascience/giad046
+  title: Efficient real-time selective genome sequencing on resource-constrained devices
+  category: genomics
+  repo_url: https://github.com/beebdev/HARU
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_fedrann_cq
+  doi: 10.1093/gigascience/giag048
+  title: 'FEDRANN: effective long-read overlap detection based on dimensionality reduction and approximate nearest neighbors'
+  category: genomics
+  repo_url: https://github.com/jzhang-dev/fedrann
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_chiron_cq
+  doi: 10.1093/gigascience/giy037
+  title: 'Chiron: translating nanopore raw signal directly into nucleotide sequence using deep learning'
+  category: genomics
+  repo_url: https://github.com/haotianteng/Chiron
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_fast_sg_cq
+  doi: 10.1093/gigascience/giy048
+  title: 'Fast-SG: an alignment-free algorithm for hybrid assembly'
+  category: genomics
+  repo_url: https://github.com/adigenova/fast-sg
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanoampli_seq_cq
+  doi: 10.1093/gigascience/giy140
+  title: 'NanoAmpli-Seq: a workflow for amplicon sequencing for mixed microbial communities on the nanopore sequencing platform'
+  category: genomics
+  repo_url: https://github.com/umerijaz/nanopore
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanopipe_cq
+  doi: 10.1093/gigascience/giy169
+  title: NanoPipe—a web server for nanopore MinION sequencing data analysis
+  category: genomics
+  repo_url: https://github.com/IOB-Muenster/nanopipe2
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_minibar_cq
+  doi: 10.1093/gigascience/giz006
+  title: Nanopore sequencing of long ribosomal DNA amplicons enables portable and simple biodiversity assessments with high phylogenetic resolution across broad taxonomic scale
+  category: genomics
+  repo_url: https://github.com/calacademy-research/minibar
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_rnaspades_cq
+  doi: 10.1093/gigascience/giz100
+  title: 'rnaSPAdes: a de novo transcriptome assembler and its application to RNA-Seq data'
+  category: genomics
+  repo_url: https://github.com/ablab/spades
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nextpolish2_cq
+  doi: 10.1093/gpbjnl/qzad009
+  title: 'NextPolish2: A Repeat-aware Polishing Tool for Genomes Assembled Using HiFi Long Reads'
+  category: genomics
+  repo_url: https://github.com/Nextomics/NextPolish2
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanocount_cq
+  doi: 10.1093/nar/gkab1129
+  title: Accurate expression quantification from nanopore direct RNA sequencing with NanoCount
+  category: genomics
+  repo_url: https://github.com/a-slide/NanoCount
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_scmagic_cq
+  doi: 10.1093/nar/gkab1275
+  title: 'scMAGIC: accurately annotating single cells using two rounds of reference-based classification'
+  category: genomics
+  repo_url: https://github.com/TianLab-Bioinfo/scMAGIC
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanoem_cq
+  doi: 10.1093/nar/gkab397
+  title: Long-read whole-genome methylation patterning using enzymatic base conversion and nanopore sequencing
+  category: genomics
+  repo_url: https://github.com/yos-sk/nanoEM
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_dysgu_cq
+  doi: 10.1093/nar/gkac039
+  title: 'Dysgu: efficient structural variant calling using short or long reads'
+  category: genomics
+  repo_url: https://github.com/kcleal/dysgu
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_novel_x_cq
+  doi: 10.1093/nar/gkac653
+  title: Efficient detection and assembly of non-reference DNA sequences with synthetic long reads
+  category: genomics
+  repo_url: https://github.com/1dayac/Novel-X
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_insplico_cq
+  doi: 10.1093/nar/gkad244
+  title: 'Insplico : effective computational tool for studying splicing order of adjacent introns genome-wide with short and long RNA-seq reads'
+  category: genomics
+  repo_url: https://github.com/liniguez/Insplico_simulations
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nanomonsv_cq
+  doi: 10.1093/nar/gkad526
+  title: Precise characterization of somatic complex structural variations from tumor/control paired long-read sequencing data with nanomonsv
+  category: genomics
+  repo_url: https://github.com/friend1ws/nanomonsv
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall

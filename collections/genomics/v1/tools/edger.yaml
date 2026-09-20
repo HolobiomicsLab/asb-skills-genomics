@@ -1,0 +1,29 @@
+name: edgeR
+slug: edger
+version_used: null
+edam_topics: []
+evidence_spans:
+- We additionally defined and implemented Differential Isoform Usage (DIU) and co-Differential Isoform Usage (coDIU) analyses in order to leverage the multiple cell types contained in single-cell
+- R >= 3.0
+- 'edgeR: A Bioconductor package for differential expression analysis of digital gene expression data'
+- EdgeR fits a GLM with negative binomial (NB) noise for each gene
+derived_from:
+- doi: 10.1038/s41467-022-29497-w
+  title: acorde unravels functionally interpretable networks of isoform co-usage from single cell data
+- doi: 10.1038/ncomms8438
+  title: Single molecule-level detection and long read-based phasing of epigenetic variations in bacterial methylomes
+- doi: 10.1002/1873-3468.12684
+  title: Computational approaches for interpreting sc<scp>RNA</scp>‐seq data
+- doi: 10.1002/gepi.22361
+  title: 'TWO‐SIGMA: A novel two‐component single cell model‐based association method for single‐cell RNA‐seq data'
+source_repos:
+- https://github.com/ConesaLab/acorde
+- https://github.com/fanglab/SMALR
+- https://github.com/tallulandrews/M3Drop
+- https://github.com/edvanburen/twosigma
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ConesaLab/acorde

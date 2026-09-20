@@ -1,0 +1,19 @@
+name: Nanoident
+slug: nanoident
+version_used: null
+edam_topics: []
+evidence_spans:
+- We propose a deep-learning method, called Nanoident, for de novo detection of DNA methylation types and methylated base positions in bacteria using Nanopore sequencing.
+- '## Train and test Nanoident model'
+- bash ./process/code/Nanoident_enrich.sh NO analysis/NO_subset_difference.RDS analysis/NO reference/NO/NO_sequence.fasta
+derived_from:
+- doi: 10.1093/bioinformatics/btaf397
+  title: Identifying DNA methylation types and methylated base positions from bacteria using nanopore sequencing with multi-scale neural network
+source_repos:
+- https://github.com/cz-csu/Nanoident
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cz-csu/Nanoident

@@ -1,0 +1,19 @@
+name: Visium HD
+slug: visium-hd
+version_used: null
+edam_topics: []
+evidence_spans:
+- Visium HD by 10X Genomics is the first commercially available platform capable of capturing full scale transcriptomic data paired with a reference morphology image
+- One of the 10X demo Visium HD datasets has an IF image of the lung.
+- 10X demo Visium HD datasets
+derived_from:
+- doi: 10.1093/bioinformatics/btae546
+  title: Bin2cell reconstructs cells from high resolution Visium HD data
+source_repos:
+- https://github.com/Teichlab/bin2cell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Teichlab/bin2cell

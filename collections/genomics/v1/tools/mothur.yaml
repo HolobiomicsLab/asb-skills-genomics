@@ -1,0 +1,17 @@
+name: mothur
+slug: mothur
+version_used: null
+edam_topics: []
+evidence_spans:
+- standard de novo clustering approaches such as VSEARCH [29] and the clustering approaches available in mothur [30, 31] vastly overestimated the richness
+derived_from:
+- doi: 10.1093/gigascience/giy140
+  title: 'NanoAmpli-Seq: a workflow for amplicon sequencing for mixed microbial communities on the nanopore sequencing platform'
+source_repos:
+- https://github.com/umerijaz/nanopore
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/umerijaz/nanopore

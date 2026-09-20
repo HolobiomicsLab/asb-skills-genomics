@@ -1,0 +1,28 @@
+name: PBSIM
+slug: pbsim
+version_used: 3.0.0
+edam_topics: []
+evidence_spans:
+- HiFi-like and Illumina-like reads were produced from the original hg38 and hg38_sim1 genomes using PBSIM34 and Wgsim35
+- Longer reads produced by PacBio or Oxford Nanopore sequencers could more frequently span the breakpoints of structural variations (SVs) than shorter reads
+- and then used PBSIM (v3.0.0)34 to simulate reads
+derived_from:
+- doi: 10.1038/s41467-023-42336-w
+  title: Identification of errors in draft genome assemblies at single-nucleotide resolution for quality assessment and improvement
+- doi: 10.1016/j.isci.2020.101389
+  title: 'HASLR: Fast Hybrid Assembly of Long Reads'
+- doi: 10.1093/bioinformatics/btad726
+  title: 'invMap: a sensitive mapping tool for long noisy reads with inversion structural variants'
+- doi: 10.1038/s41467-024-51282-0
+  title: VolcanoSV enables accurate and robust structural variant calling in diploid genomes from single-molecule long read sequencing
+source_repos:
+- https://github.com/JiaoLaboratory/CRAQ
+- https://github.com/vpc-ccg/haslr
+- https://github.com/zhang134/invMap
+- https://github.com/maiziezhoulab/VolcanoSV
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JiaoLaboratory/CRAQ

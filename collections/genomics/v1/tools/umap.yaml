@@ -1,0 +1,17 @@
+name: Umap
+slug: umap
+version_used: null
+edam_topics: []
+evidence_spans:
+- We confirmed these results using UCSC mappability tracks. For k100 and k50 Umap Multitrack
+derived_from:
+- doi: 10.1093/nar/gkac653
+  title: Efficient detection and assembly of non-reference DNA sequences with synthetic long reads
+source_repos:
+- https://github.com/1dayac/Novel-X
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/1dayac/Novel-X

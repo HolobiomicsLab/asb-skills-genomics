@@ -1,0 +1,22 @@
+name: PAV
+slug: pav
+version_used: null
+edam_topics: []
+evidence_spans:
+- plus hifiasm global assembly with the PAV caller per coverage level
+- such as Dipcall23, SVIM-asm24, and PAV25
+derived_from:
+- doi: 10.1093/bioinformatics/btaf136
+  title: 'Sawfish: improving long-read structural variant discovery and genotyping with local haplotype modeling'
+- doi: 10.1038/s41467-024-51282-0
+  title: VolcanoSV enables accurate and robust structural variant calling in diploid genomes from single-molecule long read sequencing
+source_repos:
+- https://github.com/PacificBiosciences/sawfish
+- https://github.com/EichlerLab/pav
+- https://github.com/maiziezhoulab/VolcanoSV
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PacificBiosciences/sawfish

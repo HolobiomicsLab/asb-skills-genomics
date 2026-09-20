@@ -1,0 +1,33 @@
+name: LAST
+slug: last
+version_used: null
+edam_topics: []
+evidence_spans:
+- is comparable to BLAST and other mappers (BWA-MEM, LAST, BLASR and DALIGNER)
+- LAST (921) - http://last.cbrc.jp/doc/last.html
+- mapping of sequencing reads to the target using version 946 of the LAST sequence aligner
+- NANOPIPE/tools/bin/lastdb target target.fasta
+- mapping of sequencing reads to the target using version 946 of the LAST sequence aligner (LAST, RRID:SCR_006119)
+- It is based on the LAST reliability score assigned to each base pair of the alignment.
+- '* [LAST](#last-mapping)'
+- '[LAST](#last-mapping)'
+derived_from:
+- doi: 10.1038/ncomms11307
+  title: Fast and sensitive mapping of nanopore sequencing reads with GraphMap
+- doi: 10.1038/s41467-020-16641-7
+  title: Partner independent fusion gene detection by multiplexed CRISPR-Cas9 enrichment and long read nanopore sequencing
+- doi: 10.1093/gigascience/giy169
+  title: NanoPipe—a web server for nanopore MinION sequencing data analysis
+- doi: 10.1038/s41467-017-01343-4
+  title: Mapping and phasing of structural variation in patient genomes using nanopore sequencing
+source_repos:
+- https://github.com/isovic/graphmap
+- https://github.com/SdeBlank/NanoFG
+- https://github.com/IOB-Muenster/nanopipe2
+- https://github.com/mroosmalen/nanosv
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/isovic/graphmap

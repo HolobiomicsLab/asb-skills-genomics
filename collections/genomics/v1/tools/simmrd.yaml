@@ -1,0 +1,20 @@
+name: simmrd
+slug: simmrd
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'using the `simmrd` R package are:'
+- '`generate_summary()` is the faster path and is suitable for most simulation studies.'
+- 'The steps to generating and plotting data using the `simmrd` R package are:'
+- library(simmrd)
+derived_from:
+- doi: 10.1002/gepi.22544
+  title: 'simmrd: An open‐source tool to perform simulations in Mendelian randomization'
+source_repos:
+- https://github.com/noahlorinczcomi/simmrd
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/noahlorinczcomi/simmrd

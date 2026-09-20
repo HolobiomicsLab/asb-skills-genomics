@@ -1,0 +1,18 @@
+name: BBHash
+slug: bbhash
+version_used: null
+edam_topics: []
+evidence_spans:
+- BBHash (https://github.com/rizkg/BBHash.git checkout 99c905828a58fa119979df5c26bdbea93f0a7696)
+derived_from:
+- doi: 10.1093/gigascience/giy048
+  title: 'Fast-SG: an alignment-free algorithm for hybrid assembly'
+source_repos:
+- https://github.com/rizkg/BBHash
+- https://github.com/adigenova/fast-sg
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rizkg/BBHash

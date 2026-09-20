@@ -1,0 +1,21 @@
+name: Barbell
+slug: barbell
+version_used: null
+edam_topics: []
+evidence_spans:
+- '**>1000× fewer trimming errors** compared to Dorado.'
+- barbell annotate -q left.fasta -b Ftag -i reads.fastq -o anno.tsv -t 10
+- barbell filter -i anno.tsv -f filters.txt -o filtered.tsv
+- We developed Barbell, a pattern-aware demultiplexer that is designed to detect complex barcode configurations.
+- barbell kit -k SQK-RBK114-96 -i reads.fastq -o output_folder --maximize
+derived_from:
+- doi: 10.1093/bioinformatics/btag349
+  title: Barbell reveals and resolves demultiplexing and trimming issues in Nanopore data
+source_repos:
+- https://github.com/rickbeeloo/barbell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rickbeeloo/barbell

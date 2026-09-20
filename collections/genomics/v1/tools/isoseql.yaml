@@ -1,0 +1,19 @@
+name: isoSeQL
+slug: isoseql
+version_used: 3.9.6
+edam_topics: []
+evidence_spans:
+- including the classfication file that will be used as an input to isoSeQL
+- '## Analysis with isoSeQL'
+- isoSeQL was developed using python 3.9.6
+derived_from:
+- doi: 10.1093/bioinformatics/btaf680
+  title: 'isoSeQL: comparing long-read isoforms across multiple datasets'
+source_repos:
+- https://github.com/christine-liu/isoSeQL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/christine-liu/isoSeQL

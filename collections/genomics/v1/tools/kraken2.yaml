@@ -1,0 +1,32 @@
+name: Kraken2
+slug: kraken2
+version_used: 2.1.3
+edam_topics: []
+evidence_spans:
+- Kraken2 is a k-mer–based classification technique that can efficiently assign the taxa of long reads
+- streamlined handling of custom Kraken2 databases
+- Kraken2 classification
+- followed by classification with Kraken2 (Wood et al. 2019, 2).
+- Taxonomic classification report
+- Kraken2 assigns a taxonomic label to each assembled genome (Wood et al. 2019).
+derived_from:
+- doi: 10.1038/s41467-025-57088-y
+  title: Species-resolved profiling of antibiotic resistance genes in complex metagenomes through long-read overlapping with Argo
+- doi: 10.1093/gigascience/giaa105
+  title: 'NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy'
+- doi: 10.1093/bioinformatics/btae108
+  title: 'Nanometa Live: a user-friendly application for real-time metagenomic data analysis and pathogen identification'
+- doi: 10.1093/bioinformatics/btaf029
+  title: 'VirDetector: a bioinformatic pipeline for virus surveillance using nanopore sequencing'
+source_repos:
+- https://github.com/xinehc/argo
+- https://github.com/mmiladi/galaxy-nanopore
+- https://github.com/FOI-Bioinformatics/nanometa_live
+- https://github.com/FOI-Bioinformatics/nanometanf
+- https://github.com/NLKaiser/VirDetector
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xinehc/argo

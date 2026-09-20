@@ -1,0 +1,18 @@
+name: Java 8
+slug: java-8
+version_used: null
+edam_topics: []
+evidence_spans:
+- VIBE (version 2.0) was programmed in Java 8
+- VIBE (version 2.0) was programmed in Java 8, using DisGeNET
+derived_from:
+- doi: 10.1002/ggn2.10023
+  title: A pipeline‐friendly software tool for genome diagnostics to prioritize genes by matching patient symptoms to literature
+source_repos:
+- https://github.com/molgenis/vibe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/molgenis/vibe

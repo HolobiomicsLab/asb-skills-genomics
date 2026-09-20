@@ -1,0 +1,52 @@
+name: BLAST
+slug: blast
+version_used: 2.2.31
+edam_topics: []
+evidence_spans:
+- general-purpose sequence alignment tools such as BLAST [9], DALIGN [10], and minimap2 [11]
+- GraphMap was the only mapper that exhibited BLAST-like sensitivity, while being orders of magnitude faster than BLAST
+- using the Basic Local Alignment Search Tool (BLAST) Nucleotide Collection nr/nt provided by the National Center for Biotechnology Information.
+- Key features include automated BLAST validation
+- validated through BLAST (Altschul et al. 1990) searches against the selected reference genomes.
+- BlastN (version 2.2.31)
+- perform a BLAST search against an nt/nr database and filter out all contigs that align to non-human references.
+- Each contig is used to for a BLAST search in the virus reference database.
+- Contigs are matched to reference genomes from the backend database using BLAST
+- The result from blasting the contigs against the database
+- The resulting contigs are then blasted against the given database and a reference sequence is selected based on the highest bit-score
+derived_from:
+- doi: 10.1093/gigascience/giag048
+  title: 'FEDRANN: effective long-read overlap detection based on dimensionality reduction and approximate nearest neighbors'
+- doi: 10.1038/ncomms11307
+  title: Fast and sensitive mapping of nanopore sequencing reads with GraphMap
+- doi: 10.1038/s41467-023-41354-y
+  title: mRNA vaccine quality analysis using RNA sequencing
+- doi: 10.1093/bioinformatics/btae108
+  title: 'Nanometa Live: a user-friendly application for real-time metagenomic data analysis and pathogen identification'
+- doi: 10.1093/nar/gkac653
+  title: Efficient detection and assembly of non-reference DNA sequences with synthetic long reads
+- doi: 10.1038/s41598-025-98847-7
+  title: Advanced analysis of retrotransposon variation in the human genome with nanopore sequencing using RetroInspector
+- doi: 10.1093/bioinformatics/btaf687
+  title: 'ViMOP: a user-friendly and field-applicable pipeline for untargeted viral genome nanopore sequencing'
+- doi: 10.1093/bioinformatics/btaf029
+  title: 'VirDetector: a bioinformatic pipeline for virus surveillance using nanopore sequencing'
+- doi: 10.1002/humu.23798
+  title: 'MetaDome: Pathogenicity analysis of genetic variants through aggregation of homologous human protein domains'
+source_repos:
+- https://github.com/jzhang-dev/fedrann
+- https://github.com/isovic/graphmap
+- https://github.com/scchess/Mana
+- https://github.com/FOI-Bioinformatics/nanometa_live
+- https://github.com/FOI-Bioinformatics/nanometanf
+- https://github.com/1dayac/Novel-X
+- https://github.com/javiercguard/retroinspector
+- https://github.com/opr-group-bnitm/vimop
+- https://github.com/NLKaiser/VirDetector
+- https://github.com/laurensvdwiel/metadome
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jzhang-dev/fedrann

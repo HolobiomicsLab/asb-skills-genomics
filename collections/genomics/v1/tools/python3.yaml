@@ -1,0 +1,29 @@
+name: Python3
+slug: python3
+version_used: null
+edam_topics: []
+evidence_spans:
+- we used in-house Python scripts to select two regions of which length >100 and identity score >0.99 as repeat pairs
+- require python3, pysam, samtools, minimap2
+- The pipeline takes the BAM or fastq reads as input, align reads to the genome, sort, and index alignment
+derived_from:
+- doi: 10.1038/s41467-021-26278-9
+  title: Genome-wide detection of cytosine methylations in plant from Nanopore data using deep learning
+- doi: 10.1093/nar/gkab397
+  title: Long-read whole-genome methylation patterning using enzymatic base conversion and nanopore sequencing
+- doi: 10.1093/bioinformatics/btae686
+  title: Detecting transposable elements in long-read genomes using sTELLeR
+- doi: 10.1002/elps.202300143
+  title: A complete pipeline enables haplotyping and phasing macrohaplotype in long sequencing reads for polyploidy samples and a multi‐source DNA mixture
+source_repos:
+- https://github.com/PengNi/deepsignal-plant
+- https://github.com/yos-sk/nanoEM
+- https://github.com/kristinebilgrav/sTELLeR
+- https://github.com/XuewenWangUGA/USAT
+- https://github.com/Ge-Lab/MacroHapCaller
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PengNi/deepsignal-plant

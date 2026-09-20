@@ -1,0 +1,22 @@
+name: Nanocompore
+slug: nanocompore
+version_used: null
+edam_topics: []
+evidence_spans:
+- This category includes Nanocompore20, Xpore21, DRUMMER22, nanoDOC23, Yanocomp24 and Tombo25 in sample comparison mode
+- Since Nanocompore already provides adjusted p-values, the threshold was applied without FDR correction.
+- The multi-sample tools, such as ELIGOS, Yanocomp, DiffErr and Nanocompore performed better in the yeast dataset
+derived_from:
+- doi: 10.1038/s41467-024-47953-7
+  title: Prediction of m6A and m5C at single-molecule resolution reveals a transcriptome-wide co-occurrence of RNA modifications
+- doi: 10.1093/bib/bbae001
+  title: Benchmarking of computational methods for m6A profiling with Nanopore direct RNA sequencing
+source_repos:
+- https://github.com/comprna/CHEUI-public
+- https://github.com/mfurla/NanOlympicsMod
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/comprna/CHEUI-public

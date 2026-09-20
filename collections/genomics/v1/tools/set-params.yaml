@@ -1,0 +1,17 @@
+name: set_params
+slug: set-params
+version_used: null
+edam_topics: []
+evidence_spans:
+- Call `set_params()` to build a parameter list
+derived_from:
+- doi: 10.1002/gepi.22544
+  title: 'simmrd: An open‐source tool to perform simulations in Mendelian randomization'
+source_repos:
+- https://github.com/noahlorinczcomi/simmrd
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/noahlorinczcomi/simmrd

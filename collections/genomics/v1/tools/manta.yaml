@@ -1,0 +1,27 @@
+name: Manta
+slug: manta
+version_used: '6.5'
+edam_topics: []
+evidence_spans:
+- Manta 15 min / 6.5 Gb
+- Performance was compared to the popular SV callers manta (9), delly (42), and lumpy (43)
+- for example the PE caller Manta employs Bayesian inference using read fragments supporting an allele to estimate a likelihood, followed by manual filtering (9)
+- on the nanopore data and Manta/Delly on the matched Illumina data
+- could not be found in matching Illumina sequencing data (despite extensive variant calling using six different variant calling methods
+derived_from:
+- doi: 10.1093/bioadv/vbaf151
+  title: 'Blackbird: structural variant detection using synthetic and low-coverage long-reads'
+- doi: 10.1093/nar/gkac039
+  title: 'Dysgu: efficient structural variant calling using short or long reads'
+- doi: 10.1038/s41467-017-01343-4
+  title: Mapping and phasing of structural variation in patient genomes using nanopore sequencing
+source_repos:
+- https://github.com/1dayac/Blackbird
+- https://github.com/kcleal/dysgu
+- https://github.com/mroosmalen/nanosv
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/1dayac/Blackbird

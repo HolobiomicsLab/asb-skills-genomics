@@ -1,0 +1,20 @@
+name: IsoTools
+slug: isotools
+version_used: null
+edam_topics: []
+evidence_spans:
+- isotools.Transcriptome
+- python3 -m pip install isotools
+- IsoTools is a python module for Long Read Transcriptome Sequencing (LRTS) analysis.
+- We introduce IsoTools, a Python-based LRTS analysis framework
+derived_from:
+- doi: 10.1093/bioinformatics/btad364
+  title: 'IsoTools: a flexible workflow for long-read transcriptome sequencing analysis'
+source_repos:
+- https://github.com/MatthiasLienhard/isotools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MatthiasLienhard/isotools

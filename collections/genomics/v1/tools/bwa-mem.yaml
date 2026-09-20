@@ -1,0 +1,67 @@
+name: BWA-MEM
+slug: bwa-mem
+version_used: 0.7.17
+edam_topics: []
+evidence_spans:
+- Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM
+- Fast-SG outperforms the state-of-the-art short-read aligners when building the scaffoldinggraph
+- is comparable to BLAST and other mappers (BWA-MEM, LAST, BLASR and DALIGNER)
+- We obtain read alignments using BWA-MEM29 with previously reported parameters15,16
+- We obtain read alignments using BWA-MEM29 with previously reported parameters
+- We obtain read alignments using BWA-MEM29 with previously reported parameters15,16 and mark positions with disagreements
+- then aligned to an indexed plasmid reference file40 using BWA-MEM (bwa-0.7.17-r1188).
+- bwa mem -x ont2d -t <num_threads> <reference>.fasta <filename>.fastq | samtools view -Sb - | samtools sort
+- BWA-MEM (Li 2013) (v.0.7.15) and Rsamtools (Morgan et al. 2016) (v.1.34.1) were used to index, sort, and align the raw reads.
+- bwa mem -t 10 -k11 -W20 -r10 -A1 -B1 -O1 -E1 -L0 -a -Y -K 3000
+- We use BWA-MEM as the recommended aligner
+- "We use BWA-MEM as the recommended aligner \nwith the fixed parameter set as follow"
+- bwa mem -t 10 -k11 -W20 -r10 -A1 -B1 -O1 -E1 -L0 -a -Y Kp2146_spades.fasta Kp2146_ONT.fastq
+- bwa mem -t 10 -k11 -W20 -r10 -A1 -B1 -O1 -E1 -L0 -a -Y
+- 'We use BWA-MEM as the recommended aligner with the fixed parameter set as follow: bwa mem -k11 -W20 -r10 -A1 -B1 -O1 -E1 -L0 -a -Y'
+- We used BWA MEM to align reads to seeds, but other aligners should work.
+- Reads in fastq format are aligned using bwa‐mem (H. Li, 2013)
+- predicted exons were aligned against their genomic reference with BWA MEM (Li, 2013), results were stored in BAM format with SAMTools
+derived_from:
+- doi: 10.1093/nar/gkac039
+  title: 'Dysgu: efficient structural variant calling using short or long reads'
+- doi: 10.1093/gigascience/giy048
+  title: 'Fast-SG: an alignment-free algorithm for hybrid assembly'
+- doi: 10.1038/ncomms11307
+  title: Fast and sensitive mapping of nanopore sequencing reads with GraphMap
+- doi: 10.1038/s41598-018-28364-3
+  title: 'HECIL: A Hybrid Error Correction Algorithm for Long Reads with Iterative Learning'
+- doi: 10.1038/s41467-023-41354-y
+  title: mRNA vaccine quality analysis using RNA sequencing
+- doi: 10.1038/s41467-019-08289-9
+  title: Single-molecule sequencing detection of N6-methyladenine in microbial reference materials
+- doi: 10.1093/bioinformatics/btaf397
+  title: Identifying DNA methylation types and methylated base positions from bacteria using nanopore sequencing with multi-scale neural network
+- doi: 10.1038/ncomms14515
+  title: Scaffolding and completing genome assemblies in real-time with nanopore sequencing
+- doi: 10.1038/s41598-017-07650-6
+  title: Rapid de novo assembly of the European eel genome from nanopore sequencing reads
+- doi: 10.1002/humu.23772
+  title: eDiVA—Classification and prioritization of pathogenic variants for clinical diagnostics
+- doi: 10.1002/ece3.6587
+  title: 'EXFI: Exon and splice graph prediction without a reference genome'
+- doi: 10.1002/humu.23785
+  title: Predicting the change of exon splicing caused by genetic variant using support vector regression
+source_repos:
+- https://github.com/kcleal/dysgu
+- https://github.com/adigenova/fast-sg
+- https://github.com/isovic/graphmap
+- https://github.com/NDBL/HECIL
+- https://github.com/scchess/Mana
+- https://github.com/al-mcintyre/mCaller
+- https://github.com/cz-csu/Nanoident
+- https://github.com/mdcao/npScarf
+- https://github.com/Generade-nl/TULIP
+- https://github.com/mbosio85/ediva
+- https://github.com/jlanga/exfi
+- https://github.com/chenkenbio/PredPSI-SVR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kcleal/dysgu

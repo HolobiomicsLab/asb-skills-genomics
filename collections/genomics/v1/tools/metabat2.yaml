@@ -1,0 +1,17 @@
+name: MetaBAT2
+slug: metabat2
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'MetaBAT 2: an adaptive binning algorithm for robust and efficient genome reconstruction from metagenome assemblies'
+derived_from:
+- doi: 10.1093/bioinformatics/btad209
+  title: 'SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing'
+source_repos:
+- https://github.com/BigDataBiology/SemiBin
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BigDataBiology/SemiBin

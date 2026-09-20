@@ -1,0 +1,18 @@
+name: MethPhaser
+slug: methphaser
+version_used: null
+edam_topics: []
+evidence_spans:
+- MethPhaser takes WhatsHap haplotagged reads, HapCUT2 phased SNVs as input and performs methylation-based read phasing and SNV-phase block chaining.
+- MethPhaser takes WhatsHap haplotagged reads, HapCUT2 phased SNVs as input
+derived_from:
+- doi: 10.1038/s41467-024-49588-0
+  title: 'MethPhaser: methylation-based long-read haplotype phasing of human genomes'
+source_repos:
+- https://github.com/treangenlab/methphaser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/treangenlab/methphaser

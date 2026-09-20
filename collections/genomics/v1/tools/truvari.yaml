@@ -1,0 +1,39 @@
+name: Truvari
+slug: truvari
+version_used: 3.2.0
+edam_topics: []
+evidence_spans:
+- (absent — flagged as missing)
+- On the HG002 Genome in a Bottle (GIAB) benchmark, Blackbird in hybrid mode demonstrated results comparable to state-of-the-art long-read tools
+- The evaluation was carried out with Truvari (v3.2.0) [56], using GRCh37 as the reference genome.
+- Truvari was employed to compare the detected SVs against the truth set, providing precision, recall, and F1‐score metrics
+- Compared with previous simulators, NanoSimFormer also substantially reduces false positives in homopolymer and short tandem repeat regions.
+- All assessment below uses truvari 4.2.2 with MAFFT for refinement.
+- We use **truvari4.0.0** to perform benchmarking against the Genome in a Bottle (GIAB) gold standard set in a high confidence region.
+- An SV benchmarking tool, Truvari (v4.0.0)30, was employed to compare the SV calls of each tool with the GIAB SV gold standard
+derived_from:
+- doi: 10.1093/bioadv/vbaf151
+  title: 'Blackbird: structural variant detection using synthetic and low-coverage long-reads'
+- doi: 10.1038/s41598-025-01486-1
+  title: ConsensuSV-ONT – A modern method for accurate structural variant calling
+- doi: 10.1002/advs.202515308
+  title: "Reference‐Guided Chromosome‐by‐Chromosome\n                    <i>de novo</i>\n                    Assembly at Scale Using Low‐Coverage High‐Fidelity Long‐Reads with HiFiCCL"
+- doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+- doi: 10.1093/bioinformatics/btaf136
+  title: 'Sawfish: improving long-read structural variant discovery and genotyping with local haplotype modeling'
+- doi: 10.1038/s41467-024-51282-0
+  title: VolcanoSV enables accurate and robust structural variant calling in diploid genomes from single-molecule long read sequencing
+source_repos:
+- https://github.com/1dayac/Blackbird
+- https://github.com/SFGLab/ConsensuSV-ONT-pipeline
+- https://github.com/zjjbuqi/HiFiCCL
+- https://github.com/BioinfoSZU/NanoSimFormer
+- https://github.com/PacificBiosciences/sawfish
+- https://github.com/maiziezhoulab/VolcanoSV
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/1dayac/Blackbird

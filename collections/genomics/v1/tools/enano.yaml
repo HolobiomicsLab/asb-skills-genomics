@@ -1,0 +1,17 @@
+name: ENANO
+slug: enano
+version_used: null
+edam_topics: []
+evidence_spans:
+- ENANO6 focuses mostly on quality score compression, and uses a context-based model followed by arithmetic coding for read sequences
+derived_from:
+- doi: 10.1038/s41598-023-29267-8
+  title: Reference-free lossless compression of nanopore sequencing reads using an approximate assembly approach
+source_repos:
+- https://github.com/qm2/NanoSpring
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/qm2/NanoSpring

@@ -1,0 +1,18 @@
+name: LDAK
+slug: ldak
+version_used: null
+edam_topics: []
+evidence_spans:
+- For each phenotype, we used mixed model analysis to estimate the total proportion of variance explained by the additive contribution of genomic variants
+- we performed mixed model genome-wide association studies, using all 68 SVs with minor allele counts ⩾5
+derived_from:
+- doi: 10.1038/ncomms14061
+  title: Transient structural variations have strong effects on quantitative traits and reproductive isolation in fission yeast
+source_repos:
+- https://github.com/fritzsedlazeck/SURVIVOR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fritzsedlazeck/SURVIVOR

@@ -1,0 +1,21 @@
+name: wtdbg2
+slug: wtdbg2
+version_used: '2.2'
+edam_topics: []
+evidence_spans:
+- We benchmarked Fedrann against established tools, including minimap2, MHAP, MECAT2, wtdbg2, xRead, and BLEND.
+- Wtdbg2 (2.2) - https://github.com/ruanjue/wtdbg2
+derived_from:
+- doi: 10.1093/gigascience/giag048
+  title: 'FEDRANN: effective long-read overlap detection based on dimensionality reduction and approximate nearest neighbors'
+- doi: 10.1038/s41467-020-16641-7
+  title: Partner independent fusion gene detection by multiplexed CRISPR-Cas9 enrichment and long read nanopore sequencing
+source_repos:
+- https://github.com/jzhang-dev/fedrann
+- https://github.com/SdeBlank/NanoFG
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jzhang-dev/fedrann

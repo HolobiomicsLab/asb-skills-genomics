@@ -1,0 +1,17 @@
+name: ONT platform
+slug: ont-platform
+version_used: null
+edam_topics: []
+evidence_spans:
+- The establishment of the ONT platform as a tool to map RNA modifications has great potential to revolutionize our understanding of the epitranscriptome
+derived_from:
+- doi: 10.1038/s41467-019-11713-9
+  title: Accurate detection of m6A RNA modifications in native RNA sequences
+source_repos:
+- https://github.com/enovoa/EpiNano
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/enovoa/EpiNano

@@ -1,0 +1,17 @@
+name: OpenJDK 11
+slug: openjdk-11
+version_used: null
+edam_topics: []
+evidence_spans:
+- '**OpenJDK 11** (only needed if you use the HAlign JAR fallback)'
+derived_from:
+- doi: 10.1093/bioinformatics/btae014
+  title: 'FMAlign2: a novel fast multiple nucleotide sequence alignment method for ultralong datasets'
+source_repos:
+- https://github.com/malabz/FMAlign2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/malabz/FMAlign2

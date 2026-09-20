@@ -1,0 +1,17 @@
+name: isoCirc
+slug: isocirc
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'isocirc: circular RNA profiling and analysis using long-read sequencing'
+derived_from:
+- doi: 10.1038/s41467-020-20459-8
+  title: isoCirc catalogs full-length circular RNA isoforms in human transcriptomes
+source_repos:
+- https://github.com/Xinglab/isoCirc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Xinglab/isoCirc

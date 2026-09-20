@@ -1,0 +1,17 @@
+name: Oxford Nanopore Technologies
+slug: oxford-nanopore-technologies
+version_used: null
+edam_topics: []
+evidence_spans:
+- can basecall raw ONT reads with methylation information included
+derived_from:
+- doi: 10.1038/s41467-024-49588-0
+  title: 'MethPhaser: methylation-based long-read haplotype phasing of human genomes'
+source_repos:
+- https://github.com/treangenlab/methphaser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/treangenlab/methphaser

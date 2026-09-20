@@ -1,0 +1,27 @@
+name: Nanovar
+slug: nanovar
+version_used: null
+edam_topics: []
+evidence_spans:
+- The LR caller nanovar utilizes a neural network classifier trained on simulated datasets, where 14 input features of each putative SV are used to classify events (17)
+- including NanoVar16, cuteSV17, pbsv18, Sniffles219, MAMnet20, SVDSS21, and DeBreak22
+derived_from:
+- doi: 10.1038/s41598-025-01486-1
+  title: ConsensuSV-ONT – A modern method for accurate structural variant calling
+- doi: 10.1016/j.jare.2022.10.012
+  title: Improvement of large copy number variant detection by whole genome nanopore sequencing
+- doi: 10.1093/nar/gkac039
+  title: 'Dysgu: efficient structural variant calling using short or long reads'
+- doi: 10.1038/s41467-024-51282-0
+  title: VolcanoSV enables accurate and robust structural variant calling in diploid genomes from single-molecule long read sequencing
+source_repos:
+- https://github.com/SFGLab/ConsensuSV-ONT-pipeline
+- https://github.com/javiercguard/disCoverage
+- https://github.com/kcleal/dysgu
+- https://github.com/maiziezhoulab/VolcanoSV
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SFGLab/ConsensuSV-ONT-pipeline

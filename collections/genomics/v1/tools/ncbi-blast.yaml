@@ -1,0 +1,27 @@
+name: ncbi-blast+
+slug: ncbi-blast
+version_used: 2.7.1
+edam_topics: []
+evidence_spans:
+- ncbi-blast+ version equal or higher than v2.7.1.
+- ncbi-blast+ version equal or higher than v2.7.1
+- makeblastdb -in primer.fa -dbtype nucl
+- ncbi-blast-2.10.0+ or later
+- For your convenience, ncbi blastall and formatdb have been placed in the ./bin/ folder
+derived_from:
+- doi: 10.1093/gigascience/giac099
+  title: 'annotate_my_genomes: an easy-to-use pipeline to improve genome annotation and uncover neglected genes by hybrid RNA sequencing'
+- doi: 10.1038/s41467-023-38324-9
+  title: High-throughput and high-accuracy single-cell RNA isoform analysis using PacBio circular consensus sequencing
+- doi: 10.1002/cpz1.70124
+  title: Streaming Long‐Read Sequence Alignments for HLA Predictions Using HLAminer
+source_repos:
+- https://github.com/cfarkas/annotate_my_genomes
+- https://github.com/shizhuoxing/scISA-Tools
+- https://github.com/BirolLab/HLAminer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cfarkas/annotate_my_genomes

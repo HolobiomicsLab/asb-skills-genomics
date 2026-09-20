@@ -1,0 +1,19 @@
+name: ntHits
+slug: nthits
+version_used: 0.0.1
+edam_topics: []
+evidence_spans:
+- '[ntHits](https://github.com/BirolLab/nthits) v0.0.1+'
+derived_from:
+- doi: 10.1002/cpz1.442
+  title: 'ntEdit+Sealer: Efficient Targeted Error Resolution and Automated Finishing of Long‐Read Genome Assemblies'
+source_repos:
+- https://github.com/BirolLab/nthits
+- https://github.com/bcgsc/nthits
+- https://github.com/BirolLab/ntedit_sealer_protocol
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BirolLab/nthits

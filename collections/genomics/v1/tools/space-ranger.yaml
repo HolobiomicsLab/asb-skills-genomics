@@ -1,0 +1,17 @@
+name: Space Ranger
+slug: space-ranger
+version_used: null
+edam_topics: []
+evidence_spans:
+- The tissue image created by Space Ranger (10X's Visium HD mapping and quantification software) is scaled to a maximum dimension of 6000 pixels
+derived_from:
+- doi: 10.1093/bioinformatics/btae546
+  title: Bin2cell reconstructs cells from high resolution Visium HD data
+source_repos:
+- https://github.com/Teichlab/bin2cell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Teichlab/bin2cell

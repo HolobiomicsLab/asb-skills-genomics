@@ -1,0 +1,247 @@
+name: Samtools
+slug: samtools
+version_used: '1.9'
+edam_topics: []
+evidence_spans:
+- The resultant SAM files were then converted to BAM files, sorted by genomic position, and indexed using Samtools
+- 'SAMtools . To install it, see here:'
+- Any read alignments with low mapping quality (MAPQ < 20) or that were unmapped, secondary, QC-failed, or PCR-duplicated were filtered
+- filtered out using the ‘-F 1796 -q 20’ parameters in ‘samtools view’
+- SAMtools (version 1.9)35 was used to convert the alignment files to BAM and to sort the aligned reads
+- SAMtools(1.3.1+) library for accessing SAM/BAM files
+- samtools sort  ${OUTPUT_DIR}/deepmod2/output.bam -o ${OUTPUT_DIR}/deepmod2/output.sorted.bam --write-index
+- conda install samtools minimap2 bedtools -y
+- samtools sort ${OUTPUT_DIR}/aligned.bam -o ${OUTPUT_DIR}/aligned.sorted.bam
+- conda install samtools -y
+- the paths of the pre-installed copies of Dorado (https://github.com/nanoporetech/dorado), Samtools (Li et al. 2009), Minimap2
+- using minimap2 with '-ax map-ont'
+- '- [samtools v1.x](https://www.htslib.org/)'
+- “samtools view –subsample”
+- This workflow is effective for WGS and WES data only.
+- Samtools (tested on version 0.1.18)
+- Insplico is implemented in Perl ... and depends on Samtools (24) and Bedtools
+- ./invMap genome.fa reads.fa > invMap_aligned.sam
+- samtools view -bST ${ref} -q50
+- 'samtools view -bST ${ref} -q50 - \
+
+  | samtools sort - > ${bam}'
+- '| samtools view -bST ${ref} -q50 - \
+
+  | samtools sort - > ${bam}'
+- "samtools view -bST ${ref} -q50 - \\\n  | samtools sort - > ${bam} ... samtools index ${bam}"
+- The resulting SAM alignment files were processed via SAMtools v1.15 to generate sorted and indexed BAM files
+- '* [SAMTool 1.5.1](http://www.htslib.org)'
+- bwa mem -x ont2d -t <num_threads> <reference>.fasta <filename>.fastq | samtools view -Sb - | samtools sort -T /tmp/<filename>.sorted -o <filename>.sorted.bam
+- samtools index <filename>.sorted.bam
+- samtools view -Sb - | samtools sort -T /tmp/<filename>.sorted -o <filename>.sorted.bam
+- mamba install -c bioconda nanopolish minimap2 samtools r-data.table r-dplyr r-plyr
+- The haplotagged reads are calculated with SAMtools, which provides the ability to count the number of reads with certain tags.
+- The haplotagged reads are calculated with SAMtools
+- samtools view -bF 2304 -o output.bam input.bam
+- we further modified the BAM and VCF files with pysam60 and samtools61
+- The aligned reads are sorted, merged and indexed using [samtools](https://github.com/samtools/samtools).
+- The aligned reads are sorted, merged and indexed using samtools
+- samtools sort -o ./output/aligned_sorted_reads.bam ./output/aligned_reads.bam
+- minimap2 -t 4 -ax map-ont -p 0 -N 10 transcriptome.fa.gz reads.fastq.gz | samtools view -bh > aligned_reads.bam
+- Samtools (1.7) - http://samtools.sourceforge.net/
+- samtools faidx hg19.fa
+- samtools view -b -q 20 -F 4 test.sorted.bam > test.sorted.q20.mapped.bam
+- sorted and indexed using samtools
+- aligned to the reference genome with minimap2 to the GRCh38 reference genome and sorted and indexed using samtools
+- NANOPIPE/tools/bin/samtools sort -o calc.bam-sorted calc.bam
+- Basic software ... samtools and last (installation procedure see below!)
+- Twelve years of SAMtools and BCFtools
+- samtools sort -o hifi.map.sort.bam -
+- samtools sort -o hifi.map.sort.bam
+- '- [SAMTOOLS SORT](#samtools-sort) - Sort alignment and convert sam file into bam file'
+- Samtools (version 1.7) - [Project Page]
+- '|samtools | 1.7 |'
+- Downstream manipulations (such as sorting) of Sequence Alignment/Map files (in SAM/BAM format) are performed by Samtools (version 1.7)
+- unmapped reads were removed using samtools34 (v1.10) with option -F 2324
+- samtools view ccs.bam | awk '{print ">"$1"\n"$10}' > ccs.fa
+- the external command-line tools (samtools, bedtools, hmmer, mmseqs2, prodigal, fraggenescan)
+- samtools, bedtools, hmmer, mmseqs2
+- samtools view -bS -@ 20 - | samtools sort -m 2G -@ 20 -o passed.bam
+- samtools view -Sb passedParsedWithSequences.bam ".$jobs[$i]." -o chr".$jobs[$i].".bam
+- '* [samtools](https://github.com/samtools/samtools)'
+- '* samtools >= 0.1.18'
+- samtools >= 0.1.18
+- require python3, pysam, samtools, minimap2
+- 'Install dependencies: - minimap2 - pysam - samtools'
+- you should find an executable in the same directory.
+- SAMTOOLS:`[path]`，the pathway of samtools
+- '`SAMTOOLS`:`[path]`，the pathway of samtools'
+- samtools
+- 'Environmental dependence: * HISAT2/MINIMAP2/GMAP at least one * samtools'
+- we merged the chromosome-specific PB alignments using samtools [22].
+- The default option is to choose automatically from samtools consensus and medaka.
+- Samtools additionally requires a minimum proportion (70%) for a nucleotide to be called.
+- samtools view -b -@ 1 > reads.bam
+- A pile-up is then computed from the sorted trimmed reads using Samtools
+- produce the consensus genome with samtools
+- The consensus genome is generated with samtools (Danecek et al. 2021).
+- alignments are post‐processed using samtools (H. Li, 2011), GATK (McKenna et al., 2010), Picard (Picard Tools—By Broad Institute), and custom quality filters
+- results were stored in BAM format with SAMTools (Li et al., 2009), and the reported statistics were obtained from the number of mapped exons
+- Next, the index tool from SAMtools is used to create and index file, allowing to access faster.
+derived_from:
+- doi: 10.1093/bioinformatics/btag294
+  title: Utilization of long-read sequencing for the detection of structural rearrangements with AgileStructure
+- doi: 10.1093/gigascience/giac099
+  title: 'annotate_my_genomes: an easy-to-use pipeline to improve genome annotation and uncover neglected genes by hybrid RNA sequencing'
+- doi: 10.1038/s41467-023-42336-w
+  title: Identification of errors in draft genome assemblies at single-nucleotide resolution for quality assessment and improvement
+- doi: 10.1093/bib/bbae413
+  title: 'DeepBAM: a high-accuracy single-molecule CpG methylation detection tool for Oxford nanopore sequencing'
+- doi: 10.1038/s41467-024-45778-y
+  title: A signal processing and deep learning framework for methylation detection using Oxford Nanopore sequencing
+- doi: 10.1093/bioinformatics/btag066
+  title: 'Dogme: a nextflow pipeline for reprocessing nanopore RNA and DNA modifications'
+- doi: 10.1038/s41467-019-11713-9
+  title: Accurate detection of m6A RNA modifications in native RNA sequences
+- doi: 10.1093/bioadv/vbac088
+  title: GPU-accelerated and pipelined methylation calling
+- doi: 10.1093/bioinformatics/btad775
+  title: 'HAT: <i>de novo</i> variant calling for highly accurate short-read and long-read sequencing data'
+- doi: 10.1038/s41598-018-28364-3
+  title: 'HECIL: A Hybrid Error Correction Algorithm for Long Reads with Iterative Learning'
+- doi: 10.1093/nar/gkad244
+  title: "<i>Insplico</i>\n                    : effective computational tool for studying splicing order of adjacent introns genome-wide with short and long RNA-seq reads"
+- doi: 10.1093/bioinformatics/btad726
+  title: 'invMap: a sensitive mapping tool for long noisy reads with inversion structural variants'
+- doi: 10.1038/s41467-024-47661-2
+  title: Detecting m6A at single-molecular resolution via direct RNA sequencing and realistic training data
+- doi: 10.1038/s41467-023-41354-y
+  title: mRNA vaccine quality analysis using RNA sequencing
+- doi: 10.1038/s41467-019-08289-9
+  title: Single-molecule sequencing detection of N6-methyladenine in microbial reference materials
+- doi: 10.1038/srep06480
+  title: Improved Assemblies Using a Source-Agnostic Pipeline for MetaGenomic Assembly by Merging (MeGAMerge) of Contigs
+- doi: 10.1038/s41467-021-23778-6
+  title: Systematic benchmarking of tools for CpG methylation detection from nanopore sequencing
+- doi: 10.1038/s41467-024-49588-0
+  title: 'MethPhaser: methylation-based long-read haplotype phasing of human genomes'
+- doi: 10.1093/bioinformatics/btag086
+  title: 'Nallo: a Nextflow pipeline for comprehensive human long-read genome analysis'
+- doi: 10.1093/nar/gkab1129
+  title: Accurate expression quantification from nanopore direct RNA sequencing with NanoCount
+- doi: 10.1093/nar/gkab397
+  title: Long-read whole-genome methylation patterning using enzymatic base conversion and nanopore sequencing
+- doi: 10.1038/s41467-020-16641-7
+  title: Partner independent fusion gene detection by multiplexed CRISPR-Cas9 enrichment and long read nanopore sequencing
+- doi: 10.1038/s41467-022-35650-2
+  title: Simultaneous profiling of histone modifications and DNA methylation via nanopore sequencing
+- doi: 10.1093/nar/gkad526
+  title: Precise characterization of somatic complex structural variations from tumor/control paired long-read sequencing data with nanomonsv
+- doi: 10.1093/gigascience/giy169
+  title: NanoPipe—a web server for nanopore MinION sequencing data analysis
+- doi: 10.1038/s41467-023-44137-7
+  title: Integrative genotyping of cancer and immune phenotypes by long-read sequencing
+- doi: 10.1093/gpbjnl/qzad009
+  title: 'NextPolish2: A Repeat-aware Polishing Tool for Genomes Assembled Using HiFi Long Reads'
+- doi: 10.1093/bioinformatics/btad150
+  title: 'nf-core/isoseq: simple gene and isoform annotation with PacBio Iso-Seq long-read sequencing'
+- doi: 10.1093/nar/gkac653
+  title: Efficient detection and assembly of non-reference DNA sequences with synthetic long reads
+- doi: 10.1093/bioinformatics/btae375
+  title: RNA m6A detection using raw current signals and basecalling errors from Nanopore direct RNA sequencing reads
+- doi: 10.1038/s41598-025-98847-7
+  title: Advanced analysis of retrotransposon variation in the human genome with nanopore sequencing using RetroInspector
+- doi: 10.1038/s41467-024-48673-8
+  title: Biochemical-free enrichment or depletion of RNA classes in real-time during direct RNA sequencing with RISER
+- doi: 10.1038/s41467-023-38324-9
+  title: High-throughput and high-accuracy single-cell RNA isoform analysis using PacBio circular consensus sequencing
+- doi: 10.1093/bioinformatics/btad209
+  title: 'SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing'
+- doi: 10.1038/s41467-020-17800-6
+  title: High throughput error corrected Nanopore single cell transcriptome sequencing
+- doi: 10.1038/ncomms8438
+  title: Single molecule-level detection and long read-based phasing of epigenetic variations in bacterial methylomes
+- doi: 10.1093/bioinformatics/btae686
+  title: Detecting transposable elements in long-read genomes using sTELLeR
+- doi: 10.1038/ncomms14061
+  title: Transient structural variations have strong effects on quantitative traits and reproductive isolation in fission yeast
+- doi: 10.1038/s41467-023-41649-0
+  title: 'TAGET: a toolkit for analyzing full-length transcripts from long-read sequencing'
+- doi: 10.1093/gigascience/giaa101
+  title: 'TRiCoLOR: tandem repeat profiling using whole-genome long-read sequencing data'
+- doi: 10.1093/bioinformatics/btaf687
+  title: 'ViMOP: a user-friendly and field-applicable pipeline for untargeted viral genome nanopore sequencing'
+- doi: 10.1093/bioinformatics/btad317
+  title: 'ViralConsensus: a fast and memory-efficient tool for calling viral consensus genome sequences directly from read alignment data'
+- doi: 10.1093/bioinformatics/btaf029
+  title: 'VirDetector: a bioinformatic pipeline for virus surveillance using nanopore sequencing'
+- doi: 10.1038/s42003-026-09849-8
+  title: 'Z-Calling: a tool for A/Z (2,6-diaminopurine) base calling and dZ-DNA detection using PacBio HiFi reads'
+- doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+- doi: 10.1002/humu.23772
+  title: eDiVA—Classification and prioritization of pathogenic variants for clinical diagnostics
+- doi: 10.1002/ece3.6587
+  title: 'EXFI: Exon and splice graph prediction without a reference genome'
+- doi: 10.1002/aps3.11499
+  title: 'InDelGT: An integrated pipeline for extracting indel genotypes for genetic mapping in a hybrid population using next‐generation sequencing data'
+- doi: 10.1002/2211-5463.13261
+  title: 'JWES: a new pipeline for whole genome/exome sequence data processing, management, and gene‐variant discovery, annotation, prediction, and genotyping'
+- doi: 10.1002/humu.23785
+  title: Predicting the change of exon splicing caused by genetic variant using support vector regression
+source_repos:
+- https://github.com/msjimc/AgileStructure
+- https://github.com/cfarkas/annotate_my_genomes
+- https://github.com/lh3/minimap2
+- https://github.com/JiaoLaboratory/CRAQ
+- https://github.com/xiaochuanle/DeepBAM
+- https://github.com/nanoporetech/dorado
+- https://github.com/WGLab/DeepMod2
+- https://github.com/mortazavilab/dogme
+- https://github.com/enovoa/EpiNano
+- https://github.com/fengyilin118/Galaxy-methyl
+- https://github.com/TNTurnerLab/HAT
+- https://github.com/NDBL/HECIL
+- https://github.com/liniguez/Insplico_simulations
+- https://github.com/zhang134/invMap
+- https://github.com/dieterich-lab/mAFiA
+- https://github.com/scchess/Mana
+- https://github.com/al-mcintyre/mCaller
+- https://github.com/LANL-Bioinformatics/MeGAMerge
+- https://github.com/comprna/METEORE
+- https://github.com/treangenlab/methphaser
+- https://github.com/samtools/samtools
+- https://github.com/genomic-medicine-sweden/nallo
+- https://github.com/a-slide/NanoCount
+- https://github.com/yos-sk/nanoEM
+- https://github.com/SdeBlank/NanoFG
+- https://github.com/YinLabTJ/nanoHiMe
+- https://github.com/friend1ws/nanomonsv
+- https://github.com/IOB-Muenster/nanopipe2
+- https://github.com/mehdiborji/nanoranger
+- https://github.com/Nextomics/NextPolish2
+- https://github.com/nf-core/isoseq
+- https://github.com/1dayac/Novel-X
+- https://github.com/Derryxu/RedNano
+- https://github.com/javiercguard/retroinspector
+- https://github.com/comprna/riser
+- https://github.com/shizhuoxing/scISA-Tools
+- https://github.com/BigDataBiology/SemiBin
+- https://github.com/ucagenomix/sicelore-2.1
+- https://github.com/fanglab/SMALR
+- https://github.com/kristinebilgrav/sTELLeR
+- https://github.com/fritzsedlazeck/SURVIVOR
+- https://github.com/XiDsLab/TAGET
+- https://github.com/davidebolo1993/TRiCoLOR
+- https://github.com/opr-group-bnitm/vimop
+- https://github.com/samtools/htslib
+- https://github.com/niemasd/ViralConsensus
+- https://github.com/NLKaiser/VirDetector
+- https://github.com/xiaochuanle/Z-Calling
+- https://github.com/skbinfo/tncRNA-Toolkit
+- https://github.com/mbosio85/ediva
+- https://github.com/jlanga/exfi
+- https://github.com/tongchf/InDelGT
+- https://github.com/drzeeshanahmed/JWES-DB
+- https://github.com/chenkenbio/PredPSI-SVR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/msjimc/AgileStructure

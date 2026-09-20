@@ -1,0 +1,36 @@
+name: Hifiasm
+slug: hifiasm
+version_used: 0.19.5
+edam_topics: []
+evidence_spans:
+- HiFiCCL uses Hifiasm as the default base assembler
+- HiFiCCL combined with Hifiasm(0.19.5-r592)
+- '[Hifiasm](https://github.com/chhylp123/hifiasm) is used to assemble genomes.'
+- Hifiasm  (primary) | 47.67
+- Hifiasm  (primary) | 60.25
+- plus hifiasm global assembly with the PAV caller per coverage level
+- We integrated multiple state-of-the-art assemblers into the pipeline, including [hifiasm]
+derived_from:
+- doi: 10.1002/advs.202515308
+  title: "Reference‐Guided Chromosome‐by‐Chromosome\n                    <i>de novo</i>\n                    Assembly at Scale Using Low‐Coverage High‐Fidelity Long‐Reads with HiFiCCL"
+- doi: 10.1093/bioinformatics/btag086
+  title: 'Nallo: a Nextflow pipeline for comprehensive human long-read genome analysis'
+- doi: 10.1093/gpbjnl/qzad009
+  title: 'NextPolish2: A Repeat-aware Polishing Tool for Genomes Assembled Using HiFi Long Reads'
+- doi: 10.1093/bioinformatics/btaf136
+  title: 'Sawfish: improving long-read structural variant discovery and genotyping with local haplotype modeling'
+- doi: 10.1038/s41467-024-51282-0
+  title: VolcanoSV enables accurate and robust structural variant calling in diploid genomes from single-molecule long read sequencing
+source_repos:
+- https://github.com/chhylp123/hifiasm
+- https://github.com/zjjbuqi/HiFiCCL
+- https://github.com/genomic-medicine-sweden/nallo
+- https://github.com/Nextomics/NextPolish2
+- https://github.com/PacificBiosciences/sawfish
+- https://github.com/maiziezhoulab/VolcanoSV
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/chhylp123/hifiasm

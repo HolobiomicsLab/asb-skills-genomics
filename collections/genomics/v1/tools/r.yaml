@@ -1,0 +1,111 @@
+name: R
+slug: r
+version_used: 4.3.1
+edam_topics: []
+evidence_spans:
+- This pipeline has been implemented in the R package acorde (https://github.com/ConesaLab/acorde).
+- This pipeline has been implemented in the R package acorde
+- 'package: acorde'
+- '### **R session setup:**'
+- gene_ID_table <- read.table("~/IsoPops_Data/gene_IDs_and_names.tsv", header = T, stringsAsFactors = F)
+- rawDB <- compile_raw_db(transcript_filename, abundance_filename, gff_filename, ORF_filename)
+- R (v 4.1.1)
+- an R environment for data preprocessing and motif enrichment
+- a set of R scripts for data post-processing and statistical analysis
+- R 3.5.1
+- 'r
+
+  library(devtools)
+
+  install_github("cyhsuTN/scKWARN")'
+- 'library(devtools)
+
+  install_github("cyhsuTN/scKWARN")'
+- library(devtools)
+- install_github("cyhsuTN/scKWARN")
+- R-3.4.1 or later with `ggplot2 | gridExtra | grid | Seurat | DropletUtils`
+- '* R >= 3.0'
+- R >= 3.0
+- R (R Core Team, 2019) is a scientific computing environment that is commonly taught to biology majors at institutions of higher education worldwide.
+- a new R package called learnPopGen
+- require("remotes")
+- we open an R console (either in your preferred command line interface or in RStudio)
+- We developed an R package to automatically annotate apparent nonsense mutations in plastid genomes.
+- To start, we open an R console (either in your preferred command line interface or in RStudio), load ReFernment into the workspace.
+- The R package is publicly available at https://github.com/zhenzhang‐li/RNMF
+- there were some related programs developed based on R language, such as SomaticSignatures
+- we use "hclust" clustering to get the gene sequence based on the CCA matrix of genes
+- 'using the `simmrd` R package are:'
+- library(simmrd)
+- 'The steps to generating and plotting data using the `simmrd` R package are:'
+- simmrd is an R package (R Core Team, 2021)
+- Python and R scripts were written to retrieve, merge, process and visualize the output gene lists from each assessed tool
+derived_from:
+- doi: 10.1038/s41467-022-29497-w
+  title: acorde unravels functionally interpretable networks of isoform co-usage from single cell data
+- doi: 10.1038/s41467-025-57088-y
+  title: Species-resolved profiling of antibiotic resistance genes in complex metagenomes through long-read overlapping with Argo
+- doi: 10.1093/nar/gkad244
+  title: "<i>Insplico</i>\n                    : effective computational tool for studying splicing order of adjacent introns genome-wide with short and long RNA-seq reads"
+- doi: 10.1038/s41467-020-17009-7
+  title: Comprehensive identification of mRNA isoforms reveals the diversity of neural cell-surface molecules with roles in retinal development and disease
+- doi: 10.1093/bioinformatics/btaf680
+  title: 'isoSeQL: comparing long-read isoforms across multiple datasets'
+- doi: 10.1038/s41467-024-51917-2
+  title: Nanodynamo quantifies subcellular RNA dynamics revealing extensive coupling between steps of the RNA life cycle
+- doi: 10.1093/bioinformatics/btaf397
+  title: Identifying DNA methylation types and methylated base positions from bacteria using nanopore sequencing with multi-scale neural network
+- doi: 10.1093/bib/bbae001
+  title: Benchmarking of computational methods for m6A profiling with Nanopore direct RNA sequencing
+- doi: 10.1038/s41467-019-13228-9
+  title: Poly(A) inclusive RNA isoform sequencing (PAIso−seq) reveals wide-spread non-adenosine residues within RNA poly(A) tails
+- doi: 10.1093/bioinformatics/btae008
+  title: 'scKWARN: Kernel-weighted-average robust normalization for single-cell RNA-seq data'
+- doi: 10.1038/s41467-023-38324-9
+  title: High-throughput and high-accuracy single-cell RNA isoform analysis using PacBio circular consensus sequencing
+- doi: 10.1038/ncomms8438
+  title: Single molecule-level detection and long read-based phasing of epigenetic variations in bacterial methylomes
+- doi: 10.1002/ijc.33749
+  title: "Cancer Predisposition Sequencing Reporter (\n                    <scp>CPSR</scp>\n                    ): A flexible variant report engine for high‐throughput germline screening in cancer"
+- doi: 10.1002/ece3.5412
+  title: '<i>learnPopGen</i>: An R package for population genetic simulation and numerical analysis'
+- doi: 10.1002/1873-3468.12684
+  title: Computational approaches for interpreting sc<scp>RNA</scp>‐seq data
+- doi: 10.1002/aps3.1216
+  title: 'ReFernment: An R package for annotating <scp>RNA</scp> editing in plastid genomes'
+- doi: 10.1002/cam4.4717
+  title: A practical framework <scp>RNMF</scp> for exploring the association between mutational signatures and genes using gene cumulative contribution abundance
+- doi: 10.1002/gepi.22544
+  title: 'simmrd: An open‐source tool to perform simulations in Mendelian randomization'
+- doi: 10.1002/gepi.22361
+  title: 'TWO‐SIGMA: A novel two‐component single cell model‐based association method for single‐cell RNA‐seq data'
+- doi: 10.1002/ggn2.10023
+  title: A pipeline‐friendly software tool for genome diagnostics to prioritize genes by matching patient symptoms to literature
+source_repos:
+- https://github.com/ConesaLab/acorde
+- https://github.com/xinehc/argo
+- https://github.com/liniguez/Insplico_simulations
+- https://github.com/kellycochran/IsoPops
+- https://github.com/christine-liu/isoSeQL
+- https://github.com/mfurla/Nanodynamo
+- https://github.com/cz-csu/Nanoident
+- https://github.com/mfurla/NanOlympicsMod
+- https://github.com/niehu2018/GV_oocyte_PAIsoSeqAnalysis
+- https://github.com/cyhsuTN/scKWARN
+- https://github.com/shizhuoxing/scISA-Tools
+- https://github.com/fanglab/SMALR
+- https://github.com/sigven/cpsr
+- https://github.com/liamrevell/learnPopGen
+- https://github.com/tallulandrews/M3Drop
+- https://github.com/TARobison/ReFernment
+- https://github.com/zhenzhang-li/RNMF
+- https://github.com/noahlorinczcomi/simmrd
+- https://github.com/edvanburen/twosigma
+- https://github.com/molgenis/vibe-suppl
+- https://github.com/molgenis/vibe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ConesaLab/acorde

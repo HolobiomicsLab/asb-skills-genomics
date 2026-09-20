@@ -1,0 +1,21 @@
+name: NanoPipe
+slug: nanopipe
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'NanoPipe can be conceptually divided into four stages: (1) data uploading in FASTA or FASTQ formats'
+- alignment of MinION reads against the target sequences
+- After the alignment is completed, NanoPipe evaluates the nucleotide variation for each position
+- In NanoPipe the p-error is estimated over a region of a maximum of 10 nucleotides before and after the SNP position (excluding the SNP itself)
+- NanoPipe evaluates the nucleotide variation for each position and, based on this analysis, generates a consensus sequence
+derived_from:
+- doi: 10.1093/gigascience/giy169
+  title: NanoPipe—a web server for nanopore MinION sequencing data analysis
+source_repos:
+- https://github.com/IOB-Muenster/nanopipe2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/IOB-Muenster/nanopipe2

@@ -1,0 +1,37 @@
+name: BUSCO
+slug: busco
+version_used: 5.8.0
+edam_topics: []
+evidence_spans:
+- completed-BUSCO counts (aves_odb10)
+- The Benchmarking Universal Single-Copy Orthologs (BUSCO) program14 is the state-of-the-art method for evaluation of genome completeness at this time.
+- BUSCO v5.8.0 [43] against the primates_odb10 lineage database
+- BUSCO (5.4.7) [34] was employed to assess gene completeness
+- The evaluation of the scaffolding results was conducted using Quast and BUSCO
+- the nanopore data are therefore corrected using Illumina data obtained from a different eel specimen than used for nanopore sequencing
+derived_from:
+- doi: 10.1093/gigascience/giac099
+  title: 'annotate_my_genomes: an easy-to-use pipeline to improve genome annotation and uncover neglected genes by hybrid RNA sequencing'
+- doi: 10.1038/s41467-023-42336-w
+  title: Identification of errors in draft genome assemblies at single-nucleotide resolution for quality assessment and improvement
+- doi: 10.1093/gigascience/giag048
+  title: 'FEDRANN: effective long-read overlap detection based on dimensionality reduction and approximate nearest neighbors'
+- doi: 10.1016/j.isci.2020.101389
+  title: 'HASLR: Fast Hybrid Assembly of Long Reads'
+- doi: 10.1002/advs.202515308
+  title: "Reference‐Guided Chromosome‐by‐Chromosome\n                    <i>de novo</i>\n                    Assembly at Scale Using Low‐Coverage High‐Fidelity Long‐Reads with HiFiCCL"
+- doi: 10.1038/s41598-017-07650-6
+  title: Rapid de novo assembly of the European eel genome from nanopore sequencing reads
+source_repos:
+- https://github.com/cfarkas/annotate_my_genomes
+- https://github.com/JiaoLaboratory/CRAQ
+- https://github.com/jzhang-dev/fedrann
+- https://github.com/vpc-ccg/haslr
+- https://github.com/zjjbuqi/HiFiCCL
+- https://github.com/Generade-nl/TULIP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cfarkas/annotate_my_genomes

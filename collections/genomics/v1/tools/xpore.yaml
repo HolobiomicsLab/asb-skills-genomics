@@ -1,0 +1,18 @@
+name: Xpore
+slug: xpore
+version_used: null
+edam_topics: []
+evidence_spans:
+- This category includes Nanocompore20, Xpore21, DRUMMER22, nanoDOC23, Yanocomp24 and Tombo25 in sample comparison mode
+- For Xpore and CHEUI-diff, FDR correction was performed with Benjamini-Hochberg procedure
+derived_from:
+- doi: 10.1038/s41467-024-47953-7
+  title: Prediction of m6A and m5C at single-molecule resolution reveals a transcriptome-wide co-occurrence of RNA modifications
+source_repos:
+- https://github.com/comprna/CHEUI-public
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/comprna/CHEUI-public

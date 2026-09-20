@@ -1,0 +1,21 @@
+name: RISER
+slug: riser
+version_used: null
+edam_topics: []
+evidence_spans:
+- The performance of the mRNA and mtRNA models was evaluated using the reserved HeLa dataset
+- RISER was configured to identify mRNA using a single GPU.
+- RISER, a biochemical-free technology for the real-time enrichment or depletion of RNA classes
+- RISER was run at the same time as the MinKNOW sequencing run (using the ReadUntil API v3.4.1
+- To train the globin model, the RISER CNN was trained as described above for the mRNA and mtRNA models.
+derived_from:
+- doi: 10.1038/s41467-024-48673-8
+  title: Biochemical-free enrichment or depletion of RNA classes in real-time during direct RNA sequencing with RISER
+source_repos:
+- https://github.com/comprna/riser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/comprna/riser

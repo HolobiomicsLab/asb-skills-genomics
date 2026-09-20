@@ -1,0 +1,81 @@
+name: Nanopolish
+slug: nanopolish
+version_used: 0.13.2
+edam_topics: []
+evidence_spans:
+- Clair is published in [Nature Machine Intelligence](https://www.nature.com/articles/s42256-020-0167-4).
+- Nanopolish is a software package for signal-level analysis of Oxford Nanopore sequencing data.
+- Galaxy-methyl is an parallelized and optimized call-methylation module in Nanopolish
+- Example datasets used in the Dockerfile are provided by Nanopolish
+- should do so for consensus calling algorithms such as Nanopolish4 and PoreSeq19 as well
+- programs such as Nanopolish4 and PoreSeq19, which solve the harder problem of correcting the consensus in the presence of assembly and sequencing errors
+- nanopolish eventalign -t <num_threads> --scale-events -n -r <filename>.fastq -b <filename>.sorted.bam -g <reference>.fasta > <filename>.eventalign.tsv
+- nanopolish eventalign -t <num_threads> --scale-events -n -r <filename>.fastq -b <filename>.sorted.bam -g <reference>.fasta
+- nanopolish (https://github.com/jts/nanopolish)
+- '> - nanopolish (https://github.com/jts/nanopolish)'
+- jts/nanopolish
+- Nanopolish needs to link the read ids from the fastq file with their signal-level data in the fast5 files.
+- Nanopolish and Guppy provide a log-likelihood ratio value per site and per read.
+- The METEORE REG model was trained on the *E.coli* datasets with 11 different mixture sets of methylated and unmethylated reads
+- snakemake -s Nanopolish nanopolish_results/example_nanopolish-freq-perCG.tsv --cores all
+- the raw output after running `nanopolish call-methylation`
+- A Snakefile named `Nanopolish` contains all rules for the Snakemake workflow.
+- Nanopolish detects CpG methylation with a hidden Markov model
+- many tools have been developed to call 5mC at CpG sites, like Nanopolish27, Megalodon32, Guppy33, DeepMod34, and Remora35
+- Nanopolish includes an extensive set of software tools for analysing nanopore long-read information at the raw signal level
+- The alignment of the electric current events to k-mers of a known substring from the reference genome was obtained using nanopolish v0.13.2.
+- nanopolish eventalign -n -t 16 --reads test.fastq --bam test.sorted.q20.mapped.bam --genome hg19.fa --scale-events
+- nanopolish eventalign -n -t 16 --reads test.fastq --bam test.sorted.q20.mapped.bam --genome hg19.fa --scale-events > test.eventalign.txt
+- nanopolish, a widely used computational tool that applies an HMM to call 5mC in CpG and GpC contexts
+- using Nanopolish (Loman et al. 2015) (v.0.11.0), nanopore signals were re-squiggled to the reference genome.
+- To quantify the amount of methylation, we used nanopolish version 0.11.1
+- 5. Pore model training using nanopolish
+- Nanopolish (Simpson et al. 2017) signal projection, and Sigfish (Shih et al. 2023) dynamic time warping methods
+derived_from:
+- doi: 10.1038/s41467-019-09025-z
+  title: A multi-task convolutional deep neural network for variant calling in single molecule sequencing
+- doi: 10.1093/bioadv/vbac088
+  title: GPU-accelerated and pipelined methylation calling
+- doi: 10.1038/ncomms11307
+  title: Fast and sensitive mapping of nanopore sequencing reads with GraphMap
+- doi: 10.1038/s41467-019-08289-9
+  title: Single-molecule sequencing detection of N6-methyladenine in microbial reference materials
+- doi: 10.1038/s41467-021-23778-6
+  title: Systematic benchmarking of tools for CpG methylation detection from nanopore sequencing
+- doi: 10.1038/s41467-024-49588-0
+  title: 'MethPhaser: methylation-based long-read haplotype phasing of human genomes'
+- doi: 10.1093/nar/gkab397
+  title: Long-read whole-genome methylation patterning using enzymatic base conversion and nanopore sequencing
+- doi: 10.1093/gigascience/giaa105
+  title: 'NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy'
+- doi: 10.1038/s41467-022-35650-2
+  title: Simultaneous profiling of histone modifications and DNA methylation via nanopore sequencing
+- doi: 10.1093/bioinformatics/btaf397
+  title: Identifying DNA methylation types and methylated base positions from bacteria using nanopore sequencing with multi-scale neural network
+- doi: 10.1093/nar/gkad526
+  title: Precise characterization of somatic complex structural variations from tumor/control paired long-read sequencing data with nanomonsv
+- doi: 10.1016/j.xgen.2022.100097
+  title: Direct detection of RNA modifications and structure using single-molecule nanopore sequencing
+- doi: 10.1093/bioinformatics/btae501
+  title: Interactive visualization of nanopore sequencing signal data with <i>Squigualiser</i>
+source_repos:
+- https://github.com/aquaskyline/Clairvoyante
+- https://github.com/jts/nanopolish
+- https://github.com/fengyilin118/Galaxy-methyl
+- https://github.com/isovic/graphmap
+- https://github.com/al-mcintyre/mCaller
+- https://github.com/comprna/METEORE
+- https://github.com/treangenlab/methphaser
+- https://github.com/yos-sk/nanoEM
+- https://github.com/mmiladi/galaxy-nanopore
+- https://github.com/YinLabTJ/nanoHiMe
+- https://github.com/cz-csu/Nanoident
+- https://github.com/friend1ws/nanomonsv
+- https://github.com/physnano/rRNA_nanoSHAPE
+- https://github.com/hiruna72/squigualiser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aquaskyline/Clairvoyante

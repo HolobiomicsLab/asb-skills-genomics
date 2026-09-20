@@ -1,0 +1,22 @@
+name: DBG2OLC
+slug: dbg2olc
+version_used: '0.0001'
+edam_topics: []
+evidence_spans:
+- ./DBG2OLC k 17 AdaptiveTh 0.0001 KmerCovTh 2 MinOverlap 20 RemoveChimera 1 Contigs Contigs.txt f ../Pacbio_data/Pacbio_20x.fasta
+- ./DBG2OLC k 31 PathCovTh 2 MinLen 50 MinOverlap 31 Contigs Contigs.txt KmerCovTh 0 f reads.fasta
+- thorough evaluations of our algorithm show that DBG2OLC can provide high quality results with fewer structural errors
+- 'The basic command format of DBG2OLC is:'
+- 'RemoveChimera: remove chimeric reads in the dataset, suggest 1 if you have >10x coverage.'
+- ./DBG2OLC k 17 AdaptiveTh 0.0001 KmerCovTh 2 MinOverlap 20 RemoveChimera 1 Contigs Contigs.txt
+derived_from:
+- doi: 10.1038/srep31900
+  title: 'DBG2OLC: Efficient Assembly of Large Genomes Using Long Erroneous Reads of the Third Generation Sequencing Technologies'
+source_repos:
+- https://github.com/yechengxi/DBG2OLC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yechengxi/DBG2OLC
