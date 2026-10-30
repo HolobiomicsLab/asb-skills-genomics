@@ -1,11 +1,11 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-09-20T13:33:10.238360+00:00",
-  "collection_dir": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/genomics/candidate",
-  "corpus_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/genomics/candidate/corpus.yaml",
+  "generated_at": "2026-10-30T13:48:21.104763+00:00",
+  "collection_dir": "collections/genomics/v1",
+  "corpus_path": "collections/genomics/v1/corpus.yaml",
   "mode": "strict",
   "strict": true,
-  "promote_logic_source": "agentic_science_builder.release.promote",
+  "promote_logic_source": "vendored-fallback",
   "evidence_parser_source": "scripts.release_gate (gate-owned)",
   "policy": {
     "version": "asbb-content-gate/1.3",
@@ -36,12 +36,12 @@
       "SKILL.md",
       "skill_kb.json"
     ],
-    "config_sha256": "51e7b662befe1330605e08c0f6b6aa96a3a167428c48f25af3794b62f06f8eff",
+    "config_sha256": "392fc2ac65836b7cbb38c6acfc1886af153aa52ccdba3f509c87db7013b14984",
     "implementation_sha256": "c099f1bce4ec035bf099a4a14f8ee2900c7b8410d8b6d7b09b31ac3cf8545cf0"
   },
   "binding": {
     "payload": {
-      "sha256": "57f0a7bcce8f6d95a17fedbea1f24fa48a753953615fb78f442e387449cee152",
+      "sha256": "393173b5998d12f6876d7a4c32198e6ae50fd4cd15312bd34750b7e264285d67",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -54,8 +54,8 @@
         },
         {
           "path": ".zenodo.json",
-          "bytes": 2719,
-          "sha256": "0939c97356fba3f1b5397c469af900ecc86b66fdb3a6f5b6d0ea32e0d4b35f4d"
+          "bytes": 2487,
+          "sha256": "cd06720f4d200405b4843c38e172dc304a04df6c24a79046c716377e99b3b11e"
         },
         {
           "path": "CITATION.cff",
@@ -34077,5 +34077,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "5323fb41da87cd1757857bc71276b63ffa2a3605dce56312efefe9db4c2d465d"
+  "receipt_sha256": "6b72864087065da861379896b63189c9afea6f1da6b3104f841df34e45e091e1"
 }
