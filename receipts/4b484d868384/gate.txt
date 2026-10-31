@@ -17,7 +17,12 @@ ASBB release gate — strict mode
     PASS  provenance_doi_license (gates [8]) [hard-gate] — checked=3246 / skipped=0 / missing=0 / failed=0 [leaf skills]
     PASS  composite_workflows (gates []) — checked=2 / skipped=0 / missing=0 / failed=0 [composite workflows]
     PASS  layout_packaging (gates [10]) [hard-gate] — checked=0 / skipped=0 / missing=0 / failed=0 [items]
+    PASS  skill_frontmatter (gates [10]) [hard-gate] — checked=3247 / skipped=0 / missing=0 / failed=0 [SKILL.md files]
     PASS  unit_closure (gates [10]) [hard-gate] — checked=0 / skipped=0 / missing=0 / failed=0 [items]
+    NOT_APPLICABLE  peer_review_claim (gates []) — checked=0 / skipped=0 / missing=0 / failed=0 [advertised text files]
+            coverage: not_peer_reviewed_dois=0
+    PASS  leaf_text_floor (gates []) — checked=3246 / skipped=0 / missing=0 / failed=0 [leaf skills]
+            coverage: leaves=3246, leaves_without_evidence_spans=3246, leaves_without_any_evidence=543
     PASS  gate_input_files (gates []) [hard-gate] — checked=2 / skipped=0 / missing=0 / failed=0 [gate input files]
     PASS  target_binding (gates []) [hard-gate] — checked=4132 / skipped=0 / missing=0 / failed=0 [payload files]
     PASS  catalogue_membership (gates [10]) [hard-gate] — checked=0 / skipped=0 / missing=0 / failed=0 [items]
@@ -26,4 +31,4 @@ ASBB release gate — strict mode
     NOT_APPLICABLE  cut_manifest (gates []) [hard-gate] — checked=0 / skipped=0 / missing=0 / failed=0 [manifest bindings]
     PASS  target_stability (gates []) [hard-gate] — checked=1 / skipped=0 / missing=0 / failed=0 [target and input snapshots]
   overall    : WARN  (exit 0)
-  report     : /private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/readme-fix/regate/genomics/gate_report.json
+  report     : receipts/4b484d868384/gate_report.json

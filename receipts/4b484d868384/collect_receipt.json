@@ -1,5 +1,5 @@
 {
-  "builds_root": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/task8/cut/genomics/builds",
+  "builds_root": "genomics",
   "counts": {
     "builds": 137,
     "input_files": 10152,
@@ -10164,7 +10164,7 @@
     "corpus/skills/zinbave-zero-inflation-weighting/tools.json": "bb6f2e64848a66e9da060102b0ce9a42e70354b7e4f819736b906b8abc3cbaea",
     "release_creators.yaml": "7ff7405a2af4aadf66a609161f381c90e236961a3a268e83a168b615f1009cb8"
   },
-  "output_tree_sha256": "943466a09e0d850e6862811407d3b19a0851bb15e373391be969841922f27ff9",
+  "output_tree_sha256": "1fada87cb718de4ba2fe96cb7c41bec31dff7d68bca9013c8f50437480e5a7f5",
   "router_index": "provisional skills_index.json derived from leaf frontmatter before router_shape.shape",
   "status": "collected",
   "version": "v1"
