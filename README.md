@@ -32,7 +32,7 @@ Candidate, not a release. Branch `candidate/4b484d868384` holds collection `v1`,
 
 | Item | State |
 |---|---|
-| Release gate | `receipts/4b484d868384/gate_report.json` reports `warn`: 11 of 13 checks pass, 1 gives a warning and 1 is not applicable (`cut_manifest`). The warning is on the scan of quote spans for personal data and dual-use content (`pii_dual_use`): 4 low-confidence findings of pattern `placeholder_subject`, flagged for human review. |
+| Release gate | `receipts/4b484d868384/gate_report.json` reports `warn`: 13 of 16 checks pass, 1 gives a warning and 2 are not applicable (`cut_manifest`, and `peer_review_claim` because the corpus holds no preprint or deposit DOI). The warning is on the scan of quote spans for personal data and dual-use content (`pii_dual_use`): 4 low-confidence findings of pattern `placeholder_subject`, flagged for human review. [`receipts/4b484d868384/VERIFY.md`](receipts/4b484d868384/VERIFY.md) gives the command that re-verifies it. |
 | Plugin manifests | `claude plugin validate` passes for `.claude-plugin/marketplace.json` (3 warnings on fields Claude Code ignores) and for `collections/genomics/v1` |
 | Collection IRI | `https://w3id.org/holobiomicslab/asb-skill/collection/genomics/v1` |
 | IRI resolution (2026-10-30) | Registered at w3id.org. It redirects (HTTP 302) to a path in the asb-skill-collections registry that returns 404: the collection lives in this repository, not in the registry. |
@@ -118,7 +118,7 @@ Each result prints its rank and slug, then its description, tools, licence tier 
 
 ## How it was built
 
-The AgenticScienceBuilder pipeline read each paper and its code repository, wrote the skills, and passed the collection through a strict release gate. `receipts/4b484d868384/source.json` names the pipeline commit `da8abd15`, the collections-tooling commit `fab0cd4e3` and the corpus commit `afa4911`.
+The AgenticScienceBuilder pipeline read each paper and its code repository, wrote the skills, and passed the collection through a strict release gate. `receipts/4b484d868384/source.json` names the pipeline commit `da8abd15`, the collections-tooling commit `b8c22a6bc` and the corpus commit `afa4911`.
 
 The gate checks that every included paper has an allowed access type, caps the length and similarity of verbatim quotes, scans quote spans for personal data and dual-use content, requires provenance and a licence tag on every skill, resolves each composite workflow to real leaves, and binds the receipt to the hashes of the collection files.
 
