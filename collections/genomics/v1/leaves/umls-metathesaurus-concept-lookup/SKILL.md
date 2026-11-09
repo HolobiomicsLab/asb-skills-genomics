@@ -10,7 +10,7 @@ when_to_use_negative:
   rather than the intermediate ontology crosswalk — use the full VIBE run instead.
 - Only HPO-to-ORDO or HPO-to-DisGeNET-PDA branches are needed without UMLS Metathesaurus
   CUI matching.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -41,7 +41,7 @@ metadata:
   - Java 8
   - TestNG
   - VIBE
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

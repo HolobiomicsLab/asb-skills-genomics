@@ -12,7 +12,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3803
 edam_topics:
 - http://edamontology.org/topic_3679
-- http://edamontology.org/topic_6105
 tools:
 - name: bin2cell
   role: Provides bin2cell.grid_image to render total per-bin transcript counts onto
@@ -46,7 +45,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3803
   edam_topics:
   - http://edamontology.org/topic_3679
-  - http://edamontology.org/topic_6105
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

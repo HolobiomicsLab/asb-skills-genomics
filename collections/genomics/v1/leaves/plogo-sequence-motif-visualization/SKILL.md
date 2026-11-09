@@ -10,7 +10,7 @@ when_to_use_negative:
   bias in already-produced per-site calls
 - The methylation system is not CpG (e.g. dam/dcm GATC contexts), since the 8-mer
   extraction is centered on NNNCGNNN
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0160
 tools:
@@ -41,7 +41,7 @@ metadata:
   - METEORE
   - Megalodon
   - Nanopolish
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0160
   provenance_tier: literature

@@ -11,8 +11,7 @@ when_to_use_negative:
 - Latent vectors have already been computed and the goal is downstream analysis such
   as t-SNE on the encodings.
 edam_operation: http://edamontology.org/operation_3935
-edam_topics:
-- http://edamontology.org/topic_3838
+edam_topics: []
 tools:
 - name: MIRIAM
   role: Provides the autoencoder cell-shape descriptor implementation and example
@@ -43,8 +42,7 @@ metadata:
   - Matlab
   - Python
   edam_operation: http://edamontology.org/operation_3935
-  edam_topics:
-  - http://edamontology.org/topic_3838
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

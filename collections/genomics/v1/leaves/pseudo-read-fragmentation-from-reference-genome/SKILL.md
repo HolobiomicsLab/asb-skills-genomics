@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3180
 edam_topics:
 - http://edamontology.org/topic_0102
-- http://edamontology.org/topic_3693
 tools:
 - name: minimap2
   role: Aligns 500 kb pseudo-long-reads against each candidate assembly with the map-hifi
@@ -44,7 +43,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3180
   edam_topics:
   - http://edamontology.org/topic_0102
-  - http://edamontology.org/topic_3693
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

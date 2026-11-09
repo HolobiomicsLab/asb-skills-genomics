@@ -12,7 +12,6 @@ when_to_use_negative:
   model-free testing) rather than building deep-learning features
 edam_operation: http://edamontology.org/operation_0337
 edam_topics:
-- http://edamontology.org/topic_3557
 - http://edamontology.org/topic_0622
 tools:
 - name: DeepSignal-plant
@@ -69,7 +68,6 @@ metadata:
   - vbz_compression
   edam_operation: http://edamontology.org/operation_0337
   edam_topics:
-  - http://edamontology.org/topic_3557
   - http://edamontology.org/topic_0622
   provenance_tier: literature
 license: CC-BY-4.0

@@ -10,7 +10,7 @@ when_to_use_negative:
   directly and does not need the eventalign TSV
 - Basecaller did not save event data, since eventalign requires event-level information
   from the fast5 files
-edam_operation: http://edamontology.org/operation_0494
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3168
@@ -51,7 +51,7 @@ metadata:
   - nanopolish
   - samtools
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_0494
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3168

@@ -13,7 +13,6 @@ when_to_use_negative:
   RedNano ships a pre-trained all-species DRACH model for prediction-only use
 edam_operation: http://edamontology.org/operation_3927
 edam_topics:
-- http://edamontology.org/topic_3557
 - http://edamontology.org/topic_3170
 tools:
 - name: RedNano
@@ -55,7 +54,6 @@ metadata:
   - samtools
   edam_operation: http://edamontology.org/operation_3927
   edam_topics:
-  - http://edamontology.org/topic_3557
   - http://edamontology.org/topic_3170
   provenance_tier: literature
 license: CC-BY-4.0

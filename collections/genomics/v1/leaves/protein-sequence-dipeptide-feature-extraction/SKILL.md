@@ -9,7 +9,7 @@ when_to_use_negative:
 - The target descriptor is the PSSM-based feature (PSSM-DBT/PSSM-DWT) or the physicochemical
   NMBAC descriptor, which require PSI-BLAST PSSM profiles or amino-acid physicochemical
   property tables instead of bare sequences
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3510
 - http://edamontology.org/topic_0080
@@ -31,7 +31,7 @@ metadata:
   license_tier: unknown
   tools:
   - iDBP-DEP
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3510
   - http://edamontology.org/topic_0080

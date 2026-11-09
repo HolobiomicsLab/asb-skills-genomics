@@ -12,8 +12,7 @@ when_to_use_negative:
 - The goal is reference-based mapping or polishing rather than de novo overlap graph
   construction
 edam_operation: http://edamontology.org/operation_0525
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_topics: []
 tools:
 - name: minimap2
   role: Detects candidate read-to-read overlaps using minimizer seeds (e.g. '-x ava-pb'
@@ -39,8 +38,7 @@ metadata:
   - PECAT
   - minimap2
   edam_operation: http://edamontology.org/operation_0525
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

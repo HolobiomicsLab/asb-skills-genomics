@@ -8,7 +8,7 @@ when_to_use_negative:
   than computational cost — use accuracy benchmarks instead
 - The methods under comparison require incompatible input types that cannot be standardized
   to a common count-matrix format, making timings non-comparable
-edam_operation: http://edamontology.org/operation_2984
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -53,7 +53,7 @@ metadata:
   - scKWARN
   - scran
   - sctransform
-  edam_operation: http://edamontology.org/operation_2984
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

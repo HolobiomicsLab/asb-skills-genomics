@@ -11,7 +11,7 @@ when_to_use_negative:
   than genome-wide nanopore WGS characterization
 - Reads lack MAPQ-bearing alignments (raw FASTQ only) — mosdepth requires an aligned
   BAM/CRAM; use NanoStat-style read statistics only in that case
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0654
@@ -55,7 +55,7 @@ metadata:
   - lra
   - minimap2
   - mosdepth
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0654

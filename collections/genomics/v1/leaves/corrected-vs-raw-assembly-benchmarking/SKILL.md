@@ -16,7 +16,6 @@ edam_operation: http://edamontology.org/operation_0525
 edam_topics:
 - http://edamontology.org/topic_0196
 - http://edamontology.org/topic_0622
-- http://edamontology.org/topic_3693
 tools:
 - name: VeChat
   role: Produces the haplotype-aware corrected reads (reads.corrected.fa) used as
@@ -55,7 +54,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_0196
   - http://edamontology.org/topic_0622
-  - http://edamontology.org/topic_3693
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

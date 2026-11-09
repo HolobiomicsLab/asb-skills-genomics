@@ -14,7 +14,6 @@ edam_operation: http://edamontology.org/operation_3218
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3174
-- http://edamontology.org/topic_3693
 tools:
 - name: VeChat
   role: Two-cycle variation-graph-based error correction of PacBio reads with default
@@ -57,7 +56,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3174
-  - http://edamontology.org/topic_3693
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

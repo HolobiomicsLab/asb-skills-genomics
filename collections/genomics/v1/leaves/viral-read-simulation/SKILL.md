@@ -15,7 +15,6 @@ edam_operation: http://edamontology.org/operation_2426
 edam_topics:
 - http://edamontology.org/topic_0769
 - http://edamontology.org/topic_3673
-- http://edamontology.org/topic_3194
 tools:
 - name: ART
   role: Simulates single-end HiSeq 2000 (Illumina) reads from each SARS-CoV-2 lineage
@@ -60,7 +59,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_0769
   - http://edamontology.org/topic_3673
-  - http://edamontology.org/topic_3194
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

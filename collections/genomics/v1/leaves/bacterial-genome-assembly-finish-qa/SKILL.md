@@ -11,8 +11,7 @@ when_to_use_negative:
   of an existing draft (the successor npGraph, not npScarf, is under development for
   streaming assembly)
 edam_operation: http://edamontology.org/operation_0526
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_topics: []
 tools:
 - name: npScarf
   role: 'Scaffolding engine (jsa.np.npscarf): classifies contig multiplicity, builds
@@ -54,8 +53,7 @@ metadata:
   - npScarf
   - npScarf (jsa.np.npscarf)
   edam_operation: http://edamontology.org/operation_0526
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -11,7 +11,7 @@ when_to_use_negative:
   for R9.4 flowcells
 - Input is already a methylation feature table or bedMethyl with no raw signal — signal-level
   detection is unnecessary
-edam_operation: http://edamontology.org/operation_3202
+edam_operation: http://edamontology.org/operation_3227
 edam_topics:
 - http://edamontology.org/topic_3295
 - http://edamontology.org/topic_0622
@@ -55,7 +55,7 @@ metadata:
   - minimap2
   - modkit
   - samtools
-  edam_operation: http://edamontology.org/operation_3202
+  edam_operation: http://edamontology.org/operation_3227
   edam_topics:
   - http://edamontology.org/topic_3295
   - http://edamontology.org/topic_0622

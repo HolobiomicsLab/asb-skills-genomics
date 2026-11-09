@@ -13,7 +13,7 @@ when_to_use_negative:
 - Noisy non-HiFi reads (ONT/CLR) — the overlap-degree weighting and containment collapsing
   assume high-fidelity reads; noisy-read assemblers (Canu, Flye, wtdbg) are a different
   pipeline
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -46,7 +46,7 @@ metadata:
   - Python
   - minimap2
   - pysam
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

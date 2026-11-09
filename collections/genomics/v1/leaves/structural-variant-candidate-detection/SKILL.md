@@ -10,7 +10,7 @@ when_to_use_negative:
   alignments, so an aligner (bwa-mem, minimap2, ngmlr) must be run first.
 - You need full-length insertion resolution or multi-allelic site resolution in PE
   data — the README notes dysgu lacks a de novo assembly stage for this.
-edam_operation: http://edamontology.org/operation_0329
+edam_operation: http://edamontology.org/operation_0474
 edam_topics:
 - http://edamontology.org/topic_0102
 tools:
@@ -36,7 +36,7 @@ metadata:
   tools:
   - dysgu
   - samtools
-  edam_operation: http://edamontology.org/operation_0329
+  edam_operation: http://edamontology.org/operation_0474
   edam_topics:
   - http://edamontology.org/topic_0102
   provenance_tier: literature

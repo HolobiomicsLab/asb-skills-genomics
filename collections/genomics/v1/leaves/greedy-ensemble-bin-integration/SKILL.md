@@ -10,7 +10,7 @@ when_to_use_negative:
   values plus greedy integration is unnecessary overhead if a single epsilon suffices
 - Contigs lack trained model embeddings (no data.csv/data_split.csv) — the clustering
   operates on learned deep-learning features, not raw sequence composition
-edam_operation: http://edamontology.org/operation_3914
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3174
@@ -44,7 +44,7 @@ metadata:
   - SemiBin2
   - hmmer
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_3914
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3174

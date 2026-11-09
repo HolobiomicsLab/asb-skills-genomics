@@ -10,7 +10,6 @@ when_to_use_negative:
   — the pipeline targets sequence data for variant discovery
 edam_operation: http://edamontology.org/operation_3227
 edam_topics:
-- http://edamontology.org/topic_3623
 - http://edamontology.org/topic_3169
 tools:
 - name: JWES
@@ -56,7 +55,6 @@ metadata:
   - Trimmomatic
   edam_operation: http://edamontology.org/operation_3227
   edam_topics:
-  - http://edamontology.org/topic_3623
   - http://edamontology.org/topic_3169
   provenance_tier: literature
 license: CC-BY-4.0

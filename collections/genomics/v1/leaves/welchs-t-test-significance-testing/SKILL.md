@@ -13,7 +13,6 @@ when_to_use_negative:
   artifact-like SVs), where coverage-based shifts do not reliably indicate copy-number
   changes
 edam_topics:
-- http://edamontology.org/topic_0266
 - http://edamontology.org/topic_0622
 tools:
 - name: disCoverage
@@ -46,7 +45,6 @@ metadata:
   - disCoverage
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_0266
   - http://edamontology.org/topic_0622
   provenance_tier: literature
 license: CC-BY-4.0

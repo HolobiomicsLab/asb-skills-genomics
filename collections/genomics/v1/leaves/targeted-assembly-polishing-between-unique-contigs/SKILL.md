@@ -12,7 +12,7 @@ when_to_use_negative:
   not structural issues
 - When no corresponding high-quality short reads (e.g. Illumina) are available and
   long-read-only Racon polishing cannot achieve the required correction depth
-edam_operation: http://edamontology.org/operation_3834
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0196
 - http://edamontology.org/topic_0622
@@ -50,7 +50,7 @@ metadata:
   - Pilon
   - Racon
   - minimap2
-  edam_operation: http://edamontology.org/operation_3834
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0196
   - http://edamontology.org/topic_0622

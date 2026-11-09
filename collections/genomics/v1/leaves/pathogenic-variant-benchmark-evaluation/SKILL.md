@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3225
 edam_topics:
 - http://edamontology.org/topic_0199
-- http://edamontology.org/topic_2643
 tools:
 - name: CPSR
   role: Automated ACMG/AMP germline variant classification engine applied to the benchmark
@@ -51,7 +50,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3225
   edam_topics:
   - http://edamontology.org/topic_0199
-  - http://edamontology.org/topic_2643
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

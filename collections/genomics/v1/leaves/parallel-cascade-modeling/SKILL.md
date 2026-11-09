@@ -12,7 +12,7 @@ when_to_use_negative:
 - Per-energy-bin propagation or input-labeled (input-quantum-limited) formulations
   are required — CASYMIR does not propagate signal and noise quantities on a per-energy-bin
   basis
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3391
 tools:
@@ -60,7 +60,7 @@ metadata:
   - Python
   - SciPy
   - SpekPy
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3391
   provenance_tier: literature

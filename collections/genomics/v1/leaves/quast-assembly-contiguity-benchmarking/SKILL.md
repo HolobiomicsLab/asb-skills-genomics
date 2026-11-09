@@ -11,8 +11,7 @@ when_to_use_negative:
 - You have only a single assembly with no baseline to compare against, so no corrected-vs-baseline
   metric comparison can be made
 edam_operation: http://edamontology.org/operation_0310
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_topics: []
 tools:
 - name: QUAST
   role: Evaluates contiguity and correctness metrics of the corrected and baseline
@@ -53,8 +52,7 @@ metadata:
   - ntLink
   - sra-tools
   edam_operation: http://edamontology.org/operation_0310
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

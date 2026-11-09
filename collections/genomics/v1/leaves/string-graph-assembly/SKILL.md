@@ -11,8 +11,7 @@ when_to_use_negative:
 - Dataset has very low heterozygosity rate — SNP calling accuracy is low in such regions,
   undermining inconsistent-overlap removal
 edam_operation: http://edamontology.org/operation_0525
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_topics: []
 tools:
 - name: PECAT
   role: Implements the string graph construction, best-overlap-graph scoring, and
@@ -46,8 +45,7 @@ metadata:
   - PECAT
   - minimap2
   edam_operation: http://edamontology.org/operation_0525
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -10,7 +10,7 @@ when_to_use_negative:
   design
 - The goal is basecalling or read modification rather than de novo synthetic read
   generation from a reference
-edam_operation: http://edamontology.org/operation_3520
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3168
@@ -38,7 +38,7 @@ metadata:
   tools:
   - Python
   - seq2squiggle
-  edam_operation: http://edamontology.org/operation_3520
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3168

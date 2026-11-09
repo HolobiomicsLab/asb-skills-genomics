@@ -16,7 +16,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3184
 edam_topics:
 - http://edamontology.org/topic_0622
-- http://edamontology.org/topic_3693
 tools:
 - name: HECIL
   role: Core hybrid error correction framework implementing Quick Correction (η =
@@ -46,7 +45,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3184
   edam_topics:
   - http://edamontology.org/topic_0622
-  - http://edamontology.org/topic_3693
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

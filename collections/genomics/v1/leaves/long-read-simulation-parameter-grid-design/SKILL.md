@@ -8,7 +8,7 @@ when_to_use_negative:
   ONT R9 SRR10028111, PacBio HiFi HG002) with benchmarking workflows instead of simulation
 - When you lack a high-quality reference genome to simulate against, since ground
   truth depends on aligning reads back to the reference
-edam_operation: http://edamontology.org/operation_3519
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0196
 - http://edamontology.org/topic_0622
@@ -43,7 +43,7 @@ metadata:
   - PBSIM3
   - Python
   - minimap2
-  edam_operation: http://edamontology.org/operation_3519
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0196
   - http://edamontology.org/topic_0622

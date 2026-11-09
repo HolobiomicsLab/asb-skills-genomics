@@ -10,7 +10,7 @@ when_to_use_negative:
   analysis pipelines)
 - Data are not ONT FAST5 files (e.g. POD5 or other formats), since multi_to_single_fast5
   expects the ont_fast5 API FAST5 layout
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -39,7 +39,7 @@ metadata:
   tools:
   - multi_to_single_fast5
   - tombo
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

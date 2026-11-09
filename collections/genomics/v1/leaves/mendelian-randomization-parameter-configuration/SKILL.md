@@ -12,7 +12,7 @@ when_to_use_negative:
   runs, whereas set_params()/generate_*() produce a single replicate per call.
 - The simulation scenario matches a paper preset exactly and needs no customization
   beyond set_params()/load_preset() defaults with no explicit configuration required.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3524
 - http://edamontology.org/topic_0622
@@ -44,7 +44,7 @@ metadata:
   - R
   - pixi
   - simmrd
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3524
   - http://edamontology.org/topic_0622

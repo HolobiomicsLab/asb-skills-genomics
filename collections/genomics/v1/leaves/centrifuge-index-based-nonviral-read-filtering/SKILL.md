@@ -12,7 +12,7 @@ when_to_use_negative:
   saves time
 - When filtering assembled contigs — this filter applies to reads only, not contigs,
   although contigs are separately classified for overview
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3673
 - http://edamontology.org/topic_3174
@@ -45,7 +45,7 @@ metadata:
   - Nextflow
   - ViMOP
   - minimap2
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3673
   - http://edamontology.org/topic_3174

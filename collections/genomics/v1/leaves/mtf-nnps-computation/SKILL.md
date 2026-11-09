@@ -10,7 +10,7 @@ when_to_use_negative:
   Swank noise, or temporal effects like detector lag and ghosting
 - You are modeling photon-counting detectors with adaptive binning, or noise sources
   such as Fano noise or photoconductor discharge
-edam_operation: http://edamontology.org/operation_0241
+edam_operation: null
 tools:
 - name: CASYMIR
   role: Python package providing the generalized cascaded process blocks, apply_parallel_process,
@@ -52,7 +52,7 @@ metadata:
   - Python
   - SciPy
   - SpekPy
-  edam_operation: http://edamontology.org/operation_0241
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

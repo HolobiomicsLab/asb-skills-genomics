@@ -16,7 +16,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3204
 edam_topics:
 - http://edamontology.org/topic_3524
-- http://edamontology.org/topic_0697
 tools:
 - name: multi_to_single_fast5
   role: Converts multi-read fast5 files to per-read fast5 files required by Tombo,
@@ -61,7 +60,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3204
   edam_topics:
   - http://edamontology.org/topic_3524
-  - http://edamontology.org/topic_0697
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

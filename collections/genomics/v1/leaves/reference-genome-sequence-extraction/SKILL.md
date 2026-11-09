@@ -11,7 +11,7 @@ when_to_use_negative:
   flanks would come from the wrong alleles/coordinates and inflate context mislabeling
 - You need caller-level error modeling (e.g. Clairvoyante tensor extraction from BAMs)
   rather than static reference-sequence context classification
-edam_operation: http://edamontology.org/operation_2402
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -45,7 +45,7 @@ metadata:
   - Illumina
   - Oxford Nanopore
   - PacBio
-  edam_operation: http://edamontology.org/operation_2402
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

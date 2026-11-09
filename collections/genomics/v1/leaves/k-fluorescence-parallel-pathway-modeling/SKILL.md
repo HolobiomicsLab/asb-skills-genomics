@@ -10,7 +10,7 @@ when_to_use_negative:
   does not support
 - Depth-dependent scintillator effects such as the Lubberts effect or optical Swank
   noise dominate, since these are not accounted for by the parallel pathway model
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3318
 tools:
@@ -46,7 +46,7 @@ metadata:
   - Python
   - SciPy
   - SpekPy
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3318
   provenance_tier: literature

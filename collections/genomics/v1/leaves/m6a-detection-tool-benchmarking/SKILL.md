@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3802
 edam_topics:
 - http://edamontology.org/topic_0080
-- http://edamontology.org/topic_3563
 tools:
 - name: NanOlympicsMod
   role: Containerized Nextflow pipeline that executes and compares 14 m6A detection
@@ -48,7 +47,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3802
   edam_topics:
   - http://edamontology.org/topic_0080
-  - http://edamontology.org/topic_3563
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

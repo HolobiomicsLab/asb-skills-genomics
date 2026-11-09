@@ -10,7 +10,7 @@ when_to_use_negative:
   annotation; matching to Ensembl by definition excludes novel-junction discovery
 - No reference genome or GTF annotation is available for the organism, since gtf_db_make.py
   and gmap_build both require hg38.fa-style reference FASTA and Ensembl GTF inputs
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0080
@@ -45,7 +45,7 @@ metadata:
   - Minimap2
   - TAGET
   - samtools
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0080

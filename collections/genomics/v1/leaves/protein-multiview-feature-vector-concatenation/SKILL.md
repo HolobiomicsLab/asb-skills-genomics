@@ -12,7 +12,7 @@ when_to_use_negative:
   apply
 - The task requires interpreting individual descriptor importance rather than producing
   a single classification-ready matrix — per-descriptor analysis is a different sub-task
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3510
 tools:
@@ -42,7 +42,7 @@ metadata:
   - LIBSVM
   - PSI-BLAST
   - iFeature
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3510
   provenance_tier: literature

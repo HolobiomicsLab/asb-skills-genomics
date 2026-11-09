@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0525
 edam_topics:
 - http://edamontology.org/topic_0196
-- http://edamontology.org/topic_3693
 tools:
 - name: HASLR
   role: Hybrid assembler under benchmark; run via haslr.py with -x {pacbio,nanopore},
@@ -70,7 +69,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0525
   edam_topics:
   - http://edamontology.org/topic_0196
-  - http://edamontology.org/topic_3693
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

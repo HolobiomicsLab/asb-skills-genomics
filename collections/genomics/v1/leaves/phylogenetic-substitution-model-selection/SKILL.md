@@ -13,7 +13,7 @@ when_to_use_negative:
 - The virus detected by BLAST bit-score is not represented in database/sequences.fasta,
   so no database sequences are available to enrich the alignment
 edam_topics:
-- http://edamontology.org/topic_0182
+- http://edamontology.org/topic_0080
 tools:
 - name: IQ-TREE2
   role: Performs the substitution-model selection on the NEXUS alignment, restricted
@@ -52,7 +52,7 @@ metadata:
   - seqmagick
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_0182
+  - http://edamontology.org/topic_0080
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

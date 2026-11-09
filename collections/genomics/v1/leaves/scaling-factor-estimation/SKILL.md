@@ -13,7 +13,7 @@ when_to_use_negative:
   interchangeable.
 - Only cell-level size factors compatible with library-size scaling workflows (e.g.
   scran relative counts) are required without kernel-weighted neighbor-based correction.
-edam_operation: http://edamontology.org/operation_2803
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -53,7 +53,7 @@ metadata:
   - scran
   - sctransform
   - stats
-  edam_operation: http://edamontology.org/operation_2803
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

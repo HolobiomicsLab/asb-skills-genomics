@@ -10,8 +10,7 @@ when_to_use_negative:
   file there is nothing to compare node-by-node
 - When the goal is taxonomic (barcode/species-ID) assessment of the MinION rDNA reads
   rather than reproduction of the published phylogenies
-edam_topics:
-- http://edamontology.org/topic_0069
+edam_topics: []
 tools:
 - name: MrBayes
   role: Performs Bayesian inference under PartitionFinder-selected models and emits
@@ -40,8 +39,7 @@ metadata:
   - PartitionFinder
   - Python
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0069
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

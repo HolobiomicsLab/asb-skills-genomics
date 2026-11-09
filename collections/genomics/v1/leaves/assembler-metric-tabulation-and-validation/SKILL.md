@@ -12,7 +12,7 @@ when_to_use_negative:
 - Evaluating metatranscriptome assemblies — the article notes its approach was designed
   for single-organism RNA-Seq and metatranscriptomic quality-evaluation pipelines
   remain future work
-edam_operation: http://edamontology.org/operation_0251
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -64,7 +64,7 @@ metadata:
   - Trinity
   - rnaQUAST
   - rnaSPAdes
-  edam_operation: http://edamontology.org/operation_0251
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

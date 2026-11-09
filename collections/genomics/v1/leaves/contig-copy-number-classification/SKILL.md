@@ -12,7 +12,7 @@ when_to_use_negative:
   Kb, so bacterial-genome assumptions may not transfer.
 - The goal is de novo long-read assembly rather than scaffolding a short-read draft
   (e.g. use Celera Assembler on corrected long reads instead).
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_0622
@@ -47,7 +47,7 @@ metadata:
   - SPAdes
   - npScarf
   - npScarf (jsa.np.npscarf)
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_0622

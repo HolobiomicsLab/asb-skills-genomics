@@ -11,7 +11,7 @@ when_to_use_negative:
 - The reference lineage database or reference genome appropriate to the organism is
   unavailable — BUSCO against primates_odb10 and QV against T2T-CHM13 v2.0 are human-specific
   choices
-edam_operation: http://edamontology.org/operation_3191
+edam_operation: http://edamontology.org/operation_3192
 edam_topics:
 - http://edamontology.org/topic_3697
 tools:
@@ -48,7 +48,7 @@ metadata:
   - Python
   - Shasta
   - primates_odb10
-  edam_operation: http://edamontology.org/operation_3191
+  edam_operation: http://edamontology.org/operation_3192
   edam_topics:
   - http://edamontology.org/topic_3697
   provenance_tier: literature

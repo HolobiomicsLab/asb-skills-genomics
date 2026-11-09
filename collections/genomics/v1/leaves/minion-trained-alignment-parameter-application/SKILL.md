@@ -10,7 +10,7 @@ when_to_use_negative:
   requires a prepared target before alignment
 - Metagenomic analysis is the goal — the article states metagenomics analysis is not
   yet supported and implementation is planned
-edam_operation: http://edamontology.org/operation_3298
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3168
@@ -47,7 +47,7 @@ metadata:
   - NanoPipe
   - last-split
   - last-train
-  edam_operation: http://edamontology.org/operation_3298
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3168

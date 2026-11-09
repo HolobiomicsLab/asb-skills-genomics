@@ -8,7 +8,7 @@ when_to_use_negative:
   (use an unpaired rank test instead)
 - Inputs are already aggregated project-level counts rather than paired per-sample
   scores, since pairing information is required
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_0622
@@ -50,7 +50,7 @@ metadata:
   - VAMB
   - mmseqs2
   - samtools
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_0622

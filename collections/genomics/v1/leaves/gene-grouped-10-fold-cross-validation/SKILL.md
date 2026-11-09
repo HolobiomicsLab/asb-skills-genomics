@@ -12,7 +12,6 @@ when_to_use_negative:
   the small sample number (TR957) constrained the method choice
 edam_operation: http://edamontology.org/operation_2939
 edam_topics:
-- http://edamontology.org/topic_3557
 - http://edamontology.org/topic_0203
 tools:
 - name: PredPSI-SVR
@@ -41,7 +40,6 @@ metadata:
   - libsvm
   edam_operation: http://edamontology.org/operation_2939
   edam_topics:
-  - http://edamontology.org/topic_3557
   - http://edamontology.org/topic_0203
   provenance_tier: literature
 license: CC-BY-4.0

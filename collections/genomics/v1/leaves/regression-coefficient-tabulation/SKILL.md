@@ -13,7 +13,7 @@ when_to_use_negative:
   instead
 - When random-effect variance components need to be formally tested—use test.vc.twosigma
   rather than comparing fixed-effect tables
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3517
 - http://edamontology.org/topic_0203
@@ -44,7 +44,7 @@ metadata:
   - R
   - glmmTMB
   - twosigma (R package)
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3517
   - http://edamontology.org/topic_0203

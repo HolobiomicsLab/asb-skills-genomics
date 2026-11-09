@@ -10,7 +10,7 @@ when_to_use_negative:
   output and no signal simulation is required
 - When evaluating a different simulator (e.g. squigulator itself) whose CLI lacks
   the --noise-sampling/--duration-sampling static-distribution switches
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3168
 tools:
@@ -44,7 +44,7 @@ metadata:
   - poetry
   - pre-commit
   - seq2squiggle
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3168
   provenance_tier: literature

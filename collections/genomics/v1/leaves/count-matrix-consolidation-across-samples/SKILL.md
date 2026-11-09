@@ -11,7 +11,7 @@ when_to_use_negative:
   mismatched PB.X.Y IDs is the entire purpose
 - Your isoform identifiers are already consistent across samples and you only need
   simple tabulation, not the database-backed consolidation machinery
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -62,7 +62,7 @@ metadata:
   - optparse
   - pandas
   - plotly
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

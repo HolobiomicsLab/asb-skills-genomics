@@ -10,7 +10,7 @@ when_to_use_negative:
   matrices via TransAnnotMerge) rather than junction-recovery benchmarking
 - A complete, unmodified reference annotation is used — sensitivity against deleted
   junctions requires partially deleted reference GTFs
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0080
@@ -53,7 +53,7 @@ metadata:
   - StringTie2
   - TAGET
   - samtools
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0080

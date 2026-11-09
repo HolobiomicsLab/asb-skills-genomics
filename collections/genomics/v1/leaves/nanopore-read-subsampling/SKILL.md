@@ -9,7 +9,7 @@ when_to_use_negative:
 - You have no independent higher-accuracy reference (e.g. Illumina-derived consensus)
   against which to compute edit distance, so subsampled consensus error cannot be
   calibrated
-edam_operation: http://edamontology.org/operation_3148
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3174
@@ -47,7 +47,7 @@ metadata:
   - Illumina
   - MiniBar
   - Python 2.7
-  edam_operation: http://edamontology.org/operation_3148
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3174

@@ -8,9 +8,8 @@ when_to_use_negative:
   N50/QUAST-style metrics instead of reciprocal alignment).
 - When reads, not assemblies, need to be aligned to a reference (use BWA MEM or minimap2
   read mapping, not nucmer assembly-to-assembly comparison).
-edam_operation: http://edamontology.org/operation_0277
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_operation: null
+edam_topics: []
 tools:
 - name: MUMmer (nucmer)
   role: whole-genome aligner run with --maxmatch --minmatch 100 to align TULIP scaffolds
@@ -41,9 +40,8 @@ metadata:
   - TULIP
   - delta-filter
   - mummerplot
-  edam_operation: http://edamontology.org/operation_0277
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_operation: null
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

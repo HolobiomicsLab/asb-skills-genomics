@@ -10,7 +10,7 @@ when_to_use_negative:
 - Read coverage is extremely low (< 1x per genome) — the article notes insufficient
   coverage yields unstable normalization and inadequate read overlaps, making profiling
   unreliable regardless of QC.
-edam_operation: http://edamontology.org/operation_3238
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3697
@@ -50,7 +50,7 @@ metadata:
   - ggplot2
   - nanoq
   - vegan
-  edam_operation: http://edamontology.org/operation_3238
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3697

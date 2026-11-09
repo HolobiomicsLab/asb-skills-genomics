@@ -13,8 +13,7 @@ when_to_use_negative:
 - No suitable outgroup sequence exists in database/sequences.fasta for the detected
   virus, since the README recommends setting the outgroup via its accession
 edam_operation: http://edamontology.org/operation_0323
-edam_topics:
-- http://edamontology.org/topic_0684
+edam_topics: []
 tools:
 - name: VirDetector
   role: Pipeline orchestrating virus detection, alignment, model selection and tree
@@ -66,8 +65,7 @@ metadata:
   - VirDetector
   - seqmagick
   edam_operation: http://edamontology.org/operation_0323
-  edam_topics:
-  - http://edamontology.org/topic_0684
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

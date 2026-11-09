@@ -12,8 +12,7 @@ when_to_use_negative:
 - You have only short Illumina reads with no long reads to compress — use the DBG
   assembler directly instead
 edam_operation: http://edamontology.org/operation_0525
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_topics: []
 tools:
 - name: DBG2OLC
   role: Performs the two-round containment filtering, suffix-prefix overlap detection
@@ -44,8 +43,7 @@ metadata:
   - DBG2OLC
   - SparseAssembler
   edam_operation: http://edamontology.org/operation_0525
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

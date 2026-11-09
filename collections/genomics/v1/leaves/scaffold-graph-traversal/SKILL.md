@@ -13,7 +13,6 @@ when_to_use_negative:
   with ntLink mappings (Alternate Protocol 2) is the intended downstream application.
 edam_operation: http://edamontology.org/operation_0310
 edam_topics:
-- http://edamontology.org/topic_0193
 - http://edamontology.org/topic_0622
 tools:
 - name: ntLink
@@ -52,7 +51,6 @@ metadata:
   - ntLink
   edam_operation: http://edamontology.org/operation_0310
   edam_topics:
-  - http://edamontology.org/topic_0193
   - http://edamontology.org/topic_0622
   provenance_tier: literature
 license: CC-BY-4.0

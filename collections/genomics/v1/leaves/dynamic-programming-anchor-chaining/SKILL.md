@@ -10,7 +10,7 @@ when_to_use_negative:
   variants, where standard mappers suffice
 - Available RAM is below 16G when mapping to large reference genomes, which invMap
   requires
-edam_operation: http://edamontology.org/operation_3190
+edam_operation: http://edamontology.org/operation_3192
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3577
@@ -36,7 +36,7 @@ metadata:
   tools:
   - KSW2
   - invMap
-  edam_operation: http://edamontology.org/operation_3190
+  edam_operation: http://edamontology.org/operation_3192
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3577

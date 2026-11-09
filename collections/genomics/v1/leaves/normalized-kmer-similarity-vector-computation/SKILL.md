@@ -11,7 +11,7 @@ when_to_use_negative:
   the remaining unphased reads
 - Processing sex chromosomes — VolcanoSV is designed only for autosome chromosomes
   since the phasing procedure differs
-edam_operation: http://edamontology.org/operation_0358
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0102
 - http://edamontology.org/topic_3168
@@ -35,7 +35,7 @@ metadata:
   repo_url: https://github.com/maiziezhoulab/VolcanoSV
   tools:
   - VolcanoSV
-  edam_operation: http://edamontology.org/operation_0358
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0102
   - http://edamontology.org/topic_3168

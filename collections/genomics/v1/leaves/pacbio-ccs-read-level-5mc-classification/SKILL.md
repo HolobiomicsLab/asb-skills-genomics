@@ -13,7 +13,6 @@ when_to_use_negative:
   are needed — a site-level model or pileup tool is more appropriate than per-read
   classification
 edam_topics:
-- http://edamontology.org/topic_0657
 - http://edamontology.org/topic_0102
 tools:
 - name: ccsmeth
@@ -56,7 +55,6 @@ metadata:
   - primrose
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_0657
   - http://edamontology.org/topic_0102
   provenance_tier: literature
 license: CC-BY-4.0

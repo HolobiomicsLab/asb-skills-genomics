@@ -9,7 +9,7 @@ when_to_use_negative:
   amounts of memory
 - Workflows that require sorted, indexed BAM pileups or per-read variant evidence
   rather than a single most-frequent-base consensus
-edam_operation: http://edamontology.org/operation_3483
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3673
 - http://edamontology.org/topic_0622
@@ -46,7 +46,7 @@ metadata:
   - htslib
   - minimap2
   - samtools
-  edam_operation: http://edamontology.org/operation_3483
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3673
   - http://edamontology.org/topic_0622

@@ -12,7 +12,7 @@ when_to_use_negative:
 - Input is raw FASTQ without prior alignment; Mana operates on alignment BAM files,
   so reads must first be barcode-trimmed (Porechop), aligned (Minimap2), and sorted/indexed
   (SAMtools).
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3524
 - http://edamontology.org/topic_3170
@@ -57,7 +57,7 @@ metadata:
   - Oxford Nanopore Technologies (ONT)
   - Pysam
   - SAMtools
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3524
   - http://edamontology.org/topic_3170

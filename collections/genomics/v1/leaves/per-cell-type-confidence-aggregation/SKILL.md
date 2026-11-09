@@ -12,8 +12,7 @@ when_to_use_negative:
 - Expression matrices are raw counts without library-size normalization and log1p
   — gene detection counts would not be comparable across representations.
 edam_operation: http://edamontology.org/operation_3800
-edam_topics:
-- http://edamontology.org/topic_6170
+edam_topics: []
 tools:
 - name: bin2cell
   role: Produces the reconstructed cell AnnData from 2 μm bins (bin2cell.destripe,
@@ -48,8 +47,7 @@ metadata:
   - bin2cell
   - numpy
   edam_operation: http://edamontology.org/operation_3800
-  edam_topics:
-  - http://edamontology.org/topic_6170
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

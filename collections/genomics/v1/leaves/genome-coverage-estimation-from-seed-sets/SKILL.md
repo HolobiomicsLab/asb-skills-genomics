@@ -10,7 +10,7 @@ when_to_use_negative:
   (or only by inventing a genome size)
 - The goal is read coverage of raw sequencing data rather than coverage represented
   by a sparse, deliberately non-repetitive seed set
-edam_operation: http://edamontology.org/operation_3782
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0196
@@ -45,7 +45,7 @@ metadata:
   - Jellyfish
   - Sickle
   - TULIP
-  edam_operation: http://edamontology.org/operation_3782
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0196

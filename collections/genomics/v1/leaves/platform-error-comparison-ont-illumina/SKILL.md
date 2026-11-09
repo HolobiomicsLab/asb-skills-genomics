@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3227
 edam_topics:
 - http://edamontology.org/topic_3673
-- http://edamontology.org/topic_3194
 tools:
 - name: ViralConsensus
   role: Consensus caller used to reconstruct SARS-CoV-2 consensus genomes whose errors
@@ -48,7 +47,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3227
   edam_topics:
   - http://edamontology.org/topic_3673
-  - http://edamontology.org/topic_3194
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -10,7 +10,7 @@ when_to_use_negative:
   each sRNA sequence lies between the two adaptor sequences
 - Quality control is desired before trimming — miRPursuit's fastqc-based QC is not
   yet implemented, so this skill does not provide pre-trim QC
-edam_operation: http://edamontology.org/operation_2005
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3169
 tools:
@@ -36,7 +36,7 @@ metadata:
   tools:
   - FASTX-Toolkit
   - miRPursuit
-  edam_operation: http://edamontology.org/operation_2005
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3169
   provenance_tier: literature

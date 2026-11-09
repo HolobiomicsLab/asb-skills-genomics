@@ -13,7 +13,7 @@ when_to_use_negative:
   is limited by read length and fragment size
 - You want absolute transcript quantification (expression levels) rather than adjacent-intron
   splicing order measurements
-edam_operation: http://edamontology.org/operation_3916
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_3512
@@ -50,7 +50,7 @@ metadata:
   - dplyr
   - ggplot2
   - tidyr
-  edam_operation: http://edamontology.org/operation_3916
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_3512

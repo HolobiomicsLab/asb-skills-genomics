@@ -12,7 +12,6 @@ when_to_use_negative:
   / train_loocv_test.py) instead of this independent-dataset baseline
 edam_topics:
 - http://edamontology.org/topic_0654
-- http://edamontology.org/topic_0296
 tools:
 - name: nanodisco
   role: Baseline method for de novo typing (6mA, 5mC, 4mC) and fine mapping of methylation
@@ -58,7 +57,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0654
-  - http://edamontology.org/topic_0296
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

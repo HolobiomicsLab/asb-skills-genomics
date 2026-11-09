@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3227
 edam_topics:
 - http://edamontology.org/topic_0080
-- http://edamontology.org/topic_3268
 tools:
 - name: NanoPipe
   role: Pipeline whose polymorphism-analysis stage parses the MAF alignment, tabulates
@@ -42,7 +41,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3227
   edam_topics:
   - http://edamontology.org/topic_0080
-  - http://edamontology.org/topic_3268
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

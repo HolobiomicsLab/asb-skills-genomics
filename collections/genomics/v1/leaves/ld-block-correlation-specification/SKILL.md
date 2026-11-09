@@ -11,7 +11,7 @@ when_to_use_negative:
 - Individual-level confounding must be set directly via generate_individual() with
   type='individual' while the LD arguments are irrelevant to that choice — do not
   substitute LD settings for confounding parameters such as Xs_variance_explained_by_U
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3053
 - http://edamontology.org/topic_2269
@@ -38,7 +38,7 @@ metadata:
   tools:
   - R
   - simmrd
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3053
   - http://edamontology.org/topic_2269

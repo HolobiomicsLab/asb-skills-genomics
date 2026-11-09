@@ -11,7 +11,7 @@ when_to_use_negative:
   benchmarking — DeepBAM was shown to outperform Dorado on R10.4 single-molecule calls
 - Input is already a methylation frequency table; this skill operates on raw/down-sampled
   nanopore BAM reads
-edam_operation: http://edamontology.org/operation_3202
+edam_operation: http://edamontology.org/operation_3227
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3168
@@ -49,7 +49,7 @@ metadata:
   - Dorado
   - Oxford Nanopore Technology (ONT)
   - samtools
-  edam_operation: http://edamontology.org/operation_3202
+  edam_operation: http://edamontology.org/operation_3227
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3168

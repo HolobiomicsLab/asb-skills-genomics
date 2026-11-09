@@ -10,7 +10,7 @@ when_to_use_negative:
   to a mutation-type count matrix via SigsInput
 - When signatures come from a data type or genome build incompatible with the reference
   set used to build the comparison vectors
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3673
@@ -44,7 +44,7 @@ metadata:
   - COSMIC Mutational Signatures v3.2 (March 2021)
   - R
   - RNMF
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3673

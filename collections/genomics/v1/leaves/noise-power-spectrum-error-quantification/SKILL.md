@@ -12,8 +12,7 @@ when_to_use_negative:
 - Per-energy-bin propagation of signal and noise is required (CASYMIR does not propagate
   quantities on a per-energy-bin basis)
 edam_operation: http://edamontology.org/operation_2239
-edam_topics:
-- http://edamontology.org/topic_3872
+edam_topics: []
 tools:
 - name: CASYMIR
   role: Cascaded linear-system model used to build System/Detector objects, run 1D
@@ -60,8 +59,7 @@ metadata:
   - XrayDB
   - mucoeff
   edam_operation: http://edamontology.org/operation_2239
-  edam_topics:
-  - http://edamontology.org/topic_3872
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

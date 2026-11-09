@@ -10,7 +10,7 @@ when_to_use_negative:
   SNP/indel detection performance
 - Downstream analysis is de novo bacterial assembly or abundance correlation rather
   than variant-level benchmarking
-edam_operation: http://edamontology.org/operation_0329
+edam_operation: http://edamontology.org/operation_0474
 edam_topics:
 - http://edamontology.org/topic_0102
 - http://edamontology.org/topic_0199
@@ -52,7 +52,7 @@ metadata:
   - NanoSimFormer
   - Python
   - seq2squiggle
-  edam_operation: http://edamontology.org/operation_0329
+  edam_operation: http://edamontology.org/operation_0474
   edam_topics:
   - http://edamontology.org/topic_0102
   - http://edamontology.org/topic_0199

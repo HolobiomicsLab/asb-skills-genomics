@@ -10,7 +10,7 @@ when_to_use_negative:
   options with Dorado instead
 - No resquiggle-derived dwell times (dwells.npy) are available, since the MSE targets
   require per-base dwell assignments
-edam_operation: http://edamontology.org/operation_3995
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0622
@@ -52,7 +52,7 @@ metadata:
   - Python
   - bonito
   - remora
-  edam_operation: http://edamontology.org/operation_3995
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0622

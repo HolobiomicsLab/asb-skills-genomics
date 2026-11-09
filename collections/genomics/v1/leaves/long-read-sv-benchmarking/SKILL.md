@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3227
 edam_topics:
 - http://edamontology.org/topic_0622
-- http://edamontology.org/topic_0257
 tools:
 - name: Truvari
   role: Benchmarks SV calls of each tool against the GIAB SV gold standard and HCC1395
@@ -76,7 +75,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3227
   edam_topics:
   - http://edamontology.org/topic_0622
-  - http://edamontology.org/topic_0257
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

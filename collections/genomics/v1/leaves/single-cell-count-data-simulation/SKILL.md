@@ -8,7 +8,7 @@ when_to_use_negative:
   type-I error/power, not for producing biological findings
 - You need normalized expression values or log-transformed data — the twosigma count_matrix
   input must be non-negative integer counts with no normalization performed
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3517
 - http://edamontology.org/topic_0203
@@ -39,7 +39,7 @@ metadata:
   - glmmTMB
   - twosigma
   - twosigma (R package)
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3517
   - http://edamontology.org/topic_0203

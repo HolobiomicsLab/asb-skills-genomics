@@ -10,7 +10,7 @@ when_to_use_negative:
   independently verified
 - The sample lacks ONT methylation signal or coverage below the recommended 30X, since
   SNV phasing methods only work reasonably above that coverage
-edam_operation: http://edamontology.org/operation_3742
+edam_operation: http://edamontology.org/operation_3223
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -48,7 +48,7 @@ metadata:
   - WhatsHap
   - meth_phaser_parallel
   - meth_phaser_post_processing
-  edam_operation: http://edamontology.org/operation_3742
+  edam_operation: http://edamontology.org/operation_3223
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

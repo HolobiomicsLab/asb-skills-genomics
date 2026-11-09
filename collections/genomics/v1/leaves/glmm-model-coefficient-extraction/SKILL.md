@@ -12,7 +12,7 @@ when_to_use_negative:
 - Set-level geneset testing or custom contrast matrices are needed — the README notes
   contrast functionality is ongoing and routes users to twosigmag with index_test=list(c(1,2))
   and all_as_ref=TRUE.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_2269
@@ -45,7 +45,7 @@ metadata:
   - glmmTMB
   - twosigma
   - twosigma (R package)
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_2269

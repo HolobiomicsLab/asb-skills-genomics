@@ -11,7 +11,6 @@ when_to_use_negative:
 - Task is custom probe design for Visium HD panels — use gene2probe instead
 edam_operation: http://edamontology.org/operation_3928
 edam_topics:
-- http://edamontology.org/topic_6394
 - http://edamontology.org/topic_3170
 tools:
 - name: bin2cell
@@ -46,7 +45,6 @@ metadata:
   - spaceranger
   edam_operation: http://edamontology.org/operation_3928
   edam_topics:
-  - http://edamontology.org/topic_6394
   - http://edamontology.org/topic_3170
   provenance_tier: literature
 license: CC-BY-4.0

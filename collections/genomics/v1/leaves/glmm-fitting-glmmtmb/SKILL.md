@@ -12,7 +12,7 @@ when_to_use_negative:
 - The zero-inflation component contains only an intercept and joint fixed-effect testing
   is intended — lr.twosigma assumes the tested covariate is in both components; use
   lr.twosigma_custom with custom formulas and an explicit lr.df instead
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3518
 - http://edamontology.org/topic_0203
@@ -47,7 +47,7 @@ metadata:
   - glmmTMB
   - twosigma
   - twosigma (R package)
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3518
   - http://edamontology.org/topic_0203

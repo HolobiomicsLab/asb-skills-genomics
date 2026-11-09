@@ -11,8 +11,7 @@ when_to_use_negative:
 - The repository provides no structured data files matching the reported entities,
   so counts cannot be recomputed independently
 edam_operation: http://edamontology.org/operation_2409
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: Ansanqi/GutUDB
   role: Source repository whose release archive is cloned and enumerated to recompute
@@ -40,8 +39,7 @@ metadata:
   - GutUDB
   - pandas
   edam_operation: http://edamontology.org/operation_2409
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique
