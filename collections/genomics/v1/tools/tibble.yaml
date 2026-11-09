@@ -1,0 +1,17 @@
+name: tibble
+slug: tibble
+version_used: null
+edam_topics: []
+evidence_spans:
+- p_load(tibble)
+derived_from:
+- doi: 10.1093/nar/gkad244
+  title: "<i>Insplico</i>\n                    : effective computational tool for studying splicing order of adjacent introns genome-wide with short and long RNA-seq reads"
+source_repos:
+- https://github.com/liniguez/Insplico_simulations
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/liniguez/Insplico_simulations

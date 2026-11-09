@@ -1,0 +1,17 @@
+name: Margin
+slug: margin
+version_used: '2.2'
+edam_topics: []
+evidence_spans:
+- We used Margin version v2.2 and WhatsHap version v1.4 to haplotag and phase the variants
+derived_from:
+- doi: 10.1038/s41467-022-35650-2
+  title: Simultaneous profiling of histone modifications and DNA methylation via nanopore sequencing
+source_repos:
+- https://github.com/YinLabTJ/nanoHiMe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YinLabTJ/nanoHiMe

@@ -1,0 +1,19 @@
+name: DASV
+slug: dasv
+version_used: null
+edam_topics: []
+evidence_spans:
+- The DASV method could detect deletions in long-read sequencing data. It converts sequence alignment information into images and encodes them using integers
+- The DASV method could detect deletions in long-read sequencing data.
+- we propose a method named Dual Attention Structural Variation (DASV) to analyze deletion structural variations in sequencing data
+derived_from:
+- doi: 10.1093/bib/bbae269
+  title: Deletion variants calling in third-generation sequencing data based on a dual-attention mechanism
+source_repos:
+- https://github.com/deconvolution-w/DASV
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/deconvolution-w/DASV

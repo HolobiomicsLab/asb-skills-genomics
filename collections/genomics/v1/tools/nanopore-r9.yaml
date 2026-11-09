@@ -1,0 +1,17 @@
+name: Nanopore R9
+slug: nanopore-r9
+version_used: null
+edam_topics: []
+evidence_spans:
+- PECAT efficiently assembles diploid genomes using Nanopore R9, PacBio CLR or Nanopore R10 reads only.
+derived_from:
+- doi: 10.1038/s41467-024-47349-7
+  title: De novo diploid genome assembly using long noisy reads
+source_repos:
+- https://github.com/lemene/PECAT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lemene/PECAT

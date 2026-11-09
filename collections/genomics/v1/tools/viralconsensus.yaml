@@ -1,0 +1,18 @@
+name: ViralConsensus
+slug: viralconsensus
+version_used: null
+edam_topics: []
+evidence_spans:
+- ViralConsensus is written in C++ and depends on htslib
+- viral_consensus -i example/example.trimmed.unsorted.bam -r example/NC_045512.2.fas -o consensus.fas
+derived_from:
+- doi: 10.1093/bioinformatics/btad317
+  title: 'ViralConsensus: a fast and memory-efficient tool for calling viral consensus genome sequences directly from read alignment data'
+source_repos:
+- https://github.com/niemasd/ViralConsensus
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/niemasd/ViralConsensus

@@ -1,0 +1,18 @@
+name: Guppy (v4.0.14)
+slug: guppy-v4-0-14
+version_used: 4.0.14
+edam_topics: []
+evidence_spans:
+- Fast5 files were basecalled with Guppy (v4.0.14) using options –flowcell FLO-MIN106 –kit SQK-RNA002
+- The remainder of analyses were performed using the sequence lengths output by Guppy
+derived_from:
+- doi: 10.1038/s41467-024-48673-8
+  title: Biochemical-free enrichment or depletion of RNA classes in real-time during direct RNA sequencing with RISER
+source_repos:
+- https://github.com/comprna/riser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/comprna/riser

@@ -1,0 +1,17 @@
+name: ResNet
+slug: resnet
+version_used: null
+edam_topics: []
+evidence_spans:
+- the backbone network uses the ResNet, which is easy to optimize and can gain accuracy from considerably increased depth
+derived_from:
+- doi: 10.1093/bib/bbae269
+  title: Deletion variants calling in third-generation sequencing data based on a dual-attention mechanism
+source_repos:
+- https://github.com/deconvolution-w/DASV
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/deconvolution-w/DASV

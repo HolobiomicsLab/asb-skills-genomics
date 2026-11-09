@@ -1,0 +1,31 @@
+name: medaka
+slug: medaka
+version_used: null
+edam_topics: []
+evidence_spans:
+- '[medaka](https://github.com/nanoporetech/medaka)'
+- medaka (https://github.com/nanoporetech/medaka)
+- NanoSimFormer-derived reads enable high-quality de novo bacterial assembly with consensus error rates below one mismatch per 100 kbp
+- PECAT use medaka to further improve the quality of the assembly
+- nanoporetech/medaka
+derived_from:
+- doi: 10.1038/ncomms16027
+  title: Nanopore long-read RNAseq reveals widespread transcriptional variation among the surface receptors of individual B cells
+- doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+- doi: 10.1038/s41467-024-47349-7
+  title: De novo diploid genome assembly using long noisy reads
+- doi: 10.1093/bioinformatics/btaf687
+  title: 'ViMOP: a user-friendly and field-applicable pipeline for untargeted viral genome nanopore sequencing'
+source_repos:
+- https://github.com/rvolden/Mandalorion
+- https://github.com/nanoporetech/medaka
+- https://github.com/BioinfoSZU/NanoSimFormer
+- https://github.com/lemene/PECAT
+- https://github.com/opr-group-bnitm/vimop
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rvolden/Mandalorion

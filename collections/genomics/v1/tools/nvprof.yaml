@@ -1,0 +1,17 @@
+name: NVProf
+slug: nvprof
+version_used: null
+edam_topics: []
+evidence_spans:
+- ./Galaxy-methyl call-methylation -t 4 -B 4.0M -r FAB41174-3976885577_Multi/fastq/FAB41174.fastq.gz
+derived_from:
+- doi: 10.1093/bioadv/vbac088
+  title: GPU-accelerated and pipelined methylation calling
+source_repos:
+- https://github.com/fengyilin118/Galaxy-methyl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fengyilin118/Galaxy-methyl

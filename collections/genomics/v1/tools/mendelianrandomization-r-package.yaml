@@ -1,0 +1,17 @@
+name: MendelianRandomization R package
+slug: mendelianrandomization-r-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- how simmr integrates with the popular MendelianRandomization R package (Yavorska & Burgess, 2017)
+derived_from:
+- doi: 10.1002/gepi.22544
+  title: 'simmrd: An open‐source tool to perform simulations in Mendelian randomization'
+source_repos:
+- https://github.com/noahlorinczcomi/simmrd
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/noahlorinczcomi/simmrd

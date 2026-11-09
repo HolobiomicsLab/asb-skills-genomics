@@ -1,0 +1,17 @@
+name: PyTorch (v1.9.0)
+slug: pytorch-v1-9-0
+version_used: 1.9.0
+edam_topics: []
+evidence_spans:
+- All models were built, trained, and tested using PyTorch (v1.9.0)36 with a single NVIDIA Tesla V100 graphics processing unit (GPU)
+derived_from:
+- doi: 10.1038/s41467-024-48673-8
+  title: Biochemical-free enrichment or depletion of RNA classes in real-time during direct RNA sequencing with RISER
+source_repos:
+- https://github.com/comprna/riser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/comprna/riser

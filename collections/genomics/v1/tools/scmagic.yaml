@@ -1,0 +1,20 @@
+name: scMAGIC
+slug: scmagic
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we introduce scMAGIC (Single Cell annotation using MArker Genes Identification and two rounds of reference-based Classification [RBC]), a novel method
+- output.scMAGIC <- scMAGIC_atlas(exp_sc_mat, MCA_ref, atlas = 'MCA',
+- output.scMAGIC <- scMAGIC(exp_sc_mat, ref.mtx, ref.labels, atlas = 'MCA', num_threads = 4)
+- devtools::install_github("Drizzle-Zhang/scMAGIC")
+derived_from:
+- doi: 10.1093/nar/gkab1275
+  title: 'scMAGIC: accurately annotating single cells using two rounds of reference-based classification'
+source_repos:
+- https://github.com/TianLab-Bioinfo/scMAGIC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TianLab-Bioinfo/scMAGIC

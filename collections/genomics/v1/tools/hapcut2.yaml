@@ -1,0 +1,27 @@
+name: HapCUT2
+slug: hapcut2
+version_used: null
+edam_topics: []
+evidence_spans:
+- it uses our read-based haplotype phasing method HapCUT2
+- it uses our read-based haplotype phasing method HapCUT213
+- fed the variants into HapCUT24 (extractHAIRS --bam BAM --vcf VCF --ref REF --ont 1 --out FRAGMENT
+- fed the variants into HapCUT24 (extractHAIRS --bam BAM --vcf VCF --ref REF --ont 1 --out FRAGMENT; hapcut2 --outvcf 1 --f FRAGMENT --VCF VCF--o OUTPUT)
+- fed the variants into HapCUT24
+- We compared the correctly connecting N50 with the final phase blocks produced by HapCUT2.
+- fed the variants into HapCUT2
+- MethPhaser takes WhatsHap haplotagged reads, HapCUT2 phased SNVs as input
+derived_from:
+- doi: 10.1038/s41467-019-12493-y
+  title: Longshot enables accurate variant calling in diploid genomes from single-molecule long read sequencing
+- doi: 10.1038/s41467-024-49588-0
+  title: 'MethPhaser: methylation-based long-read haplotype phasing of human genomes'
+source_repos:
+- https://github.com/pjedge/longshot
+- https://github.com/treangenlab/methphaser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pjedge/longshot

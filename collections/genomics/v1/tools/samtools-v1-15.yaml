@@ -1,0 +1,18 @@
+name: SAMtools v1.15
+slug: samtools-v1-15
+version_used: '1.15'
+edam_topics: []
+evidence_spans:
+- processed via SAMtools v1.15 to generate sorted and indexed BAM files
+- The resulting SAM alignment files were processed via SAMtools v1.15 to generate sorted and indexed BAM files
+derived_from:
+- doi: 10.1038/s41467-023-41354-y
+  title: mRNA vaccine quality analysis using RNA sequencing
+source_repos:
+- https://github.com/scchess/Mana
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scchess/Mana

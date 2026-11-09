@@ -1,0 +1,17 @@
+name: pyBigWig
+slug: pybigwig
+version_used: null
+edam_topics: []
+evidence_spans:
+- pyBigWig - for JBrowse export functionality
+derived_from:
+- doi: 10.1093/gigascience/giab074
+  title: 'CNVpytor: a tool for copy number variation detection and analysis from read depth and allele imbalance in whole-genome sequencing'
+source_repos:
+- https://github.com/abyzovlab/CNVpytor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/abyzovlab/CNVpytor

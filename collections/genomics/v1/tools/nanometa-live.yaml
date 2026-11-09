@@ -1,0 +1,18 @@
+name: Nanometa Live
+slug: nanometa-live
+version_used: null
+edam_topics: []
+evidence_spans:
+- Nanometa Live presents a user-friendly interface designed for real-time metagenomic data analysis and pathogen identification
+- from nanometa_live.core.utils.classification_loaders import load_kraken_data
+derived_from:
+- doi: 10.1093/bioinformatics/btae108
+  title: 'Nanometa Live: a user-friendly application for real-time metagenomic data analysis and pathogen identification'
+source_repos:
+- https://github.com/FOI-Bioinformatics/nanometa_live
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FOI-Bioinformatics/nanometa_live

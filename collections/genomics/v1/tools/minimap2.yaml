@@ -1,0 +1,339 @@
+name: minimap2
+slug: minimap2
+version_used: '0.9'
+edam_topics: []
+evidence_spans:
+- Reads were aligned to the relevant genome by Minimap2 using the -ax map-ont and—secondary=no parameters.
+- We aligned PacBio reads against Gallus gallus genome ... using minimap2 aligner [30] obtaining depths of ∼ 34x
+- 'Minimap2: pairwise alignment for nucleotide sequences'
+- We used Minimap2 [34] and Miniasm [35] to generate a draft genome, then Racon [36] was used to polish on the draft genome for 10 rounds.
+- 'Split minimap2 index every INT input bases (default: 500M).'
+- the ‘-ax sr’ and ‘-ax map-pb/hifi/ont’ options were employed for genomic short-read and different types of long-read mapping
+- options were employed for genomic short-read and different types of long-read mapping, respectively, in CRAQ
+- Minimap2 (2.17+) for reads mapping, available from SourceForge
+- minimap2 -ax map-ont ${INPUT_DIR}/GRCh38.fa - -y
+- conda install samtools minimap2 bedtools -y
+- samtools fastq  ${OUTPUT_DIR}/basecalled.bam -T "*"|minimap2 -ax map-ont ${INPUT_DIR}/GRCh38.fa - -y
+- Dorado has the option to perform read alignment using minimap2 during basecalling if a reference FASTA file is provided
+- read mapping using minimap2 and subsequent analysis steps such as running modkit
+- reads are aligned to the genome using Minimap2.
+- 'Minimap2: pairwise alignment for nucleotide sequences'
+- against the four synthetic reference sequences using minimap2 with '-ax map-ont'
+- mapped to the 4 synthetic sequences using minimap2 with the settings -ax map-ont
+- We benchmarked Fedrann against established tools, including minimap2, MHAP, MECAT2, wtdbg2, xRead, and BLEND.
+- including MECAT2, minimap2, and wtdbg2
+- minimap2 is used to map reads to the human genome
+- minimap2 is used to map reads to the human genome. The output is piped directly into samtools sort to get a sorted bam file
+- '- [minimap2](https://github.com/lh3/minimap2)'
+- '[minimap2](https://github.com/lh3/minimap2)'
+- HiFiCCL relies on minimap2 for alignment
+- The input dataset was first aligned to the reference genome GRCh38 using minimap2, followed by alignment to the CHM13‐T2T reference genome using the same tool
+- aligning sequences with the high‐quality linear reference genome using the alignment tool minimap2 [54], with parameters set to “‐ax map‐hifi”.
+- the initial chromosome classes for reads are determined by aligning sequences with the high‐quality linear reference genome using the alignment tool minimap2
+- aligning sequences with the high‐quality linear reference genome using the alignment tool minimap2
+- 'Minimap2: Pairwise Alignment for Nucleotide Sequences'
+- works with both short and long read sequencing technologies
+- we downloaded this dataset and mapped it to the human genome hg38 assembly with the Minimap2 v2.17-r974-dirty in splice mode
+- this study presents a novel long-read mapping algorithm (named as invMap)
+- invMap 76.55%, minimap2 75.15%
+- _No usage/docs found._
+- and minimap2 [`minimap2`(>= 2.11)](https://github.com/lh3/minimap2)
+- wrapper for minimap2 that has sets of recommended parameters that support PacBio data alignment
+- minimap2 --secondary=no -ax splice -uf -k14 -t 36 --cs ${ref} ${basecall}
+- basecalled reads are aligned to reference sequences containing all possible random combinations of constituent oligos using minimap2.22
+- aligned to the plasmid reference via Minimap2 (Release 2.20-r1064) with -ax map-ont
+- aligned to the plasmid reference via Minimap2 (Release 2.20-r1064) with -ax map-ont for Nanopore
+- '[minimap2](https://github.com/lh3/minimap2)'
+- minimap2 (https://github.com/lh3/minimap2)
+- '- [minimap2](https://github.com/lh3/minimap2)'
+- mamba install -c bioconda nanopolish minimap2 samtools r-data.table r-dplyr r-plyr
+- We then used minimap2 v2.2462 to align reads to the reference and keep the MM and ML tags.
+- used minimap2 v2.2462 to align reads to the reference and keep the MM and ML tags
+- '[Minimap2](https://github.com/lh3/minimap2) is used to map the reads to a reference genome.'
+- Minimap2 is used to map the reads to a reference genome.
+- Minimap2](https://github.com/lh3/minimap2) is not a direct dependency but is required to generate the BAM alignment required by NanoCount
+- We recommend using the `-N 10` option to retain at least 10 secondary mappings.
+- Reads should be aligned to a **transcriptome reference** using **[minimap2](https://github.com/lh3/minimap2)**
+- aligned to the human (GRCh38) (28) and synthetic (25) sequin genome and transcriptome using minimap2 (v2.17)
+- Minimap2 (2.6) - https://github.com/lh3/minimap2
+- minimap2, miniasm, Racon
+- minimap2 mapping, miniasm assembly, Racon polishing
+- a rapid long-read assembly workflow using minimap2
+- Individual reads were aligned to hg19 human reference genome by Minimap2 v2.17 with default settings
+- minimap2 -ax map-ont -t 8 hg19.fa test.fastq
+- minimap2 -ax map-ont -t 8 hg19.fa test.fastq | /data/software/samtools-1.9/samtools sort -o test.sorted.bam -T test.tmp
+- 'Minimap2: pairwise alignment for nucleotide sequences'
+- minimap2 with ‘-ax map-ont -t 8 -p 0.1'
+- aligned to the reference genome with minimap2 to the GRCh38 reference genome
+- These FASTQ files were aligned with minimap2 to generate BAM files
+- we assume that both tumor and control sequence files are already aligned to the reference genomes with minimap2
+- 'Minimap2: pairwise alignment for nucleotide sequences'
+- aligned to a reference using minimap2
+- Dorado basecalled reads aligned to a reference using minimap2, must be indexed
+- 'aligned to the respective reference using minimap2 (v2.28-r1209) (Li 2018) with the options "-axlr: hq—secondary=no—eqx"'
+- kmer size for the minimap2 (default 20)
+- adding the candidate reads to the graph using minimap27 alignment
+- mapping using minimap2
+- '[winnowmap](https://github.com/marbl/Winnowmap) or [minimap2](https://github.com/lh3/minimap2/)'
+- '# or mapping using minimap2'
+- minimap2 -ax map-hifi -t 5 asm.fa.gz hifi.fasta.gz|samtools sort -o hifi.map.sort.bam -
+- 1. Prepare HiFi mapping file ([winnowmap](https://github.com/marbl/Winnowmap) or [minimap2](https://github.com/lh3/minimap2/)).
+- '[`MINIMAP2`](https://github.com/lh3/minimap2) or [`uLTRA`](https://github.com/ksahlin/ultra) aligns reads ont the genome.'
+- We use Minimap2 for aligning the resulting contigs from the previous step to the reference genome
+- We aligned this assembly to the GRCh38 reference genome using Minimap2
+- We use Minimap2 for aligning the resulting contigs from the previous step to the reference genome.
+- minimap2 -x splice -t 20 -d Mus_musculus.mmi Mus_musculus.GRCm38.dna.toplevel.chromosome.fa
+- minimap2 2.15-r905
+- minimap2 -x splice -t 20 -d Mus_musculus.mmi Mus_musculus.GRCm38.dna.toplevel.chromosome.fa &>index.log
+- Clean CCS reads were aligned to mouse reference genome (mm10) by using minimap2 (v2.15-r905)
+- minimap2 -x splice -t 20 -d Mus_musculus.mmi
+- It uses minimap2 with `corr_rd2rd_options` to find the candidate overlaps between the extracted reads.
+- PECAT first use minimap2 to map the reads
+- PECAT first uses minimap2 with `align_rd2rd_options` to detect the overlaps between corrected reads.
+- The parameter is passed to `minimap2`, which means to filter out top 0.005 or 0.002 fraction of repetitive minimizers.
+- In the second round of assembly, PECAT first use minimap2 to map the reads
+- It uses minimap2 with `corr_rd2rd_options` to find the candidate overlaps between the extracted reads
+- Indexing is similar to minimap2's usage.
+- e.g., pipelining, hash table usage, DP and RMQ-based chaining
+- '|minimap2 | 2.17|'
+- we use minimap2 (v2.17) (Li 2018) to align each read to the reference transcriptome
+- mapped to the GENCODE reference transcriptome (release 34, assembly GRCh38.p13) with minimap233 (v2.17) using options -ax map-ont --secondary=no
+- mapped to the GENCODE reference transcriptome (release 34, assembly GRCh38.p13) with minimap233 (v2.17)
+- minimap2 -ax splice -t 6 -uf --secondary=no -C5 -t 5 ref.genome.fa isoseq_flnc.Transcript.fastq > isoseq_flnc.Transcript.sam
+- The default aligner is minimap2_splice (minimap2 with the splice preset)
+- The barcoded FASTQ files are aligned to the reference genome with minimap2 (Li 2018) using the splice preset
+- for long reads, we used Minimap2 (Li 2018) (version 2.24-r1122, -x map-hifi for PacBio-HiFi reads
+- align with minimap2
+- Seq2squiggle consistently outperforms existing tools across multiple datasets, demonstrating superior similarity to real data
+- the reads were then aligned with minimap2 (v2.26) to reference sequences indicated therein
+- minimap2 -ax splice -uf --sam-hit-only -t 20 $BUILD.mmi fastq_pass.fastq.gz
+- '* [minimap2](https://github.com/lh3/minimap2)'
+- Nanopore reads were aligned to the Mus musculus Genome (mm10) with minimap2 v2.17 in spliced alignment mode
+- 2. Read alignment usign minimap2
+- require python3, pysam, samtools, minimap2
+- HISAT2/MINIMAP2/GMAP at least one
+- '* the path of HISAT2/Minimap2'
+- '${i}.fa.long.bed: the bed file mapped by minimap2 generated by TAGET'
+- --use_minimap2 [1] --use_hisat2 [hisat2 index]
+- 'Minimap2: pairwise alignment for nucleotide sequences'
+- REFER aligns these to the reference genome using minimap2 [19], which compared favorably to alternative aligners on syntethic data
+- REFER aligns these to the reference genome using minimap2 [19]
+- REFER aligns these to the reference genome using minimap2
+- step 1 computes minimizer based all-vs-all overlaps, for which we employ Minimap229
+- '- [minimap2](https://github.com/lh3/minimap2)'
+- step 1 computes minimizer based all-vs-all overlaps, for which we employ Minimap2
+- Host and contaminant reads are removed by mapping them against reference sequences and extracting those that map.
+- the remaining reads are mapped with minimap2 against one or more sets of host genome sequences
+- minimap2 -t 1 -a -x sr reference.fas reads.fastq.gz | viral_consensus -i - -r reference.fas -o consensus.fas
+- Samples were mapped to the NC_045512.2 reference genome using Minimap2.
+- map filtered reads against a provided reference sequence with minimap2
+- The reads of each sample are mapped against the reference using minimap2 (Li 2021).
+- Hifi_L2_hg19_minimap2_chr10.bam
+- This method is as simple as running minimap2, scales efficiently with the number of sequences
+- minimap2 -t 60 -ax map-ont --MD ../database/GCA_000001405.15_GRCh38_genomic.chr-only-chr6hlamasked-HLA-I_II_GEN.fa.gz
+- This method is as simple as running minimap2
+- minimap2 -t 60 -ax map-ont --MD ../database/GCA_000001405.15_GRCh38_genomic.chr-only-noChr6-HLA-I_II_GEN.fa.gz ERR2585115.fastq.gz | ./HLAminer.pl
+- the minimap2 read-aligner (2.28-r1209, https://github.com/lh3/minimap2; Li, 2018)
+- lh3/minimap2
+- 'Minimap2: Pairwise alignment for nucleotide sequences'
+derived_from:
+- doi: 10.1093/bioinformatics/btag294
+  title: Utilization of long-read sequencing for the detection of structural rearrangements with AgileStructure
+- doi: 10.1093/gigascience/giac099
+  title: 'annotate_my_genomes: an easy-to-use pipeline to improve genome annotation and uncover neglected genes by hybrid RNA sequencing'
+- doi: 10.1038/s41467-025-57088-y
+  title: Species-resolved profiling of antibiotic resistance genes in complex metagenomes through long-read overlapping with Argo
+- doi: 10.1038/s41467-024-47953-7
+  title: Prediction of m6A and m5C at single-molecule resolution reveals a transcriptome-wide co-occurrence of RNA modifications
+- doi: 10.1093/gigascience/giy037
+  title: 'Chiron: translating nanopore raw signal directly into nucleotide sequence using deep learning'
+- doi: 10.1038/s41598-025-01486-1
+  title: ConsensuSV-ONT – A modern method for accurate structural variant calling
+- doi: 10.1038/s41598-020-80757-5
+  title: Scalable long read self-correction and assembly polishing with multiple sequence alignment
+- doi: 10.1038/s41467-023-42336-w
+  title: Identification of errors in draft genome assemblies at single-nucleotide resolution for quality assessment and improvement
+- doi: 10.1038/s41467-024-45778-y
+  title: A signal processing and deep learning framework for methylation detection using Oxford Nanopore sequencing
+- doi: 10.1016/j.jare.2022.10.012
+  title: Improvement of large copy number variant detection by whole genome nanopore sequencing
+- doi: 10.1093/bioinformatics/btag066
+  title: 'Dogme: a nextflow pipeline for reprocessing nanopore RNA and DNA modifications'
+- doi: 10.1093/nar/gkac039
+  title: 'Dysgu: efficient structural variant calling using short or long reads'
+- doi: 10.1038/s41467-019-11713-9
+  title: Accurate detection of m6A RNA modifications in native RNA sequences
+- doi: 10.1093/gigascience/giag048
+  title: 'FEDRANN: effective long-read overlap detection based on dimensionality reduction and approximate nearest neighbors'
+- doi: 10.1093/bioadv/vbac088
+  title: GPU-accelerated and pipelined methylation calling
+- doi: 10.1016/j.isci.2020.101389
+  title: 'HASLR: Fast Hybrid Assembly of Long Reads'
+- doi: 10.1002/advs.202515308
+  title: "Reference‐Guided Chromosome‐by‐Chromosome\n                    <i>de novo</i>\n                    Assembly at Scale Using Low‐Coverage High‐Fidelity Long‐Reads with HiFiCCL"
+- doi: 10.1093/nar/gkad244
+  title: "<i>Insplico</i>\n                    : effective computational tool for studying splicing order of adjacent introns genome-wide with short and long RNA-seq reads"
+- doi: 10.1093/bioinformatics/btad726
+  title: 'invMap: a sensitive mapping tool for long noisy reads with inversion structural variants'
+- doi: 10.1038/s41467-020-20459-8
+  title: isoCirc catalogs full-length circular RNA isoforms in human transcriptomes
+- doi: 10.1093/bioinformatics/btaf680
+  title: 'isoSeQL: comparing long-read isoforms across multiple datasets'
+- doi: 10.1038/s41467-024-47661-2
+  title: Detecting m6A at single-molecular resolution via direct RNA sequencing and realistic training data
+- doi: 10.1038/s41467-023-41354-y
+  title: mRNA vaccine quality analysis using RNA sequencing
+- doi: 10.1038/ncomms16027
+  title: Nanopore long-read RNAseq reveals widespread transcriptional variation among the surface receptors of individual B cells
+- doi: 10.1038/s41467-021-23778-6
+  title: Systematic benchmarking of tools for CpG methylation detection from nanopore sequencing
+- doi: 10.1038/s41467-024-49588-0
+  title: 'MethPhaser: methylation-based long-read haplotype phasing of human genomes'
+- doi: 10.1093/bib/bbae473
+  title: 'miniSNV: accurate and fast single nucleotide variant calling from nanopore sequencing data'
+- doi: 10.1093/bioinformatics/btag086
+  title: 'Nallo: a Nextflow pipeline for comprehensive human long-read genome analysis'
+- doi: 10.1093/nar/gkab1129
+  title: Accurate expression quantification from nanopore direct RNA sequencing with NanoCount
+- doi: 10.1093/nar/gkab397
+  title: Long-read whole-genome methylation patterning using enzymatic base conversion and nanopore sequencing
+- doi: 10.1038/s41467-020-16641-7
+  title: Partner independent fusion gene detection by multiplexed CRISPR-Cas9 enrichment and long read nanopore sequencing
+- doi: 10.1093/gigascience/giaa105
+  title: 'NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy'
+- doi: 10.1038/s41467-022-35650-2
+  title: Simultaneous profiling of histone modifications and DNA methylation via nanopore sequencing
+- doi: 10.1093/bib/bbae001
+  title: Benchmarking of computational methods for m6A profiling with Nanopore direct RNA sequencing
+- doi: 10.1093/nar/gkad526
+  title: Precise characterization of somatic complex structural variations from tumor/control paired long-read sequencing data with nanomonsv
+- doi: 10.1038/s41467-023-44137-7
+  title: Integrative genotyping of cancer and immune phenotypes by long-read sequencing
+- doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+- doi: 10.1038/s41598-023-29267-8
+  title: Reference-free lossless compression of nanopore sequencing reads using an approximate assembly approach
+- doi: 10.1093/gpbjnl/qzad009
+  title: 'NextPolish2: A Repeat-aware Polishing Tool for Genomes Assembled Using HiFi Long Reads'
+- doi: 10.1093/bioinformatics/btad150
+  title: 'nf-core/isoseq: simple gene and isoform annotation with PacBio Iso-Seq long-read sequencing'
+- doi: 10.1093/nar/gkac653
+  title: Efficient detection and assembly of non-reference DNA sequences with synthetic long reads
+- doi: 10.1038/s41467-019-13228-9
+  title: Poly(A) inclusive RNA isoform sequencing (PAIso−seq) reveals wide-spread non-adenosine residues within RNA poly(A) tails
+- doi: 10.1038/s41467-024-47349-7
+  title: De novo diploid genome assembly using long noisy reads
+- doi: 10.1093/bioinformatics/btae478
+  title: 'RawHash2: mapping raw nanopore signals using hash-based seeding and adaptive quantization'
+- doi: 10.1093/bioinformatics/btae375
+  title: RNA m6A detection using raw current signals and basecalling errors from Nanopore direct RNA sequencing reads
+- doi: 10.1038/s41598-025-98847-7
+  title: Advanced analysis of retrotransposon variation in the human genome with nanopore sequencing using RetroInspector
+- doi: 10.1038/s41467-024-48673-8
+  title: Biochemical-free enrichment or depletion of RNA classes in real-time during direct RNA sequencing with RISER
+- doi: 10.1038/s41467-023-38324-9
+  title: High-throughput and high-accuracy single-cell RNA isoform analysis using PacBio circular consensus sequencing
+- doi: 10.1093/bioinformatics/btae549
+  title: 'Scywalker: scalable end-to-end data analysis workflow for long-read single-cell transcriptome sequencing'
+- doi: 10.1093/bioinformatics/btad209
+  title: 'SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing'
+- doi: 10.1093/bioinformatics/btae744
+  title: End-to-end simulation of nanopore sequencing signals with feed-forward transformers
+- doi: 10.1038/s41467-020-17800-6
+  title: High throughput error corrected Nanopore single cell transcriptome sequencing
+- doi: 10.1093/bioinformatics/btae501
+  title: Interactive visualization of nanopore sequencing signal data with <i>Squigualiser</i>
+- doi: 10.1093/bioinformatics/btae686
+  title: Detecting transposable elements in long-read genomes using sTELLeR
+- doi: 10.1038/s41467-023-41649-0
+  title: 'TAGET: a toolkit for analyzing full-length transcripts from long-read sequencing'
+- doi: 10.1093/gigascience/giaa101
+  title: 'TRiCoLOR: tandem repeat profiling using whole-genome long-read sequencing data'
+- doi: 10.1038/s41467-022-34381-8
+  title: 'VeChat: correcting errors in long reads using variation graphs'
+- doi: 10.1093/bioinformatics/btaf687
+  title: 'ViMOP: a user-friendly and field-applicable pipeline for untargeted viral genome nanopore sequencing'
+- doi: 10.1093/bioinformatics/btad317
+  title: 'ViralConsensus: a fast and memory-efficient tool for calling viral consensus genome sequences directly from read alignment data'
+- doi: 10.1093/bioinformatics/btaf029
+  title: 'VirDetector: a bioinformatic pipeline for virus surveillance using nanopore sequencing'
+- doi: 10.1038/s41467-024-51282-0
+  title: VolcanoSV enables accurate and robust structural variant calling in diploid genomes from single-molecule long read sequencing
+- doi: 10.1038/s42003-026-09849-8
+  title: 'Z-Calling: a tool for A/Z (2,6-diaminopurine) base calling and dZ-DNA detection using PacBio HiFi reads'
+- doi: 10.1002/cpz1.70124
+  title: Streaming Long‐Read Sequence Alignments for HLA Predictions Using HLAminer
+- doi: 10.1002/cpz1.733
+  title: "ntLink: A Toolkit for\n                    <i>De Novo</i>\n                    Genome Assembly Scaffolding and Mapping Using Long Reads"
+source_repos:
+- https://github.com/lh3/minimap2
+- https://github.com/msjimc/AgileStructure
+- https://github.com/cfarkas/annotate_my_genomes
+- https://github.com/xinehc/argo
+- https://github.com/comprna/CHEUI-public
+- https://github.com/haotianteng/Chiron
+- https://github.com/SFGLab/ConsensuSV-ONT-pipeline
+- https://github.com/morispi/CONSENT
+- https://github.com/JiaoLaboratory/CRAQ
+- https://github.com/WGLab/DeepMod2
+- https://github.com/javiercguard/disCoverage
+- https://github.com/mortazavilab/dogme
+- https://github.com/kcleal/dysgu
+- https://github.com/enovoa/EpiNano
+- https://github.com/jzhang-dev/fedrann
+- https://github.com/fengyilin118/Galaxy-methyl
+- https://github.com/vpc-ccg/haslr
+- https://github.com/zjjbuqi/HiFiCCL
+- https://github.com/liniguez/Insplico_simulations
+- https://github.com/zhang134/invMap
+- https://github.com/Xinglab/isoCirc
+- https://github.com/christine-liu/isoSeQL
+- https://github.com/dieterich-lab/mAFiA
+- https://github.com/scchess/Mana
+- https://github.com/rvolden/Mandalorion
+- https://github.com/comprna/METEORE
+- https://github.com/treangenlab/methphaser
+- https://github.com/CuiMiao-HIT/miniSNV
+- https://github.com/genomic-medicine-sweden/nallo
+- https://github.com/a-slide/NanoCount
+- https://github.com/yos-sk/nanoEM
+- https://github.com/SdeBlank/NanoFG
+- https://github.com/mmiladi/galaxy-nanopore
+- https://github.com/YinLabTJ/nanoHiMe
+- https://github.com/mfurla/NanOlympicsMod
+- https://github.com/friend1ws/nanomonsv
+- https://github.com/mehdiborji/nanoranger
+- https://github.com/BioinfoSZU/NanoSimFormer
+- https://github.com/qm2/NanoSpring
+- https://github.com/Nextomics/NextPolish2
+- https://github.com/nf-core/isoseq
+- https://github.com/1dayac/Novel-X
+- https://github.com/niehu2018/GV_oocyte_PAIsoSeqAnalysis
+- https://github.com/lemene/PECAT
+- https://github.com/CMU-SAFARI/RawHash
+- https://github.com/Derryxu/RedNano
+- https://github.com/javiercguard/retroinspector
+- https://github.com/comprna/riser
+- https://github.com/shizhuoxing/scISA-Tools
+- https://github.com/derijkp/scywalker
+- https://github.com/BigDataBiology/SemiBin
+- https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle
+- https://github.com/ucagenomix/sicelore-2.1
+- https://github.com/hiruna72/squigualiser
+- https://github.com/kristinebilgrav/sTELLeR
+- https://github.com/XiDsLab/TAGET
+- https://github.com/davidebolo1993/TRiCoLOR
+- https://github.com/HaploKit/vechat
+- https://github.com/opr-group-bnitm/vimop
+- https://github.com/niemasd/ViralConsensus
+- https://github.com/NLKaiser/VirDetector
+- https://github.com/maiziezhoulab/VolcanoSV
+- https://github.com/xiaochuanle/Z-Calling
+- https://github.com/BirolLab/HLAminer
+- https://github.com/BirolLab/ntLink
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lh3/minimap2

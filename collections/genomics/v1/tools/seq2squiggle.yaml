@@ -1,0 +1,25 @@
+name: seq2squiggle
+slug: seq2squiggle
+version_used: null
+edam_topics: []
+evidence_spans:
+- integrated some preprocessing code snippets from [seq2squiggle](https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle)
+- github.com/ZKI-PH-ImageAnalysis/seq2squiggle
+- we introduce seq2squiggle, a novel transformer-based, non-autoregressive model designed to generate nanopore sequencing signals from nucleotide sequences
+- '`seq2squiggle` is a deep learning-based tool'
+- Modify seq2squiggle by replacing its duration sampler
+- seq2squiggle
+derived_from:
+- doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+- doi: 10.1093/bioinformatics/btae744
+  title: End-to-end simulation of nanopore sequencing signals with feed-forward transformers
+source_repos:
+- https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle
+- https://github.com/BioinfoSZU/NanoSimFormer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle

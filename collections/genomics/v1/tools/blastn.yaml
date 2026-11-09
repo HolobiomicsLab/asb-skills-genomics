@@ -1,0 +1,21 @@
+name: blastn
+slug: blastn
+version_used: null
+edam_topics: []
+evidence_spans:
+- _No usage/docs found._
+- perform a BLAST search against an nt/nr database and filter out all contigs that align to non-human references
+derived_from:
+- doi: 10.1093/gigascience/giy140
+  title: 'NanoAmpli-Seq: a workflow for amplicon sequencing for mixed microbial communities on the nanopore sequencing platform'
+- doi: 10.1093/nar/gkac653
+  title: Efficient detection and assembly of non-reference DNA sequences with synthetic long reads
+source_repos:
+- https://github.com/umerijaz/nanopore
+- https://github.com/1dayac/Novel-X
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/umerijaz/nanopore

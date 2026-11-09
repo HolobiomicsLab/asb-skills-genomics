@@ -1,0 +1,35 @@
+name: Singularity
+slug: singularity
+version_used: 3.2.1
+edam_topics: []
+evidence_spans:
+- the following cmd will cache the dafault singularity image (`--singularity_name` and/or `--clair3_singularity_name`)
+- '### Example 1. Run with singularity (recommended)'
+- conda install -c conda-forge singularity
+- build the virtual environment using Singularity (v3.2.1 and above)
+- adopts Docker and Singularity container technologies, removing the need to install required software dependencies
+- It includes containerization support via Docker and Singularity, ensuring ease of use, reproducibility, and portability.
+- Assessment is run in a truvari singularity image, so singularity will be required as well.
+derived_from:
+- doi: 10.1038/s41467-023-39784-9
+  title: DNA 5-methylcytosine detection and methylation phasing using PacBio circular consensus sequencing
+- doi: 10.1093/bioinformatics/btaf397
+  title: Identifying DNA methylation types and methylated base positions from bacteria using nanopore sequencing with multi-scale neural network
+- doi: 10.1093/bib/bbae001
+  title: Benchmarking of computational methods for m6A profiling with Nanopore direct RNA sequencing
+- doi: 10.1093/bioinformatics/btae108
+  title: 'Nanometa Live: a user-friendly application for real-time metagenomic data analysis and pathogen identification'
+- doi: 10.1093/bioinformatics/btaf136
+  title: 'Sawfish: improving long-read structural variant discovery and genotyping with local haplotype modeling'
+source_repos:
+- https://github.com/PengNi/ccsmethphase
+- https://github.com/cz-csu/Nanoident
+- https://github.com/mfurla/NanOlympicsMod
+- https://github.com/FOI-Bioinformatics/nanometa_live
+- https://github.com/PacificBiosciences/sawfish
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PengNi/ccsmethphase

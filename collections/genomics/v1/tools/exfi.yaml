@@ -1,0 +1,23 @@
+name: EXFI
+slug: exfi
+version_used: null
+edam_topics: []
+evidence_spans:
+- build_baited_bloom_filter uses both the transcriptome assembly and the WGS reads and performs the task in three steps
+- In EXFI, build_baited_bloom_filter uses both the transcriptome assembly and the WGS reads and performs the task in three steps
+- a Python pipeline that predicts the splice graph and exon sequences using an assembled transcriptome and raw whole-genome sequencing reads
+- 'The performance of EXFI was compared with two tools: GMAP (Wu & Watanabe, 2005) and ChopStitch (Khan et al., 2018).'
+- EXFI was executed using the assembled tench transcriptome
+- In EXFI, build_baited_bloom_filter uses both the transcriptome assembly and the WGS reads and performs the task in three steps.
+- The exon and splice graph prediction procedure is carried out by the build_splice_graph script, which predicts in one step the exon sequences
+derived_from:
+- doi: 10.1002/ece3.6587
+  title: 'EXFI: Exon and splice graph prediction without a reference genome'
+source_repos:
+- https://github.com/jlanga/exfi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jlanga/exfi

@@ -1,0 +1,17 @@
+name: PyMix
+slug: pymix
+version_used: null
+edam_topics: []
+evidence_spans:
+- SMsn or SMp score (native score - WGA score)
+derived_from:
+- doi: 10.1038/ncomms8438
+  title: Single molecule-level detection and long read-based phasing of epigenetic variations in bacterial methylomes
+source_repos:
+- https://github.com/fanglab/SMALR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fanglab/SMALR

@@ -1,0 +1,22 @@
+name: SVIM-asm
+slug: svim-asm
+version_used: null
+edam_topics: []
+evidence_spans:
+- assembly‐based SV detection was conducted using SVIM‐asm (1.0.3)
+- such as Dipcall23, SVIM-asm24, and PAV25
+derived_from:
+- doi: 10.1002/advs.202515308
+  title: "Reference‐Guided Chromosome‐by‐Chromosome\n                    <i>de novo</i>\n                    Assembly at Scale Using Low‐Coverage High‐Fidelity Long‐Reads with HiFiCCL"
+- doi: 10.1038/s41467-024-51282-0
+  title: VolcanoSV enables accurate and robust structural variant calling in diploid genomes from single-molecule long read sequencing
+source_repos:
+- https://github.com/zjjbuqi/HiFiCCL
+- https://github.com/eldariont/svim-asm
+- https://github.com/maiziezhoulab/VolcanoSV
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zjjbuqi/HiFiCCL

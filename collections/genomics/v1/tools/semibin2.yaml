@@ -1,0 +1,21 @@
+name: SemiBin2
+slug: semibin2
+version_used: 2.1.0
+edam_topics: []
+evidence_spans:
+- When you install the SemiBin package, the `SemiBin2` command is available.
+- When you install the SemiBin package, the `SemiBin2` command is available. As of version 2.2, only `SemiBin2` is installed.
+derived_from:
+- doi: 10.1038/s41467-025-57088-y
+  title: Species-resolved profiling of antibiotic resistance genes in complex metagenomes through long-read overlapping with Argo
+- doi: 10.1093/bioinformatics/btad209
+  title: 'SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing'
+source_repos:
+- https://github.com/xinehc/argo
+- https://github.com/BigDataBiology/SemiBin
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xinehc/argo

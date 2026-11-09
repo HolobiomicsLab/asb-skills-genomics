@@ -1,0 +1,18 @@
+name: MarkDuplicates
+slug: markduplicates
+version_used: null
+edam_topics: []
+evidence_spans:
+- The sorted SAM file is then inputted to the MarkDuplicates
+- The sorted SAM file is then inputted to the MarkDuplicates [46] to locate, tag, and remove duplicate reads
+derived_from:
+- doi: 10.1002/2211-5463.13261
+  title: 'JWES: a new pipeline for whole genome/exome sequence data processing, management, and gene‐variant discovery, annotation, prediction, and genotyping'
+source_repos:
+- https://github.com/drzeeshanahmed/JWES-DB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/drzeeshanahmed/JWES-DB

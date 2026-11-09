@@ -1,0 +1,21 @@
+{
+  "workflow": "long_read_structural_variant",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "This non-primary leaf filters Longshot candidate SNVs by high read depth; it does not evaluate DEL/DUP coverage support in a per-caller structural-variant VCF.",
+      "severity": "advisory",
+      "slug": "read-depth-coverage-filtering",
+      "stage": "filter_per_caller_calls"
+    }
+  ],
+  "verdict": "pass"
+}

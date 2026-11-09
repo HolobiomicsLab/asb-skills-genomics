@@ -1,0 +1,17 @@
+name: dynamicTreeCut
+slug: dynamictreecut
+version_used: null
+edam_topics: []
+evidence_spans:
+- Next, acorde uses correlations to cluster co-expressed isoforms into a network, unraveling cell type-specific alternative isoform usage patterns
+derived_from:
+- doi: 10.1038/s41467-022-29497-w
+  title: acorde unravels functionally interpretable networks of isoform co-usage from single cell data
+source_repos:
+- https://github.com/ConesaLab/acorde
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ConesaLab/acorde

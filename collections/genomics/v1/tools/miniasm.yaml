@@ -1,0 +1,27 @@
+name: Miniasm
+slug: miniasm
+version_used: null
+edam_topics: []
+evidence_spans:
+- We used Minimap2 [34] and Miniasm [35] to generate a draft genome, then Racon [36] was used to polish on the draft genome for 10 rounds.
+- fasta file where to output the polished contigs.
+- Build raw Miniasm assemblies for the simulated 60x E. coli/S. cerevisiae/C. elegans and real S. cerevisiae/D. melanogaster/H. sapiens chr 1 datasets
+- minimap2, miniasm, Racon
+- minimap2 mapping, miniasm assembly, Racon polishing
+derived_from:
+- doi: 10.1093/gigascience/giy037
+  title: 'Chiron: translating nanopore raw signal directly into nucleotide sequence using deep learning'
+- doi: 10.1038/s41598-020-80757-5
+  title: Scalable long read self-correction and assembly polishing with multiple sequence alignment
+- doi: 10.1093/gigascience/giaa105
+  title: 'NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy'
+source_repos:
+- https://github.com/haotianteng/Chiron
+- https://github.com/morispi/CONSENT
+- https://github.com/mmiladi/galaxy-nanopore
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/haotianteng/Chiron

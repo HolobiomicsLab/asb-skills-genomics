@@ -1,0 +1,20 @@
+name: CRAQ
+slug: craq
+version_used: null
+edam_topics: []
+evidence_spans:
+- we develop a new reference-free tool, Clipping information for Revealing Assembly Quality (CRAQ)
+- we develop a new reference-free tool, Clipping information for Revealing Assembly Quality (CRAQ), which maps raw reads back to assembled sequences
+- CRAQ first extracts all clipped reads, coded as “S” or “H” in the Compact Idiosyncratic Gapped Alignment Report (CIGAR) string
+derived_from:
+- doi: 10.1038/s41467-023-42336-w
+  title: Identification of errors in draft genome assemblies at single-nucleotide resolution for quality assessment and improvement
+source_repos:
+- https://github.com/JiaoLaboratory/CRAQ
+- https://github.com/JiaoLaboratory/CRAQ.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JiaoLaboratory/CRAQ

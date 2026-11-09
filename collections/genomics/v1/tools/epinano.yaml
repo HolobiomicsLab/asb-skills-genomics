@@ -1,0 +1,23 @@
+name: Epinano
+slug: epinano
+version_used: null
+edam_topics: []
+evidence_spans:
+- This category also includes ELIGOS26 and Epinano27, which compare base-calling errors between two experiments
+- propose a novel algorithm, EpiNano (github.com/enovoa/EpiNano), which can be used to identify m6A RNA modifications from RNA reads
+- sequences, and propose a novel algorithm, EpiNano (github.com/enovoa/EpiNano), which can be used to identify m6A RNA modifications from RNA reads
+derived_from:
+- doi: 10.1038/s41467-024-47953-7
+  title: Prediction of m6A and m5C at single-molecule resolution reveals a transcriptome-wide co-occurrence of RNA modifications
+- doi: 10.1038/s41467-019-11713-9
+  title: Accurate detection of m6A RNA modifications in native RNA sequences
+source_repos:
+- https://github.com/comprna/CHEUI-public
+- https://github.com/enovoa/EpiNano
+- https://github.com/novoalab/EpiNano
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/comprna/CHEUI-public

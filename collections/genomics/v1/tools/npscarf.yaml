@@ -1,0 +1,20 @@
+name: npScarf
+slug: npscarf
+version_used: null
+edam_topics: []
+evidence_spans:
+- jsa.np.npscarf -realtime -input - -format sam -seq
+- jsa.np.npscarf -realtime [options]
+- '*npScarf* module is bundled within the [Japsa package]'
+- Here we present npScarf, which can scaffold and complete short read assemblies while the long read sequencing run is in progress.
+derived_from:
+- doi: 10.1038/ncomms14515
+  title: Scaffolding and completing genome assemblies in real-time with nanopore sequencing
+source_repos:
+- https://github.com/mdcao/npScarf
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mdcao/npScarf

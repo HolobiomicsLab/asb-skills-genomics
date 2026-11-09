@@ -1,0 +1,22 @@
+name: lima
+slug: lima
+version_used: null
+edam_topics: []
+evidence_spans:
+- '[lima](https://lima.how/) is used to identify and remove primer sequences using a specialized --isoseq mode'
+- '[LIMA](https://github.com/pacificbiosciences/barcoding/) clean generated CCS. It selects sequences containing valid pairs of primers and removed it.'
+derived_from:
+- doi: 10.1093/bioinformatics/btaf680
+  title: 'isoSeQL: comparing long-read isoforms across multiple datasets'
+- doi: 10.1093/bioinformatics/btad150
+  title: 'nf-core/isoseq: simple gene and isoform annotation with PacBio Iso-Seq long-read sequencing'
+source_repos:
+- https://github.com/christine-liu/isoSeQL
+- https://github.com/pacificbiosciences/barcoding
+- https://github.com/nf-core/isoseq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/christine-liu/isoSeQL

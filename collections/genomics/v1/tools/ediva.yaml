@@ -1,0 +1,22 @@
+name: eDiVA
+slug: ediva
+version_used: null
+edam_topics: []
+evidence_spans:
+- The eDiVA‐Predict module performs sample‐wise variant calling according to the recent GATK (McKenna et al., 2010) best practices
+- We therefore developed eDiVA‐Score, a machine learning classifier, which assigns a pathogenicity probability to each variant
+- we therefore developed eDiVA‐Score, a machine learning classifier, which assigns a pathogenicity probability to each variant
+- We evaluated the ability of eDiVA‐Score and six competing methods, namely CADD, Eigen, DANN, Revel, M‐CAP, and MetaLR
+- 'We compared eDiVA with three commonly used tools for variant annotation and prioritization: Exomiser'
+- We compared eDiVA with three commonly used tools for variant annotation and prioritization
+derived_from:
+- doi: 10.1002/humu.23772
+  title: eDiVA—Classification and prioritization of pathogenic variants for clinical diagnostics
+source_repos:
+- https://github.com/mbosio85/ediva
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mbosio85/ediva

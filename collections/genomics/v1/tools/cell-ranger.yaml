@@ -1,0 +1,21 @@
+name: Cell Ranger
+slug: cell-ranger
+version_used: 2.0.0
+edam_topics: []
+evidence_spans:
+- The sequencing data was processed with the Cell Ranger pipeline.
+- mapped them to the mouse genome (build mm10) with the 10x Genomics Cell Ranger software (v2.0.0)
+derived_from:
+- doi: 10.1093/bioinformatics/btae549
+  title: 'Scywalker: scalable end-to-end data analysis workflow for long-read single-cell transcriptome sequencing'
+- doi: 10.1038/s41467-020-17800-6
+  title: High throughput error corrected Nanopore single cell transcriptome sequencing
+source_repos:
+- https://github.com/derijkp/scywalker
+- https://github.com/ucagenomix/sicelore-2.1
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/derijkp/scywalker

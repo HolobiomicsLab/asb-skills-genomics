@@ -1,0 +1,40 @@
+name: CuteSV
+slug: cutesv
+version_used: null
+edam_topics: []
+evidence_spans:
+- We analyzed deletions in samples using SVIM, Sniffles, PBSV and cuteSV, using precision, recall and F1 score of the calling results as comparison metrics.
+- 'Compared with four widely used genome structural variation calling tools: cuteSV, SVIM, Sniffles and PBSV'
+- primarily employs methods like those used in the translocation detection section of CuteSV
+- 'cuteSV: ‘–max_cluster_bias_INS 100 –diff_ratio_merging_INS 0.3 –max_cluster_bias_DEL 100 –diff_ratio_merging_DEL 0.3 –min_support = 1’'
+- including NanoVar16, cuteSV17, pbsv18, Sniffles219, MAMnet20, SVDSS21, and DeBreak22
+derived_from:
+- doi: 10.1038/s41598-025-01486-1
+  title: ConsensuSV-ONT – A modern method for accurate structural variant calling
+- doi: 10.1093/bib/bbae269
+  title: Deletion variants calling in third-generation sequencing data based on a dual-attention mechanism
+- doi: 10.1016/j.jare.2022.10.012
+  title: Improvement of large copy number variant detection by whole genome nanopore sequencing
+- doi: 10.1002/advs.202515308
+  title: "Reference‐Guided Chromosome‐by‐Chromosome\n                    <i>de novo</i>\n                    Assembly at Scale Using Low‐Coverage High‐Fidelity Long‐Reads with HiFiCCL"
+- doi: 10.1093/nar/gkad526
+  title: Precise characterization of somatic complex structural variations from tumor/control paired long-read sequencing data with nanomonsv
+- doi: 10.1038/s41598-025-98847-7
+  title: Advanced analysis of retrotransposon variation in the human genome with nanopore sequencing using RetroInspector
+- doi: 10.1038/s41467-024-51282-0
+  title: VolcanoSV enables accurate and robust structural variant calling in diploid genomes from single-molecule long read sequencing
+source_repos:
+- https://github.com/SFGLab/ConsensuSV-ONT-pipeline
+- https://github.com/deconvolution-w/DASV
+- https://github.com/javiercguard/disCoverage
+- https://github.com/zjjbuqi/HiFiCCL
+- https://github.com/friend1ws/nanomonsv
+- https://github.com/tjiangHIT/cuteSV
+- https://github.com/javiercguard/retroinspector
+- https://github.com/maiziezhoulab/VolcanoSV
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SFGLab/ConsensuSV-ONT-pipeline

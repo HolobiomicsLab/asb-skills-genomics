@@ -1,0 +1,21 @@
+name: Pacific Biosciences
+slug: pacific-biosciences
+version_used: null
+edam_topics: []
+evidence_spans:
+- Single-molecule sequencing (SMS) technologies such as Pacific Biosciences and Oxford Nanopore generate long reads
+- with Oxford Nanopore Technologies (ONT) or Pacific Biosciences devices
+derived_from:
+- doi: 10.1038/s41467-019-12493-y
+  title: Longshot enables accurate variant calling in diploid genomes from single-molecule long read sequencing
+- doi: 10.1038/s41467-023-44137-7
+  title: Integrative genotyping of cancer and immune phenotypes by long-read sequencing
+source_repos:
+- https://github.com/pjedge/longshot
+- https://github.com/mehdiborji/nanoranger
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pjedge/longshot

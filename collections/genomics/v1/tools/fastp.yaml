@@ -1,0 +1,32 @@
+name: fastp
+slug: fastp
+version_used: null
+edam_topics: []
+evidence_spans:
+- Illumina reads were automatically trimmed using fastp tool [31] and aligned against the referred Gallus gallus genome using HISAT2 aligner
+- '| Quality control (FASTP) | yes | yes | Same |'
+- Quality control (FASTP)
+- initial filtering using FastP (Chen et al. 2018)
+- fastp -5 -3 -n 0 -f 5 -F 5 -t 5 -T 5 -q 20
+- '# Quality control and filtering.'
+- quality filtering steps (fastp) such as adapter removal, global or quality trimming, and read filtering are essential for short reads.
+- '# Quality control and filtering.
+
+  # fastp -5 -3 -n 0 -f 5 -F 5 -t 5 -T 5 -q 20'
+derived_from:
+- doi: 10.1093/gigascience/giac099
+  title: 'annotate_my_genomes: an easy-to-use pipeline to improve genome annotation and uncover neglected genes by hybrid RNA sequencing'
+- doi: 10.1093/bioinformatics/btae108
+  title: 'Nanometa Live: a user-friendly application for real-time metagenomic data analysis and pathogen identification'
+- doi: 10.1093/gpbjnl/qzad009
+  title: 'NextPolish2: A Repeat-aware Polishing Tool for Genomes Assembled Using HiFi Long Reads'
+source_repos:
+- https://github.com/cfarkas/annotate_my_genomes
+- https://github.com/FOI-Bioinformatics/nanometa_live
+- https://github.com/Nextomics/NextPolish2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cfarkas/annotate_my_genomes

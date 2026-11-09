@@ -1,0 +1,34 @@
+name: whatshap
+slug: whatshap
+version_used: '1.4'
+edam_topics: []
+evidence_spans:
+- 'whatshap_phsed: Phased SNVs by whatshap'
+- or WhatsHap (whatshap phase -o VCF --reference=REF input.vcf input.bam) for SNV phasing.
+- WhatsHap compare was used on checking the flip error and switch error on HG002.
+- The WhatsHap haplotag module was applied to tag reads based on HapCUT2’s SNV phasing results.
+- -g test_data/LSK.filtered.gtf
+- We used Margin version v2.2 and WhatsHap version v1.4 to haplotag and phase the variants
+derived_from:
+- doi: 10.1038/s41467-023-39784-9
+  title: DNA 5-methylcytosine detection and methylation phasing using PacBio circular consensus sequencing
+- doi: 10.1093/bib/bbae413
+  title: 'DeepBAM: a high-accuracy single-molecule CpG methylation detection tool for Oxford nanopore sequencing'
+- doi: 10.1038/s41467-024-49588-0
+  title: 'MethPhaser: methylation-based long-read haplotype phasing of human genomes'
+- doi: 10.1093/bib/bbae473
+  title: 'miniSNV: accurate and fast single nucleotide variant calling from nanopore sequencing data'
+- doi: 10.1038/s41467-022-35650-2
+  title: Simultaneous profiling of histone modifications and DNA methylation via nanopore sequencing
+source_repos:
+- https://github.com/PengNi/ccsmethphase
+- https://github.com/xiaochuanle/DeepBAM
+- https://github.com/treangenlab/methphaser
+- https://github.com/CuiMiao-HIT/miniSNV
+- https://github.com/YinLabTJ/nanoHiMe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PengNi/ccsmethphase

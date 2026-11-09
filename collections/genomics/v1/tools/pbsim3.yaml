@@ -1,0 +1,25 @@
+name: PBSIM3
+slug: pbsim3
+version_used: 3.0.4
+edam_topics: []
+evidence_spans:
+- 'Reproducible workflows for benchmarking and evaluation: https://github.com/jzhang-dev/kNN-overlap-finder'
+- python steller/steller.py --ref < genome ref_file > --TE_fasta < TE sequence fasta file > --bam < bamfile > --sr 4 --style pb
+derived_from:
+- doi: 10.1093/gigascience/giag048
+  title: 'FEDRANN: effective long-read overlap detection based on dimensionality reduction and approximate nearest neighbors'
+- doi: 10.1093/bib/bbae473
+  title: 'miniSNV: accurate and fast single nucleotide variant calling from nanopore sequencing data'
+- doi: 10.1093/bioinformatics/btae686
+  title: Detecting transposable elements in long-read genomes using sTELLeR
+source_repos:
+- https://github.com/jzhang-dev/kNN-overlap-finder
+- https://github.com/jzhang-dev/fedrann
+- https://github.com/CuiMiao-HIT/miniSNV
+- https://github.com/kristinebilgrav/sTELLeR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jzhang-dev/kNN-overlap-finder

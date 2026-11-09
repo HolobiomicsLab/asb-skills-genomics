@@ -1,0 +1,28 @@
+name: edlib
+slug: edlib
+version_used: 1.3.9
+edam_topics: []
+evidence_spans:
+- edlib](https://github.com/Martinsos/edlib "edlib's Homepage")
+- 'Other requirements: Edlib library module (https://github.com/Martinsos/edlib)'
+derived_from:
+- doi: 10.1038/s41467-018-06910-x
+  title: Deciphering highly similar multigene family transcripts from Iso-Seq data with IsoCon
+- doi: 10.1093/gigascience/giz006
+  title: Nanopore sequencing of long ribosomal DNA amplicons enables portable and simple biodiversity assessments with high phylogenetic resolution across broad taxonomic scale
+- doi: 10.1016/j.fmre.2024.04.014
+  title: Generating barcodes for nanopore sequencing data with PRO
+- doi: 10.1016/j.isci.2022.104530
+  title: Fast and accurate matching of cellular barcodes across short-reads and long-reads of single-cell RNA-seq experiments
+source_repos:
+- https://github.com/Martinsos/edlib
+- https://github.com/ksahlin/IsoCon
+- https://github.com/calacademy-research/minibar
+- https://github.com/rztongr/PRO
+- https://github.com/vpc-ccg/scTagger
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Martinsos/edlib

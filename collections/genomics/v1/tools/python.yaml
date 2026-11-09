@@ -1,0 +1,148 @@
+name: Python
+slug: python
+version_used: 3.10.11
+edam_topics: []
+evidence_spans:
+- It is compatible with established Python single cell and spatial transcriptomics software
+- bin2cell.bin_to_cell
+- we present an extension of CNVnator developed in Python—CNVpytor
+- Here we describe CNVpytor, a Python extension of CNVnator.
+- '> pip install cnvpytor'
+- '[Jupyter notebook](examples/PythonLibraryGuide.ipynb): How to use CNVpytor from Python'
+- CNVpytor is not just command line tool but also Python package.
+- How to use CNVpytor from Python
+- Despite being implemented primarily in Python, Fedrann achieves performance parity with tools written in compiled languages
+- python sp.py --input output.fasta --match 0 --mismatch 1 --gap1 2 --gap2 2
+- 4. [python 3.10.11](https://www.python.org/downloads/release/python-31011/)
+- '**isoCirc** is written with `python`, please use `pip` to install **isoCirc**:'
+- '**isoCirc** is written with `python`'
+- is written with `python`
+- isoSeQL was developed using python 3.9.6
+- IsoTools is a python module for Long Read Transcriptome Sequencing (LRTS) analysis.
+- We introduce IsoTools, a Python-based LRTS analysis framework
+- 'Programming language: Python 2.7 (but can be run in Python 3)'
+- a python environment for Nanoident model training
+- we read the result the files one line at a time, and if the pre-/post-relationship of the monomers
+- conda create -n nanosim -c conda-forge python==3.10
+- python -m nano_signal_simulator train
+- The pod5Viewer is built in Python (v3.10.0)
+- 'The pod5Viewer is built in Python (v3.10.0) and relies on the following packages:'
+- python scripts/extract_features.py -i /path/to/fast5_guppy/workspace/ -o test/features/
+- '|Python | 3.7|'
+- mamba create -n seq2squiggle-dev python=3 poetry fortran-compiler nox pre-commit
+- '* python 2.7'
+- python 3.7 (later versions might be incompatible because of inner biopython dependencies)
+- Snapper is implemented using Python and is freely available as a pip package named "snapper-ont."
+- '- python 3.7 (later versions might be incompatible because of inner biopython dependencies)'
+- Python packages:rpy2,pandas,numpy
+- CNNSplice is developed in <i>Python3</i>.
+- EXFI's core programs are written in Python, working on top of data processing (Pandas; McKinney, 2010)
+- EXFI's core programs are written in Python
+- github.com__Ansanqi__GutUDB
+- Python and R scripts were written to retrieve, merge, process and visualize the output gene lists from each assessed tool
+derived_from:
+- doi: 10.1093/bioinformatics/btae546
+  title: Bin2cell reconstructs cells from high resolution Visium HD data
+- doi: 10.1093/gigascience/giab074
+  title: 'CNVpytor: a tool for copy number variation detection and analysis from read depth and allele imbalance in whole-genome sequencing'
+- doi: 10.1093/gigascience/giag048
+  title: 'FEDRANN: effective long-read overlap detection based on dimensionality reduction and approximate nearest neighbors'
+- doi: 10.1093/bioinformatics/btae014
+  title: 'FMAlign2: a novel fast multiple nucleotide sequence alignment method for ultralong datasets'
+- doi: 10.1002/advs.202515308
+  title: "Reference‐Guided Chromosome‐by‐Chromosome\n                    <i>de novo</i>\n                    Assembly at Scale Using Low‐Coverage High‐Fidelity Long‐Reads with HiFiCCL"
+- doi: 10.1038/s41467-020-20459-8
+  title: isoCirc catalogs full-length circular RNA isoforms in human transcriptomes
+- doi: 10.1093/bioinformatics/btaf680
+  title: 'isoSeQL: comparing long-read isoforms across multiple datasets'
+- doi: 10.1093/bioinformatics/btad364
+  title: 'IsoTools: a flexible workflow for long-read transcriptome sequencing analysis'
+- doi: 10.1093/gigascience/giz006
+  title: Nanopore sequencing of long ribosomal DNA amplicons enables portable and simple biodiversity assessments with high phylogenetic resolution across broad taxonomic scale
+- doi: 10.1093/bioinformatics/btaf397
+  title: Identifying DNA methylation types and methylated base positions from bacteria using nanopore sequencing with multi-scale neural network
+- doi: 10.1093/nar/gkad526
+  title: Precise characterization of somatic complex structural variations from tumor/control paired long-read sequencing data with nanomonsv
+- doi: 10.1016/j.xgen.2022.100097
+  title: Direct detection of RNA modifications and structure using single-molecule nanopore sequencing
+- doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+- doi: 10.1093/bioinformatics/btae665
+  title: 'Pod5Viewer: a GUI for inspecting raw nanopore sequencing data'
+- doi: 10.1016/j.fmre.2024.04.014
+  title: Generating barcodes for nanopore sequencing data with PRO
+- doi: 10.1093/bioinformatics/btae375
+  title: RNA m6A detection using raw current signals and basecalling errors from Nanopore direct RNA sequencing reads
+- doi: 10.1093/bioinformatics/btae744
+  title: End-to-end simulation of nanopore sequencing signals with feed-forward transformers
+- doi: 10.1038/ncomms8438
+  title: Single molecule-level detection and long read-based phasing of epigenetic variations in bacterial methylomes
+- doi: 10.1093/bioinformatics/btad702
+  title: 'Snapper: high-sensitive detection of methylation motifs based on Oxford Nanopore reads'
+- doi: 10.1038/s41467-023-41649-0
+  title: 'TAGET: a toolkit for analyzing full-length transcripts from long-read sequencing'
+- doi: 10.1038/s42003-026-09849-8
+  title: 'Z-Calling: a tool for A/Z (2,6-diaminopurine) base calling and dZ-DNA detection using PacBio HiFi reads'
+- doi: 10.1016/j.csbj.2023.05.031
+  title: 'CNNSplice: Robust models for splice site prediction using convolutional neural networks'
+- doi: 10.1016/j.crmeth.2025.101172
+  title: Toward universal immunofluorescence normalization for multiplex tissue imaging with UniFORM
+- doi: 10.1002/mp.18079
+  title: 'Software Article: A generalized cascaded linear system model implementation for x‐ray detectors'
+- doi: 10.1002/ijc.33749
+  title: "Cancer Predisposition Sequencing Reporter (\n                    <scp>CPSR</scp>\n                    ): A flexible variant report engine for high‐throughput germline screening in cancer"
+- doi: 10.1002/ece3.6587
+  title: 'EXFI: Exon and splice graph prediction without a reference genome'
+- doi: 10.1002/imt2.195
+  title: 'GutUDB: A comprehensive multiomics database for intestinal diseases'
+- doi: 10.1002/humu.23798
+  title: 'MetaDome: Pathogenicity analysis of genetic variants through aggregation of homologous human protein domains'
+- doi: 10.1002/cyto.a.24541
+  title: 'MIRIAM: A machine and deep learning single‐cell segmentation and quantification pipeline for multi‐dimensional tissue images'
+- doi: 10.1002/humu.24495
+  title: 'VariantAlert: A web‐based tool to notify updates in genetic variant annotations'
+- doi: 10.1002/ggn2.10023
+  title: A pipeline‐friendly software tool for genome diagnostics to prioritize genes by matching patient symptoms to literature
+source_repos:
+- https://github.com/Teichlab/bin2cell
+- https://github.com/abyzovlab/CNVpytor
+- https://github.com/jzhang-dev/FEDRANN
+- https://github.com/jzhang-dev/fedrann
+- https://github.com/jzhang-dev/kNN-overlap-finder
+- https://github.com/malabz/FMAlign2
+- https://github.com/zjjbuqi/HiFiCCL
+- https://github.com/Xinglab/isoCirc
+- https://github.com/christine-liu/isoSeQL
+- https://github.com/MatthiasLienhard/isotools
+- https://github.com/calacademy-research/minibar
+- https://github.com/cz-csu/Nanoident
+- https://github.com/friend1ws/nanomonsv
+- https://github.com/physnano/rRNA_nanoSHAPE
+- https://github.com/BioinfoSZU/NanoSimFormer
+- https://github.com/dietvin/pod5Viewer
+- https://github.com/rztongr/PRO
+- https://github.com/Derryxu/RedNano
+- https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle
+- https://github.com/fanglab/SMALR
+- https://github.com/DNKonanov/Snapper
+- https://github.com/XiDsLab/TAGET
+- https://github.com/xiaochuanle/Z-Calling
+- https://github.com/OluwadareLab/CNNSplice
+- https://github.com/kunlunW/UniFORM
+- https://github.com/kunlunW/UniFORM.git
+- https://github.com/radboud-axti/casymir_public
+- https://github.com/sigven/cpsr
+- https://github.com/jlanga/exfi
+- https://github.com/Ansanqi/GutUDB
+- https://github.com/cmbi/metadome
+- https://github.com/laurensvdwiel/metadome
+- https://github.com/Coffey-Lab/MIRIAM
+- https://github.com/next-crs4/VariantAlert
+- https://github.com/molgenis/vibe-suppl
+- https://github.com/molgenis/vibe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Teichlab/bin2cell

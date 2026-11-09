@@ -1,0 +1,19 @@
+name: biobloomcategorizer
+slug: biobloomcategorizer
+version_used: null
+edam_topics: []
+evidence_spans:
+- each read of the WGS dataset that does not share at least one k‐mer with the transcriptome is discarded with biobloomcategorizer
+derived_from:
+- doi: 10.1002/ece3.6587
+  title: 'EXFI: Exon and splice graph prediction without a reference genome'
+source_repos:
+- https://github.com/bcgsc/biobloom
+- https://github.com/bcgsc/biobloom.git
+- https://github.com/jlanga/exfi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bcgsc/biobloom

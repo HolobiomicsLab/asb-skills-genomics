@@ -1,0 +1,17 @@
+name: PhenoDB
+slug: phenodb
+version_used: null
+edam_topics: []
+evidence_spans:
+- PhenoDB was executed from the https://phenodb.org/ website using standard parameters (a) AF, <0.01
+derived_from:
+- doi: 10.1002/humu.23772
+  title: eDiVA—Classification and prioritization of pathogenic variants for clinical diagnostics
+source_repos:
+- https://github.com/mbosio85/ediva
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mbosio85/ediva

@@ -1,0 +1,18 @@
+name: RUscripts-R9
+slug: ruscripts-r9
+version_used: null
+edam_topics: []
+evidence_spans:
+- The modified RUscripts to support Python 3.6+, BLOW5 format, and ONT's current nanopore chemistry R9.4
+derived_from:
+- doi: 10.1093/gigascience/giad046
+  title: Efficient real-time selective genome sequencing on resource-constrained devices
+source_repos:
+- https://github.com/beebdev/RUscripts-R9
+- https://github.com/beebdev/HARU
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/beebdev/RUscripts-R9

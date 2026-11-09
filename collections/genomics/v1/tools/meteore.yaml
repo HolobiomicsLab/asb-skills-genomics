@@ -1,0 +1,22 @@
+name: METEORE
+slug: meteore
+version_used: null
+edam_topics: []
+evidence_spans:
+- The METEORE REG model was trained on the *E.coli* datasets with 11 different mixture sets of methylated and unmethylated reads
+- including a consensus approach, METEORE ( https://github.com/comprna/METEORE ), based on the combination of the predictions from two or more tools
+- the training datasets of the three best performing tools (Nanopolish, DeepSignal, Megalodon) where you can download them from [figshare]
+- in a format that can be used in METEORE to generate a consensus prediction (see further below)
+- can be used in METEORE to generate a consensus prediction
+- in a format that can be used in METEORE to generate a consensus prediction
+derived_from:
+- doi: 10.1038/s41467-021-23778-6
+  title: Systematic benchmarking of tools for CpG methylation detection from nanopore sequencing
+source_repos:
+- https://github.com/comprna/METEORE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/comprna/METEORE

@@ -1,0 +1,21 @@
+name: Wgsim
+slug: wgsim
+version_used: null
+edam_topics: []
+evidence_spans:
+- using PBSIM34 and Wgsim35 with the options ‘--depth 40 --method qshmm --length-mean 10000 --length-sd 2000 --accuracy-min 0.95’
+- With respect to humans and zebrafish, WGS reads were simulated with wgsim (Li, 2018)
+derived_from:
+- doi: 10.1038/s41467-023-42336-w
+  title: Identification of errors in draft genome assemblies at single-nucleotide resolution for quality assessment and improvement
+- doi: 10.1002/ece3.6587
+  title: 'EXFI: Exon and splice graph prediction without a reference genome'
+source_repos:
+- https://github.com/JiaoLaboratory/CRAQ
+- https://github.com/jlanga/exfi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JiaoLaboratory/CRAQ

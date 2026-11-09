@@ -1,0 +1,22 @@
+name: nanomonsv
+slug: nanomonsv
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present our novel software, nanomonsv, for detecting somatic structural variations (SVs) using tumor and matched control long-read sequencing data
+- We present our novel software, nanomonsv, for detecting somatic structural variations (SVs) using tumor and matched control long-read sequencing data with a single-base resolution.
+- performed nanomonsv as well as Sniffles, cuteSV, Delly, SVIM and CAMPHORsomatic as described above to obtain somatic SV calls from each method
+- nanomonsv insert_classify [-h] [--debug] sv_list_file output_file reference.fa gencode.gtf.gz LINE1_db
+- Assembled contig sequence at the breakpoint
+- nanomonsv is a software for detecting somatic structural variations from paired (tumor and matched control) cancer genome sequence data
+derived_from:
+- doi: 10.1093/nar/gkad526
+  title: Precise characterization of somatic complex structural variations from tumor/control paired long-read sequencing data with nanomonsv
+source_repos:
+- https://github.com/friend1ws/nanomonsv
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/friend1ws/nanomonsv

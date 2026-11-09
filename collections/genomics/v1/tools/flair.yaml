@@ -1,0 +1,25 @@
+name: FLAIR
+slug: flair
+version_used: null
+edam_topics: []
+evidence_spans:
+- Apply TALON, FLAIR, IsoQuant, and Bambu with default filtering and IsoTools with varying filters to the same LRTS alignment
+- We tested the performance of NanoCount against other transcript quantification programs, including Salmon, StringTie2, FLAIR and LIQA
+- recently developed computational tools, such as ESPRESSO39, FLAIR, StringTie2, and IsoQuant, use transcript reconstruction to improve transcript analyses
+derived_from:
+- doi: 10.1093/bioinformatics/btad364
+  title: 'IsoTools: a flexible workflow for long-read transcriptome sequencing analysis'
+- doi: 10.1093/nar/gkab1129
+  title: Accurate expression quantification from nanopore direct RNA sequencing with NanoCount
+- doi: 10.1038/s41467-023-41649-0
+  title: 'TAGET: a toolkit for analyzing full-length transcripts from long-read sequencing'
+source_repos:
+- https://github.com/MatthiasLienhard/isotools
+- https://github.com/a-slide/NanoCount
+- https://github.com/XiDsLab/TAGET
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MatthiasLienhard/isotools

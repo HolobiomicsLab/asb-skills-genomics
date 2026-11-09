@@ -1,0 +1,33 @@
+name: Perl
+slug: perl
+version_used: 5.26.2
+edam_topics: []
+evidence_spans:
+- Perl (version >= 5)(https://www.perl.org/)
+- Perl (version >= 5)
+- 'Programming language: C++ and PERL'
+- FAST-SG.pl is the wrapper script used to run FastSG++.
+- This analysis pipeline is implemented in Perl and R.
+- perl run.pl --ccs sample.out.fasta --sample sampleName --species mm10 --minimap2_index Mus_musculus.mmi --minimap2_thread  10 --pass ccs.pass.txt &>run.log
+- Perl v5.26.2
+- This analysis pipeline is implemented in Perl and R
+derived_from:
+- doi: 10.1038/s41467-023-42336-w
+  title: Identification of errors in draft genome assemblies at single-nucleotide resolution for quality assessment and improvement
+- doi: 10.1093/gigascience/giy048
+  title: 'Fast-SG: an alignment-free algorithm for hybrid assembly'
+- doi: 10.1038/s41467-019-13228-9
+  title: Poly(A) inclusive RNA isoform sequencing (PAIso−seq) reveals wide-spread non-adenosine residues within RNA poly(A) tails
+- doi: 10.1002/humu.23785
+  title: Predicting the change of exon splicing caused by genetic variant using support vector regression
+source_repos:
+- https://github.com/JiaoLaboratory/CRAQ
+- https://github.com/adigenova/fast-sg
+- https://github.com/niehu2018/GV_oocyte_PAIsoSeqAnalysis
+- https://github.com/chenkenbio/PredPSI-SVR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JiaoLaboratory/CRAQ

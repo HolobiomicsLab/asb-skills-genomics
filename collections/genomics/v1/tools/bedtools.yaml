@@ -1,0 +1,57 @@
+name: bedtools
+slug: bedtools
+version_used: 2.30.0
+edam_topics: []
+evidence_spans:
+- conda install samtools minimap2 bedtools -y
+- printf 'chr11\t2699000\t2702000'|bedtools intersect -header -a ${OUTPUT_DIR}/deepmod2/output.per_site.aggregated -b -|head
+- Insplico is implemented in Perl ... and depends on Samtools (24) and Bedtools
+- 'isoCirc is dependent on two open-source software packages: [`bedtools`(>= v2.27.0)]'
+- write_gff_data(DB_filter_4ex_95perc, "~/IsoPops_Data/fullfilter.gff")
+- '* [bedtools 2.30.0](https://bedtools.readthedocs.io/en/latest)'
+- 'BEDTools: a flexible suite of utilities for comparing genomic features'
+- intersect with the public 1KG Illumina and PacBio SV call sets
+- The abundance is calculated using BEDTools (version 2.29.1, genomecov command) (Quinlan and Hall 2010)
+- reference and predicted coordinates were compared with the BEDTools intersect subcommand, requiring a mutual overlap of at least 95%
+- reference and predicted coordinates were compared with the BEDTools intersect subcommand, requiring a mutual overlap of at least 95% of the coordinates
+derived_from:
+- doi: 10.1093/bib/bbae413
+  title: 'DeepBAM: a high-accuracy single-molecule CpG methylation detection tool for Oxford nanopore sequencing'
+- doi: 10.1038/s41467-024-45778-y
+  title: A signal processing and deep learning framework for methylation detection using Oxford Nanopore sequencing
+- doi: 10.1093/nar/gkad244
+  title: "<i>Insplico</i>\n                    : effective computational tool for studying splicing order of adjacent introns genome-wide with short and long RNA-seq reads"
+- doi: 10.1038/s41467-020-20459-8
+  title: isoCirc catalogs full-length circular RNA isoforms in human transcriptomes
+- doi: 10.1038/s41467-020-17009-7
+  title: Comprehensive identification of mRNA isoforms reveals the diversity of neural cell-surface molecules with roles in retinal development and disease
+- doi: 10.1038/s41467-023-41354-y
+  title: mRNA vaccine quality analysis using RNA sequencing
+- doi: 10.1093/bib/bbae001
+  title: Benchmarking of computational methods for m6A profiling with Nanopore direct RNA sequencing
+- doi: 10.1038/s41467-017-01343-4
+  title: Mapping and phasing of structural variation in patient genomes using nanopore sequencing
+- doi: 10.1093/bioinformatics/btad209
+  title: 'SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing'
+- doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+- doi: 10.1002/ece3.6587
+  title: 'EXFI: Exon and splice graph prediction without a reference genome'
+source_repos:
+- https://github.com/xiaochuanle/DeepBAM
+- https://github.com/WGLab/DeepMod2
+- https://github.com/liniguez/Insplico_simulations
+- https://github.com/Xinglab/isoCirc
+- https://github.com/kellycochran/IsoPops
+- https://github.com/scchess/Mana
+- https://github.com/mfurla/NanOlympicsMod
+- https://github.com/mroosmalen/nanosv
+- https://github.com/BigDataBiology/SemiBin
+- https://github.com/skbinfo/tncRNA-Toolkit
+- https://github.com/jlanga/exfi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiaochuanle/DeepBAM

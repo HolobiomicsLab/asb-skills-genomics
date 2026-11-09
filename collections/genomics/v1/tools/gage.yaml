@@ -1,0 +1,17 @@
+name: Gage
+slug: gage
+version_used: null
+edam_topics: []
+evidence_spans:
+- The [wiki page](https://github.com/adigenova/fast-sg/wiki/Hybrid-scaffolding-of-NA12878) provide a full example of the use of Fast-SG for the hybrid assembly of NA12878.
+derived_from:
+- doi: 10.1093/gigascience/giy048
+  title: 'Fast-SG: an alignment-free algorithm for hybrid assembly'
+source_repos:
+- https://github.com/adigenova/fast-sg
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/adigenova/fast-sg

@@ -1,0 +1,16 @@
+name: iFeature
+slug: ifeature
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/minf.202000006
+  title: Sequence‐based Detection of DNA‐binding Proteins using Multiple‐view Features Allied with Feature Selection
+source_repos:
+- https://github.com/Zll-codeside/iDBP-DEP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Zll-codeside/iDBP-DEP

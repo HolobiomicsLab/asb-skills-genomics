@@ -1,0 +1,21 @@
+name: Longshot
+slug: longshot
+version_used: null
+edam_topics: []
+evidence_spans:
+- longshot --bam pacbio.bam --ref ref.fa --out output.vcf
+- 'Longshot: variant caller (SNVs) for long-read sequencing data'
+derived_from:
+- doi: 10.1038/s41467-019-12493-y
+  title: Longshot enables accurate variant calling in diploid genomes from single-molecule long read sequencing
+- doi: 10.1093/bib/bbae473
+  title: 'miniSNV: accurate and fast single nucleotide variant calling from nanopore sequencing data'
+source_repos:
+- https://github.com/pjedge/longshot
+- https://github.com/CuiMiao-HIT/miniSNV
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pjedge/longshot

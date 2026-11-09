@@ -1,0 +1,20 @@
+name: Hare
+slug: hare
+version_used: '1.2'
+edam_topics: []
+evidence_spans:
+- The updated Hare, v1.2, workflow can be found [here](https://github.com/TNTurnerLab/Hare).  This workflow is effective for WGS and WES data only.
+- The updated Hare, v1.2, workflow can be found
+- The updated Hare, v1.2, workflow can be found [here](https://github.com/TNTurnerLab/Hare).
+derived_from:
+- doi: 10.1093/bioinformatics/btad775
+  title: 'HAT: <i>de novo</i> variant calling for highly accurate short-read and long-read sequencing data'
+source_repos:
+- https://github.com/TNTurnerLab/Hare
+- https://github.com/TNTurnerLab/HAT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TNTurnerLab/Hare

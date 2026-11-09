@@ -1,0 +1,20 @@
+name: NanoGalaxy
+slug: nanogalaxy
+version_used: null
+edam_topics: []
+evidence_spans:
+- Run the NanoGalaxy long-read assembly workflow
+- The newly developed “NanoGalaxy" is a Galaxy-based toolkit for analysing long-read sequencing data
+- Here we introduce the NanoGalaxy toolkit for analysing Nanopore long-read data.
+- The newly developed “NanoGalaxy" is a Galaxy-based toolkit for analysing long-read sequencing data, which is suitable for diverse applications, including de novo genome assembly
+derived_from:
+- doi: 10.1093/gigascience/giaa105
+  title: 'NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy'
+source_repos:
+- https://github.com/mmiladi/galaxy-nanopore
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mmiladi/galaxy-nanopore

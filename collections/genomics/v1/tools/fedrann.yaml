@@ -1,0 +1,23 @@
+name: Fedrann
+slug: fedrann
+version_used: null
+edam_topics: []
+evidence_spans:
+- We developed an efficient open-source implementation of this pipeline named Fedrann
+- Fedrann generates the following output files to help you understand your analysis.
+- an efficient open-source implementation of this pipeline named Fedrann
+- 'Install Fedrann
+
+  pip install .'
+derived_from:
+- doi: 10.1093/gigascience/giag048
+  title: 'FEDRANN: effective long-read overlap detection based on dimensionality reduction and approximate nearest neighbors'
+source_repos:
+- https://github.com/jzhang-dev/FEDRANN
+- https://github.com/jzhang-dev/fedrann
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jzhang-dev/FEDRANN

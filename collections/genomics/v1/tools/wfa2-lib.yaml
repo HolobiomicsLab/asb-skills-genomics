@@ -1,0 +1,18 @@
+name: WFA2-lib
+slug: wfa2-lib
+version_used: null
+edam_topics: []
+evidence_spans:
+- using wavefront alignment (https://github.com/smarco/WFA2-lib).
+derived_from:
+- doi: 10.1093/bioinformatics/btaf136
+  title: 'Sawfish: improving long-read structural variant discovery and genotyping with local haplotype modeling'
+source_repos:
+- https://github.com/smarco/WFA2-lib
+- https://github.com/PacificBiosciences/sawfish
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/smarco/WFA2-lib

@@ -1,0 +1,17 @@
+name: OpenHiCAMM
+slug: openhicamm
+version_used: null
+edam_topics: []
+evidence_spans:
+- we report an open source software package, OpenHiCAMM (Open Hi Content Acquisition for μManager)
+derived_from:
+- doi: 10.1016/j.isci.2018.03.017
+  title: 'OpenHiCAMM: High-Content Screening Software for Complex Microscope Imaging Workflows'
+source_repos:
+- https://github.com/bdgp/OpenHiCAMM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bdgp/OpenHiCAMM

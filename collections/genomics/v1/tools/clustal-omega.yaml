@@ -1,0 +1,17 @@
+name: Clustal Omega
+slug: clustal-omega
+version_used: null
+edam_topics: []
+evidence_spans:
+- '[Clustal Omega](http://www.clustal.org/omega/), HAlign3, and [HAlign4]'
+derived_from:
+- doi: 10.1093/bioinformatics/btae014
+  title: 'FMAlign2: a novel fast multiple nucleotide sequence alignment method for ultralong datasets'
+source_repos:
+- https://github.com/malabz/FMAlign2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/malabz/FMAlign2

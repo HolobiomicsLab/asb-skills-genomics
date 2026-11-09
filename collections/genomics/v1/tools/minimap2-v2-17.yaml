@@ -1,0 +1,20 @@
+name: minimap2 (v2.17)
+slug: minimap2-v2-17
+version_used: null
+edam_topics: []
+evidence_spans:
+- mapped to the GENCODE reference transcriptome (release 34, assembly GRCh38.p13) with minimap233 (v2.17) using options -ax map-ont --secondary=no
+- mapped to the GENCODE reference transcriptome (release 34, assembly GRCh38.p13) with minimap233 (v2.17) using options -ax map-ont --secondary=no -t 15
+- the sequenced reads were basecalled, mapped and filtered using the GENCODE reference transcriptome
+- 'Minimap2: pairwise alignment for nucleotide sequences'
+derived_from:
+- doi: 10.1038/s41467-024-48673-8
+  title: Biochemical-free enrichment or depletion of RNA classes in real-time during direct RNA sequencing with RISER
+source_repos:
+- https://github.com/comprna/riser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/comprna/riser

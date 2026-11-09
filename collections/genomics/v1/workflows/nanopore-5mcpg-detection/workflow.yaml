@@ -1,0 +1,222 @@
+schema_version: 0.3.0
+workflow_id: nanopore_5mcpg_detection
+kind: composite-workflow
+techniques: []
+steps:
+- id: basecall_with_move_tables
+  goal: basecall raw nanopore signal while retaining signal-to-base moves
+  edam_operation: http://edamontology.org/operation_0292
+  skills:
+  - basecalling-with-move-tables
+  - dorado-move-table-basecalling
+  - parallel-basecalling-of-pod5-batches
+  tools:
+  - DeepMod2
+  - Dorado
+  - Guppy
+  - minimap2
+  - modkit
+  - samtools
+  inputs:
+  - type: nanopore-signal
+    flavour: pod5-fast5
+  outputs:
+  - type: bam
+    flavour: move-table-unaligned
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-024-45778-y
+    - asb-paper-10-1093-bioinformatics-btag066
+    dois:
+    - 10.1038/s41467-024-45778-y
+    - 10.1093/bioinformatics/btag066
+  after: []
+  candidate_tools:
+  - Dogme
+  - Nextflow
+- id: align_move_table_bam
+  goal: align basecalls without dropping signal-to-base move tags
+  edam_operation: http://edamontology.org/operation_3198
+  skills:
+  - ont-read-alignment-to-reference-genome
+  - bam-file-processing-and-indexing
+  - sam-to-bam-conversion-and-indexing
+  - sam-bam-alignment-file-handling
+  tools:
+  - DeepMod2
+  - Dorado
+  - Guppy
+  - minimap2
+  - modkit
+  - samtools
+  inputs:
+  - type: bam
+    flavour: move-table-unaligned
+  - type: fasta
+    flavour: reference-genome
+  outputs:
+  - type: bam
+    flavour: move-table-aligned
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-019-11713-9
+    - asb-paper-10-1038-s41467-024-45778-y
+    - asb-paper-10-1093-bioinformatics-btag294
+    dois:
+    - 10.1038/s41467-019-11713-9
+    - 10.1038/s41467-024-45778-y
+    - 10.1093/bioinformatics/btag294
+  after:
+  - basecall_with_move_tables
+  candidate_tools:
+  - AgileStructure
+  - EpiNano
+  - NanoFilt
+  inputs_from:
+    basecall_with_move_tables:
+    - bam:move-table-unaligned
+- id: detect_5mcpg
+  goal: infer per-read 5mCpG probabilities from signal-aligned basecalls
+  edam_operation: http://edamontology.org/operation_3202
+  skills:
+  - signal-based-cpg-methylation-detection
+  - nanopore-modified-basecalling
+  - nanopore-methylation-calling--ab6e4dfe90fd7ce1
+  - reference-anchored-cpg-methylation-aggregation
+  tools:
+  - DeepMod2
+  - Dorado
+  - Guppy
+  - minimap2
+  - modkit
+  - samtools
+  inputs:
+  - type: nanopore-signal
+    flavour: pod5-fast5
+  - type: bam
+    flavour: move-table-aligned
+  - type: fasta
+    flavour: reference-genome
+  outputs:
+  - type: modbam
+    flavour: 5mcpg-per-read
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-021-23778-6
+    - asb-paper-10-1038-s41467-024-45778-y
+    dois:
+    - 10.1038/s41467-021-23778-6
+    - 10.1038/s41467-024-45778-y
+  after:
+  - align_move_table_bam
+  candidate_tools:
+  - DeepMod
+  - DeepSignal
+  - METEORE
+  - Megalodon
+  - Nanopolish
+  - Remora
+  - Snakemake
+  - Tombo
+  - gcf52ref
+  - ont_fast5_api
+  - bedtools
+  inputs_from:
+    align_move_table_bam:
+    - bam:move-table-aligned
+- id: aggregate_5mcpg_sites
+  goal: aggregate per-read 5mCpG calls into filtered CpG-site frequencies
+  edam_operation: http://edamontology.org/operation_3802
+  skills:
+  - modkit-modification-pileup
+  - per-site-methylation-frequency-aggregation
+  - modkit-modification-site-counting
+  - bedmethyl-frequency-aggregation
+  - low-coverage-site-filtering
+  tools:
+  - Dogme
+  - Dorado
+  - minimap2
+  - modkit
+  inputs:
+  - type: modbam
+    flavour: 5mcpg-per-read
+  outputs:
+  - type: bed-methyl
+    flavour: 5mcpg-per-site
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-021-26278-9
+    - asb-paper-10-1038-s41467-023-39784-9
+    - asb-paper-10-1038-s41467-024-45778-y
+    - asb-paper-10-1093-bioinformatics-btag066
+    dois:
+    - 10.1038/s41467-021-26278-9
+    - 10.1038/s41467-023-39784-9
+    - 10.1038/s41467-024-45778-y
+    - 10.1093/bioinformatics/btag066
+  after:
+  - detect_5mcpg
+  candidate_tools:
+  - DeepSignal-plant
+  - Guppy
+  - PyTorch
+  - Tombo
+  - Nextflow
+  - DSS
+  - Singularity
+  - ccsmeth
+  - ccsmethphase
+  - clair3
+  - pbmm2
+  - whatshap
+  - DeepMod2
+  - bedtools
+  - samtools
+  inputs_from:
+    detect_5mcpg:
+    - modbam:5mcpg-per-read
+- id: validate_methylation_profile
+  goal: compare nanopore 5mCpG frequencies with orthogonal CpG measurements
+  edam_operation: http://edamontology.org/operation_2409
+  skills:
+  - bisulfite-methylation-ground-truth-matching
+  - cross-platform-methylation-correlation-analysis--50dd8f2e672836d6
+  - bedtools-genomic-interval-intersection
+  - pearson-correlation-of-per-site-methylation-levels
+  tools:
+  - DeepMod2
+  - Dorado
+  - bedtools
+  - modkit
+  inputs:
+  - type: bed-methyl
+    flavour: 5mcpg-per-site
+  - type: methylation-table
+    flavour: orthogonal-cpg-reference
+  outputs:
+  - type: validation-report
+    flavour: 5mcpg-correlation
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-024-45778-y
+    dois:
+    - 10.1038/s41467-024-45778-y
+  after:
+  - aggregate_5mcpg_sites
+  candidate_tools:
+  - minimap2
+  - samtools
+  inputs_from:
+    aggregate_5mcpg_sites:
+    - bed-methyl:5mcpg-per-site
+verification:
+  final_outputs:
+  - path: nanopore_5mcpg_sites.bed
+    type: file
+  - path: nanopore_5mcpg_validation.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

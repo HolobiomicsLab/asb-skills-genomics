@@ -1,0 +1,22 @@
+name: NanOlympicsMod
+slug: nanolympicsmod
+version_used: null
+edam_topics: []
+evidence_spans:
+- --postprocessingScript                                  Path to postprocessing R script
+- The NanOlympicsMod pipeline requires you to open pipeline.conf configuration file and set the desired options.
+- we developed NanOlympicsMod, a computational workflow designed to maximize reproducibility and portability in the comparative assessment of dRNA-seq m6A detection tools.
+- a set of R scripts for data post-processing and statistical analysis
+- We developed NanOlympicsMod, a Nextflow pipeline exploiting containerized technology for comparing 14 tools for m6A detection on dRNA-seq data.
+- git clone https://github.com/mfurla/NanOlympicsMod.git
+derived_from:
+- doi: 10.1093/bib/bbae001
+  title: Benchmarking of computational methods for m6A profiling with Nanopore direct RNA sequencing
+source_repos:
+- https://github.com/mfurla/NanOlympicsMod
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mfurla/NanOlympicsMod

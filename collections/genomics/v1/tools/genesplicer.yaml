@@ -1,0 +1,17 @@
+name: GeneSplicer
+slug: genesplicer
+version_used: null
+edam_topics: []
+evidence_spans:
+- GeneSplicer [16] integrated the MM with MDD, which was reported by Burge et al. [13] to improve their SS prediction.
+derived_from:
+- doi: 10.1016/j.csbj.2023.05.031
+  title: 'CNNSplice: Robust models for splice site prediction using convolutional neural networks'
+source_repos:
+- https://github.com/OluwadareLab/CNNSplice
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OluwadareLab/CNNSplice

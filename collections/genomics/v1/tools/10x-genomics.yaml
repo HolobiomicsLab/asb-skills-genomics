@@ -1,0 +1,23 @@
+name: 10x Genomics
+slug: 10x-genomics
+version_used: null
+edam_topics: []
+evidence_spans:
+- The input data can be obtained through sequencing of 10x Genomics whole-transcriptome cDNA libraries
+- sequencing of 10x Genomics whole-transcriptome cDNA libraries or amplicons obtained through targeted amplification
+- combining 10x genomics platform and HIT-scISOseq library construction technology
+- We adopted a similar strategy of 10x Genomics `CellRanger` for cellBC and UMI correction
+derived_from:
+- doi: 10.1038/s41467-023-44137-7
+  title: Integrative genotyping of cancer and immune phenotypes by long-read sequencing
+- doi: 10.1038/s41467-023-38324-9
+  title: High-throughput and high-accuracy single-cell RNA isoform analysis using PacBio circular consensus sequencing
+source_repos:
+- https://github.com/mehdiborji/nanoranger
+- https://github.com/shizhuoxing/scISA-Tools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mehdiborji/nanoranger

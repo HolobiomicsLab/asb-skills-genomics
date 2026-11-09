@@ -1,0 +1,25 @@
+name: CONSENT
+slug: consent
+version_used: null
+edam_topics: []
+evidence_spans:
+- ./CONSENT-correct --in example/reads.fasta --out example/correctedReads.fasta --type PB
+- ./CONSENT-correct --in longReads.fast[a|q] --out result.fasta --type readsTechnology
+- ./CONSENT-polish --contigs example/rawAssembly.fasta --reads example/reads.fasta --out example/polishedAssembly.fasta
+- 'To run CONSENT for long reads self-correction, run the following command:'
+- To run CONSENT for long reads self-correction
+- Prominent tools that make successful, combined use of MSAs with DBGs are LoRMA19 and CONSENT20
+derived_from:
+- doi: 10.1038/s41598-020-80757-5
+  title: Scalable long read self-correction and assembly polishing with multiple sequence alignment
+- doi: 10.1038/s41467-022-34381-8
+  title: 'VeChat: correcting errors in long reads using variation graphs'
+source_repos:
+- https://github.com/morispi/CONSENT
+- https://github.com/HaploKit/vechat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/morispi/CONSENT

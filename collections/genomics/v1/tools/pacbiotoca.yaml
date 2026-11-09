@@ -1,0 +1,17 @@
+name: PacBioToCA
+slug: pacbiotoca
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Popular hybrid correction algorithms for PacBio data include: LSC3, PacBioToCA8, LoRDEC14, proovread15, and CoLoRMap16'
+derived_from:
+- doi: 10.1038/s41598-018-28364-3
+  title: 'HECIL: A Hybrid Error Correction Algorithm for Long Reads with Iterative Learning'
+source_repos:
+- https://github.com/NDBL/HECIL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NDBL/HECIL

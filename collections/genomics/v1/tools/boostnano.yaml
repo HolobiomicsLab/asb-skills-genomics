@@ -1,0 +1,21 @@
+name: BoostNano
+slug: boostnano
+version_used: null
+edam_topics: []
+evidence_spans:
+- the sequencing adapter and poly(A) tail were removed from the raw nanopore signals using BoostNano32
+- BoostNano32 was used to trim the sequencing adapter and poly(A) tail signals, to isolate the analysis to the model performance only
+- the test signals were pre-trimmed using BoostNano32
+- trimmed using BoostNano32 (commit 8715800) to remove the portions of signal that correspond to the sequencing adapter and poly(A) tail
+derived_from:
+- doi: 10.1038/s41467-024-48673-8
+  title: Biochemical-free enrichment or depletion of RNA classes in real-time during direct RNA sequencing with RISER
+source_repos:
+- https://github.com/haotianteng/BoostNano
+- https://github.com/comprna/riser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/haotianteng/BoostNano

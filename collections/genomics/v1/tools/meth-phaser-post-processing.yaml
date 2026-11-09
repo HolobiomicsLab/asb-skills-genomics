@@ -1,0 +1,21 @@
+name: meth_phaser_post_processing
+slug: meth-phaser-post-processing
+version_used: null
+edam_topics: []
+evidence_spans:
+- ./meth_phaser_post_processing -ib test_data/HLA.R10.haplotagged.bam
+- ./meth_phaser_post_processing -ib test_data/HLA.R10.haplotagged.bam -if test_data/work/ -ov test_data/output.vcf
+- ./meth_phaser_post_processing -ib test_data/HLA.R10.haplotagged.bam -if test_data/work/ -ov test_data/output.vcf -ob test_data/output -vc test_data/HLA.R10.phased.vcf.gz
+- ./meth_phaser_post_processing -ib test_data/HLA.R10.haplotagged.bam -if test_data/work/ -ov test_data/output.vcf -ob test_data/output
+- 'Step 2: Run post processing script to get modified reads and vcf file'
+derived_from:
+- doi: 10.1038/s41467-024-49588-0
+  title: 'MethPhaser: methylation-based long-read haplotype phasing of human genomes'
+source_repos:
+- https://github.com/treangenlab/methphaser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/treangenlab/methphaser

@@ -1,0 +1,23 @@
+name: PacBio HiFi
+slug: pacbio-hifi
+version_used: null
+edam_topics: []
+evidence_spans:
+- winnowmap -t 5 -W repetitive_k15.txt -ax map-pb asm.fa.gz hifi.fasta.gz|samtools sort -o hifi.map.sort.bam -
+- Prepare HiFi mapping file
+- High-quality long-sequencing reads, for example, PacBio HiFi reads, provide data to detect macrohaplotypes
+- preprocess the originall PacBio HiFi reads in BAM to fastq
+derived_from:
+- doi: 10.1093/gpbjnl/qzad009
+  title: 'NextPolish2: A Repeat-aware Polishing Tool for Genomes Assembled Using HiFi Long Reads'
+- doi: 10.1002/elps.202300143
+  title: A complete pipeline enables haplotyping and phasing macrohaplotype in long sequencing reads for polyploidy samples and a multi‐source DNA mixture
+source_repos:
+- https://github.com/Nextomics/NextPolish2
+- https://github.com/Ge-Lab/MacroHapCaller
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Nextomics/NextPolish2

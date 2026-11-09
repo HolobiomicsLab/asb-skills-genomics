@@ -1,0 +1,20 @@
+name: RawHash2
+slug: rawhash2
+version_used: null
+edam_topics: []
+evidence_spans:
+- We have released RawHash2, a more sensitive and faster raw signal mapping mechanism with substantial improvements over RawHash.
+- We have released RawHash2, a more sensitive and faster raw signal mapping mechanism with substantial improvements over RawHash. RawHash2 is available within this repository.
+- We came up with a better and more accurate quantization mechanism in RawHash2.
+- To map the raw signal to a reference genome, RawHash performs chaining over the seed matches.
+derived_from:
+- doi: 10.1093/bioinformatics/btae478
+  title: 'RawHash2: mapping raw nanopore signals using hash-based seeding and adaptive quantization'
+source_repos:
+- https://github.com/CMU-SAFARI/RawHash
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CMU-SAFARI/RawHash

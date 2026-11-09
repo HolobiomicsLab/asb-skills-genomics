@@ -1,0 +1,18 @@
+name: ICE
+slug: ice
+version_used: null
+edam_topics: []
+evidence_spans:
+- ICE18, a part of PacBio’s bioinformatic pipeline to process Iso-Seq data, is the standard tool employed to correct sequencing errors without using the reference
+- the reference. ICE18, a part of PacBio’s bioinformatic pipeline to process Iso-Seq data, is the standard tool employed to correct sequencing errors without using
+derived_from:
+- doi: 10.1038/s41467-018-06910-x
+  title: Deciphering highly similar multigene family transcripts from Iso-Seq data with IsoCon
+source_repos:
+- https://github.com/ksahlin/IsoCon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ksahlin/IsoCon

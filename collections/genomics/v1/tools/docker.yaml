@@ -1,0 +1,81 @@
+name: Docker
+slug: docker
+version_used: '1.1'
+edam_topics: []
+evidence_spans:
+- docker pull carlosfarkas/annotate_my_genomes:latest
+- DOGME invokes seqspec inside the configured Docker/Apptainer image.
+- A pre-built Docker image that bundles all dependencies, including Dorado, Samtools, Minimap2, Modkit, and Kallisto, is available.
+- Install Docker (https://www.docker.com/products/docker-desktop/) and make sure the daemon is running when you want to run the tests locally.
+- '- [Installation and dependencies for development](#installation-and-dependencies-for-development)'
+- adopts Docker and Singularity container technologies, removing the need to install required software dependencies
+- It includes containerization support via Docker and Singularity, ensuring ease of use, reproducibility, and portability.
+- We recommend installing NanoSimFormer using the pre-built Docker image.
+- docker pull chobits323/nano-sim:v1.1
+- We recommend installing NanoSimFormer using the pre-built Docker image. Ensure you have Docker and the NVIDIA Container Toolkit installed
+- as a [Docker container](https://hub.docker.com/r/davidebolo1993/tricolor)
+- By default ViMOP uses docker (for setup see the installation tutorials).
+- Docker containers grant independence from the host operating system.
+- VirDetector can be installed with either Conda **or** Docker.
+- If you are using VirDetector on a non-Linux based operating system, please use the Docker version.
+- Run the CNNSplice container and mount the present working directory to the container using
+- docker pull oluwadarelab/cnnsplice:latest
+- CNNSplice can be run in a Docker-containerized environment locally on users computer.
+- or as an open‐source repository with Docker containers
+derived_from:
+- doi: 10.1093/gigascience/giac099
+  title: 'annotate_my_genomes: an easy-to-use pipeline to improve genome annotation and uncover neglected genes by hybrid RNA sequencing'
+- doi: 10.1038/s41598-025-01486-1
+  title: ConsensuSV-ONT – A modern method for accurate structural variant calling
+- doi: 10.1093/bioinformatics/btag066
+  title: 'Dogme: a nextflow pipeline for reprocessing nanopore RNA and DNA modifications'
+- doi: 10.1093/bioinformatics/btag086
+  title: 'Nallo: a Nextflow pipeline for comprehensive human long-read genome analysis'
+- doi: 10.1093/bib/bbae001
+  title: Benchmarking of computational methods for m6A profiling with Nanopore direct RNA sequencing
+- doi: 10.1093/bioinformatics/btae108
+  title: 'Nanometa Live: a user-friendly application for real-time metagenomic data analysis and pathogen identification'
+- doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+- doi: 10.1093/gigascience/giaa101
+  title: 'TRiCoLOR: tandem repeat profiling using whole-genome long-read sequencing data'
+- doi: 10.1093/bioinformatics/btaf687
+  title: 'ViMOP: a user-friendly and field-applicable pipeline for untargeted viral genome nanopore sequencing'
+- doi: 10.1093/bioinformatics/btaf029
+  title: 'VirDetector: a bioinformatic pipeline for virus surveillance using nanopore sequencing'
+- doi: 10.1016/j.csbj.2023.05.031
+  title: 'CNNSplice: Robust models for splice site prediction using convolutional neural networks'
+- doi: 10.1002/ijc.33749
+  title: "Cancer Predisposition Sequencing Reporter (\n                    <scp>CPSR</scp>\n                    ): A flexible variant report engine for high‐throughput germline screening in cancer"
+- doi: 10.1002/humu.23772
+  title: eDiVA—Classification and prioritization of pathogenic variants for clinical diagnostics
+- doi: 10.1002/humu.23798
+  title: 'MetaDome: Pathogenicity analysis of genetic variants through aggregation of homologous human protein domains'
+- doi: 10.1002/gepi.22276
+  title: Ordered multinomial regression for genetic association analysis of ordinal phenotypes at Biobank scale
+- doi: 10.1002/humu.24495
+  title: 'VariantAlert: A web‐based tool to notify updates in genetic variant annotations'
+source_repos:
+- https://github.com/cfarkas/annotate_my_genomes
+- https://github.com/SFGLab/ConsensuSV-ONT-pipeline
+- https://github.com/mortazavilab/dogme
+- https://github.com/genomic-medicine-sweden/nallo
+- https://github.com/mfurla/NanOlympicsMod
+- https://github.com/FOI-Bioinformatics/nanometa_live
+- https://github.com/BioinfoSZU/NanoSimFormer
+- https://github.com/davidebolo1993/TRiCoLOR
+- https://github.com/opr-group-bnitm/vimop
+- https://github.com/NLKaiser/VirDetector
+- https://github.com/OluwadareLab/CNNSplice
+- https://github.com/sigven/cpsr
+- https://github.com/mbosio85/ediva
+- https://github.com/cmbi/metadome
+- https://github.com/laurensvdwiel/metadome
+- https://github.com/OpenMendel/OrdinalGWAS.jl
+- https://github.com/next-crs4/VariantAlert
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cfarkas/annotate_my_genomes

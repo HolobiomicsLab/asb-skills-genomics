@@ -1,0 +1,17 @@
+name: Splice2Deep
+slug: splice2deep
+version_used: null
+edam_topics: []
+evidence_spans:
+- Albaradei et al. [21] developed Splice2Deep, a deep CNN ensemble model that predicts SS in cross-organisms
+derived_from:
+- doi: 10.1016/j.csbj.2023.05.031
+  title: 'CNNSplice: Robust models for splice site prediction using convolutional neural networks'
+source_repos:
+- https://github.com/OluwadareLab/CNNSplice
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OluwadareLab/CNNSplice

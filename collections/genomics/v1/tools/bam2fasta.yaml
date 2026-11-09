@@ -1,0 +1,18 @@
+name: bam2fasta
+slug: bam2fasta
+version_used: null
+edam_topics: []
+evidence_spans:
+- bam2fasta -u -o ccs movieX.ccs.bam
+derived_from:
+- doi: 10.1038/s41467-019-13228-9
+  title: Poly(A) inclusive RNA isoform sequencing (PAIso−seq) reveals wide-spread non-adenosine residues within RNA poly(A) tails
+source_repos:
+- https://github.com/PacificBiosciences/IsoSeq
+- https://github.com/niehu2018/GV_oocyte_PAIsoSeqAnalysis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PacificBiosciences/IsoSeq

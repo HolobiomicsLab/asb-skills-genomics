@@ -1,0 +1,46 @@
+name: PyTorch
+slug: pytorch
+version_used: '2.0'
+edam_topics: []
+evidence_spans:
+- The above commands also install a generic version of PyTorch library for deep learning
+- It is built on **Python3** and **PyTorch**.
+- DeepSignal-plant is implemented in Python3 and PyTorch (version 1.2.0)
+- loss = torch.nn.functional.ctc_loss(
+- '|Pytorch |  1.10.0 |'
+- All models were built, trained, and tested using PyTorch (v1.9.0)36 with a single NVIDIA Tesla V100 graphics processing unit (GPU)
+- Training was conducted using PyTorch (v1.9.0)
+- "the deep learning framework PyTorch\n was performed to train some publicly available models"
+- the deep learning framework PyTorch was performed to train some publicly available models
+derived_from:
+- doi: 10.1093/bib/bbae413
+  title: 'DeepBAM: a high-accuracy single-molecule CpG methylation detection tool for Oxford nanopore sequencing'
+- doi: 10.1038/s41467-024-45778-y
+  title: A signal processing and deep learning framework for methylation detection using Oxford Nanopore sequencing
+- doi: 10.1038/s41467-021-26278-9
+  title: Genome-wide detection of cytosine methylations in plant from Nanopore data using deep learning
+- doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+- doi: 10.1093/bioinformatics/btae375
+  title: RNA m6A detection using raw current signals and basecalling errors from Nanopore direct RNA sequencing reads
+- doi: 10.1038/s41467-024-48673-8
+  title: Biochemical-free enrichment or depletion of RNA classes in real-time during direct RNA sequencing with RISER
+- doi: 10.1038/s42003-026-09849-8
+  title: 'Z-Calling: a tool for A/Z (2,6-diaminopurine) base calling and dZ-DNA detection using PacBio HiFi reads'
+- doi: 10.1002/cam4.4717
+  title: A practical framework <scp>RNMF</scp> for exploring the association between mutational signatures and genes using gene cumulative contribution abundance
+source_repos:
+- https://github.com/xiaochuanle/DeepBAM
+- https://github.com/WGLab/DeepMod2
+- https://github.com/PengNi/deepsignal-plant
+- https://github.com/BioinfoSZU/NanoSimFormer
+- https://github.com/Derryxu/RedNano
+- https://github.com/comprna/riser
+- https://github.com/xiaochuanle/Z-Calling
+- https://github.com/zhenzhang-li/RNMF
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiaochuanle/DeepBAM

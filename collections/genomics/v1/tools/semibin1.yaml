@@ -1,0 +1,19 @@
+name: SemiBin1
+slug: semibin1
+version_used: null
+edam_topics: []
+evidence_spans:
+- self-supervised learning achieves better results than the semi-supervised learning used in SemiBin1
+- Semi-supervised mode was the original training mode in [SemiBin1](https://www.nature.com/articles/s41467-022-29843-y).
+- we deprecated the `SemiBin` command and introduced a more explicit `SemiBin1` command for backwards compatibility.
+derived_from:
+- doi: 10.1093/bioinformatics/btad209
+  title: 'SemiBin2: self-supervised contrastive learning leads to better MAGs for short- and long-read sequencing'
+source_repos:
+- https://github.com/BigDataBiology/SemiBin
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BigDataBiology/SemiBin

@@ -1,0 +1,18 @@
+name: quasi_dictionary
+slug: quasi-dictionary
+version_used: null
+edam_topics: []
+evidence_spans:
+- quasi_dictionary (https://github.com/pierrepeterlongo/quasi_dictionary.git checkout 9e8c64b150b129035f92d010a12085bd6c9490f0)
+derived_from:
+- doi: 10.1093/gigascience/giy048
+  title: 'Fast-SG: an alignment-free algorithm for hybrid assembly'
+source_repos:
+- https://github.com/pierrepeterlongo/quasi_dictionary
+- https://github.com/adigenova/fast-sg
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pierrepeterlongo/quasi_dictionary

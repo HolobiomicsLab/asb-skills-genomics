@@ -1,0 +1,21 @@
+name: TAGET
+slug: taget
+version_used: null
+edam_topics: []
+evidence_spans:
+- python TransAnnot.py -f [fasta] -g [genome fasta] -o [output directory] -a[annot gtf] -p [process]
+- '## TAGET gene fusion detect and filter'
+- We present an integrated computational toolkit named TAGET for Iso-seq full-length transcript data analyses
+- TAGET gene fusion detect and filter
+- we present a Toolkit for Analyzing full-length GEne Transcripts (TAGET) for Iso-seq
+derived_from:
+- doi: 10.1038/s41467-023-41649-0
+  title: 'TAGET: a toolkit for analyzing full-length transcripts from long-read sequencing'
+source_repos:
+- https://github.com/XiDsLab/TAGET
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/XiDsLab/TAGET

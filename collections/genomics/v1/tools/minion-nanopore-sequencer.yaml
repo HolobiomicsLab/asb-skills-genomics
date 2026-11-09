@@ -1,0 +1,17 @@
+name: MinION nanopore sequencer
+slug: minion-nanopore-sequencer
+version_used: null
+edam_topics: []
+evidence_spans:
+- using the MinION nanopore sequencer and a novel computational pipeline-NanoSV
+derived_from:
+- doi: 10.1038/s41467-017-01343-4
+  title: Mapping and phasing of structural variation in patient genomes using nanopore sequencing
+source_repos:
+- https://github.com/mroosmalen/nanosv
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mroosmalen/nanosv

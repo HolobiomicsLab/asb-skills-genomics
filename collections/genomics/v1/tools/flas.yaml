@@ -1,0 +1,17 @@
+name: FLAS
+slug: flas
+version_used: null
+edam_topics: []
+evidence_spans:
+- CONSENT has been developed and tested on x86-64 GNU/Linux
+derived_from:
+- doi: 10.1038/s41598-020-80757-5
+  title: Scalable long read self-correction and assembly polishing with multiple sequence alignment
+source_repos:
+- https://github.com/morispi/CONSENT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/morispi/CONSENT

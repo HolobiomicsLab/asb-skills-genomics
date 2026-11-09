@@ -1,0 +1,35 @@
+name: RepeatMasker
+slug: repeatmasker
+version_used: null
+edam_topics: []
+evidence_spans:
+- covered most of the inserted sequence (≥80% by RepeatMasker
+- realigning the consensus sequence to the reference genome and execution of RepeatMasker
+- that are mostly annotated with ‘Satellite/centr’ by RepeatMasker
+- '[*A. thaliana*](./doc/benchmark1.md)             | Hifiasm  (primary) | 47.67'
+- searched these sequences for repeats using RepeatMasker (http://www.repeatmasker.org)
+- repeatmasker -e hmmer -noint -pa 4 -div 0 -xsmall $TR_file
+- '"repeatmasker -e hmmer -noint -pa 4 -div 0 -xsmall $TR_file"'
+derived_from:
+- doi: 10.1016/j.isci.2020.101389
+  title: 'HASLR: Fast Hybrid Assembly of Long Reads'
+- doi: 10.1093/nar/gkad526
+  title: Precise characterization of somatic complex structural variations from tumor/control paired long-read sequencing data with nanomonsv
+- doi: 10.1093/gpbjnl/qzad009
+  title: 'NextPolish2: A Repeat-aware Polishing Tool for Genomes Assembled Using HiFi Long Reads'
+- doi: 10.1093/nar/gkac653
+  title: Efficient detection and assembly of non-reference DNA sequences with synthetic long reads
+- doi: 10.1093/bioinformatics/btad185
+  title: Decomposing mosaic tandem repeats accurately from long reads
+source_repos:
+- https://github.com/vpc-ccg/haslr
+- https://github.com/friend1ws/nanomonsv
+- https://github.com/Nextomics/NextPolish2
+- https://github.com/1dayac/Novel-X
+- https://github.com/morisUtokyo/uTR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/vpc-ccg/haslr

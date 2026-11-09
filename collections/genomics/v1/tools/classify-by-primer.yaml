@@ -1,0 +1,17 @@
+name: classify_by_primer
+slug: classify-by-primer
+version_used: null
+edam_topics: []
+evidence_spans:
+- perl classify_by_primer.pl -blastm7 mapped.m7 -ccsfq ccs.fq -min_primerlen 16 -min_isolen 50 -outdir ./
+derived_from:
+- doi: 10.1038/s41467-023-38324-9
+  title: High-throughput and high-accuracy single-cell RNA isoform analysis using PacBio circular consensus sequencing
+source_repos:
+- https://github.com/shizhuoxing/scISA-Tools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shizhuoxing/scISA-Tools

@@ -1,0 +1,38 @@
+name: Snakemake
+slug: snakemake
+version_used: '2.0'
+edam_topics: []
+evidence_spans:
+- Snakemake—a scalable bioinformatics workflow engine
+- Snakemake pipelines are also provided for reproducibility and to enable the systematic application of our analyses to other datasets.
+- A Snakefile named `Nanopolish` contains all rules for the Snakemake workflow.
+- Run the snakemake to create the output files
+- Command line–based workflow managers such as Snakemake and Nextflow [9,10] can be used for analysing the data
+- '| Metric | v1.x (Snakemake) | v2.0 (nanometanf) | Improvement |'
+- Nanometa Live has been implemented as a local web application using the Dash framework with Snakemake handling the data processing.
+derived_from:
+- doi: 10.1038/s41467-018-06910-x
+  title: Deciphering highly similar multigene family transcripts from Iso-Seq data with IsoCon
+- doi: 10.1038/s41467-021-23778-6
+  title: Systematic benchmarking of tools for CpG methylation detection from nanopore sequencing
+- doi: 10.1093/gigascience/giaa105
+  title: 'NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy'
+- doi: 10.1093/bioinformatics/btae108
+  title: 'Nanometa Live: a user-friendly application for real-time metagenomic data analysis and pathogen identification'
+- doi: 10.1038/s41598-025-98847-7
+  title: Advanced analysis of retrotransposon variation in the human genome with nanopore sequencing using RetroInspector
+- doi: 10.1016/j.isci.2022.104530
+  title: Fast and accurate matching of cellular barcodes across short-reads and long-reads of single-cell RNA-seq experiments
+source_repos:
+- https://github.com/ksahlin/IsoCon
+- https://github.com/comprna/METEORE
+- https://github.com/mmiladi/galaxy-nanopore
+- https://github.com/FOI-Bioinformatics/nanometa_live
+- https://github.com/javiercguard/retroinspector
+- https://github.com/vpc-ccg/scTagger
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ksahlin/IsoCon

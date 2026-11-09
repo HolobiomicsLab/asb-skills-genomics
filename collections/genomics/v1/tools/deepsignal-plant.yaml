@@ -1,0 +1,22 @@
+name: DeepSignal-plant
+slug: deepsignal-plant
+version_used: null
+edam_topics: []
+evidence_spans:
+- deepsignal_plant denoise --train_file /path/to/train/file
+- deepsignal_plant extract -i fast5s/
+- we develop DeepSignal-plant, a deep learning tool to detect genome-wide 5mCs of all three contexts in plants from Nanopore reads
+- deepsignal_plant call_mods --input_path fast5s.C.features.tsv
+- deepsignal-plant applies BiLSTM to detect methylation from Nanopore reads
+- deepsignal-plant applies BiLSTM to detect methylation from Nanopore reads. It is built on **Python3** and **PyTorch**.
+derived_from:
+- doi: 10.1038/s41467-021-26278-9
+  title: Genome-wide detection of cytosine methylations in plant from Nanopore data using deep learning
+source_repos:
+- https://github.com/PengNi/deepsignal-plant
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PengNi/deepsignal-plant

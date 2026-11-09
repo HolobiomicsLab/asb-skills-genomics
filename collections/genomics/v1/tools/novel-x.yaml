@@ -1,0 +1,22 @@
+name: Novel-X
+slug: novel-x
+version_used: null
+edam_topics: []
+evidence_spans:
+- We evaluated Novel-X, PopIns2 (30), NUI (20) and Pamir (31) on these data.
+- We propose a novel integrated alignment-based and local assembly-based algorithm, Novel-X, that uses the barcode information encoded in synthetic long reads
+- We use Minimap2 for aligning the resulting contigs from the previous step to the reference genome
+- we describe our method, Novel-X, for detection of NRSs using synthetic long-read sequencing
+- In this section, we describe our method, Novel-X, for detection of NRSs using synthetic long-read sequencing.
+derived_from:
+- doi: 10.1093/nar/gkac653
+  title: Efficient detection and assembly of non-reference DNA sequences with synthetic long reads
+source_repos:
+- https://github.com/1dayac/Novel-X
+- https://github.com/1dayac/novel_insertions
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/1dayac/Novel-X

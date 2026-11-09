@@ -1,0 +1,20 @@
+name: yak
+slug: yak
+version_used: null
+edam_topics: []
+evidence_spans:
+- 2. Prepare k-mer dataset files ([yak](https://github.com/lh3/yak)) (We recommend using >=60X short reads).
+- Prepare k-mer dataset files ([yak](https://github.com/lh3/yak))
+- '# produce a 21-mer dataset, remove -b 37 if you want to count singletons'
+derived_from:
+- doi: 10.1093/gpbjnl/qzad009
+  title: 'NextPolish2: A Repeat-aware Polishing Tool for Genomes Assembled Using HiFi Long Reads'
+source_repos:
+- https://github.com/lh3/yak
+- https://github.com/Nextomics/NextPolish2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lh3/yak

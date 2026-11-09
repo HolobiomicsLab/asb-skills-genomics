@@ -1,0 +1,16 @@
+name: Nanodynamo
+slug: nanodynamo
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41467-024-51917-2
+  title: Nanodynamo quantifies subcellular RNA dynamics revealing extensive coupling between steps of the RNA life cycle
+source_repos:
+- https://github.com/mfurla/Nanodynamo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mfurla/Nanodynamo

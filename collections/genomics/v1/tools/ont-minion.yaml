@@ -1,0 +1,18 @@
+name: ONT MinION
+slug: ont-minion
+version_used: null
+edam_topics: []
+evidence_spans:
+- single-molecule sensing technologies on the Oxford Nanopore Technologies (ONT) MinION platform, has opened the possibility of obtaining ultra-long reads
+- single-molecule sensing technologies on the Oxford Nanopore Technologies (ONT) MinION platform
+derived_from:
+- doi: 10.1093/gigascience/giy140
+  title: 'NanoAmpli-Seq: a workflow for amplicon sequencing for mixed microbial communities on the nanopore sequencing platform'
+source_repos:
+- https://github.com/umerijaz/nanopore
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/umerijaz/nanopore

@@ -1,0 +1,48 @@
+name: pysam
+slug: pysam
+version_used: 0.21.0
+edam_topics: []
+evidence_spans:
+- 3. [pysam 0.21.0](https://github.com/pysam-developers/pysam)
+- pysam](http://pysam.readthedocs.io/en/latest/installation.html) (>= v0.11)
+- Pysam 0.20.0
+- '* [Pysam 0.20.0](https://pysam.readthedocs.io/en/latest/api.html)'
+- '[Pysam 0.20.0](https://pysam.readthedocs.io/en/latest/api.html)'
+- '> - pysam'
+- we further modified the BAM and VCF files with pysam60 and samtools61 for the user.
+- we further modified the BAM and VCF files with pysam60 and samtools61
+- require python3, pysam, samtools, minimap2
+derived_from:
+- doi: 10.1002/advs.202515308
+  title: "Reference‐Guided Chromosome‐by‐Chromosome\n                    <i>de novo</i>\n                    Assembly at Scale Using Low‐Coverage High‐Fidelity Long‐Reads with HiFiCCL"
+- doi: 10.1038/s41467-018-06910-x
+  title: Deciphering highly similar multigene family transcripts from Iso-Seq data with IsoCon
+- doi: 10.1038/s41467-023-41354-y
+  title: mRNA vaccine quality analysis using RNA sequencing
+- doi: 10.1038/s41467-019-08289-9
+  title: Single-molecule sequencing detection of N6-methyladenine in microbial reference materials
+- doi: 10.1038/s41467-024-49588-0
+  title: 'MethPhaser: methylation-based long-read haplotype phasing of human genomes'
+- doi: 10.1093/nar/gkab397
+  title: Long-read whole-genome methylation patterning using enzymatic base conversion and nanopore sequencing
+- doi: 10.1038/s41598-025-98847-7
+  title: Advanced analysis of retrotransposon variation in the human genome with nanopore sequencing using RetroInspector
+- doi: 10.1093/bioinformatics/btae686
+  title: Detecting transposable elements in long-read genomes using sTELLeR
+source_repos:
+- https://github.com/pysam-developers/pysam
+- https://github.com/zjjbuqi/HiFiCCL
+- https://github.com/ksahlin/IsoCon
+- https://github.com/alimanfoo/pysamstats
+- https://github.com/scchess/Mana
+- https://github.com/al-mcintyre/mCaller
+- https://github.com/treangenlab/methphaser
+- https://github.com/yos-sk/nanoEM
+- https://github.com/javiercguard/retroinspector
+- https://github.com/kristinebilgrav/sTELLeR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pysam-developers/pysam

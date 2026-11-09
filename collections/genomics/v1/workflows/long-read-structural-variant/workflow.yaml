@@ -1,0 +1,282 @@
+schema_version: 0.3.0
+workflow_id: long_read_structural_variant
+kind: composite-workflow
+techniques: []
+steps:
+- id: align_long_reads
+  goal: align long reads to the reference genome for structural-variant calling
+  edam_operation: http://edamontology.org/operation_2928
+  skills:
+  - long-read-genome-alignment--8cec567f57b0cb03
+  - long-read-alignment-processing
+  - long-read-genome-alignment-minimap2
+  - invocation-and-execution-of-long-read-aligners
+  tools:
+  - CuteSV
+  - NGMLR
+  - NanoVar
+  - SVIM
+  - Sniffles
+  - disCoverage
+  - lra
+  - minimap2
+  - nanopore_pipeline_21
+  inputs:
+  - type: fastq
+    flavour: long-read
+  - type: fasta
+    flavour: reference-genome
+  outputs:
+  - type: bam
+    flavour: long-read-alignment
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-jare-2022-10-012
+    - asb-paper-10-1093-bioinformatics-btad726
+    - asb-paper-10-1093-bioinformatics-btag294
+    - asb-paper-10-1093-gigascience-giac099
+    dois:
+    - 10.1016/j.jare.2022.10.012
+    - 10.1093/bioinformatics/btad726
+    - 10.1093/bioinformatics/btag294
+    - 10.1093/gigascience/giac099
+  after: []
+  candidate_tools:
+  - AgileStructure
+  - MakeSVGenome
+  - Samtools
+  - WINE
+  - LongRanger
+  - Nextflow
+  - StringTie
+  - fastp
+  - stlfr2supernova
+  - PBSIM
+  - PBSIM2
+  - Winnowmap2
+  - invMap
+- id: call_structural_variants
+  goal: generate separate structural-variant call sets from the alignments
+  edam_operation: http://edamontology.org/operation_3227
+  skills:
+  - nanopore-structural-variant-calling
+  - structural-variant-calling-long-reads
+  - structural-variant-calling-from-bam
+  - structural-variant-calling-from-long-read-sequencing
+  tools:
+  - CuteSV
+  - NGMLR
+  - NanoVar
+  - SVIM
+  - Sniffles
+  - disCoverage
+  - lra
+  - minimap2
+  - mosdepth
+  - nanopore_pipeline_21
+  inputs:
+  - type: bam
+    flavour: long-read-alignment
+  - type: fasta
+    flavour: reference-genome
+  outputs:
+  - type: vcf
+    flavour: per-caller-sv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-jare-2022-10-012
+    - asb-paper-10-1038-s41467-020-16641-7
+    - asb-paper-10-1038-s41598-025-98847-7
+    - asb-paper-10-1093-bib-bbae269
+    dois:
+    - 10.1016/j.jare.2022.10.012
+    - 10.1038/s41467-020-16641-7
+    - 10.1038/s41598-025-98847-7
+    - 10.1093/bib/bbae269
+  after:
+  - align_long_reads
+  candidate_tools:
+  - RetroInspector
+  - SAMtools
+  - SURVIVOR
+  - Sniffles2
+  - Delly
+  - FUDGE
+  - LAST
+  - Lumpy
+  - Manta
+  - NanoFG
+  - NanoSV
+  - NanoSim
+  - Wtdbg2
+  - bedtools
+  - DASV
+  - PBSV
+  inputs_from:
+    align_long_reads:
+    - bam:long-read-alignment
+- id: filter_per_caller_calls
+  goal: verify read-depth support of the copy-number calls in each per-caller call
+    set
+  edam_operation: http://edamontology.org/operation_3227
+  skills:
+  - coverage-based-sv-filtering
+  - cnv-call-filtering-by-read-depth
+  - read-depth-coverage-filtering
+  - deletion-duplication-coverage-filtering
+  tools:
+  - CuteSV
+  - Mosdepth
+  - NGMLR
+  - NanoVar
+  - SVIM
+  - Sniffles
+  - disCoverage
+  - lra
+  - minimap2
+  inputs:
+  - type: vcf
+    flavour: per-caller-sv
+  - type: bam
+    flavour: long-read-alignment
+  outputs:
+  - type: vcf
+    flavour: filtered-per-caller-sv
+  - type: support-table
+    flavour: per-caller-sv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-jare-2022-10-012
+    - asb-paper-10-1038-s41467-019-12493-y
+    dois:
+    - 10.1016/j.jare.2022.10.012
+    - 10.1038/s41467-019-12493-y
+  after:
+  - align_long_reads
+  - call_structural_variants
+  candidate_tools:
+  - Delly
+  - HapCUT2
+  - Longshot
+  inputs_from:
+    align_long_reads:
+    - bam:long-read-alignment
+    call_structural_variants:
+    - vcf:per-caller-sv
+- id: merge_consensus_calls
+  goal: consolidate the filtered per-caller structural variants
+  edam_operation: http://edamontology.org/operation_3227
+  skills:
+  - multi-caller-sv-callset-merging
+  - sv-call-filtering-by-caller-support
+  - sv-variant-overlap-collapse
+  - structural-variant-vcf-merging
+  tools:
+  - CuteSV
+  - NGMLR
+  - NanoVar
+  - SURVIVOR
+  - SVIM
+  - Sniffles
+  - disCoverage
+  - lra
+  - minimap2
+  inputs:
+  - type: vcf
+    flavour: filtered-per-caller-sv
+  outputs:
+  - type: vcf
+    flavour: consensus-sv
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-jare-2022-10-012
+    - asb-paper-10-1038-ncomms14061
+    - asb-paper-10-1038-s41598-025-01486-1
+    dois:
+    - 10.1016/j.jare.2022.10.012
+    - 10.1038/ncomms14061
+    - 10.1038/s41598-025-01486-1
+  after:
+  - filter_per_caller_calls
+  candidate_tools:
+  - Delly
+  - Lumpy
+  - Pindel
+  - cn.MOPs
+  - ConsensuSV-ONT
+  - Docker
+  - Nextflow
+  - Truvari
+  inputs_from:
+    filter_per_caller_calls:
+    - vcf:filtered-per-caller-sv
+- id: benchmark_callset
+  goal: compare consensus calls with truth under truth-set-specific metric limits
+  edam_operation: http://edamontology.org/operation_3227
+  skills:
+  - truvari-parameter-tuning-evaluation
+  - truvari-callset-comparison-against-giab
+  - vcf-callset-precision-recall-computation
+  - structural-variant-truth-set-benchmarking
+  - truvari-benchmark-vcf-comparison
+  tools:
+  - DeBreak
+  - MAMnet
+  - NanoVar
+  - PBSIM
+  - SURVIVOR
+  - SVDSS
+  - SVIM-asm
+  - Sniffles2
+  - Truvari
+  - VISOR
+  - VolcanoSV
+  - cuteSV
+  - pbsv
+  inputs:
+  - type: vcf
+    flavour: consensus-sv
+  - type: vcf
+    flavour: truth-sv
+  outputs:
+  - type: benchmark-table
+    flavour: structural-variant
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-024-51282-0
+    - asb-paper-10-1038-s41598-025-01486-1
+    - asb-paper-10-1038-s41598-025-98847-7
+    - asb-paper-10-1093-bioadv-vbaf151
+    - asb-paper-10-1093-nar-gkac039
+    dois:
+    - 10.1038/s41467-024-51282-0
+    - 10.1038/s41598-025-01486-1
+    - 10.1038/s41598-025-98847-7
+    - 10.1093/bioadv/vbaf151
+    - 10.1093/nar/gkac039
+  after:
+  - merge_consensus_calls
+  candidate_tools:
+  - BWA
+  - Blackbird
+  - SVIM
+  - Sniffles
+  - dysgu
+  - svbench
+  - RetroInspector
+  - ConsensuSV-ONT
+  - Docker
+  - Nextflow
+  inputs_from:
+    merge_consensus_calls:
+    - vcf:consensus-sv
+verification:
+  final_outputs:
+  - path: structural_variants.vcf
+    type: file
+  - path: structural_variant_benchmark.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

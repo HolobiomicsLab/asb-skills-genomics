@@ -1,0 +1,25 @@
+name: IsoQuant
+slug: isoquant
+version_used: null
+edam_topics: []
+evidence_spans:
+- Apply TALON, FLAIR, IsoQuant, and Bambu with default filtering and IsoTools with varying filters to the same LRTS alignment
+- reconstruct (based on [IsoQuant](https://github.com/ablab/IsoQuant)) and quantify isoforms and genes
+- 'The isoquant based code often hangs or crashes on the
+
+  very different organelle data.'
+derived_from:
+- doi: 10.1093/bioinformatics/btad364
+  title: 'IsoTools: a flexible workflow for long-read transcriptome sequencing analysis'
+- doi: 10.1093/bioinformatics/btae549
+  title: 'Scywalker: scalable end-to-end data analysis workflow for long-read single-cell transcriptome sequencing'
+source_repos:
+- https://github.com/MatthiasLienhard/isotools
+- https://github.com/ablab/IsoQuant
+- https://github.com/derijkp/scywalker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MatthiasLienhard/isotools

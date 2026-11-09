@@ -1,0 +1,17 @@
+name: edgeR (TMM)
+slug: edger-tmm
+version_used: null
+edam_topics: []
+evidence_spans:
+- Trimmed Mean of M-values (TMM) in edgeR (Robinson and Oshlack 2010)
+derived_from:
+- doi: 10.1093/bioinformatics/btae008
+  title: 'scKWARN: Kernel-weighted-average robust normalization for single-cell RNA-seq data'
+source_repos:
+- https://github.com/cyhsuTN/scKWARN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cyhsuTN/scKWARN

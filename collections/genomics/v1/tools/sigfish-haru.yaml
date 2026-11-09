@@ -1,0 +1,20 @@
+name: Sigfish-HARU
+slug: sigfish-haru
+version_used: null
+edam_topics: []
+evidence_spans:
+- Source code that demonstrates the proof-of-concept integration of HARU accelerator for squiggle mapping
+- ./sigfish-haru dtw -g test_data/nCoV-2019.reference.fasta -s test_data/reads_0_0.blow5 > output.paf
+- "git clone --recursive https://github.com/beebdev/sigfish-haru\n    cd sigfish-haru"
+derived_from:
+- doi: 10.1093/gigascience/giad046
+  title: Efficient real-time selective genome sequencing on resource-constrained devices
+source_repos:
+- https://github.com/beebdev/sigfish-haru
+- https://github.com/beebdev/HARU
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/beebdev/sigfish-haru

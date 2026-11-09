@@ -1,0 +1,19 @@
+name: nanoHiMe
+slug: nanohime
+version_used: null
+edam_topics: []
+evidence_spans:
+- using a hidden Markov model, which is implemented in the nanoHiMe software package
+- nanoHiMe/nanoHiMe 6mA ref_upper.fa test.eventalign.txt(.gz) output.6mA 50 25 [input.peak.bed]
+- ./nanoHiMe mCG ref_upper.fa test.eventalign.txt(.gz) output.mCG
+derived_from:
+- doi: 10.1038/s41467-022-35650-2
+  title: Simultaneous profiling of histone modifications and DNA methylation via nanopore sequencing
+source_repos:
+- https://github.com/YinLabTJ/nanoHiMe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YinLabTJ/nanoHiMe

@@ -1,0 +1,21 @@
+name: IsoCon
+slug: isocon
+version_used: null
+edam_topics: []
+evidence_spans:
+- The preffered and most tested way is to use the entire pipeline `IsoCon pipeline`
+- IsoCon pipeline -fl_reads <reads.fast[a/q]> -outfolder </path/to/output>
+- We present IsoCon, a high-precision method using long PacBio Iso-Seq reads to tackle this challenge.
+- The final high quality transcripts are written to the file `final_candidates.fa` in the output folder.
+- it can run only the correction or statistical test steps using `IsoCon get_candidates` and `IsoCon stat_filter` respectively
+derived_from:
+- doi: 10.1038/s41467-018-06910-x
+  title: Deciphering highly similar multigene family transcripts from Iso-Seq data with IsoCon
+source_repos:
+- https://github.com/ksahlin/IsoCon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ksahlin/IsoCon

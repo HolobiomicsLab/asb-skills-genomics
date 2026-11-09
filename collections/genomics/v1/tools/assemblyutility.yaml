@@ -1,0 +1,19 @@
+name: AssemblyUtility
+slug: assemblyutility
+version_used: null
+edam_topics: []
+evidence_spans:
+- https://github.com/yechengxi/AssemblyUtility
+- 'We have provided code to help you select a subset of the reads:'
+derived_from:
+- doi: 10.1038/srep31900
+  title: 'DBG2OLC: Efficient Assembly of Large Genomes Using Long Erroneous Reads of the Third Generation Sequencing Technologies'
+source_repos:
+- https://github.com/yechengxi/AssemblyUtility
+- https://github.com/yechengxi/DBG2OLC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yechengxi/AssemblyUtility

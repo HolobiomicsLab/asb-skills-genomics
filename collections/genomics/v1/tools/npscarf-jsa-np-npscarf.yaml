@@ -1,0 +1,17 @@
+name: npScarf (jsa.np.npscarf)
+slug: npscarf-jsa-np-npscarf
+version_used: null
+edam_topics: []
+evidence_spans:
+- jsa.np.npscarf -input - -format sam -seq Kp2146_spades.fasta -prefix Kp2146-batch
+derived_from:
+- doi: 10.1038/ncomms14515
+  title: Scaffolding and completing genome assemblies in real-time with nanopore sequencing
+source_repos:
+- https://github.com/mdcao/npScarf
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mdcao/npScarf

@@ -1,0 +1,56 @@
+name: pandas
+slug: pandas
+version_used: 1.1.0
+edam_topics: []
+evidence_spans:
+- Python libraries numpy, pandas, plotly
+- '> - pandas'
+- pandas
+- import pandas as pd
+- poetry add pandas
+- Python packages:rpy2,pandas,numpy
+- sample.telomap.tsv | Main output table containing per read information
+- pip install .
+- working on top of data processing (Pandas; McKinney, 2010)
+- EXFI's core programs are written in Python, working on top of data processing (Pandas; McKinney, 2010)
+- working on top of data processing (Pandas; McKinney, 2010) and Bioinformatics (BioPython; Cock et al., 2009) packages
+- four core functionalities—Browse, Query, Visualization, and Download—were integrated into GutUDB
+- github.com__Ansanqi__GutUDB
+derived_from:
+- doi: 10.1093/bioinformatics/btaf680
+  title: 'isoSeQL: comparing long-read isoforms across multiple datasets'
+- doi: 10.1038/s41467-019-08289-9
+  title: Single-molecule sequencing detection of N6-methyladenine in microbial reference materials
+- doi: 10.1093/bioinformatics/btae108
+  title: 'Nanometa Live: a user-friendly application for real-time metagenomic data analysis and pathogen identification'
+- doi: 10.1093/bioinformatics/btae744
+  title: End-to-end simulation of nanopore sequencing signals with feed-forward transformers
+- doi: 10.1038/s41467-023-41649-0
+  title: 'TAGET: a toolkit for analyzing full-length transcripts from long-read sequencing'
+- doi: 10.1038/s41467-023-35823-7
+  title: High-throughput telomere length measurement at nucleotide resolution using the PacBio high fidelity sequencing platform
+- doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+- doi: 10.1016/j.crmeth.2025.101172
+  title: Toward universal immunofluorescence normalization for multiplex tissue imaging with UniFORM
+- doi: 10.1002/ece3.6587
+  title: 'EXFI: Exon and splice graph prediction without a reference genome'
+- doi: 10.1002/imt2.195
+  title: 'GutUDB: A comprehensive multiomics database for intestinal diseases'
+source_repos:
+- https://github.com/christine-liu/isoSeQL
+- https://github.com/al-mcintyre/mCaller
+- https://github.com/FOI-Bioinformatics/nanometa_live
+- https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle
+- https://github.com/XiDsLab/TAGET
+- https://github.com/cytham/telomap
+- https://github.com/skbinfo/tncRNA-Toolkit
+- https://github.com/kunlunW/UniFORM
+- https://github.com/jlanga/exfi
+- https://github.com/Ansanqi/GutUDB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/christine-liu/isoSeQL

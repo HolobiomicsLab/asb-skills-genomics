@@ -1,0 +1,18 @@
+name: Oxford Nanopore Technologies (ONT) R10.4 FlowCell
+slug: oxford-nanopore-technologies-ont-r10-4-flowcell
+version_used: null
+edam_topics: []
+evidence_spans:
+- The recently released ONT's R10.4 FlowCell has dramatically improved accuracy and stability in basecalling compared to earlier versions
+- Nanopore sequencing enables comprehensive detection of 5-methylcytosine (5mC), particularly in transposable elements and centromeric regions.
+derived_from:
+- doi: 10.1038/s41467-025-58576-x
+  title: Accurate cross-species 5mC detection for Oxford Nanopore sequencing in plants with DeepPlant
+source_repos:
+- https://github.com/xiaochuanle/DeepPlant
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiaochuanle/DeepPlant

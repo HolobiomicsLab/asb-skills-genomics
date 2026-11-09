@@ -1,0 +1,17 @@
+name: featureCounts
+slug: featurecounts
+version_used: 1.6.5
+edam_topics: []
+evidence_spans:
+- FeatureCounts was applied (v1.6.5) to the human or sequin genome alignments along with GENCODE (v31) annotations to calculate gene counts
+derived_from:
+- doi: 10.1093/nar/gkab1129
+  title: Accurate expression quantification from nanopore direct RNA sequencing with NanoCount
+source_repos:
+- https://github.com/a-slide/NanoCount
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/a-slide/NanoCount

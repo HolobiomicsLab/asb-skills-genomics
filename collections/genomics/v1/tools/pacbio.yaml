@@ -1,0 +1,53 @@
+name: PacBio
+slug: pacbio
+version_used: null
+edam_topics: []
+evidence_spans:
+- using Illumina, PacBio, and Oxford Nanopore data, respectively
+- from PacBio (--type PB) or Oxford Nanopore (--type ONT)
+- Indicate whether the long reads are from PacBio (--type PB) or Oxford Nanopore (--type ONT)
+- Longer reads produced by PacBio or Oxford Nanopore sequencers could more frequently span the breakpoints of structural variations (SVs) than shorter reads
+- Longer reads produced by PacBio or Oxford Nanopore sequencers
+- Long Pacific Biosciences (PacBio) reads from the Iso-Seq protocol
+- IsoCon pipeline -fl_reads [path/simulated_pacbio_reads.fa] -outfolder [output path]
+- Long Pacific Biosciences (PacBio) reads from the Iso-Seq protocol hold the potential to overcome this challenge by sequencing many transcripts end to end
+- a high-precision method using long PacBio Iso-Seq reads to tackle this challenge
+- using known motif sites confirmed with orthogonal PacBio data generated for ONT-sequenced E. coli DNA samples
+- with Oxford Nanopore Technologies (ONT) and PacBio platform
+- on H.pylori strain J99 studied earlier by the PacBio technology
+- Correcting PacBio CLR reads
+derived_from:
+- doi: 10.1038/s41467-019-09025-z
+  title: A multi-task convolutional deep neural network for variant calling in single molecule sequencing
+- doi: 10.1038/s41598-020-80757-5
+  title: Scalable long read self-correction and assembly polishing with multiple sequence alignment
+- doi: 10.1016/j.isci.2020.101389
+  title: 'HASLR: Fast Hybrid Assembly of Long Reads'
+- doi: 10.1093/bioinformatics/btad726
+  title: 'invMap: a sensitive mapping tool for long noisy reads with inversion structural variants'
+- doi: 10.1038/s41467-018-06910-x
+  title: Deciphering highly similar multigene family transcripts from Iso-Seq data with IsoCon
+- doi: 10.1038/s41467-019-08289-9
+  title: Single-molecule sequencing detection of N6-methyladenine in microbial reference materials
+- doi: 10.1093/nar/gkad526
+  title: Precise characterization of somatic complex structural variations from tumor/control paired long-read sequencing data with nanomonsv
+- doi: 10.1093/bioinformatics/btad702
+  title: 'Snapper: high-sensitive detection of methylation motifs based on Oxford Nanopore reads'
+- doi: 10.1038/s41467-022-34381-8
+  title: 'VeChat: correcting errors in long reads using variation graphs'
+source_repos:
+- https://github.com/aquaskyline/Clairvoyante
+- https://github.com/morispi/CONSENT
+- https://github.com/vpc-ccg/haslr
+- https://github.com/zhang134/invMap
+- https://github.com/ksahlin/IsoCon
+- https://github.com/al-mcintyre/mCaller
+- https://github.com/friend1ws/nanomonsv
+- https://github.com/DNKonanov/Snapper
+- https://github.com/HaploKit/vechat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aquaskyline/Clairvoyante

@@ -1,0 +1,18 @@
+name: GLnexus
+slug: glnexus
+version_used: null
+edam_topics: []
+evidence_spans:
+- We then use GLnexus to form family level joint-genotyped files
+- This workflow is effect for WGS, WES and PacBio data.
+derived_from:
+- doi: 10.1093/bioinformatics/btad775
+  title: 'HAT: <i>de novo</i> variant calling for highly accurate short-read and long-read sequencing data'
+source_repos:
+- https://github.com/TNTurnerLab/HAT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TNTurnerLab/HAT

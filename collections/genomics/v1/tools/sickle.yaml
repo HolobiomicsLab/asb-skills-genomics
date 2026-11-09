@@ -1,0 +1,18 @@
+name: Sickle
+slug: sickle
+version_used: null
+edam_topics: []
+evidence_spans:
+- najoshi/sickle
+derived_from:
+- doi: 10.1038/s41598-017-07650-6
+  title: Rapid de novo assembly of the European eel genome from nanopore sequencing reads
+source_repos:
+- https://github.com/najoshi/sickle
+- https://github.com/Generade-nl/TULIP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/najoshi/sickle

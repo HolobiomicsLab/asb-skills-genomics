@@ -1,0 +1,21 @@
+name: bin2cell
+slug: bin2cell
+version_used: null
+edam_topics: []
+evidence_spans:
+- bin2cell.scaled_he_image
+- bin2cell.destripe
+- bin2cell.bin_to_cell
+- bin2cell.grid_image
+- Project home page `here <https://github.com/Teichlab/bin2cell>`_
+derived_from:
+- doi: 10.1093/bioinformatics/btae546
+  title: Bin2cell reconstructs cells from high resolution Visium HD data
+source_repos:
+- https://github.com/Teichlab/bin2cell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Teichlab/bin2cell

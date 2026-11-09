@@ -1,0 +1,22 @@
+name: VirDetector
+slug: virdetector
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present VirDetector, a bioinformatic pipeline for virus surveillance using nanopore sequencing.
+- VirDetector can be customised via the config file *nextflow.config*.
+- 'VirDetector: A bioinformatic pipeline for virus surveillance using nanopore sequencing'
+- VirDetector can be installed with either Conda **or** Docker.
+- VirDetector is a bioinformatic pipeline for virus surveillance using nanopore sequencing
+derived_from:
+- doi: 10.1093/bioinformatics/btaf029
+  title: 'VirDetector: a bioinformatic pipeline for virus surveillance using nanopore sequencing'
+source_repos:
+- https://github.com/NLKaiser/VirDetector
+- https://github.com/NLKaiser/VirDetector.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NLKaiser/VirDetector

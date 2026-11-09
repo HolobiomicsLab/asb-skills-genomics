@@ -1,0 +1,17 @@
+name: EPI2ME desktop
+slug: epi2me-desktop
+version_used: null
+edam_topics: []
+evidence_spans:
+- '[EPI2ME desktop](https://nanoporetech.com/software/other/epi2me-desktop-application) (optional)'
+derived_from:
+- doi: 10.1093/bioinformatics/btaf687
+  title: 'ViMOP: a user-friendly and field-applicable pipeline for untargeted viral genome nanopore sequencing'
+source_repos:
+- https://github.com/opr-group-bnitm/vimop
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/opr-group-bnitm/vimop

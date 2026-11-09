@@ -1,0 +1,17 @@
+name: filter.tmap.pl
+slug: filter-tmap-pl
+version_used: null
+edam_topics: []
+evidence_spans:
+- perl filter.tmap.pl flnc.isoseq_flnc.Transcript.gff.tmap > flnc.filtered.tmap
+derived_from:
+- doi: 10.1038/s41467-023-38324-9
+  title: High-throughput and high-accuracy single-cell RNA isoform analysis using PacBio circular consensus sequencing
+source_repos:
+- https://github.com/shizhuoxing/scISA-Tools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shizhuoxing/scISA-Tools

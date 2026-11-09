@@ -1,0 +1,19 @@
+name: LIBSVM
+slug: libsvm
+version_used: '3.23'
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/minf.202000006
+  title: Sequence‐based Detection of DNA‐binding Proteins using Multiple‐view Features Allied with Feature Selection
+- doi: 10.1002/humu.23785
+  title: Predicting the change of exon splicing caused by genetic variant using support vector regression
+source_repos:
+- https://github.com/Zll-codeside/iDBP-DEP
+- https://github.com/chenkenbio/PredPSI-SVR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Zll-codeside/iDBP-DEP

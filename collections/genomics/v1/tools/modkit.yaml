@@ -1,0 +1,30 @@
+name: modkit
+slug: modkit
+version_used: null
+edam_topics: []
+evidence_spans:
+- Per-site frequency calculation of modkit will be stored in `${OUTPUT_DIR}/deepmod2/per_site_methylation.bed`
+- using [modkit](https://github.com/nanoporetech/modkit)
+- methylation counts for reads mapping to the same reference CpG sites can be obtained using [modkit](https://github.com/nanoporetech/modkit)
+- it will extract modifications using modkit and filter those.
+- read mapping using minimap2 and subsequent analysis steps such as running modkit
+- subsequent analysis steps such as running modkit
+- '[Modkit](https://github.com/nanoporetech/modkit) or [pb-CpG-tools](https://github.com/PacificBiosciences/pb-CpG-tools) (Revio only) is used to create methylation pileups'
+derived_from:
+- doi: 10.1038/s41467-024-45778-y
+  title: A signal processing and deep learning framework for methylation detection using Oxford Nanopore sequencing
+- doi: 10.1093/bioinformatics/btag066
+  title: 'Dogme: a nextflow pipeline for reprocessing nanopore RNA and DNA modifications'
+- doi: 10.1093/bioinformatics/btag086
+  title: 'Nallo: a Nextflow pipeline for comprehensive human long-read genome analysis'
+source_repos:
+- https://github.com/nanoporetech/modkit
+- https://github.com/WGLab/DeepMod2
+- https://github.com/mortazavilab/dogme
+- https://github.com/genomic-medicine-sweden/nallo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nanoporetech/modkit

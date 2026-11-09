@@ -1,0 +1,18 @@
+name: Tigmint-long
+slug: tigmint-long
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Alternate Protocol 2: Using ntLink mappings for genome assembly correction with Tigmint-long'
+derived_from:
+- doi: 10.1002/cpz1.733
+  title: "ntLink: A Toolkit for\n                    <i>De Novo</i>\n                    Genome Assembly Scaffolding and Mapping Using Long Reads"
+source_repos:
+- https://github.com/BirolLab/tigmint
+- https://github.com/BirolLab/ntLink
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BirolLab/tigmint

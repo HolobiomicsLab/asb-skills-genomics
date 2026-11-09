@@ -1,0 +1,20 @@
+name: Blackbird
+slug: blackbird
+version_used: null
+edam_topics: []
+evidence_spans:
+- Blackbird is a novel integrated alignment- and local-assembly-based algorithm hat employs the barcode information encoded in SLR reads
+- Blackbird is able to work with SLR read datasets and a combination of SLR read and long-read datasets.
+- Blackbird is a novel integrated alignment- and local-assembly-based algorithm
+- Blackbird assembles the genome into segments and calls insertions and deletions in these segments.
+derived_from:
+- doi: 10.1093/bioadv/vbaf151
+  title: 'Blackbird: structural variant detection using synthetic and low-coverage long-reads'
+source_repos:
+- https://github.com/1dayac/Blackbird
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/1dayac/Blackbird

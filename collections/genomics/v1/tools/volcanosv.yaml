@@ -1,0 +1,25 @@
+name: VolcanoSV
+slug: volcanosv
+version_used: '8.3'
+edam_topics: []
+evidence_spans:
+- The main script is `${path_to_volcanosv}/bin/VolcanoSV-asm/volcanosv-asm.py`.
+- We introduce VolcanoSV, an innovative hybrid SV detection pipeline that utilizes both a reference genome and local de novo assembly to generate a phased diploid assembly.
+- python3 ${path_to_volcanosv}/bin/VolcanoSV-vc/Large_INDEL/volcanosv-vc-large-indel-otherasm.py
+- 'git clone --recurse-submodules https://github.com/maiziezhoulab/VolcanoSV.git
+
+  cd VolcanoSV;sh Install.sh'
+- VolcanoSV utilizes **Python3.8.3**
+- ${path_to_volcanosv}/bin/VolcanoSV-vc/Large_INDEL/volcanosv-vc-large-indel.py
+- We introduce VolcanoSV, an innovative hybrid SV detection pipeline that utilizes both a reference genome and local de novo assembly
+derived_from:
+- doi: 10.1038/s41467-024-51282-0
+  title: VolcanoSV enables accurate and robust structural variant calling in diploid genomes from single-molecule long read sequencing
+source_repos:
+- https://github.com/maiziezhoulab/VolcanoSV
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/maiziezhoulab/VolcanoSV

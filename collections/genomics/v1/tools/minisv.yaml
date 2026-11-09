@@ -1,0 +1,18 @@
+name: minisv
+slug: minisv
+version_used: null
+edam_topics: []
+evidence_spans:
+- were then input into minisv for SV detection
+derived_from:
+- doi: 10.1002/advs.202515308
+  title: "Reference‐Guided Chromosome‐by‐Chromosome\n                    <i>de novo</i>\n                    Assembly at Scale Using Low‐Coverage High‐Fidelity Long‐Reads with HiFiCCL"
+source_repos:
+- https://github.com/lh3/minisv
+- https://github.com/zjjbuqi/HiFiCCL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lh3/minisv

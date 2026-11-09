@@ -1,0 +1,20 @@
+name: HARU
+slug: haru
+version_used: null
+edam_topics: []
+evidence_spans:
+- git clone https://github.com/beebdev/HARU
+- load our HARU sDTW accelerator
+- Source code for the HARU accelerator, including the Verilog HDL core accelerator and user-space device driver
+- Run the included *sigfish-haru* software binary that uses the hardware accelerator.
+derived_from:
+- doi: 10.1093/gigascience/giad046
+  title: Efficient real-time selective genome sequencing on resource-constrained devices
+source_repos:
+- https://github.com/beebdev/HARU
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/beebdev/HARU

@@ -1,0 +1,17 @@
+name: PacBio high fidelity (HiFi) sequencing platform
+slug: pacbio-high-fidelity-hifi-sequencing-platform
+version_used: null
+edam_topics: []
+evidence_spans:
+- permits high-throughput telomere length measurement at nucleotide resolution using the PacBio high fidelity (HiFi) sequencing platform
+derived_from:
+- doi: 10.1038/s41467-023-35823-7
+  title: High-throughput telomere length measurement at nucleotide resolution using the PacBio high fidelity sequencing platform
+source_repos:
+- https://github.com/cytham/telomap
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cytham/telomap

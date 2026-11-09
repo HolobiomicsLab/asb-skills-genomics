@@ -1,0 +1,18 @@
+name: nanoClust
+slug: nanoclust
+version_used: null
+edam_topics: []
+evidence_spans:
+- while nanoClust algorithm was designed for read partitioning-based de novo clustering and within cluster consensus calling
+- nanoClust algorithm was designed for read partitioning-based de novo clustering and within cluster consensus calling
+derived_from:
+- doi: 10.1093/gigascience/giy140
+  title: 'NanoAmpli-Seq: a workflow for amplicon sequencing for mixed microbial communities on the nanopore sequencing platform'
+source_repos:
+- https://github.com/umerijaz/nanopore
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/umerijaz/nanopore

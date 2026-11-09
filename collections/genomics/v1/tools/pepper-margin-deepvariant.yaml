@@ -1,0 +1,21 @@
+name: PEPPER-Margin-DeepVariant
+slug: pepper-margin-deepvariant
+version_used: null
+edam_topics: []
+evidence_spans:
+- We used Margin version v2.2 and WhatsHap version v1.4 to haplotag and phase the variants
+- we first used PEPPER-Margin-DeepVariant to find SNVs and insertions and deletions (INDELs) from the reads aligned to the reference
+derived_from:
+- doi: 10.1093/bib/bbae473
+  title: 'miniSNV: accurate and fast single nucleotide variant calling from nanopore sequencing data'
+- doi: 10.1038/s41467-022-35650-2
+  title: Simultaneous profiling of histone modifications and DNA methylation via nanopore sequencing
+source_repos:
+- https://github.com/CuiMiao-HIT/miniSNV
+- https://github.com/YinLabTJ/nanoHiMe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CuiMiao-HIT/miniSNV

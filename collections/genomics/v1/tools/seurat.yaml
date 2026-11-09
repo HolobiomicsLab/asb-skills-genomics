@@ -1,0 +1,31 @@
+name: Seurat
+slug: seurat
+version_used: 3.2.0
+edam_topics: []
+evidence_spans:
+- R-3.4.1 or later with `ggplot2 | gridExtra | grid | Seurat | DropletUtils`
+- BiocManager::install('Seurat')
+- 'BiocManager::install(''Seurat'')      # 3.2.0'
+- We first identify the top N (default is 2000) variable genes in the reference expression profile matrix using the function 'FindVariableFeatures' of Seurat
+- Cells are clustered at a resolution of 0.5 using Seurat's K-nearest-neighbor graph-based approach
+- processed using R/Bioconductor (version 3.5.2) and the Seurat R package (version 3.1.4)
+derived_from:
+- doi: 10.1038/s41467-023-38324-9
+  title: High-throughput and high-accuracy single-cell RNA isoform analysis using PacBio circular consensus sequencing
+- doi: 10.1093/nar/gkab1275
+  title: 'scMAGIC: accurately annotating single cells using two rounds of reference-based classification'
+- doi: 10.1093/bioinformatics/btae549
+  title: 'Scywalker: scalable end-to-end data analysis workflow for long-read single-cell transcriptome sequencing'
+- doi: 10.1038/s41467-020-17800-6
+  title: High throughput error corrected Nanopore single cell transcriptome sequencing
+source_repos:
+- https://github.com/shizhuoxing/scISA-Tools
+- https://github.com/TianLab-Bioinfo/scMAGIC
+- https://github.com/derijkp/scywalker
+- https://github.com/ucagenomix/sicelore-2.1
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shizhuoxing/scISA-Tools

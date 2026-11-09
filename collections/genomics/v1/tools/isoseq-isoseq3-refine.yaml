@@ -1,0 +1,18 @@
+name: IsoSeq (isoseq3 refine)
+slug: isoseq-isoseq3-refine
+version_used: null
+edam_topics: []
+evidence_spans:
+- '[ISOSEQ REFINE](https://github.com/PacificBiosciences/IsoSeq) discard chimeric reads.'
+derived_from:
+- doi: 10.1093/bioinformatics/btad150
+  title: 'nf-core/isoseq: simple gene and isoform annotation with PacBio Iso-Seq long-read sequencing'
+source_repos:
+- https://github.com/PacificBiosciences/IsoSeq
+- https://github.com/nf-core/isoseq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PacificBiosciences/IsoSeq

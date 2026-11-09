@@ -1,0 +1,20 @@
+name: sawfish
+slug: sawfish
+version_used: 0.12.9
+edam_topics: []
+evidence_spans:
+- sawfish discover --threads 16 --ref human_GRCh38_no_alt_analysis_set/human_GRCh38_no_alt_analysis_set.fasta --bam
+- sawfish 0.12.9 for SV calling
+- The analysis uses pbmm2 1.13.1 for read mapping, and sawfish 0.12.9 for SV calling.
+- '`joint-call` - Given the ''discover'' command results from each sample, the joint call step merges and genotypes SVs, calls CNVs and unifies SV/CNV calls'
+derived_from:
+- doi: 10.1093/bioinformatics/btaf136
+  title: 'Sawfish: improving long-read structural variant discovery and genotyping with local haplotype modeling'
+source_repos:
+- https://github.com/PacificBiosciences/sawfish
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PacificBiosciences/sawfish

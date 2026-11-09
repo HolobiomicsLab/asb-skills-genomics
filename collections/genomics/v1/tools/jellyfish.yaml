@@ -1,0 +1,23 @@
+name: Jellyfish
+slug: jellyfish
+version_used: null
+edam_topics: []
+evidence_spans:
+- We employ the widely-used k-mer counting tool Jellyfish19 to compute the number of unique k-mers obtained after each correction algorithm
+- the relative improvement in terms of unique k-mers between two successive iterations
+- the genome size predicted from k-mer analysis (~860 Mbp)
+- Seeds containing repetitive sequences should be fine, but it will then take much longer to untangle the graph
+derived_from:
+- doi: 10.1038/s41598-018-28364-3
+  title: 'HECIL: A Hybrid Error Correction Algorithm for Long Reads with Iterative Learning'
+- doi: 10.1038/s41598-017-07650-6
+  title: Rapid de novo assembly of the European eel genome from nanopore sequencing reads
+source_repos:
+- https://github.com/NDBL/HECIL
+- https://github.com/Generade-nl/TULIP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NDBL/HECIL

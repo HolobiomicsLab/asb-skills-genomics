@@ -1,0 +1,19 @@
+name: HLAminer v1.4
+slug: hlaminer-v1-4
+version_used: '1.4'
+edam_topics: []
+evidence_spans:
+- HLAminer v1.4 provides initial support for HLA prediction from raw uncorrected shotgun nanopore long reads
+- HLAminer v1.4 implements a streaming approach to reading .sam alignment files
+derived_from:
+- doi: 10.1002/cpz1.70124
+  title: Streaming Long‐Read Sequence Alignments for HLA Predictions Using HLAminer
+source_repos:
+- https://github.com/bcgsc/HLAminer
+- https://github.com/BirolLab/HLAminer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bcgsc/HLAminer

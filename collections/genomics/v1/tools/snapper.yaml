@@ -1,0 +1,19 @@
+name: Snapper
+slug: snapper
+version_used: null
+edam_topics: []
+evidence_spans:
+- snapper -sample_fast5dir ../HelicobacterMod/fast5/J99_multi/
+- snapper -sample_fast5dir ../HelicobacterMod/fast5/J99_multi/ -control_fast5dir ../HelicobacterMod/fast5/J99_wga_multi/
+- We present Snapper, a new highly sensitive approach, to extract methylation motif sequences based on a greedy motif selection algorithm.
+derived_from:
+- doi: 10.1093/bioinformatics/btad702
+  title: 'Snapper: high-sensitive detection of methylation motifs based on Oxford Nanopore reads'
+source_repos:
+- https://github.com/DNKonanov/Snapper
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DNKonanov/Snapper

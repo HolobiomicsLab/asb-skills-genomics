@@ -1,0 +1,17 @@
+name: Ensembl VEP
+slug: ensembl-vep
+version_used: null
+edam_topics: []
+evidence_spans:
+- filter variants after annotation with filter_vep and bcftools
+derived_from:
+- doi: 10.1093/bioinformatics/btag086
+  title: 'Nallo: a Nextflow pipeline for comprehensive human long-read genome analysis'
+source_repos:
+- https://github.com/genomic-medicine-sweden/nallo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/genomic-medicine-sweden/nallo

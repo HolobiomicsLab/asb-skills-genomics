@@ -1,0 +1,23 @@
+name: PBSIM2
+slug: pbsim2
+version_used: null
+edam_topics: []
+evidence_spans:
+- Longer reads produced by PacBio or Oxford Nanopore sequencers could more frequently span the breakpoints of structural variations (SVs) than shorter reads
+- _No usage/docs found._
+- 'sequencing platform: pb/ont (default: pb)'
+- we focused on the triploid genome, consisting of three E. coli strains as described before
+derived_from:
+- doi: 10.1093/bioinformatics/btad726
+  title: 'invMap: a sensitive mapping tool for long noisy reads with inversion structural variants'
+- doi: 10.1038/s41467-022-34381-8
+  title: 'VeChat: correcting errors in long reads using variation graphs'
+source_repos:
+- https://github.com/zhang134/invMap
+- https://github.com/HaploKit/vechat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhang134/invMap

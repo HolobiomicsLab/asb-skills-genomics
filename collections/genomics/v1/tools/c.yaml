@@ -1,0 +1,22 @@
+name: C++
+slug: c
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Programming language: C++ and PERL'
+- c++ compiler; compilation was tested with g++ version 5.3 (Linux) and clang version 4.2 (Mac OSX).
+- ViralConsensus is written in C++ and depends on htslib
+derived_from:
+- doi: 10.1093/gigascience/giy048
+  title: 'Fast-SG: an alignment-free algorithm for hybrid assembly'
+- doi: 10.1093/bioinformatics/btad317
+  title: 'ViralConsensus: a fast and memory-efficient tool for calling viral consensus genome sequences directly from read alignment data'
+source_repos:
+- https://github.com/adigenova/fast-sg
+- https://github.com/niemasd/ViralConsensus
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/adigenova/fast-sg

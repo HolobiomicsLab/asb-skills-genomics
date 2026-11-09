@@ -1,0 +1,77 @@
+name: Nextflow
+slug: nextflow
+version_used: null
+edam_topics: []
+evidence_spans:
+- Our pipeline, implemented on Anaconda/Nextflow and Docker is an easy-to-use package
+- 'nextflow run annotate-my-genomes.nf \
+
+  --stringtie /path/to/stringtie.gtf \'
+- we develop a Nextflow pipeline, ccsmethphase, to detect haplotype-aware methylation using CCS reads
+- nextflow run main.nf
+- Dogme is implemented in Nextflow and is freely available under the MIT license
+- Dogme is implemented in Nextflow, which enables scalable and reproducible scientific workflows across multiple computing environments
+- Nextflow version bumping
+- '- [Nextflow version bumping](#nextflow-version-bumping)'
+- A conda environment with `nextflow`, `nf-core` tools and `nf-test`.
+- Here we present Nallo, a Nextflow pipeline for analysis of PacBio and Oxford Nanopore data
+- Nallo is developed in Nextflow, which is increasingly becoming the workflow of choice within the bioinformatics community
+- Command line–based workflow managers such as Snakemake and Nextflow [9,10] can be used for analysing the data
+- 'pipeline.nf: nextflow pipeline main script'
+- a Nextflow pipeline exploiting containerized technology for comparing 14 tools for m6A detection on dRNA-seq data
+- NanOlympicsMod relies on Nextflow, guaranteeing portability across platforms and support for different job schedulers
+- Real-time FASTQ monitoring | yes | yes | Now uses native `watchPath` |
+- Nanometa Live v2.0 replaces the Snakemake workflow engine with the **nanometanf** Nextflow pipeline as the backend.
+- The pipeline is built using [Nextflow](https://www.nextflow.io/) and processes data using the following steps
+- '- [Nextflow](https://www.nextflow.io/)'
+- ViMOP uses - [Nextflow](https://www.nextflow.io/)
+- ViMOP uses - [Nextflow](https://www.nextflow.io/) - [Docker](https://www.docker.com/)
+- Executed with a single Nextflow command or via the EPI2ME Desktop interface
+- nextflow run main.nf
+- The pipeline is implemented using Nextflow (Supplementary Table S1) (Di Tommaso et al. 2017).
+- with a Docker container composition wrapped within a NextFlow (Di Tommaso et al., 2017) interface to guarantee exact reproducibility
+- eDiVA can be run using the NextFlow (Di Tommaso et al., 2017) pipeline management system to ensure its compatibility
+derived_from:
+- doi: 10.1093/gigascience/giac099
+  title: 'annotate_my_genomes: an easy-to-use pipeline to improve genome annotation and uncover neglected genes by hybrid RNA sequencing'
+- doi: 10.1038/s41467-023-39784-9
+  title: DNA 5-methylcytosine detection and methylation phasing using PacBio circular consensus sequencing
+- doi: 10.1038/s41598-025-01486-1
+  title: ConsensuSV-ONT – A modern method for accurate structural variant calling
+- doi: 10.1093/bioinformatics/btag066
+  title: 'Dogme: a nextflow pipeline for reprocessing nanopore RNA and DNA modifications'
+- doi: 10.1093/bioinformatics/btag086
+  title: 'Nallo: a Nextflow pipeline for comprehensive human long-read genome analysis'
+- doi: 10.1093/gigascience/giaa105
+  title: 'NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy'
+- doi: 10.1093/bib/bbae001
+  title: Benchmarking of computational methods for m6A profiling with Nanopore direct RNA sequencing
+- doi: 10.1093/bioinformatics/btae108
+  title: 'Nanometa Live: a user-friendly application for real-time metagenomic data analysis and pathogen identification'
+- doi: 10.1093/bioinformatics/btad150
+  title: 'nf-core/isoseq: simple gene and isoform annotation with PacBio Iso-Seq long-read sequencing'
+- doi: 10.1093/bioinformatics/btaf687
+  title: 'ViMOP: a user-friendly and field-applicable pipeline for untargeted viral genome nanopore sequencing'
+- doi: 10.1093/bioinformatics/btaf029
+  title: 'VirDetector: a bioinformatic pipeline for virus surveillance using nanopore sequencing'
+- doi: 10.1002/humu.23772
+  title: eDiVA—Classification and prioritization of pathogenic variants for clinical diagnostics
+source_repos:
+- https://github.com/cfarkas/annotate_my_genomes
+- https://github.com/PengNi/ccsmethphase
+- https://github.com/SFGLab/ConsensuSV-ONT-pipeline
+- https://github.com/mortazavilab/dogme
+- https://github.com/genomic-medicine-sweden/nallo
+- https://github.com/mmiladi/galaxy-nanopore
+- https://github.com/mfurla/NanOlympicsMod
+- https://github.com/FOI-Bioinformatics/nanometa_live
+- https://github.com/nf-core/isoseq
+- https://github.com/opr-group-bnitm/vimop
+- https://github.com/NLKaiser/VirDetector
+- https://github.com/mbosio85/ediva
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cfarkas/annotate_my_genomes

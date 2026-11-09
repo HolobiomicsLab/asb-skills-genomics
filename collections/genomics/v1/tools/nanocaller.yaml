@@ -1,0 +1,20 @@
+name: NanoCaller
+slug: nanocaller
+version_used: null
+edam_topics: []
+evidence_spans:
+- NanoCaller --bam ${OUTPUT_DIR}/aligned.sorted.bam --ref ${INPUT_DIR}/GRCh38.fa --mode snps --phase --output ${OUTPUT_DIR}/nanocaller --wgs_contigs chr1-22XY --cpu 8
+derived_from:
+- doi: 10.1038/s41467-024-45778-y
+  title: A signal processing and deep learning framework for methylation detection using Oxford Nanopore sequencing
+- doi: 10.1093/bib/bbae473
+  title: 'miniSNV: accurate and fast single nucleotide variant calling from nanopore sequencing data'
+source_repos:
+- https://github.com/WGLab/DeepMod2
+- https://github.com/CuiMiao-HIT/miniSNV
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WGLab/DeepMod2

@@ -1,0 +1,18 @@
+name: scISA-Tools
+slug: scisa-tools
+version_used: null
+edam_topics: []
+evidence_spans:
+- I will provide the tool set for analyzing HIT-scISOseq data starting from raw data
+- We also report the development of scISA-Tools that demultiplex HIT-scISOseq concatenated reads into single-cell cDNA reads with >99.99% accuracy and specificity
+derived_from:
+- doi: 10.1038/s41467-023-38324-9
+  title: High-throughput and high-accuracy single-cell RNA isoform analysis using PacBio circular consensus sequencing
+source_repos:
+- https://github.com/shizhuoxing/scISA-Tools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shizhuoxing/scISA-Tools

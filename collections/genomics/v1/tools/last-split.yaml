@@ -1,0 +1,17 @@
+name: last-split
+slug: last-split
+version_used: null
+edam_topics: []
+evidence_spans:
+- the most probable alignment of each part with the last-split function
+derived_from:
+- doi: 10.1093/gigascience/giy169
+  title: NanoPipe—a web server for nanopore MinION sequencing data analysis
+source_repos:
+- https://github.com/IOB-Muenster/nanopipe2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/IOB-Muenster/nanopipe2

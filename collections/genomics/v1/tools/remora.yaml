@@ -1,0 +1,22 @@
+name: Remora
+slug: remora
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we used the most recent modified basecalling models in **Remora** that provides the most accurate methylation result.
+- remora (https://github.com/nanoporetech/remora) for signal-to-sequence alignment during training dataset preparation
+derived_from:
+- doi: 10.1038/s41467-021-23778-6
+  title: Systematic benchmarking of tools for CpG methylation detection from nanopore sequencing
+- doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+source_repos:
+- https://github.com/nanoporetech/remora
+- https://github.com/comprna/METEORE
+- https://github.com/BioinfoSZU/NanoSimFormer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nanoporetech/remora

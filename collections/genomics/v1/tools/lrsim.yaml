@@ -1,0 +1,17 @@
+name: LRSIM
+slug: lrsim
+version_used: null
+edam_topics: []
+evidence_spans:
+- Synthetic long reads were simulated using LRSIM (38) with 65× sequence coverage.
+derived_from:
+- doi: 10.1093/nar/gkac653
+  title: Efficient detection and assembly of non-reference DNA sequences with synthetic long reads
+source_repos:
+- https://github.com/1dayac/Novel-X
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/1dayac/Novel-X

@@ -1,0 +1,24 @@
+name: NanoSV
+slug: nanosv
+version_used: 1.2.4
+edam_topics: []
+evidence_spans:
+- NanoSV (1.2.4) - https://github.com/mroosmalen/nanosv
+- '* [SV calling using NanoSV](#sv-calling-using-nanosv)'
+- SV calling using NanoSV
+- '* [NanoSV](#nanosv)'
+- NanoSV
+derived_from:
+- doi: 10.1038/s41467-020-16641-7
+  title: Partner independent fusion gene detection by multiplexed CRISPR-Cas9 enrichment and long read nanopore sequencing
+- doi: 10.1038/s41467-017-01343-4
+  title: Mapping and phasing of structural variation in patient genomes using nanopore sequencing
+source_repos:
+- https://github.com/mroosmalen/nanosv
+- https://github.com/SdeBlank/NanoFG
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mroosmalen/nanosv

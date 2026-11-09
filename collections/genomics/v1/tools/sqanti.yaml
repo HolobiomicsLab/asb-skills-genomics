@@ -1,0 +1,26 @@
+name: SQANTI
+slug: sqanti
+version_used: null
+edam_topics: []
+evidence_spans:
+- After assessing the best transcriptome assembly with tools such as rnaQUAST [14], SQANTI [15]
+- assess junction coverage with SQANTI, classifying junctions as canonical vs non-canonical
+- (absent — flagged as missing)
+- TAGET and SQANTI analyze long-reads independently and generally have higher sensitivity.
+derived_from:
+- doi: 10.1093/gigascience/giac099
+  title: 'annotate_my_genomes: an easy-to-use pipeline to improve genome annotation and uncover neglected genes by hybrid RNA sequencing'
+- doi: 10.1038/s41467-020-17009-7
+  title: Comprehensive identification of mRNA isoforms reveals the diversity of neural cell-surface molecules with roles in retinal development and disease
+- doi: 10.1038/s41467-023-41649-0
+  title: 'TAGET: a toolkit for analyzing full-length transcripts from long-read sequencing'
+source_repos:
+- https://github.com/cfarkas/annotate_my_genomes
+- https://github.com/kellycochran/IsoPops
+- https://github.com/XiDsLab/TAGET
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cfarkas/annotate_my_genomes

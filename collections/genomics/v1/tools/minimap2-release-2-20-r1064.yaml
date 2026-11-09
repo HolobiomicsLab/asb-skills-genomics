@@ -1,0 +1,18 @@
+name: Minimap2 (Release 2.20-r1064)
+slug: minimap2-release-2-20-r1064
+version_used: '2.20'
+edam_topics: []
+evidence_spans:
+- aligned to the plasmid reference via Minimap2 (Release 2.20-r1064) with -ax map-ont for Nanopore
+- The quality-filtered, concatenated FASTQ reads were aligned to the plasmid reference via Minimap2 (Release 2.20-r1064) with -ax map-ont
+derived_from:
+- doi: 10.1038/s41467-023-41354-y
+  title: mRNA vaccine quality analysis using RNA sequencing
+source_repos:
+- https://github.com/scchess/Mana
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scchess/Mana

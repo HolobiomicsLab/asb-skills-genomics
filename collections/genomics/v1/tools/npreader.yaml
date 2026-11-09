@@ -1,0 +1,23 @@
+name: npReader
+slug: npreader
+version_used: null
+edam_topics: []
+evidence_spans:
+- jsa.np.npreader  --realtime --folder Downloads --fail --stat --number --output -
+- npReader is the module that provides such data from fast5 files
+- 'In order to run the *npScarf* in real-time, [npReader]( https://github.com/mdcao/npReader)
+
+  and particularly HDF library need to be istalled properly.'
+- '[npReader]( https://github.com/mdcao/npReader)'
+derived_from:
+- doi: 10.1038/ncomms14515
+  title: Scaffolding and completing genome assemblies in real-time with nanopore sequencing
+source_repos:
+- https://github.com/mdcao/npReader
+- https://github.com/mdcao/npScarf
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mdcao/npReader

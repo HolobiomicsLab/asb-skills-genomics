@@ -1,0 +1,17 @@
+name: sklearn
+slug: sklearn
+version_used: null
+edam_topics: []
+evidence_spans:
+- Optimization is performed with the python module sklearn, using the default L-BFGS solver19
+derived_from:
+- doi: 10.1038/s41467-024-47661-2
+  title: Detecting m6A at single-molecular resolution via direct RNA sequencing and realistic training data
+source_repos:
+- https://github.com/dieterich-lab/mAFiA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dieterich-lab/mAFiA

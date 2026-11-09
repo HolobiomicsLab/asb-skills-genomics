@@ -1,0 +1,17 @@
+name: LIQA
+slug: liqa
+version_used: null
+edam_topics: []
+evidence_spans:
+- We tested the performance of NanoCount against other transcript quantification programs, including Salmon, StringTie2, FLAIR and LIQA
+derived_from:
+- doi: 10.1093/nar/gkab1129
+  title: Accurate expression quantification from nanopore direct RNA sequencing with NanoCount
+source_repos:
+- https://github.com/a-slide/NanoCount
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/a-slide/NanoCount

@@ -1,0 +1,27 @@
+name: lra
+slug: lra
+version_used: '63.25'
+edam_topics: []
+evidence_spans:
+- AgileStructure can also identify insertions and deletions encoded in the read's CIGAR string such as lra.
+- this study presents a novel long-read mapping algorithm (named as invMap)
+- lra 63.25%.
+- _No usage/docs found._
+derived_from:
+- doi: 10.1093/bioinformatics/btag294
+  title: Utilization of long-read sequencing for the detection of structural rearrangements with AgileStructure
+- doi: 10.1016/j.jare.2022.10.012
+  title: Improvement of large copy number variant detection by whole genome nanopore sequencing
+- doi: 10.1093/bioinformatics/btad726
+  title: 'invMap: a sensitive mapping tool for long noisy reads with inversion structural variants'
+source_repos:
+- https://github.com/ChaissonLab/LRA
+- https://github.com/msjimc/AgileStructure
+- https://github.com/javiercguard/disCoverage
+- https://github.com/zhang134/invMap
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ChaissonLab/LRA

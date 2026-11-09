@@ -1,0 +1,19 @@
+name: nanopore direct RNA sequencing
+slug: nanopore-direct-rna-sequencing
+version_used: null
+edam_topics: []
+evidence_spans:
+- CHEUI processes observed and expected nanopore direct RNA sequencing signals
+- CHEUI processes observed and expected nanopore direct RNA sequencing signals to achieve high single-molecule, transcript-site, and stoichiometry accuracies
+- with direct RNA sequencing kit (SQK-RNA002) as supplied by Oxford Nanopore Technology.
+derived_from:
+- doi: 10.1038/s41467-024-47953-7
+  title: Prediction of m6A and m5C at single-molecule resolution reveals a transcriptome-wide co-occurrence of RNA modifications
+source_repos:
+- https://github.com/comprna/CHEUI-public
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/comprna/CHEUI-public

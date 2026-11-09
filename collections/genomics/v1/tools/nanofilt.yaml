@@ -1,0 +1,21 @@
+name: NanoFilt
+slug: nanofilt
+version_used: null
+edam_topics: []
+evidence_spans:
+- after NanoFilt quality/headcrop/tailcrop filtering
+- Apply the Nanofilt filtering step described in the pipeline (quality score >13, read length >3 kb)
+derived_from:
+- doi: 10.1038/s41467-019-11713-9
+  title: Accurate detection of m6A RNA modifications in native RNA sequences
+- doi: 10.1093/gigascience/giz006
+  title: Nanopore sequencing of long ribosomal DNA amplicons enables portable and simple biodiversity assessments with high phylogenetic resolution across broad taxonomic scale
+source_repos:
+- https://github.com/enovoa/EpiNano
+- https://github.com/calacademy-research/minibar
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/enovoa/EpiNano

@@ -1,0 +1,19 @@
+name: StringTie
+slug: stringtie
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'using StringTie [57, 58] program with settings: -p 1 -j 2 -c 2 -v -a 4'
+- We merged the resulting BAM files from PacBio and Illumina read alignments into a single BAM file and we assembled transcripts from the latter alignment file using StringTie
+- stringtie --merge -G galGal6_ncbiRefSeq.gtf braker_fixed.gtf -o braker_merged.gtf
+derived_from:
+- doi: 10.1093/gigascience/giac099
+  title: 'annotate_my_genomes: an easy-to-use pipeline to improve genome annotation and uncover neglected genes by hybrid RNA sequencing'
+source_repos:
+- https://github.com/cfarkas/annotate_my_genomes
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cfarkas/annotate_my_genomes

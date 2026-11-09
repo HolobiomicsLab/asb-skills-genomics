@@ -1,0 +1,34 @@
+name: pbmm2
+slug: pbmm2
+version_used: 1.13.1
+edam_topics: []
+evidence_spans:
+- G1.HG002_demo.hifi.ccsmeth.modbam.pbmm2.merged_size1.SNV_PASS_whatshap.bam
+- '[pbmm2](https://github.com/PacificBiosciences/pbmm2) is a wrapper for minimap2 that has sets of recommended parameters that support PacBio data alignment.'
+- '[pbmm2](https://github.com/PacificBiosciences/pbmm2) is a wrapper for minimap2'
+- The analysis uses pbmm2 1.13.1 for read mapping, and sawfish 0.12.9 for SV calling.
+- These reads are mapped using pbmm2 1.13.1
+derived_from:
+- doi: 10.1038/s41467-023-39784-9
+  title: DNA 5-methylcytosine detection and methylation phasing using PacBio circular consensus sequencing
+- doi: 10.1038/s41598-025-01486-1
+  title: ConsensuSV-ONT – A modern method for accurate structural variant calling
+- doi: 10.1093/bioinformatics/btaf680
+  title: 'isoSeQL: comparing long-read isoforms across multiple datasets'
+- doi: 10.1093/bioinformatics/btaf136
+  title: 'Sawfish: improving long-read structural variant discovery and genotyping with local haplotype modeling'
+- doi: 10.1038/s42003-026-09849-8
+  title: 'Z-Calling: a tool for A/Z (2,6-diaminopurine) base calling and dZ-DNA detection using PacBio HiFi reads'
+source_repos:
+- https://github.com/PacificBiosciences/pbmm2
+- https://github.com/PengNi/ccsmethphase
+- https://github.com/SFGLab/ConsensuSV-ONT-pipeline
+- https://github.com/christine-liu/isoSeQL
+- https://github.com/PacificBiosciences/sawfish
+- https://github.com/xiaochuanle/Z-Calling
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PacificBiosciences/pbmm2

@@ -1,0 +1,19 @@
+name: marginAlign
+slug: marginalign
+version_used: null
+edam_topics: []
+evidence_spans:
+- GraphMap mappings provided a better starting point for the realigner marginAlign
+derived_from:
+- doi: 10.1038/ncomms11307
+  title: Fast and sensitive mapping of nanopore sequencing reads with GraphMap
+source_repos:
+- https://github.com/benedictpaten/marginAlign.git
+- https://github.com/isovic/marginAlign
+- https://github.com/isovic/graphmap
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/benedictpaten/marginAlign.git

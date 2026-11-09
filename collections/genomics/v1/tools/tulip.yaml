@@ -1,0 +1,18 @@
+name: TULIP
+slug: tulip
+version_used: null
+edam_topics: []
+evidence_spans:
+- ./tulipseed.perl --seedlength 285 --config alignments.txt --diploid --out tulip/eel
+- Using our original TULIP methodology, we were able to assemble the 860 Mbp genome of the European eel
+derived_from:
+- doi: 10.1038/s41598-017-07650-6
+  title: Rapid de novo assembly of the European eel genome from nanopore sequencing reads
+source_repos:
+- https://github.com/Generade-nl/TULIP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Generade-nl/TULIP

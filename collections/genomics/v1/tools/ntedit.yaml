@@ -1,0 +1,19 @@
+name: ntEdit
+slug: ntedit
+version_used: 1.3.5
+edam_topics: []
+evidence_spans:
+- '[ntEdit](https://github.com/BirolLab/ntEdit) v1.3.5+'
+derived_from:
+- doi: 10.1002/cpz1.442
+  title: 'ntEdit+Sealer: Efficient Targeted Error Resolution and Automated Finishing of Long‐Read Genome Assemblies'
+source_repos:
+- https://github.com/BirolLab/ntEdit
+- https://github.com/bcgsc/ntEdit
+- https://github.com/BirolLab/ntedit_sealer_protocol
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BirolLab/ntEdit

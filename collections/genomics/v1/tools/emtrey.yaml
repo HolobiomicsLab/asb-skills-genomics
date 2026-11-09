@@ -1,0 +1,19 @@
+name: emtrey
+slug: emtrey
+version_used: null
+edam_topics: []
+evidence_spans:
+- '[emtrey](https://github.com/rvolden/emtrey)'
+- emtrey (https://github.com/rvolden/emtrey)
+derived_from:
+- doi: 10.1038/ncomms16027
+  title: Nanopore long-read RNAseq reveals widespread transcriptional variation among the surface receptors of individual B cells
+source_repos:
+- https://github.com/rvolden/emtrey
+- https://github.com/rvolden/Mandalorion
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rvolden/emtrey

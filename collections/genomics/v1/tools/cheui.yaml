@@ -1,0 +1,26 @@
+name: CHEUI
+slug: cheui
+version_used: null
+edam_topics: []
+evidence_spans:
+- We address this with CHEUI (CH3 (methylation) Estimation Using Ionic current).
+- CHEUI-solo Model 2 is a binary classifier implemented as a CNN like for Model 1.
+- Xpore, Nanocompore and CHEUI-diff were used to call differential RNA modifications on all A sites
+- CHEUI-solo (Models 1 and 2) was run by pooling together three replicate samples from each cell line, WT and NSUN2-KO HeLa.
+- We subjected TEST1 to two other methods that aim to detect m6A at single-molecule resolution (CHEUI and m6Anet)2,3
+derived_from:
+- doi: 10.1038/s41467-024-47953-7
+  title: Prediction of m6A and m5C at single-molecule resolution reveals a transcriptome-wide co-occurrence of RNA modifications
+- doi: 10.1038/s41467-024-47661-2
+  title: Detecting m6A at single-molecular resolution via direct RNA sequencing and realistic training data
+source_repos:
+- https://github.com/comprna/CHEUI
+- https://github.com/comprna/CHEUI-public
+- https://github.com/comprna/R2Dtool
+- https://github.com/dieterich-lab/mAFiA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/comprna/CHEUI

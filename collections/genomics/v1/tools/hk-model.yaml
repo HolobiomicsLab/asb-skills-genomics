@@ -1,0 +1,17 @@
+name: HK model
+slug: hk-model
+version_used: null
+edam_topics: []
+evidence_spans:
+- Tse et al. developed a convolutional neural network (CNN)-based method, called holistic kinetic model (HK model), for genome-wide 5mCpG detection in humans
+derived_from:
+- doi: 10.1038/s41467-023-39784-9
+  title: DNA 5-methylcytosine detection and methylation phasing using PacBio circular consensus sequencing
+source_repos:
+- https://github.com/PengNi/ccsmethphase
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PengNi/ccsmethphase

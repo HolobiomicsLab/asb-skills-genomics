@@ -1,0 +1,21 @@
+name: plotly
+slug: plotly
+version_used: null
+edam_topics: []
+evidence_spans:
+- Python libraries numpy, pandas, plotly
+derived_from:
+- doi: 10.1093/bioinformatics/btaf680
+  title: 'isoSeQL: comparing long-read isoforms across multiple datasets'
+- doi: 10.1016/j.crmeth.2025.101172
+  title: Toward universal immunofluorescence normalization for multiplex tissue imaging with UniFORM
+source_repos:
+- https://github.com/christine-liu/isoSeQL
+- https://github.com/plotly/plotly.py
+- https://github.com/kunlunW/UniFORM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/christine-liu/isoSeQL

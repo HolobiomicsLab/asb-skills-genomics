@@ -1,0 +1,17 @@
+name: NextPolish
+slug: nextpolish
+version_used: null
+edam_topics: []
+evidence_spans:
+- there are many state-of-the-art polishing tools available, such as Pilon [13], Racon [14], and NextPolish [15]
+derived_from:
+- doi: 10.1093/gpbjnl/qzad009
+  title: 'NextPolish2: A Repeat-aware Polishing Tool for Genomes Assembled Using HiFi Long Reads'
+source_repos:
+- https://github.com/Nextomics/NextPolish2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Nextomics/NextPolish2

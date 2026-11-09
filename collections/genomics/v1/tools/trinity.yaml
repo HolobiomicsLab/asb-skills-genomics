@@ -1,0 +1,19 @@
+name: Trinity
+slug: trinity
+version_used: '0.44'
+edam_topics: []
+evidence_spans:
+- 'H. sapiens: http://spades.bioinf.spbau.ru/rnaspades/simulated_data/human/'
+- Trinity (0.44 and 0.30) and RNA-Bloom (0.41 and 0.28) are ranked second and the third according to these metrics (Supplementary Fig. S3).
+- Trinity (0.44 and 0.30) and RNA-Bloom (0.41 and 0.28) are ranked second and the third according to these metrics
+derived_from:
+- doi: 10.1093/gigascience/giz100
+  title: "rnaSPAdes: a\n                    <i>de novo</i>\n                    transcriptome assembler and its application to RNA-Seq data"
+source_repos:
+- https://github.com/ablab/spades
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ablab/spades

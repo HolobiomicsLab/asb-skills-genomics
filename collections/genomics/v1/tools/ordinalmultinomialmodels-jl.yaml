@@ -1,0 +1,18 @@
+name: OrdinalMultinomialModels.jl
+slug: ordinalmultinomialmodels-jl
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/gepi.22276
+  title: Ordered multinomial regression for genetic association analysis of ordinal phenotypes at Biobank scale
+source_repos:
+- https://github.com/OpenMendel/OrdinalMultinomialModels.jl
+- https://github.com/OpenMendel/OrdinalMultinomialModels.jl.git
+- https://github.com/OpenMendel/OrdinalGWAS.jl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OpenMendel/OrdinalMultinomialModels.jl

@@ -1,0 +1,56 @@
+name: QUAST
+slug: quast
+version_used: 5.2.0
+edam_topics: []
+evidence_spans:
+- QUAST11,15 compares genome assemblers by estimating assembly errors in contig blocks.
+- We then use QUAST23 to evaluate assembly quality
+- we utilized QUAST (v5.2.0) [33]
+- The evaluation of the scaffolding results was conducted using Quast and BUSCO
+- NanoSimFormer-derived reads enable high-quality de novo bacterial assembly with consensus error rates below one mismatch per 100 kbp
+- Quast (version 4.4)
+- The QUAST analysis of results from npScarf and competitive methods
+- "The QUAST analysis of results from npScarf and competitive methods are in also \npresented for"
+- (absent — flagged as missing)
+- VeChat achieves approximately 1.5 times lower error rate (QV) and 1.2 times lower switch error on HG002 compared with CONSENT
+- 'ntEdit+Sealer: Efficient Targeted Error Resolution and Automated Finishing of Long-Read Genome Assemblies'
+- ablab/quast
+derived_from:
+- doi: 10.1038/s41467-023-42336-w
+  title: Identification of errors in draft genome assemblies at single-nucleotide resolution for quality assessment and improvement
+- doi: 10.1016/j.isci.2020.101389
+  title: 'HASLR: Fast Hybrid Assembly of Long Reads'
+- doi: 10.1038/s41598-018-28364-3
+  title: 'HECIL: A Hybrid Error Correction Algorithm for Long Reads with Iterative Learning'
+- doi: 10.1002/advs.202515308
+  title: "Reference‐Guided Chromosome‐by‐Chromosome\n                    <i>de novo</i>\n                    Assembly at Scale Using Low‐Coverage High‐Fidelity Long‐Reads with HiFiCCL"
+- doi: 10.1093/bioinformatics/btag402
+  title: 'NanoSimFormer: an end-to-end transformer-based nanopore signal simulator with basecaller guidance'
+- doi: 10.1093/nar/gkac653
+  title: Efficient detection and assembly of non-reference DNA sequences with synthetic long reads
+- doi: 10.1038/ncomms14515
+  title: Scaffolding and completing genome assemblies in real-time with nanopore sequencing
+- doi: 10.1038/s41467-022-34381-8
+  title: 'VeChat: correcting errors in long reads using variation graphs'
+- doi: 10.1002/cpz1.442
+  title: 'ntEdit+Sealer: Efficient Targeted Error Resolution and Automated Finishing of Long‐Read Genome Assemblies'
+- doi: 10.1002/cpz1.733
+  title: "ntLink: A Toolkit for\n                    <i>De Novo</i>\n                    Genome Assembly Scaffolding and Mapping Using Long Reads"
+source_repos:
+- https://github.com/JiaoLaboratory/CRAQ
+- https://github.com/vpc-ccg/haslr
+- https://github.com/NDBL/HECIL
+- https://github.com/zjjbuqi/HiFiCCL
+- https://github.com/BioinfoSZU/NanoSimFormer
+- https://github.com/1dayac/Novel-X
+- https://github.com/mdcao/npScarf
+- https://github.com/HaploKit/vechat
+- https://github.com/ablab/quast
+- https://github.com/BirolLab/ntedit_sealer_protocol
+- https://github.com/BirolLab/ntLink
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JiaoLaboratory/CRAQ

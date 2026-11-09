@@ -1,0 +1,33 @@
+name: SPOA
+slug: spoa
+version_used: null
+edam_topics: []
+evidence_spans:
+- assign each read to a partial order alignment (POA) graph using the spoa library
+- '[spoa](https://github.com/rvaser/spoa) multiple alignment using a set of reads for the molecule'
+- TRiCoLOR uses SPOA [18], a single-instruction multiple-data accelerated version of the robust POA framework, to compute highly accurate consensus sequences
+- TRiCoLOR uses SPOA [18], a single-instruction multiple-data accelerated version of the robust POA framework
+derived_from:
+- doi: 10.1016/j.isci.2020.101389
+  title: 'HASLR: Fast Hybrid Assembly of Long Reads'
+- doi: 10.1038/s41598-025-98847-7
+  title: Advanced analysis of retrotransposon variation in the human genome with nanopore sequencing using RetroInspector
+- doi: 10.1093/bioinformatics/btaf136
+  title: 'Sawfish: improving long-read structural variant discovery and genotyping with local haplotype modeling'
+- doi: 10.1038/s41467-020-17800-6
+  title: High throughput error corrected Nanopore single cell transcriptome sequencing
+- doi: 10.1093/gigascience/giaa101
+  title: 'TRiCoLOR: tandem repeat profiling using whole-genome long-read sequencing data'
+source_repos:
+- https://github.com/rvaser/spoa
+- https://github.com/vpc-ccg/haslr
+- https://github.com/javiercguard/retroinspector
+- https://github.com/PacificBiosciences/sawfish
+- https://github.com/ucagenomix/sicelore-2.1
+- https://github.com/davidebolo1993/TRiCoLOR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rvaser/spoa

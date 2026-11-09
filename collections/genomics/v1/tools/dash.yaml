@@ -1,0 +1,17 @@
+name: Dash
+slug: dash
+version_used: null
+edam_topics: []
+evidence_spans:
+- implemented as a local web application using the Dash framework
+derived_from:
+- doi: 10.1093/bioinformatics/btae108
+  title: 'Nanometa Live: a user-friendly application for real-time metagenomic data analysis and pathogen identification'
+source_repos:
+- https://github.com/FOI-Bioinformatics/nanometa_live
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FOI-Bioinformatics/nanometa_live

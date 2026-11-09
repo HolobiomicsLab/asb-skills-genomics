@@ -1,0 +1,17 @@
+name: docker-compose
+slug: docker-compose
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/humu.23798
+  title: 'MetaDome: Pathogenicity analysis of genetic variants through aggregation of homologous human protein domains'
+source_repos:
+- https://github.com/cmbi/metadome
+- https://github.com/laurensvdwiel/metadome
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cmbi/metadome

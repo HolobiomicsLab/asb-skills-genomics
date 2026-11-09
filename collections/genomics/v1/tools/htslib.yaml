@@ -1,0 +1,22 @@
+name: htslib
+slug: htslib
+version_used: null
+edam_topics: []
+evidence_spans:
+- htslib (tabix, bgzip) | parse, get
+- ViralConsensus is written in C++ and depends on htslib
+derived_from:
+- doi: 10.1093/nar/gkad526
+  title: Precise characterization of somatic complex structural variations from tumor/control paired long-read sequencing data with nanomonsv
+- doi: 10.1093/bioinformatics/btad317
+  title: 'ViralConsensus: a fast and memory-efficient tool for calling viral consensus genome sequences directly from read alignment data'
+source_repos:
+- https://github.com/friend1ws/nanomonsv
+- https://github.com/samtools/htslib
+- https://github.com/niemasd/ViralConsensus
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/friend1ws/nanomonsv

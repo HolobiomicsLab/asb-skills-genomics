@@ -1,0 +1,21 @@
+name: meth_phaser_parallel
+slug: meth-phaser-parallel
+version_used: null
+edam_topics: []
+evidence_spans:
+- ./meth_phaser_parallel -b test_data/HLA.R10.haplotagged.bam
+- ./meth_phaser_parallel -b test_data/HLA.R10.haplotagged.bam -r test_data/GCA_000001405.15_GRCh38_no_alt_analysis_set.chr6.fna -g test_data/LSK.filtered.gtf -vc test_data/HLA.R10.phased.vcf.gz  -o
+- 'methphaser: phase reads based on methlytion informaiton'
+- ./meth_phaser_parallel -b test_data/HLA.R10.haplotagged.bam -r test_data/GCA_000001405.15_GRCh38_no_alt_analysis_set.chr6.fna
+- 'Step 1: Run MethPhaser to get block relationship.'
+derived_from:
+- doi: 10.1038/s41467-024-49588-0
+  title: 'MethPhaser: methylation-based long-read haplotype phasing of human genomes'
+source_repos:
+- https://github.com/treangenlab/methphaser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/treangenlab/methphaser

@@ -1,0 +1,21 @@
+name: HiFiCCL
+slug: hificcl
+version_used: null
+edam_topics: []
+evidence_spans:
+- we propose HiFiCCL, the first assembly framework specifically designed for low-coverage high-fidelity reads
+- the first assembly framework specifically designed for low-coverage high-fidelity reads
+- git clone https://github.com/zjjbuqi/HiFiCCL.git
+- To address this, HiFiCCL is proposed, the first assembly framework specifically designed for low-coverage high-fidelity reads
+derived_from:
+- doi: 10.1002/advs.202515308
+  title: "Reference‐Guided Chromosome‐by‐Chromosome\n                    <i>de novo</i>\n                    Assembly at Scale Using Low‐Coverage High‐Fidelity Long‐Reads with HiFiCCL"
+source_repos:
+- https://github.com/zjjbuqi/HiFiCCL
+- https://github.com/zjjbuqi/HiFiCCL.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zjjbuqi/HiFiCCL

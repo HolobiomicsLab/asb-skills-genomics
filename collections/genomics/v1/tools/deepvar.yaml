@@ -1,0 +1,17 @@
+name: DeepVar
+slug: deepvar
+version_used: null
+edam_topics: []
+evidence_spans:
+- MacroHapCaller achieved a higher or consistent genotyping accuracy and faster speed than existing tools HipSTR and DeepVar
+derived_from:
+- doi: 10.1002/elps.202300143
+  title: A complete pipeline enables haplotyping and phasing macrohaplotype in long sequencing reads for polyploidy samples and a multi‐source DNA mixture
+source_repos:
+- https://github.com/Ge-Lab/MacroHapCaller
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Ge-Lab/MacroHapCaller

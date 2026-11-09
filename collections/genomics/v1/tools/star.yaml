@@ -1,0 +1,37 @@
+name: STAR
+slug: star
+version_used: null
+edam_topics: []
+evidence_spans:
+- --runThreadN 4 --chimSegmentMin 20 \
+- STAR --readFilesIn fastas/sim${sim}/R_${rlen}_SE/*fasta.gz \
+- --outSAMstrandField intronMotif --genomeDir hg38_reference
+- --runMode alignReads --outFilterMismatchNmax 999
+- "STAR --readFilesIn fastas/sim${sim}/R_${rlen}_SE/*fasta.gz \\\n --runThreadN 4 --chimSegmentMin 20 \\"
+- --outSAMtype BAM SortedByCoordinate
+- each generated RNA-seq file was mapped with STAR and processed with Insplico
+- Map short-read RNA-seq (GEO GSE101986 and GSE79416) to a STAR index built from the isoform GFF
+- alexdobin/STAR
+- 'STAR: ultrafast universal RNA-seq aligner'
+- 'STAR: ultrafast universal RNA-seq aligner'
+derived_from:
+- doi: 10.1093/nar/gkad244
+  title: "<i>Insplico</i>\n                    : effective computational tool for studying splicing order of adjacent introns genome-wide with short and long RNA-seq reads"
+- doi: 10.1038/s41467-020-17009-7
+  title: Comprehensive identification of mRNA isoforms reveals the diversity of neural cell-surface molecules with roles in retinal development and disease
+- doi: 10.1038/s41467-023-44137-7
+  title: Integrative genotyping of cancer and immune phenotypes by long-read sequencing
+- doi: 10.1038/s41467-023-41649-0
+  title: 'TAGET: a toolkit for analyzing full-length transcripts from long-read sequencing'
+source_repos:
+- https://github.com/liniguez/Insplico_simulations
+- https://github.com/kellycochran/IsoPops
+- https://github.com/alexdobin/STAR
+- https://github.com/mehdiborji/nanoranger
+- https://github.com/XiDsLab/TAGET
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/liniguez/Insplico_simulations

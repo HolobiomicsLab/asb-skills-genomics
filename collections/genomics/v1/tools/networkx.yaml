@@ -1,0 +1,17 @@
+name: networkx
+slug: networkx
+version_used: '1.10'
+edam_topics: []
+evidence_spans:
+- networkx](https://networkx.github.io/) (>= v1.10)
+derived_from:
+- doi: 10.1038/s41467-018-06910-x
+  title: Deciphering highly similar multigene family transcripts from Iso-Seq data with IsoCon
+source_repos:
+- https://github.com/ksahlin/IsoCon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ksahlin/IsoCon

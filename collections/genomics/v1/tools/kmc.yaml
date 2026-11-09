@@ -1,0 +1,19 @@
+name: KMC
+slug: kmc
+version_used: null
+edam_topics: []
+evidence_spans:
+- '## Get KMC (k-mer counter)'
+- https://github.com/refresh-bio/KMC
+derived_from:
+- doi: 10.1093/gigascience/giy048
+  title: 'Fast-SG: an alignment-free algorithm for hybrid assembly'
+source_repos:
+- https://github.com/refresh-bio/KMC
+- https://github.com/adigenova/fast-sg
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/refresh-bio/KMC

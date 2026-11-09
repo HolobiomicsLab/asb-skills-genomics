@@ -1,0 +1,21 @@
+name: ccsmeth
+slug: ccsmeth
+version_used: null
+edam_topics: []
+evidence_spans:
+- Check [ccsmeth](https://github.com/PengNi/ccsmeth) to get ccsmeth 5mCpG models.
+- we present ccsmeth, a deep-learning method to detect DNA 5mCpGs using CCS reads
+- ccsmeth models should be set as input too
+- Check ccsmeth (https://github.com/PengNi/ccsmeth) to get ccsmeth 5mCpG models.
+derived_from:
+- doi: 10.1038/s41467-023-39784-9
+  title: DNA 5-methylcytosine detection and methylation phasing using PacBio circular consensus sequencing
+source_repos:
+- https://github.com/PengNi/ccsmeth
+- https://github.com/PengNi/ccsmethphase
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PengNi/ccsmeth

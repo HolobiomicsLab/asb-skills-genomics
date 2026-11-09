@@ -1,0 +1,17 @@
+name: ELIGOS
+slug: eligos
+version_used: null
+edam_topics: []
+evidence_spans:
+- The multi-sample tools, such as ELIGOS, Yanocomp, DiffErr and Nanocompore performed better in the yeast dataset
+derived_from:
+- doi: 10.1093/bib/bbae001
+  title: Benchmarking of computational methods for m6A profiling with Nanopore direct RNA sequencing
+source_repos:
+- https://github.com/mfurla/NanOlympicsMod
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mfurla/NanOlympicsMod

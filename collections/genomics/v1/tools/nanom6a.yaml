@@ -1,0 +1,17 @@
+name: nanom6A
+slug: nanom6a
+version_used: null
+edam_topics: []
+evidence_spans:
+- RedNano surpasses existing methods by achieving higher area under the ROC curve (AUC) and area under the precision-recall curve (AUPRs) in all three datasets
+derived_from:
+- doi: 10.1093/bioinformatics/btae375
+  title: RNA m6A detection using raw current signals and basecalling errors from Nanopore direct RNA sequencing reads
+source_repos:
+- https://github.com/Derryxu/RedNano
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Derryxu/RedNano

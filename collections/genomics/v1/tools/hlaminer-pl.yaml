@@ -1,0 +1,18 @@
+name: HLAminer.pl
+slug: hlaminer-pl
+version_used: '1.4'
+edam_topics: []
+evidence_spans:
+- 'Usage: ../bin/HLAminer.pl [v1.4]'
+derived_from:
+- doi: 10.1002/cpz1.70124
+  title: Streaming Long‐Read Sequence Alignments for HLA Predictions Using HLAminer
+source_repos:
+- https://github.com/bcgsc/HLAminer
+- https://github.com/BirolLab/HLAminer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bcgsc/HLAminer

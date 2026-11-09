@@ -1,0 +1,18 @@
+name: kseqcpp
+slug: kseqcpp
+version_used: null
+edam_topics: []
+evidence_spans:
+- kseqcpp (https://github.com/ctSkennerton/kseqcpp.git checkout cfa50bcd17bbcb3225d431df4a2c1396f58a0993)
+derived_from:
+- doi: 10.1093/gigascience/giy048
+  title: 'Fast-SG: an alignment-free algorithm for hybrid assembly'
+source_repos:
+- https://github.com/ctSkennerton/kseqcpp
+- https://github.com/adigenova/fast-sg
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ctSkennerton/kseqcpp

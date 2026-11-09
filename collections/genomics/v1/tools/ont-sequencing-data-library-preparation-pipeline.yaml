@@ -1,0 +1,17 @@
+name: ONT-sequencing-data-library-preparation-pipeline
+slug: ont-sequencing-data-library-preparation-pipeline
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.fmre.2024.04.014
+  title: Generating barcodes for nanopore sequencing data with PRO
+source_repos:
+- https://github.com/JustLeeee/ONT-sequencing-data-library-preparation-pipeline.git
+- https://github.com/rztongr/PRO
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JustLeeee/ONT-sequencing-data-library-preparation-pipeline.git
