@@ -11,7 +11,7 @@ when_to_use_negative:
   sugar pine or axolotl)
 - Input is a splice-aware alignment (GMAP) output where IEB coordinates are already
   extracted, not pipeline-predicted exons needing benchmarking
-edam_operation: http://edamontology.org/operation_0454
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0102
 tools:
@@ -63,7 +63,7 @@ metadata:
   - bedtools
   - biobloomtools
   - wgsim
-  edam_operation: http://edamontology.org/operation_0454
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0102
   provenance_tier: literature

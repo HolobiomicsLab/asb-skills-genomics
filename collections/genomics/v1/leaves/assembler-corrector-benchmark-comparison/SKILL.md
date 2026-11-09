@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3182
 edam_topics:
 - http://edamontology.org/topic_0196
-- http://edamontology.org/topic_3693
 tools:
 - name: PECAT
   role: 'Tool under test: haplotype-aware error correction run via ''pecat.pl correct
@@ -57,7 +56,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3182
   edam_topics:
   - http://edamontology.org/topic_0196
-  - http://edamontology.org/topic_3693
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

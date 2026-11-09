@@ -13,7 +13,6 @@ when_to_use_negative:
   since ROC-AUC cannot be computed without score distributions
 edam_operation: http://edamontology.org/operation_3891
 edam_topics:
-- http://edamontology.org/topic_3557
 - http://edamontology.org/topic_3307
 tools:
 - name: CHEUI
@@ -41,7 +40,6 @@ metadata:
   - nanopore direct RNA sequencing
   edam_operation: http://edamontology.org/operation_3891
   edam_topics:
-  - http://edamontology.org/topic_3557
   - http://edamontology.org/topic_3307
   provenance_tier: literature
 license: CC-BY-4.0

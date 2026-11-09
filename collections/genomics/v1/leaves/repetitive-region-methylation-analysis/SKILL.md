@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3232
 edam_topics:
 - http://edamontology.org/topic_0797
-- http://edamontology.org/topic_0776
 tools:
 - name: MUMmer
   role: Whole-genome self-alignment (nucmer/promer) of the reference FASTA to generate
@@ -46,7 +45,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3232
   edam_topics:
   - http://edamontology.org/topic_0797
-  - http://edamontology.org/topic_0776
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

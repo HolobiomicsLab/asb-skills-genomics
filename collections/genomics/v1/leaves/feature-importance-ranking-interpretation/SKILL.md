@@ -10,7 +10,7 @@ when_to_use_negative:
   or syndip) rather than interpreting the quality-classification model
 - Training data are simulated rather than the non-simulated gold-set call sets, since
   the article notes performance is enhanced by training on non-simulated datasets
-edam_operation: http://edamontology.org/operation_3934
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3175
@@ -34,7 +34,7 @@ metadata:
   repo_url: https://github.com/kcleal/dysgu
   tools:
   - dysgu
-  edam_operation: http://edamontology.org/operation_3934
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3175

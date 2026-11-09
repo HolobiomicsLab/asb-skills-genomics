@@ -12,7 +12,6 @@ when_to_use_negative:
   include_all_ctgs=true is unnecessary overhead compared to the default false.
 edam_operation: http://edamontology.org/operation_3222
 edam_topics:
-- http://edamontology.org/topic_0657
 - http://edamontology.org/topic_3168
 tools:
 - name: ccsmethphase
@@ -56,7 +55,6 @@ metadata:
   - whatshap
   edam_operation: http://edamontology.org/operation_3222
   edam_topics:
-  - http://edamontology.org/topic_0657
   - http://edamontology.org/topic_3168
   provenance_tier: literature
 license: CC-BY-4.0

@@ -12,7 +12,7 @@ when_to_use_negative:
 - Analysis targets per-gene cumulative contribution abundance association across a
   gene list rather than per-sample grouping by a specific mutation (use genePerMutSigs
   instead)
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3676
 - http://edamontology.org/topic_0749
@@ -40,7 +40,7 @@ metadata:
   tools:
   - R
   - RNMF
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3676
   - http://edamontology.org/topic_0749

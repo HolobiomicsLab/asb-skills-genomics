@@ -13,7 +13,7 @@ when_to_use_negative:
 - When testing enrichment of co-occurring sites at a specific genomic distance (1-15
   nt) — that requires the distance-resolved observed-vs-expected permutation analysis,
   not a transcript-level contingency table.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 - http://edamontology.org/topic_3308
@@ -42,7 +42,7 @@ metadata:
   tools:
   - CHEUI
   - R2Dtool
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   - http://edamontology.org/topic_3308

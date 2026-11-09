@@ -13,8 +13,7 @@ when_to_use_negative:
   — assembly-based (metaFlye + Kraken2) or binning-based (SemiBin2 + GTDB-Tk) approaches
   are better suited
 edam_operation: http://edamontology.org/operation_0292
-edam_topics:
-- http://edamontology.org/topic_3693
+edam_topics: []
 tools:
 - name: Argo
   role: Pipeline whose screening layer consumes the adaptive identity cutoff to flag
@@ -47,8 +46,7 @@ metadata:
   - DIAMOND
   - minimap2
   edam_operation: http://edamontology.org/operation_0292
-  edam_topics:
-  - http://edamontology.org/topic_3693
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

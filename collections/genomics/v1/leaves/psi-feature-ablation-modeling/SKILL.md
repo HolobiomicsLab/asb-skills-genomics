@@ -12,7 +12,7 @@ when_to_use_negative:
 - The goal is de novo ΔΨ prediction with a deep-learning method on large training
   data — the small number of vex-seq samples prevented the authors from using more
   powerful algorithms like deep learning
-edam_operation: http://edamontology.org/operation_0426
+edam_operation: http://edamontology.org/operation_2454
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -52,7 +52,7 @@ metadata:
   - SPIDEX
   - libsvm
   - samtools
-  edam_operation: http://edamontology.org/operation_0426
+  edam_operation: http://edamontology.org/operation_2454
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

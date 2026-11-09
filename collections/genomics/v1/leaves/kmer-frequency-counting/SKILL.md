@@ -12,8 +12,7 @@ when_to_use_negative:
 - The reads are variable-length with quality decay — truncate/trim first (e.g. 76
   nt, Sickle) so k-mer quality is uniform before counting
 edam_operation: http://edamontology.org/operation_0232
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_topics: []
 tools:
 - name: Jellyfish
   role: Counts k-mer frequencies (k=6, 25, 19–25) on reads, merged fragments, and
@@ -48,8 +47,7 @@ metadata:
   - Jellyfish
   - Sickle
   edam_operation: http://edamontology.org/operation_0232
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

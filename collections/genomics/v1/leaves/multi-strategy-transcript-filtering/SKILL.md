@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3800
 edam_topics:
 - http://edamontology.org/topic_3170
-- http://edamontology.org/topic_3116
 tools:
 - name: isotools
   role: Python LRTS analysis framework providing Transcriptome.from_reference, add_sample_from_bam,
@@ -41,7 +40,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3800
   edam_topics:
   - http://edamontology.org/topic_3170
-  - http://edamontology.org/topic_3116
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

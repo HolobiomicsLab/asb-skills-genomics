@@ -10,7 +10,7 @@ when_to_use_negative:
   measured
 - The pipelines under comparison cannot run on the same subsampled BAM inputs (e.g.
   one requires raw FASTQ mapper output), making the paired design invalid
-edam_operation: http://edamontology.org/operation_3861
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3168
@@ -47,7 +47,7 @@ metadata:
   - htslib
   - iVar
   - samtools
-  edam_operation: http://edamontology.org/operation_3861
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3168

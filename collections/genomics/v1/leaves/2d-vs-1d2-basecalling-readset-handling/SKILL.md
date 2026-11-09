@@ -13,7 +13,7 @@ when_to_use_negative:
   workflows would be the intended path
 - Data comes from a single basecalling mode only and no 2D-vs-1D2 comparison is required
   — then a single read-set pipeline suffices
-edam_operation: http://edamontology.org/operation_0501
+edam_operation: http://edamontology.org/operation_2488
 edam_topics:
 - http://edamontology.org/topic_3174
 tools:
@@ -44,7 +44,7 @@ metadata:
   - VSEARCH
   - chopSeq
   - nanoClust
-  edam_operation: http://edamontology.org/operation_0501
+  edam_operation: http://edamontology.org/operation_2488
   edam_topics:
   - http://edamontology.org/topic_3174
   provenance_tier: literature

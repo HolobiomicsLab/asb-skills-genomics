@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0291
 edam_topics:
 - http://edamontology.org/topic_0622
-- http://edamontology.org/topic_2648
 tools:
 - name: RNMF
   role: R package that generates the gene cumulative contribution abundance (CCA)
@@ -48,7 +47,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0291
   edam_topics:
   - http://edamontology.org/topic_0622
-  - http://edamontology.org/topic_2648
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

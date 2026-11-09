@@ -12,7 +12,7 @@ when_to_use_negative:
 - When you need base-level alignments rather than alignment-free k-mer linking — this
   index supports Fast-SG's scaffolding-graph construction, not read alignment/variant
   calling.
-edam_operation: http://edamontology.org/operation_3519
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0102
 - http://edamontology.org/topic_3168
@@ -57,7 +57,7 @@ metadata:
   - kseqcpp
   - ntHash
   - quasi_dictionary
-  edam_operation: http://edamontology.org/operation_3519
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0102
   - http://edamontology.org/topic_3168

@@ -12,7 +12,6 @@ when_to_use_negative:
   large WGS cohorts requiring different node/CPU/memory allocations).
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3272
 tools:
 - name: JWES
   role: Java-based pipeline application that auto-generates and deploys jwes_slurm_job.sh
@@ -60,7 +59,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

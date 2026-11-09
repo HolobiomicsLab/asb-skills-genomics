@@ -11,7 +11,7 @@ when_to_use_negative:
   tooling assumptions to transfer.
 - Input is paired-end RNA-seq or long-read data; the pipeline is built for single-end
   small RNA reads fastq files.
-edam_operation: http://edamontology.org/operation_3235
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0659
 - http://edamontology.org/topic_0099
@@ -66,7 +66,7 @@ metadata:
   - pandas
   - tRNAscanSE
   - tncRNA Toolkit
-  edam_operation: http://edamontology.org/operation_3235
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0659
   - http://edamontology.org/topic_0099

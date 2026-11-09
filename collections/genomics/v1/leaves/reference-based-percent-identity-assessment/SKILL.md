@@ -10,7 +10,7 @@ when_to_use_negative:
   quality assessment (run the HECIL quick/optimization correction workflow first)
 - The goal is assembly-level quality evaluation rather than read-level percent identity
   against a reference
-edam_operation: http://edamontology.org/operation_0254
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3168
 - http://edamontology.org/topic_0102
@@ -39,7 +39,7 @@ metadata:
   - BWA-MEM
   - HECIL
   - Jellyfish
-  edam_operation: http://edamontology.org/operation_0254
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3168
   - http://edamontology.org/topic_0102

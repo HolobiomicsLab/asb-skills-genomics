@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0282
 edam_topics:
 - http://edamontology.org/topic_3170
-- http://edamontology.org/topic_3117
 tools:
 - name: SQANTI
   role: Provides full-splice-match criteria used to label catalog isoforms against
@@ -55,7 +54,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0282
   edam_topics:
   - http://edamontology.org/topic_3170
-  - http://edamontology.org/topic_3117
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

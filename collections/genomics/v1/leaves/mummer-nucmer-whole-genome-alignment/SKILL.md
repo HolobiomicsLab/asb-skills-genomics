@@ -12,7 +12,7 @@ when_to_use_negative:
   to the reference whole-genome alignment.
 - The goal is k-mer counting or scaffolding-graph construction rather than assembly
   evaluation — use KMC/Fast-SG, which Fast-SG relies on via its alignment-free algorithm.
-edam_operation: http://edamontology.org/operation_0192
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0102
 tools:
@@ -41,7 +41,7 @@ metadata:
   - Fast-SG
   - Gage
   - Nucmer
-  edam_operation: http://edamontology.org/operation_0192
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0102
   provenance_tier: literature

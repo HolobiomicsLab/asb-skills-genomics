@@ -12,7 +12,7 @@ when_to_use_negative:
   since the fusion module requires hg38.gtf and annotated stat inputs
 edam_topics:
 - http://edamontology.org/topic_3308
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 tools:
 - name: TAGET
   role: 'Core toolkit: fusion detection via TAGET_fusion_2-3_ajust.r using alignment
@@ -50,7 +50,7 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

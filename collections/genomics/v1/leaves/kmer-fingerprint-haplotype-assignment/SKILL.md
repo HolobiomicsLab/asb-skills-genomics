@@ -11,8 +11,7 @@ when_to_use_negative:
 - Phasing is needed on sex chromosomes — VolcanoSV is designed only for autosome chromosomes
   since phasing there is very different
 edam_operation: http://edamontology.org/operation_0346
-edam_topics:
-- http://edamontology.org/topic_0192
+edam_topics: []
 tools:
 - name: VolcanoSV
   role: Host pipeline; its VolcanoSV-asm module performs read partitioning, unique
@@ -33,8 +32,7 @@ metadata:
   tools:
   - VolcanoSV
   edam_operation: http://edamontology.org/operation_0346
-  edam_topics:
-  - http://edamontology.org/topic_0192
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -9,7 +9,7 @@ when_to_use_negative:
 - The analysis goal is detecting fusions in real (non-simulated) tumor data, where
   sensitivity/specificity cannot be directly estimated and experimental validation
   (e.g., ~86% validation rate reported for TAGET) is the appropriate check
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_0080
 - http://edamontology.org/topic_3170
@@ -49,7 +49,7 @@ metadata:
   - SQANTI
   - TAGET
   - samtools
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_3170

@@ -13,8 +13,7 @@ when_to_use_negative:
 - You are assembling short reads alone without long reads — this is the hybrid overlap-layout
   skill, not the non-hybrid NGS assembly commands.
 edam_operation: http://edamontology.org/operation_0524
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_topics: []
 tools:
 - name: DBG2OLC
   role: Compresses long reads with DBG-contig anchors, builds the two-round best overlap
@@ -45,8 +44,7 @@ metadata:
   - DBG2OLC
   - SparseAssembler
   edam_operation: http://edamontology.org/operation_0524
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

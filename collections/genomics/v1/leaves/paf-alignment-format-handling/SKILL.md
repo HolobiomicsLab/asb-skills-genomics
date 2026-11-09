@@ -12,8 +12,7 @@ when_to_use_negative:
 - Input assemblies or reads are not present in the current working directory, since
   ntLink's pair/mapping stage expects both target and reads locally.
 edam_operation: http://edamontology.org/operation_0292
-edam_topics:
-- http://edamontology.org/topic_0192
+edam_topics: []
 tools:
 - name: ntLink
   role: Run in pair/mapping mode with paf=True to produce minimizer-based long-read
@@ -44,8 +43,7 @@ metadata:
   - minimap2
   - ntLink
   edam_operation: http://edamontology.org/operation_0292
-  edam_topics:
-  - http://edamontology.org/topic_0192
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

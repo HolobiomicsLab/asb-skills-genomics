@@ -9,8 +9,7 @@ when_to_use_negative:
   don't proceed' rather than evaluate prematurely
 - The input is raw reads rather than an assembled FASTA — AssemblyStatistics evaluates
   assemblies, not sequencing data
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_topics: []
 tools:
 - name: AssemblyStatistics
   role: Computes contiguity statistics (two txt output files) of an assembly against
@@ -44,8 +43,7 @@ metadata:
   - Sparc
   - SparseAssembler
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -10,7 +10,7 @@ when_to_use_negative:
   normalization factors are unsuitable and a warping function is not implemented.
 - Markers with highly heterogeneous/irregular distributions (e.g. CD45 in PRAD-CyCIF)
   that violate the automatic workflow's assumptions without manual guided fine-tuning.
-edam_operation: http://edamontology.org/operation_3141
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3360
 - http://edamontology.org/topic_3391
@@ -61,7 +61,7 @@ metadata:
   - pyComBat
   - scikit-fda
   - scipy
-  edam_operation: http://edamontology.org/operation_3141
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3360
   - http://edamontology.org/topic_3391

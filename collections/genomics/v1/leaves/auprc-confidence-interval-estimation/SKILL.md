@@ -10,7 +10,7 @@ when_to_use_negative:
   to compute precision and recall)
 - When a dataset has very few positive bins and the target output is fine-grained
   tool ranking — CI width will be too large for reliable discrimination
-edam_operation: http://edamontology.org/operation_3875
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3673
 - http://edamontology.org/topic_0091
@@ -45,7 +45,7 @@ metadata:
   - NanOlympicsMod
   - Nanocompore
   - Yanocomp
-  edam_operation: http://edamontology.org/operation_3875
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3673
   - http://edamontology.org/topic_0091

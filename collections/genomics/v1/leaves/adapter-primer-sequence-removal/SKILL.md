@@ -10,7 +10,7 @@ when_to_use_negative:
   rather than a fixed number of bases trimmed from both ends
 - The goal is quality-based end trimming (e.g. seqtk trimfq with the Phred algorithm)
   rather than removal of a known fixed primer length
-edam_operation: http://edamontology.org/operation_3238
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0080
 - http://edamontology.org/topic_0196
@@ -41,7 +41,7 @@ metadata:
   - Nextflow
   - ViMOP
   - seqtk
-  edam_operation: http://edamontology.org/operation_3238
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_0196

@@ -11,7 +11,7 @@ when_to_use_negative:
   Minimap2/Miniasm plus Racon polishing instead)
 - Direct RNA signal with adapter/polyA tails — preprocess with BoostNano first, or
   use the RNA preset; raw DNA-style slicing alone will not trim those tails
-edam_operation: http://edamontology.org/operation_3236
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3168
 tools:
@@ -41,7 +41,7 @@ metadata:
   - Chiron
   - TensorFlow
   - h5py
-  edam_operation: http://edamontology.org/operation_3236
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3168
   provenance_tier: literature

@@ -10,7 +10,7 @@ when_to_use_negative:
 - Detection of hemimethylated CpGs — the models only consider symmetric methylation
 - Site-level (pooled) methylation frequencies rather than single-molecule read-level
   calls — use the site-level ccsmeth model or aligned_bam_to_cpg_scores instead
-edam_operation: http://edamontology.org/operation_3754
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0160
 - http://edamontology.org/topic_0654
@@ -47,7 +47,7 @@ metadata:
   - pb-CpG-tools
   - pbmm2
   - primrose
-  edam_operation: http://edamontology.org/operation_3754
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0160
   - http://edamontology.org/topic_0654

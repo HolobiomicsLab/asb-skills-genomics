@@ -11,7 +11,7 @@ when_to_use_negative:
 - Validating non-motif methylation calls, which may be method-specific false positives
   reflecting different noise sources between nanopore current deviations and PacBio
   IPD ratios
-edam_operation: http://edamontology.org/operation_3202
+edam_operation: http://edamontology.org/operation_3227
 edam_topics:
 - http://edamontology.org/topic_3168
 tools:
@@ -51,7 +51,7 @@ metadata:
   - nanopolish
   - samtools
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_3202
+  edam_operation: http://edamontology.org/operation_3227
   edam_topics:
   - http://edamontology.org/topic_3168
   provenance_tier: literature

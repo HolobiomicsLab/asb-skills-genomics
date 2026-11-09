@@ -12,7 +12,7 @@ when_to_use_negative:
   that may overlook true SVs
 - Coverage is high (e.g., 41x HiFi as for HG00438 standard pipelines) — the framework
   targets low-coverage cost-sensitive scenarios
-edam_operation: http://edamontology.org/operation_3191
+edam_operation: http://edamontology.org/operation_3192
 edam_topics:
 - http://edamontology.org/topic_0196
 - http://edamontology.org/topic_0622
@@ -49,7 +49,7 @@ metadata:
   - HiFiCCL
   - minimap2
   - pysam
-  edam_operation: http://edamontology.org/operation_3191
+  edam_operation: http://edamontology.org/operation_3192
   edam_topics:
   - http://edamontology.org/topic_0196
   - http://edamontology.org/topic_0622

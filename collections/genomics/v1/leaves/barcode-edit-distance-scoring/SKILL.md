@@ -10,7 +10,7 @@ when_to_use_negative:
   (random Fflank matches should not be scored as barcodes).
 - Only raw kit barcodes with default settings suffice and scoring internals are irrelevant
   — 'barbell kit' wraps the cutoffs without exposing them.
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -49,7 +49,7 @@ metadata:
   - Rust/cargo
   - Sassy
   - cargo
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

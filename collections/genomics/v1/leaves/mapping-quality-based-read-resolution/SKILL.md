@@ -12,7 +12,7 @@ when_to_use_negative:
   on nanopore WGS data instead of this conversion-resolution step
 - You intend to distinguish 5mC from 5hmC on the same molecule — the article states
   nanoEM cannot distinguish between them
-edam_operation: http://edamontology.org/operation_0328
+edam_operation: http://edamontology.org/operation_2415
 edam_topics:
 - http://edamontology.org/topic_3295
 - http://edamontology.org/topic_0622
@@ -49,7 +49,7 @@ metadata:
   - minimap2
   - pysam
   - samtools
-  edam_operation: http://edamontology.org/operation_0328
+  edam_operation: http://edamontology.org/operation_2415
   edam_topics:
   - http://edamontology.org/topic_3295
   - http://edamontology.org/topic_0622

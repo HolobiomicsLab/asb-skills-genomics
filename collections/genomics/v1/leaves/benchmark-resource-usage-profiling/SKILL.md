@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0564
 edam_topics:
 - http://edamontology.org/topic_0622
-- http://edamontology.org/topic_3275
 tools:
 - name: NanoSpring
   role: Compressor being benchmarked; run in compress mode with default 20 threads
@@ -40,7 +39,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0564
   edam_topics:
   - http://edamontology.org/topic_0622
-  - http://edamontology.org/topic_3275
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -11,7 +11,7 @@ when_to_use_negative:
   cannot be formed, so co-occurrence is undefined.
 - The question is differential methylation between two conditions (use CHEUI-diff),
   not co-occurrence of two modification types within the same reads.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -43,7 +43,7 @@ metadata:
   - CHEUI
   - R2Dtool
   - nanopore direct RNA sequencing
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

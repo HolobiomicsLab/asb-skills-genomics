@@ -11,7 +11,7 @@ when_to_use_negative:
   are not explicitly handled in CASYMIR's current parallel cascade
 - Photon-counting detectors with adaptive binning — such architectures are not yet
   included in CASYMIR
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 tools:
 - name: CASYMIR
   role: Provides Path, Node, Signal, and apply_parallel_process for constructing and
@@ -52,7 +52,7 @@ metadata:
   - Python
   - SciPy
   - SpekPy
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

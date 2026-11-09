@@ -12,10 +12,9 @@ when_to_use_negative:
 - The goal is structural/long-range validation (e.g. misjoins or scaffold merging)
   rather than base-level error correction — the article points to optical mapping
   for that purpose
-edam_operation: http://edamontology.org/operation_3181
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0196
-- http://edamontology.org/topic_3693
 tools:
 - name: Racon
   role: Consensus correction of the TULIP nanopore scaffolds using nanopore read alignments,
@@ -47,10 +46,9 @@ metadata:
   - Pilon
   - Racon
   - sickle
-  edam_operation: http://edamontology.org/operation_3181
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0196
-  - http://edamontology.org/topic_3693
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

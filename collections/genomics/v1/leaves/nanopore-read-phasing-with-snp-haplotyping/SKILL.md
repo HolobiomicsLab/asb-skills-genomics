@@ -10,7 +10,7 @@ when_to_use_negative:
   — run DeepMod2 detect on the unphased aligned BAM instead
 - The modification of interest is not 5mCpG — DeepMod2 currently only provides models
   for 5mCpG due to lack of training data for other modifications
-edam_operation: http://edamontology.org/operation_3236
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0654
 - http://edamontology.org/topic_0622
@@ -53,7 +53,7 @@ metadata:
   - bedtools
   - minimap2
   - samtools
-  edam_operation: http://edamontology.org/operation_3236
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0654
   - http://edamontology.org/topic_0622

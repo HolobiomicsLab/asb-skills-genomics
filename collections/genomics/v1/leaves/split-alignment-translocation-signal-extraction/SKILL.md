@@ -12,7 +12,7 @@ when_to_use_negative:
   event
 - Signal clusters fall below the predefined support threshold and must be discarded
   rather than propagated as breakpoint labels
-edam_operation: http://edamontology.org/operation_0454
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0102
@@ -50,7 +50,7 @@ metadata:
   - HiFiCCL
   - minimap2
   - pysam
-  edam_operation: http://edamontology.org/operation_0454
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0102

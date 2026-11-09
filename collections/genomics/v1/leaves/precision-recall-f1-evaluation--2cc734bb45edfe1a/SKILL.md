@@ -10,7 +10,7 @@ when_to_use_negative:
   making SURVIVOR's positional distance-margin matching invalid
 - The goal is genotyping accuracy (e.g., concordance with HGSV2 genotypes) rather
   than insertion detection performance
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3175
@@ -71,7 +71,7 @@ metadata:
   - cuteSV
   - minimap2
   - pROC
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3175

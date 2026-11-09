@@ -12,7 +12,7 @@ when_to_use_negative:
   sequencing reads
 edam_operation: http://edamontology.org/operation_0310
 edam_topics:
-- http://edamontology.org/topic_3531
+- http://edamontology.org/topic_3542
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3170
 tools:
@@ -45,7 +45,7 @@ metadata:
   - minimap2
   edam_operation: http://edamontology.org/operation_0310
   edam_topics:
-  - http://edamontology.org/topic_3531
+  - http://edamontology.org/topic_3542
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3170
   provenance_tier: literature

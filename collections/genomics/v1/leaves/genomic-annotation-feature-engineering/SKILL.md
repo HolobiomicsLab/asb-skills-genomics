@@ -11,8 +11,7 @@ when_to_use_negative:
 - Analysis targets CNVs — CNV analysis is currently being integrated in eDiVA and
   is not yet available
 edam_operation: http://edamontology.org/operation_3227
-edam_topics:
-- http://edamontology.org/topic_3275
+edam_topics: []
 tools:
 - name: eDiVA
   role: Annotation framework whose eDiVA-Annotate/eDiVA-DB modules supply the columns
@@ -37,8 +36,7 @@ metadata:
   - eDiVA
   - randomForest
   edam_operation: http://edamontology.org/operation_3227
-  edam_topics:
-  - http://edamontology.org/topic_3275
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

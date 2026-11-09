@@ -12,8 +12,7 @@ when_to_use_negative:
 - You need misassembly correction rather than scaffolding — that is a separate downstream
   application (Tigmint-long using ntLink mappings), not contig join inference.
 edam_operation: http://edamontology.org/operation_0310
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_topics: []
 tools:
 - name: ntLink
   role: Scaffolding tool whose minimizer-based mappings infer contig ordering, orientation,
@@ -39,8 +38,7 @@ metadata:
   - btllib
   - ntLink
   edam_operation: http://edamontology.org/operation_0310
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -9,7 +9,7 @@ when_to_use_negative:
 - Benchmarking germline-only SV callers, since the injected truth set here is designed
   around somatic tumor/control contrast
 - Simulating platforms other than ONT (PacBio reads require different simulator profiles)
-edam_operation: http://edamontology.org/operation_3202
+edam_operation: http://edamontology.org/operation_3227
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3175
@@ -51,7 +51,7 @@ metadata:
   - cuteSV
   - minimap2
   - nanomonsv
-  edam_operation: http://edamontology.org/operation_3202
+  edam_operation: http://edamontology.org/operation_3227
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3175

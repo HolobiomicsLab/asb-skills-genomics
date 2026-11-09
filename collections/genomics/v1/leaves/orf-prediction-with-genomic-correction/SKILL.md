@@ -12,7 +12,6 @@ when_to_use_negative:
   genomic correction
 edam_operation: http://edamontology.org/operation_0362
 edam_topics:
-- http://edamontology.org/topic_0257
 - http://edamontology.org/topic_3308
 tools:
 - name: IsoPops
@@ -46,7 +45,6 @@ metadata:
   - SQANTI
   edam_operation: http://edamontology.org/operation_0362
   edam_topics:
-  - http://edamontology.org/topic_0257
   - http://edamontology.org/topic_3308
   provenance_tier: literature
 license: CC-BY-4.0

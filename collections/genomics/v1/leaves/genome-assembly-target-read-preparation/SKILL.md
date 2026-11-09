@@ -13,7 +13,7 @@ when_to_use_negative:
   Protocol 2)
 - High-accuracy base-level alignment is required rather than lightweight minimizer-based
   mappings, e.g., for polishing workflows where full read alignments are preferred
-edam_operation: http://edamontology.org/operation_3190
+edam_operation: http://edamontology.org/operation_3192
 edam_topics:
 - http://edamontology.org/topic_0196
 - http://edamontology.org/topic_0622
@@ -47,7 +47,7 @@ metadata:
   - ABySS
   - Tigmint-long
   - ntLink
-  edam_operation: http://edamontology.org/operation_3190
+  edam_operation: http://edamontology.org/operation_3192
   edam_topics:
   - http://edamontology.org/topic_0196
   - http://edamontology.org/topic_0622

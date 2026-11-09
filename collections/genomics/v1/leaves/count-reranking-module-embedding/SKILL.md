@@ -8,7 +8,7 @@ when_to_use_negative:
   to embed — the re-ranking would destroy genuine biology
 - Goal is isoform-level co-usage network construction on real data rather than simulation-based
   metric benchmarking
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -46,7 +46,7 @@ metadata:
   - YosefLab/SymSim
   - acorde
   - dismay
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

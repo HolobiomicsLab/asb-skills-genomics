@@ -13,7 +13,6 @@ when_to_use_negative:
   is nothing to benchmark against
 edam_operation: http://edamontology.org/operation_0448
 edam_topics:
-- http://edamontology.org/topic_0193
 - http://edamontology.org/topic_0091
 tools:
 - name: Fast-SG
@@ -59,7 +58,6 @@ metadata:
   - g++
   edam_operation: http://edamontology.org/operation_0448
   edam_topics:
-  - http://edamontology.org/topic_0193
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

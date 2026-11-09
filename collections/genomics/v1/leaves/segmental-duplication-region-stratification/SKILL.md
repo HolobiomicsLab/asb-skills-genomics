@@ -15,7 +15,6 @@ when_to_use_negative:
   false-positive clusters.
 edam_operation: http://edamontology.org/operation_3227
 edam_topics:
-- http://edamontology.org/topic_3692
 - http://edamontology.org/topic_0622
 tools:
 - name: Longshot
@@ -43,7 +42,6 @@ metadata:
   - Longshot
   edam_operation: http://edamontology.org/operation_3227
   edam_topics:
-  - http://edamontology.org/topic_3692
   - http://edamontology.org/topic_0622
   provenance_tier: literature
 license: CC-BY-4.0

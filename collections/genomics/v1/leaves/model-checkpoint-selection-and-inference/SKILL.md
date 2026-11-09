@@ -13,7 +13,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3919
 edam_topics:
 - http://edamontology.org/topic_3295
-- http://edamontology.org/topic_3539
+- http://edamontology.org/topic_0736
 tools:
 - name: DeepMod2
   role: Provides the BiLSTM inference pipeline, checkpoint format, --motif CG 0 CpG
@@ -46,7 +46,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_3919
   edam_topics:
   - http://edamontology.org/topic_3295
-  - http://edamontology.org/topic_3539
+  - http://edamontology.org/topic_0736
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

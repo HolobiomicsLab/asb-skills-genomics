@@ -11,7 +11,6 @@ when_to_use_negative:
 - The goal is end-to-end assembly quality (contiguity, BUSCO) rather than overlap
   graph accuracy — use assembler-level metrics instead
 edam_topics:
-- http://edamontology.org/topic_0193
 - http://edamontology.org/topic_0622
 tools:
 - name: Fedrann
@@ -43,7 +42,6 @@ metadata:
   - minimap2
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_0193
   - http://edamontology.org/topic_0622
   provenance_tier: literature
 license: CC-BY-4.0

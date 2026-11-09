@@ -10,7 +10,7 @@ when_to_use_negative:
   path is desired (CPU-only sigfish builds are far slower)
 - The reads are not ONT raw signals (R9.4 chemistry BLOW5/FAST5); RUscripts-R9/sigfish-haru
   target ONT nanopore squiggles
-edam_operation: http://edamontology.org/operation_3190
+edam_operation: http://edamontology.org/operation_3192
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3168
@@ -43,7 +43,7 @@ metadata:
   - HARU
   - RUscripts-R9
   - Sigfish-HARU
-  edam_operation: http://edamontology.org/operation_3190
+  edam_operation: http://edamontology.org/operation_3192
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3168

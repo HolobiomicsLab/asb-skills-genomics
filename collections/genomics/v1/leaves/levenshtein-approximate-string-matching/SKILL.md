@@ -10,7 +10,7 @@ when_to_use_negative:
   — scTagger's current design is not expected to scale well
 - An exact-match lookup suffices (e.g. the alternative extract_sr_bc_from_lr strategy
   uses exact matches of 10x Chromium whitelist barcodes on LR segments)
-edam_operation: http://edamontology.org/operation_3743
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0080
 - http://edamontology.org/topic_0654
@@ -42,7 +42,7 @@ metadata:
   tools:
   - edlib
   - scTagger
-  edam_operation: http://edamontology.org/operation_3743
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_0654

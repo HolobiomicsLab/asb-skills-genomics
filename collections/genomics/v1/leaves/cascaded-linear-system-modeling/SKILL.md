@@ -13,8 +13,7 @@ when_to_use_negative:
 - Detectors with low absorption efficiency at higher energies, where the absorption-coefficient
   approximation (total attenuation minus coherent scatter) introduces larger discrepancies
 edam_operation: http://edamontology.org/operation_0244
-edam_topics:
-- http://edamontology.org/topic_3081
+edam_topics: []
 tools:
 - name: CASYMIR
   role: Core Python package implementing the generalized cascaded linear system model
@@ -61,8 +60,7 @@ metadata:
   - SciPy
   - SpekPy
   edam_operation: http://edamontology.org/operation_0244
-  edam_topics:
-  - http://edamontology.org/topic_3081
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

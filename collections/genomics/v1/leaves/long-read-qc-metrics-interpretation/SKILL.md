@@ -10,7 +10,7 @@ when_to_use_negative:
   determination, is the immediate task and QC has already been completed.
 - No FASTQ read-level input exists (e.g., input is already an assembled genome or
   a variant/AMR report).
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0196
 - http://edamontology.org/topic_3174
@@ -35,7 +35,7 @@ metadata:
   tools:
   - Galaxy
   - NanoPlot
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0196
   - http://edamontology.org/topic_3174

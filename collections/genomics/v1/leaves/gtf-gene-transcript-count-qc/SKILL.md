@@ -8,7 +8,7 @@ when_to_use_negative:
   — counts would not reflect reconciled gene identities
 - Organism lacks an assembled genome and an NCBI GTF annotation, which the annotate_my_genomes
   pipeline requires to produce the reconciled output
-edam_operation: http://edamontology.org/operation_3231
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -43,7 +43,7 @@ metadata:
   - GAWN
   - SAMtools
   - annotate_my_genomes
-  edam_operation: http://edamontology.org/operation_3231
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

@@ -10,7 +10,7 @@ when_to_use_negative:
   taxon recovery and abundance-bias comparison.
 - A per-taxon read count table already exists and only phylogenetic placement of the
   long rDNA amplicons is needed.
-edam_operation: http://edamontology.org/operation_3238
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_3053
@@ -52,7 +52,7 @@ metadata:
   - MinION
   - MiniBar
   - Python 2.7
-  edam_operation: http://edamontology.org/operation_3238
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_3053

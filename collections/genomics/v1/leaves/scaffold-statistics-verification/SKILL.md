@@ -14,7 +14,6 @@ when_to_use_negative:
   and any comparison to the eel benchmarks unreliable
 edam_operation: http://edamontology.org/operation_0525
 edam_topics:
-- http://edamontology.org/topic_0193
 - http://edamontology.org/topic_0622
 tools:
 - name: TULIP
@@ -44,7 +43,6 @@ metadata:
   - tulipbulb.perl
   edam_operation: http://edamontology.org/operation_0525
   edam_topics:
-  - http://edamontology.org/topic_0193
   - http://edamontology.org/topic_0622
   provenance_tier: literature
 license: CC-BY-4.0

@@ -10,7 +10,7 @@ when_to_use_negative:
   negative binomial counts on the observed scale
 - Only bulk RNA-seq data without drop-out or within-sample correlation is being simulated
   — a simpler NB model suffices
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3512
 - http://edamontology.org/topic_0203
@@ -39,7 +39,7 @@ metadata:
   - R
   - twosigma
   - twosigma (R package)
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3512
   - http://edamontology.org/topic_0203

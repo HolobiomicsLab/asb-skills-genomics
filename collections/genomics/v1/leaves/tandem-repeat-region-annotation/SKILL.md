@@ -10,7 +10,7 @@ when_to_use_negative:
   scope; homopolymer-only stratification would be a simpler alternative
 - Variant calls come from a single simulator, preventing the per-simulator comparison
   that motivates the classification
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0102
@@ -39,7 +39,7 @@ metadata:
   - Python
   - pandas
   - seq2squiggle
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0102

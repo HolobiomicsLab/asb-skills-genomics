@@ -11,8 +11,7 @@ when_to_use_negative:
 - The claim of interest is sequence-level base accuracy rather than contiguity/misassembly
   metrics — use a polishing/consensus evaluation instead.
 edam_operation: http://edamontology.org/operation_0286
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_topics: []
 tools:
 - name: abyss-fac (ABySS)
   role: Computes total length, N50, and sequence counts for the draft and each scaffolded
@@ -45,8 +44,7 @@ metadata:
   - minimap2
   - ntLink
   edam_operation: http://edamontology.org/operation_0286
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

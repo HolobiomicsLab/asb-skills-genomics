@@ -12,8 +12,7 @@ when_to_use_negative:
   from these short-read percentage gains
 - You lack CheckM and GUNC — without completeness/contamination/chimerism assessment
   you cannot define high-quality bins and the comparison is meaningless
-edam_topics:
-- http://edamontology.org/topic_3828
+edam_topics: []
 tools:
 - name: SemiBin2
   role: Binner under test, run in self-supervised mode with multi_easy_bin
@@ -54,8 +53,7 @@ metadata:
   - mmseqs2
   - samtools
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3828
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

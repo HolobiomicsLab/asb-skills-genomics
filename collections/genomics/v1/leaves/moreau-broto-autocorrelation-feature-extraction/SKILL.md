@@ -8,7 +8,7 @@ when_to_use_negative:
   features) rather than raw protein sequences
 - The downstream pipeline requires PSSM-derived features (use PSSM-DBT or PSSM-DWT
   instead); NMBAC derives only from sequence-level physicochemical properties
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_0080
 - http://edamontology.org/topic_3474
@@ -35,7 +35,7 @@ metadata:
   - PSI-BLAST
   - iDBP-DEP NMBAC module (BAC.m, PYH_6.m, phy_6.mat)
   - iFeature
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_3474

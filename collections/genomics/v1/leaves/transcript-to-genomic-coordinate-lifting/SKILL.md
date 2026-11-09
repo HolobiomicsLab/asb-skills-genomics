@@ -11,7 +11,7 @@ when_to_use_negative:
   alignment, since liftover requires the same transcript definitions used by minimap2
 - The goal is single-read (per-molecule) resolution analysis rather than per-site
   coordinate conversion — R2Dtool handles isoform-resolved site-level features
-edam_operation: http://edamontology.org/operation_3806
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3511
 - http://edamontology.org/topic_0099
@@ -40,7 +40,7 @@ metadata:
   tools:
   - CHEUI
   - R2Dtool
-  edam_operation: http://edamontology.org/operation_3806
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3511
   - http://edamontology.org/topic_0099

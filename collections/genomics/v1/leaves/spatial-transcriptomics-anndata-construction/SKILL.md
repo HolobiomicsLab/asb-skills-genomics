@@ -11,8 +11,7 @@ when_to_use_negative:
 - Tissue is very dense where the secondary (expression-based) segmentation struggles;
   rely on morphology-based nucleus detection instead
 edam_operation: http://edamontology.org/operation_3222
-edam_topics:
-- http://edamontology.org/topic_6170
+edam_topics: []
 tools:
 - name: bin2cell
   role: Core package performing destriping, scaling, segmentation label insertion,
@@ -44,8 +43,7 @@ metadata:
   - bin2cell
   - numpy
   edam_operation: http://edamontology.org/operation_3222
-  edam_topics:
-  - http://edamontology.org/topic_6170
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3198
 edam_topics:
 - http://edamontology.org/topic_0622
-- http://edamontology.org/topic_3693
 tools:
 - name: ELECTOR
   role: Evaluates corrected reads against the reference to compute post-correction
@@ -57,7 +56,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3198
   edam_topics:
   - http://edamontology.org/topic_0622
-  - http://edamontology.org/topic_3693
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

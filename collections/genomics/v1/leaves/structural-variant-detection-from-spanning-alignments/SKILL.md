@@ -13,7 +13,7 @@ when_to_use_negative:
   separately via marginAlign'
 - 'Reads are short Illumina reads: GraphMap is targeted at long, error-prone third-generation
   reads (MinION 1d/2d, PacBio)'
-edam_operation: http://edamontology.org/operation_0329
+edam_operation: http://edamontology.org/operation_0474
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -54,7 +54,7 @@ metadata:
   - MinION
   - Mutatrix
   - graphmap-reproduce
-  edam_operation: http://edamontology.org/operation_0329
+  edam_operation: http://edamontology.org/operation_0474
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

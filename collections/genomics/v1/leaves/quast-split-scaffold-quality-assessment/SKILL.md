@@ -11,8 +11,7 @@ when_to_use_negative:
 - The input is read data or a k-mer/NT-cardinality file rather than an assembled scaffold
   FASTA
 edam_operation: http://edamontology.org/operation_0306
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_topics: []
 tools:
 - name: QUAST
   role: 'Run with --split-scaffold on the gap-filled scaffolds to obtain # N''s per
@@ -43,8 +42,7 @@ metadata:
   - abyss-fac (ABySS)
   - ntLink
   edam_operation: http://edamontology.org/operation_0306
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

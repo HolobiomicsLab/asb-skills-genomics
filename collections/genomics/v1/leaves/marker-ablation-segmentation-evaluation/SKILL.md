@@ -12,7 +12,7 @@ when_to_use_negative:
 - The imaging modality lacks distinct membrane markers (e.g. no NaKATPase-like channel),
   since the paper shows membrane-marker omission is precisely what drives the large
   quality drop
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3382
 - http://edamontology.org/topic_3474
@@ -54,7 +54,7 @@ metadata:
   - MIRIAM
   - Matlab
   - Python
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3382
   - http://edamontology.org/topic_3474

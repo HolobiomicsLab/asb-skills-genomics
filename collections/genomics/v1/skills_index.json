@@ -91,7 +91,7 @@
   "slug": "2d-vs-1d2-basecalling-readset-handling",
   "name": "2d-vs-1d2-basecalling-readset-handling",
   "description": "Use when MinION amplicon data from NanoAmpli-Seq (Calus et al. 2018) exists as both 2D and 1D2 basecalled read sets (single-organism and multi-organism mock communities) and each set must be processed and compared separately, e.g. to reproduce OTU-inflation benchmarks.",
-  "edam_operation": "http://edamontology.org/operation_0501",
+  "edam_operation": "http://edamontology.org/operation_2488",
   "edam_topics": [
    "http://edamontology.org/topic_3174"
   ],
@@ -491,7 +491,7 @@
   "slug": "adapter-primer-sequence-removal",
   "name": "adapter-primer-sequence-removal",
   "description": "Use when starting a ViMOP-style untargeted viral nanopore analysis on raw ONT FASTQ reads that still carry adapters and primers at both ends and a fixed number of bases must be removed per end via --trim_length.",
-  "edam_operation": "http://edamontology.org/operation_3238",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0080",
    "http://edamontology.org/topic_0196"
@@ -558,9 +558,7 @@
   "name": "adaptive-identity-cutoff-estimation",
   "description": "Use when setting up Argo on new quality-controlled ONT/PacBio metagenomic reads and needing a platform-adaptive identity cutoff for the SARG+ DIAMOND blastx screening step instead of a fixed threshold.",
   "edam_operation": "http://edamontology.org/operation_0292",
-  "edam_topics": [
-   "http://edamontology.org/topic_3693"
-  ],
+  "edam_topics": [],
   "tools": [
    "Argo",
    "DIAMOND",
@@ -681,7 +679,7 @@
   "slug": "aiso-quantification-short-read-rnaseq",
   "name": "aiso-quantification-short-read-rnaseq",
   "description": "Use when you have short-read nuclear/chromatin RNA-seq (e.g. FASTQ or BAM) plus genome FASTA and GTF annotation for a species, and need per-exon adjacent-intron splicing order counts (upfi/dofi, Fupfi) for feature association or cross-species comparison.",
-  "edam_operation": "http://edamontology.org/operation_3916",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3308",
    "http://edamontology.org/topic_3512",
@@ -845,10 +843,7 @@
   "name": "alignment-configuration-file-preparation",
   "description": "Use when running TULIP with multiple nanopore alignment files (e.g. R7.3, R9 1D/2D, R9.4 1D against eel_seeds_285.fasta) and a config file mapping each short SAM to its original FASTA is required.",
   "edam_operation": "http://edamontology.org/operation_2409",
-  "edam_topics": [
-   "http://edamontology.org/topic_0102",
-   "http://edamontology.org/topic_3275"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0102"],
   "tools": [
    "BWA MEM",
    "TULIP",
@@ -1865,7 +1860,7 @@
   "slug": "amplicon-read-orientation-correction",
   "name": "amplicon-read-orientation-correction",
   "description": "Use when INC-Seq circular consensus reads from Oxford Nanopore 16S amplicon runs are inconsistently oriented or span the full insert and must be fragmented and orientation-corrected before nanoClust clustering or blastn-based accuracy assessment.",
-  "edam_operation": "http://edamontology.org/operation_2003",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3173"
@@ -2417,7 +2412,7 @@
   "slug": "apobec-signature-annotation",
   "name": "apobec-signature-annotation",
   "description": "Use when a cohort has per-sample signature contribution abundances (S matrix from RNMF CCA/InverseNMF) plus a MAF mutation file, and the goal is to test whether specific signatures (e.g., APOBEC SBS2*/SBS13*) are enriched in samples carrying a given gene mutation hotspot such as PIK3CA E545k.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3676",
    "http://edamontology.org/topic_0749"
@@ -2875,10 +2870,7 @@
   "name": "assembler-corrector-benchmark-comparison",
   "description": "Use when comparing how error correctors or assemblers preserve heterozygote alleles in corrected long reads across heterozygosity rates, e.g. validating a haplotype-aware corrector against Canu/MECAT/NECAT baselines.",
   "edam_operation": "http://edamontology.org/operation_3182",
-  "edam_topics": [
-   "http://edamontology.org/topic_0196",
-   "http://edamontology.org/topic_3693"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0196"],
   "tools": [
    "Canu",
    "MECAT",
@@ -2908,7 +2900,7 @@
   "slug": "assembler-metric-tabulation-and-validation",
   "name": "assembler-metric-tabulation-and-validation",
   "description": "Use when comparing de novo transcriptome assembler outputs via rnaQUAST and you need a per-assembler CSV of quality metrics verified against published anchor values before downstream ranking or reproduction claims.",
-  "edam_operation": "http://edamontology.org/operation_0251",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0203",
    "http://edamontology.org/topic_3308",
@@ -2955,10 +2947,7 @@
   "name": "assembler-pipeline-integration-benchmarking",
   "description": "Use when evaluating whether a new overlap detection or read-processing module can be swapped into an established assembler (e.g. Fedrann into Shasta) and comparing whole-genome assembly quality against the native baseline on identical long-read datasets.",
   "edam_operation": "http://edamontology.org/operation_0525",
-  "edam_topics": [
-   "http://edamontology.org/topic_0196",
-   "http://edamontology.org/topic_3693"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0196"],
   "tools": [
    "BUSCO",
    "Fedrann",
@@ -3256,10 +3245,7 @@
   "name": "assembly-contiguity-accuracy-benchmarking",
   "description": "Use when comparing genome assemblers on real long-read/short-read datasets and you need contiguity, accuracy, runtime, memory, and failure-rate metrics compiled into a benchmark table.",
   "edam_operation": "http://edamontology.org/operation_0525",
-  "edam_topics": [
-   "http://edamontology.org/topic_0196",
-   "http://edamontology.org/topic_3693"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0196"],
   "tools": [
    "HASLR",
    "MaSuRCA",
@@ -3301,9 +3287,7 @@
   "name": "assembly-contiguity-assessment",
   "description": "Use when comparing a draft assembly (e.g. celegans_flye.fa) against one or more scaffolder outputs (e.g. *ntLink.scaffolds.fa, per-round ntLink_rounds intermediates) to quantify N50/NG50 gains and misassembly trade-offs.",
   "edam_operation": "http://edamontology.org/operation_0286",
-  "edam_topics": [
-   "http://edamontology.org/topic_0193"
-  ],
+  "edam_topics": [],
   "tools": [
    "QUAST",
    "abyss-fac (ABySS)",
@@ -3394,7 +3378,7 @@
   "slug": "assembly-contiguity-metrics-computation--57ca048d84476138",
   "name": "assembly-contiguity-metrics-computation",
   "description": "Use when you have ≥2 assemblies (contig FASTA files) — e.g. a modified assembler pipeline vs a baseline — and need reproducible contiguity (N50, longest contig) and quality (BUSCO, k-mer QV) comparisons on human long-read data.",
-  "edam_operation": "http://edamontology.org/operation_3191",
+  "edam_operation": "http://edamontology.org/operation_3192",
   "edam_topics": [
    "http://edamontology.org/topic_3697"
   ],
@@ -4638,7 +4622,7 @@
   "slug": "auprc-confidence-interval-estimation",
   "name": "auprc-confidence-interval-estimation",
   "description": "Use when benchmarking m6A-detection tools on binned dRNA-seq confidence scores against gold-standard peak BED labels, and you need PR curves plus AUPRC CIs per tool per dataset, or you must relate CI width to positive-bin counts.",
-  "edam_operation": "http://edamontology.org/operation_3875",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3673",
    "http://edamontology.org/topic_0091"
@@ -4908,9 +4892,7 @@
   "name": "bacterial-genome-assembly-finish-qa",
   "description": "Use when finishing a bacterial draft assembly from Illumina MiSeq paired-end reads plus Oxford Nanopore long reads, and you must scaffold contigs, fill gaps with repetitive contigs, and verify the npScarf output artifacts.",
   "edam_operation": "http://edamontology.org/operation_0526",
-  "edam_topics": [
-   "http://edamontology.org/topic_0193"
-  ],
+  "edam_topics": [],
   "tools": [
    "BWA-MEM",
    "Japsa (jsa.seq.sort)",
@@ -5477,11 +5459,7 @@
   "name": "bam-parsing-coverage-statistics",
   "description": "Use when validating metagenome contig assemblies (e.g., MeGAMerge MergedContigs.fasta or individual CLC bio/Velvet/SOAPdenovo assemblies) by quantifying what fraction of contig bases are covered by mapped reads.",
   "edam_operation": "http://edamontology.org/operation_0292",
-  "edam_topics": [
-   "http://edamontology.org/topic_0102",
-   "http://edamontology.org/topic_0193",
-   "http://edamontology.org/topic_0622"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0102", "http://edamontology.org/topic_0622"],
   "tools": [
    "BWA",
    "MeGAMerge",
@@ -5642,10 +5620,7 @@
   "name": "bam-sorting-and-indexing",
   "description": "Use when raw SAM alignments from Nanopore/cDNA/dRNA reads must be converted to sorted, indexed BAM before read-fate QC, per-nucleotide error profiling, or genome-viewer inspection.",
   "edam_operation": "http://edamontology.org/operation_0335",
-  "edam_topics": [
-   "http://edamontology.org/topic_0102",
-   "http://edamontology.org/topic_3270"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0102"],
   "tools": [
    "IGV v2.12.3",
    "Mana",
@@ -5922,7 +5897,7 @@
   "slug": "barcode-edit-distance-scoring",
   "name": "barcode-edit-distance-scoring",
   "description": "Use when demultiplexing Nanopore FASTQ reads with Barbell and you need to understand, reproduce, or tune how barcode/flank edit-distance costs are converted into accept/reject decisions during annotation.",
-  "edam_operation": "http://edamontology.org/operation_3220",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622"
   ],
@@ -6628,7 +6603,7 @@
   "slug": "batch-effect-correction-benchmarking",
   "name": "batch-effect-correction-benchmarking",
   "description": "Use when comparing batch-effect correction methods for multiplex tissue imaging (MTI) single-cell intensity data across samples/batches, especially with right-skewed, heterogeneous, or multimodal (bimodal) marker distributions.",
-  "edam_operation": "http://edamontology.org/operation_3141",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3360",
    "http://edamontology.org/topic_3391"
@@ -6797,9 +6772,7 @@
   "name": "bayesian-phylogenetic-tree-inference",
   "description": "Use when nanopore-derived viral consensus genomes (e.g. FASTA samples of West Nile virus) must be placed phylogenetically with posterior support alongside reference database sequences from database/sequences.fasta.",
   "edam_operation": "http://edamontology.org/operation_0323",
-  "edam_topics": [
-   "http://edamontology.org/topic_0684"
-  ],
+  "edam_topics": [],
   "tools": [
    "BLAST",
    "FigTree",
@@ -7278,10 +7251,7 @@
   "name": "benchmark-resource-usage-profiling",
   "description": "Use when benchmarking a compressor (NanoSpring or similar) across dataset or parameter variants and you must report bits/base together with compression time and peak memory per run, e.g., comparing Guppy fast/hac/sup basecalled reads.",
   "edam_operation": "http://edamontology.org/operation_0564",
-  "edam_topics": [
-   "http://edamontology.org/topic_0622",
-   "http://edamontology.org/topic_3275"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "Guppy",
    "NanoSpring"
@@ -7519,9 +7489,7 @@
   "name": "best-overlap-layout-chaining",
   "description": "Use when you have long erroneous reads (e.g. PacBio) compressed by DBG contigs and need an overlap-layout backbone before consensus; e.g. running DBG2OLC Step2 with k 17, KmerCovTh, AdaptiveTh, MinOverlap.",
   "edam_operation": "http://edamontology.org/operation_0525",
-  "edam_topics": [
-   "http://edamontology.org/topic_0193"
-  ],
+  "edam_topics": [],
   "tools": [
    "AssemblyUtility",
    "DBG2OLC",
@@ -10059,9 +10027,7 @@
   "name": "cascaded-linear-system-modeling",
   "description": "Use when the task requires modeling MTF and NNPS of an x-ray detector (e.g., a-Se direct conversion for DM/DBT or CsI indirect conversion for bCT/CBCT) under defined acquisition conditions from a system YAML configuration.",
   "edam_operation": "http://edamontology.org/operation_0244",
-  "edam_topics": [
-   "http://edamontology.org/topic_3081"
-  ],
+  "edam_topics": [],
   "tools": [
    "CASYMIR",
    "NumPy",
@@ -10797,7 +10763,7 @@
   "slug": "centrifuge-index-based-nonviral-read-filtering",
   "name": "centrifuge-index-based-nonviral-read-filtering",
   "description": "Use when cleaning untargeted nanopore FASTQ reads (e.g. Lassa/Ebola/Dengue clinical samples) by discarding reads Centrifuge classifies as non-viral with high confidence before host/reagent filtering and assembly.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3673",
    "http://edamontology.org/topic_3174"
@@ -14020,7 +13986,7 @@
   "slug": "comparative-pipeline-scaling-analysis",
   "name": "comparative-pipeline-scaling-analysis",
   "description": "Use when comparing runtime and peak-RSS scaling of two bioinformatics tools across controlled read-depth levels (e.g. 100/1K/10K/100K/1M mapped reads) on the same BAM input.",
-  "edam_operation": "http://edamontology.org/operation_3861",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3168"
@@ -15451,7 +15417,7 @@
   "slug": "contig-copy-number-classification",
   "name": "contig-copy-number-classification",
   "description": "Use when a draft assembly (e.g. SPAdes contigs from Illumina MiSeq paired-end reads) must be partitioned into unique vs repetitive contigs before scaffolding, gap-filling, or deciding which contigs can anchor long-read bridges.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3174",
    "http://edamontology.org/topic_0622"
@@ -15485,9 +15451,7 @@
   "name": "contig-orientation-inference",
   "description": "Use when you have a draft assembly FASTA plus long-read FASTA/FASTQ and need to scaffold contigs (order/orient them and estimate gaps) without running a full read alignment step.",
   "edam_operation": "http://edamontology.org/operation_0310",
-  "edam_topics": [
-   "http://edamontology.org/topic_0193"
-  ],
+  "edam_topics": [],
   "tools": [
    "btllib",
    "ntLink"
@@ -15541,7 +15505,7 @@
   "slug": "contig-size-binning-by-length-cutoff",
   "name": "contig-size-binning-by-length-cutoff",
   "description": "Use when multiple individual-assembly contig FASTA files have been pooled and dereplicated, and you must split them into a large-contig pool and a small-contig bin (2.0 kb cutoff) before overlap-layout-consensus merging.",
-  "edam_operation": "http://edamontology.org/operation_3129",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0196",
    "http://edamontology.org/topic_3697"
@@ -16155,10 +16119,7 @@
   "name": "corrected-read-quality-evaluation",
   "description": "Use when corrected long reads (PacBio or ONT, FASTA output from a corrector such as CONSENT, Canu, Daccord, FLAS, or MECAT) must be quantitatively compared for correction accuracy against a reference genome.",
   "edam_operation": "http://edamontology.org/operation_3198",
-  "edam_topics": [
-   "http://edamontology.org/topic_0622",
-   "http://edamontology.org/topic_3693"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "CONSENT",
    "Canu",
@@ -16280,11 +16241,7 @@
   "name": "corrected-vs-raw-assembly-benchmarking",
   "description": "Use when evaluating whether haplotype-aware error correction (e.g., VeChat) prior to de novo assembly improves polyploid or diploid assembly quality, requiring a corrected-read vs. raw-read assembler comparison.",
   "edam_operation": "http://edamontology.org/operation_0525",
-  "edam_topics": [
-   "http://edamontology.org/topic_0196",
-   "http://edamontology.org/topic_0622",
-   "http://edamontology.org/topic_3693"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0196", "http://edamontology.org/topic_0622"],
   "tools": [
    "Canu",
    "Flye",
@@ -16557,7 +16514,7 @@
   "slug": "cosine-similarity-signature-matching",
   "name": "cosine-similarity-signature-matching",
   "description": "Use when de novo NMF-extracted mutational signatures (SBS, DBS, or ID count-matrix based) need to be assigned COSMIC identity, or when validating that an extraction run reproduced reported signature counts.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3673"
@@ -16739,7 +16696,7 @@
   "slug": "count-matrix-consolidation-across-samples",
   "name": "count-matrix-consolidation-across-samples",
   "description": "Use when you already hold a populated isoSeQL SQLite database (isoform, counts, isoform_ends, ends_counts, sampleData, exp tables) from SQANTI3-filtered classification files and need to compare isoform abundance or composition across samples.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3308"
   ],
@@ -16781,7 +16738,7 @@
   "slug": "count-reranking-module-embedding",
   "name": "count-reranking-module-embedding",
   "description": "Use when benchmarking co-expression/correlation metrics on simulated scRNA-seq data requires synthetic counts with known ground-truth co-expression clusters embedded via re-ranking.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0203",
    "http://edamontology.org/topic_3308"
@@ -17783,9 +17740,7 @@
   "name": "cross-binner-percentage-gain-analysis",
   "description": "Use when benchmarking metagenomic binners across multi-sample short-read projects (e.g. human gut, dog gut, ocean, soil) and you need per-binner high-quality bin counts plus percentage improvement over a baseline binner.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_3828"
-  ],
+  "edam_topics": [],
   "tools": [
    "CheckM",
    "GUNC",
@@ -18302,7 +18257,7 @@
   "slug": "cross-organism-genomic-dataset-curation",
   "name": "cross-organism-genomic-dataset-curation",
   "description": "Use when building true/false splice-site training or benchmark datasets across multiple organisms, specifically needing 1:1 (5000/5000) and 3:1 (7500/2500) acceptor/donor class ratios with fixed-length sequence windows.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0654",
    "http://edamontology.org/topic_3474"
@@ -20708,9 +20663,7 @@
   "name": "deep-learning-model-training",
   "description": "Use when you have binary segmented cell masks from multiplexed imaging (e.g., MIBI or multiplexed immunofluorescence) and need a learned, fixed-length shape representation per cell rather than hand-crafted morphological features.",
   "edam_operation": "http://edamontology.org/operation_3935",
-  "edam_topics": [
-   "http://edamontology.org/topic_3838"
-  ],
+  "edam_topics": [],
   "tools": [
    "MIRIAM",
    "Matlab",
@@ -22648,7 +22601,7 @@
   "slug": "dorado-methylation-calling",
   "name": "dorado-methylation-calling",
   "description": "Use when benchmarking nanopore CpG methylation callers on R10.4 human or plant datasets, or when an independent ONT-official baseline (Dorado) methylation call set is needed to compare against a deep-learning caller such as DeepBAM.",
-  "edam_operation": "http://edamontology.org/operation_3202",
+  "edam_operation": "http://edamontology.org/operation_3227",
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3168"
@@ -23388,7 +23341,7 @@
   "slug": "duration-distribution-parameterization",
   "name": "duration-distribution-parameterization",
   "description": "Use when you need to quantify how much a learned duration sampler or noise module in a nanopore signal simulator contributes to signal fidelity versus static distribution baselines.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [
    "http://edamontology.org/topic_3168"
   ],
@@ -23483,7 +23436,7 @@
   "slug": "dynamic-programming-anchor-chaining",
   "name": "dynamic-programming-anchor-chaining",
   "description": "Use when mapping long noisy reads (PacBio/Oxford Nanopore FASTA/FASTQ) to a reference genome and inversion structural variants must be detected via anchor chaining rather than standard co-linear alignment.",
-  "edam_operation": "http://edamontology.org/operation_3190",
+  "edam_operation": "http://edamontology.org/operation_3192",
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3577"
@@ -24439,7 +24392,7 @@
   "slug": "evolutionary-game-dynamics-simulation",
   "name": "evolutionary-game-dynamics-simulation",
   "description": "Use when analyzing frequency-dependent selection between two behavioral strategies (hawk vs. dove), where the user supplies an initial hawk frequency and a payoff matrix for hawk-hawk, hawk-dove, and dove-dove interactions.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [],
   "tools": [
    "R",
@@ -24820,7 +24773,7 @@
   "slug": "exon-prediction-benchmarking",
   "name": "exon-prediction-benchmarking",
   "description": "Use when evaluating exon/IEB predictions from a transcriptome+WGS pipeline (EXFI, ChopStitch, GMAP) against Ensembl GFF3 annotations, or when measuring how Bloom filter memory, read filtering, or sequencing depth change BF FPR and precision/recall.",
-  "edam_operation": "http://edamontology.org/operation_0454",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0102"
   ],
@@ -25855,7 +25808,7 @@
   "slug": "fastx-toolkit-command-line-processing",
   "name": "fastx-toolkit-command-line-processing",
   "description": "Use when raw small-RNA sequencing reads (FASTQ or FASTA libraries in INSERTS_DIRS) still carry 3' adaptor sequences and must be clipped with fastx_clipper before Wbench filtering, e.g. under miRPursuit's --trim flag.",
-  "edam_operation": "http://edamontology.org/operation_2005",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3169"
   ],
@@ -25992,7 +25945,7 @@
   "slug": "feature-importance-ranking-interpretation",
   "name": "feature-importance-ranking-interpretation",
   "description": "Use when a trained SV-calling classifier (e.g. dysgu's model) needs its feature-importance ranking examined to identify which per-event metrics—after SV length—most influence quality-score predictions.",
-  "edam_operation": "http://edamontology.org/operation_3934",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3175"
@@ -26231,7 +26184,7 @@
   "slug": "fisher-exact-transcript-enrichment-testing",
   "name": "fisher-exact-transcript-enrichment-testing",
   "description": "Use when per-read or per-site m6A and m5C calls (e.g. CHEUI Model 2 output) are available and the question is whether transcripts co-carried by both modification types are enriched beyond chance, as opposed to within-read co-occurrence.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0092",
    "http://edamontology.org/topic_3308"
@@ -27972,10 +27925,7 @@
   "name": "gene-expression-grid-image-generation",
   "description": "Use when working with Visium HD 2 um bin data and you need to recover cells whose nuclei were not detected on the morphology image (e.g., nuclei absent from the tissue slice or with unusual shapes) by segmenting total gene expression rendered on the array grid.",
   "edam_operation": "http://edamontology.org/operation_3803",
-  "edam_topics": [
-   "http://edamontology.org/topic_3679",
-   "http://edamontology.org/topic_6105"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3679"],
   "tools": [
    "Python",
    "StarDist",
@@ -28037,10 +27987,7 @@
   "name": "gene-fusion-detection-long-read",
   "description": "Use when you have full-length PacBio Iso-seq FASTA/CCS reads and want to identify gene fusions, novel fusion isoforms, or benchmark a long-read fusion caller against SQANTI/JAFFAL.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_3308",
-   "http://edamontology.org/topic_3522"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3308", "http://edamontology.org/topic_3520"],
   "tools": [
    "HISAT2",
    "JAFFAL",
@@ -28070,10 +28017,7 @@
   "name": "gene-grouped-10-fold-cross-validation",
   "description": "Use when training or tuning a regression model (e.g., ε-SVR with RBF kernel) on variant-level ΔΨ data where multiple variants come from the same gene and naive random folds would leak information between train and validation splits.",
   "edam_operation": "http://edamontology.org/operation_2939",
-  "edam_topics": [
-   "http://edamontology.org/topic_3557",
-   "http://edamontology.org/topic_0203"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0203"],
   "tools": [
    "PredPSI-SVR",
    "Python 3",
@@ -28582,9 +28526,7 @@
   "name": "genome-assembly-contiguity-and-error-evaluation",
   "description": "Use when you have a finished draft assembly (e.g. DBG2OLC_Consensus.fasta) plus a reference genome and need contiguity metrics (N50, NG50, contig count) or an error-rate estimate against the reference.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0193"
-  ],
+  "edam_topics": [],
   "tools": [
    "AssemblyStatistics",
    "AssemblyUtility",
@@ -28861,9 +28803,7 @@
   "name": "genome-assembly-quality-classification",
   "description": "Use when CRAQ output exists as CRE breakpoint files (e.g., locER_out/out_final.CRE.bed) and CSE breakpoint files (strER_out/out_final.CSE.bed) plus total assembly size, and per-fragment or whole-assembly quality scores are needed.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0193"
-  ],
+  "edam_topics": [],
   "tools": [
    "CRAQ",
    "Perl"
@@ -28952,7 +28892,7 @@
   "slug": "genome-assembly-target-read-preparation",
   "name": "genome-assembly-target-read-preparation",
   "description": "Use when a draft genome assembly (e.g., a FASTA contig set like the ABySS C. elegans assembly celegans-abyss.fa) and long reads (e.g., SRR10028109 FASTQ) must be turned into read-to-contig PAF mappings for scaffolding or misassembly detection without running a full scaffolding protocol.",
-  "edam_operation": "http://edamontology.org/operation_3190",
+  "edam_operation": "http://edamontology.org/operation_3192",
   "edam_topics": [
    "http://edamontology.org/topic_0196",
    "http://edamontology.org/topic_0622"
@@ -28981,10 +28921,8 @@
   "slug": "genome-assembly-whole-genome-alignment",
   "name": "genome-assembly-whole-genome-alignment",
   "description": "Use when two de novo assemblies of the same genome (e.g. a new long-read assembly and a published short-read draft such as NCBI WGS AZBK01) must be compared to find unmatched scaffolds and validate structural improvement.",
-  "edam_operation": "http://edamontology.org/operation_0277",
-  "edam_topics": [
-   "http://edamontology.org/topic_0193"
-  ],
+  "edam_operation": null,
+  "edam_topics": [],
   "tools": [
    "MUMmer (nucmer)",
    "TULIP",
@@ -29169,7 +29107,7 @@
   "slug": "genome-coverage-estimation-from-seed-sets",
   "name": "genome-coverage-estimation-from-seed-sets",
   "description": "Use when selecting or validating sparse short seed fragments (e.g. 270 bp or 285 bp FASTA seeds) for a long-read scaffolding pipeline and you need to report or target a specific genome coverage.",
-  "edam_operation": "http://edamontology.org/operation_3782",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_0196"
@@ -29620,7 +29558,7 @@
   "slug": "genome-wide-coverage-quantification--a8a05d85f399c0d1",
   "name": "genome-wide-coverage-quantification",
   "description": "Use when characterizing a nanopore whole-genome dataset (e.g., FASTQ read lengths plus per-aligner BAM coverage) before or alongside structural-variant calling, to benchmark sequencing depth and alignment quality.",
-  "edam_operation": "http://edamontology.org/operation_3220",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_0654"
@@ -29690,7 +29628,7 @@
   "slug": "genomescope-model-fitting",
   "name": "genomescope-model-fitting",
   "description": "Use when raw Illumina FASTQ reads are available and an assembly-independent estimate of haploid genome size, repeat content, and heterozygosity is needed to validate or contextualize a draft genome assembly.",
-  "edam_operation": "http://edamontology.org/operation_0206",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622"
   ],
@@ -29717,9 +29655,7 @@
   "name": "genomic-annotation-feature-engineering",
   "description": "Use when building or retraining a variant pathogenicity predictor that needs annotated per-variant features (allele frequency, conservation, deleteriousness scores) extracted from VCF-level variant calls.",
   "edam_operation": "http://edamontology.org/operation_3227",
-  "edam_topics": [
-   "http://edamontology.org/topic_3275"
-  ],
+  "edam_topics": [],
   "tools": [
    "eDiVA",
    "randomForest"
@@ -31280,7 +31216,7 @@
   "slug": "glmm-fitting-glmmtmb",
   "name": "glmm-fitting-glmmtmb",
   "description": "Use when per-gene differential expression or covariate association testing on raw single-cell UMI counts must account for zero inflation, overdispersion, and within-sample correlation (cells nested in individuals).",
-  "edam_operation": "http://edamontology.org/operation_3657",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3518",
    "http://edamontology.org/topic_0203",
@@ -31312,7 +31248,7 @@
   "slug": "glmm-model-coefficient-extraction",
   "name": "glmm-model-coefficient-extraction",
   "description": "Use when fitted twosigma/glmmTMB model objects are in hand and per-gene conditional-mean fixed-effect coefficients, Z values, or Wald p-values (e.g., for t2d_sim) must be pulled into a summary table.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0203",
    "http://edamontology.org/topic_2269"
@@ -31939,7 +31875,7 @@
   "slug": "greedy-ensemble-bin-integration",
   "name": "greedy-ensemble-bin-integration",
   "description": "Use when binning long-read sequencing contigs with SemiBin2 and you need to integrate candidate bins from multiple DBSCAN epsilon runs into a final non-overlapping bin set via greedy F1-score selection.",
-  "edam_operation": "http://edamontology.org/operation_3914",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3174"
@@ -32292,7 +32228,7 @@
   "slug": "gtf-gene-transcript-count-qc",
   "name": "gtf-gene-transcript-count-qc",
   "description": "Use when a pipeline run has produced a reconciled GTF (final_annotated.gtf) and you must validate that its gene/transcript counts and novel-gene classification match reported values.",
-  "edam_operation": "http://edamontology.org/operation_3231",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622"
   ],
@@ -32842,7 +32778,7 @@
   "slug": "haplotype-phase-block-truth-comparison",
   "name": "haplotype-phase-block-truth-comparison",
   "description": "Use when benchmarking a phasing method's block-chaining decisions against a trio-phased truth VCF (e.g. GIAB HG002) to report phased medically relevant gene counts and N50-style block statistics.",
-  "edam_operation": "http://edamontology.org/operation_3742",
+  "edam_operation": "http://edamontology.org/operation_3223",
   "edam_topics": [
    "http://edamontology.org/topic_0622"
   ],
@@ -33476,10 +33412,7 @@
   "name": "heterozygous-branch-detection-in-poa-graphs",
   "description": "Use when correcting long noisy Nanopore R9/R10 or PacBio CLR reads for diploid assembly and sequencing errors must be corrected without collapsing heterozygote alleles, especially when error rate exceeds haplotype divergence.",
   "edam_operation": "http://edamontology.org/operation_0525",
-  "edam_topics": [
-   "http://edamontology.org/topic_0196",
-   "http://edamontology.org/topic_3693"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0196"],
   "tools": [
    "PECAT",
    "minimap2"
@@ -33599,10 +33532,7 @@
   "name": "hierarchical-gene-ordering-clustering",
   "description": "Use when gene rows/columns of RNMF CCA matrices must be given a stable, biologically-informed order (via hierarchical clustering) before converting them into N x N image data for image-based deep learning.",
   "edam_operation": "http://edamontology.org/operation_0291",
-  "edam_topics": [
-   "http://edamontology.org/topic_0622",
-   "http://edamontology.org/topic_2648"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "DenseNet",
    "DenseNet-121",
@@ -34864,10 +34794,7 @@
   "name": "hybrid-assembly-overlap-layout",
   "description": "Use when assembling a large genome from 10x-100x long erroneous 3GS reads (PacBio/ONT) plus accurate NGS contigs, and you need overlap/layout without base-level error correction before consensus.",
   "edam_operation": "http://edamontology.org/operation_0525",
-  "edam_topics": [
-   "http://edamontology.org/topic_0196",
-   "http://edamontology.org/topic_3693"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0196"],
   "tools": [
    "AssemblyUtility",
    "DBG2OLC",
@@ -34925,10 +34852,7 @@
   "name": "hybrid-error-correction-implementation",
   "description": "Use when noisy long reads (PacBio or Oxford Nanopore, errors up to 20-35%) must be corrected with high-quality Illumina short reads, and consensus thresholds or correction-policy selection must be reproduced.",
   "edam_operation": "http://edamontology.org/operation_3184",
-  "edam_topics": [
-   "http://edamontology.org/topic_0622",
-   "http://edamontology.org/topic_3693"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "BWA-MEM",
    "HECIL",
@@ -35267,10 +35191,7 @@
   "name": "illumina-fastq-read-handling",
   "description": "Use when starting a DBG2OLC hybrid assembly from Illumina FASTQ data (e.g. S.cer w303 2x300 reads) and you need a 50x subset and raw DBG contigs (Contigs.txt) before overlap/layout with long reads.",
   "edam_operation": "http://edamontology.org/operation_0524",
-  "edam_topics": [
-   "http://edamontology.org/topic_0196",
-   "http://edamontology.org/topic_3693"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0196"],
   "tools": [
    "AssemblyUtility",
    "DBG2OLC",
@@ -35566,7 +35487,7 @@
   "slug": "in-silico-genome-sv-injection",
   "name": "in-silico-genome-sv-injection",
   "description": "Use when benchmarking somatic SV calling methods (e.g. nanomonsv vs detection-subtraction or CAMPHORsomatic) requires ground-truth breakpoints and controlled tumor purity/depth scenarios.",
-  "edam_operation": "http://edamontology.org/operation_3202",
+  "edam_operation": "http://edamontology.org/operation_3227",
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3175"
@@ -37395,10 +37316,7 @@
   "name": "isoform-splice-junction-comparison",
   "description": "Use when a long-read isoform catalog (e.g., PacBio/IsoPops DB .rds) must be benchmarked against public annotations (RefSeq, UCSC Genes GTF) by intron-chain matching to measure database recovery fractions.",
   "edam_operation": "http://edamontology.org/operation_0282",
-  "edam_topics": [
-   "http://edamontology.org/topic_3170",
-   "http://edamontology.org/topic_3117"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3170"],
   "tools": [
    "IsoPops",
    "R",
@@ -37998,7 +37916,7 @@
   "slug": "k-fluorescence-parallel-pathway-modeling",
   "name": "k-fluorescence-parallel-pathway-modeling",
   "description": "Use when modeling an indirect-conversion detector with an active scintillator layer (e.g., 700 µm CsI in example_bct.yaml) whose K-fluorescence escape/reabsorption requires a parallel, not serial, cascade of gain and blur processes.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [
    "http://edamontology.org/topic_3318"
   ],
@@ -38414,10 +38332,7 @@
   "name": "kmer-based-assembly-accuracy-quantification",
   "description": "Use when you need to assess whether a polishing tool improved or degraded a HiFi/T2T assembly, by measuring QV and counting changed K-mers and potential overcorrection K-mers against short-read k-mer datasets.",
   "edam_operation": "http://edamontology.org/operation_0525",
-  "edam_topics": [
-   "http://edamontology.org/topic_0193",
-   "http://edamontology.org/topic_0622"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "Merqury",
    "NextPolish2",
@@ -39079,9 +38994,7 @@
   "name": "kmer-fingerprint-haplotype-assignment",
   "description": "Use when a phased long-read assembly pipeline has partitioned most reads into haplotype blocks but leftover unphased reads (in a long-read BAM) must still be assigned to the correct haplotype.",
   "edam_operation": "http://edamontology.org/operation_0346",
-  "edam_topics": [
-   "http://edamontology.org/topic_0192"
-  ],
+  "edam_topics": [],
   "tools": [
    "VolcanoSV"
   ],
@@ -39103,9 +39016,7 @@
   "name": "kmer-frequency-counting",
   "description": "Use when you need k-mer frequency profiles from raw Illumina reads or genome assemblies — e.g. GenomeScope genome-size fitting, filtering repetitive fragments by 25-mer copy number, or comparing 6-mer composition between assemblies.",
   "edam_operation": "http://edamontology.org/operation_0232",
-  "edam_topics": [
-   "http://edamontology.org/topic_0193"
-  ],
+  "edam_topics": [],
   "tools": [
    "FLASh",
    "GenomeScope",
@@ -40369,7 +40280,7 @@
   "slug": "ld-block-correlation-specification",
   "name": "ld-block-correlation-specification",
   "description": "Use when simulating GWAS summary or individual-level data for MR where instrument SNPs must be in LD (e.g. autoregressive correlation within blocks) instead of independent, or when a realistic LDMatrix/LDhatMatrix pair is needed downstream.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [
    "http://edamontology.org/topic_3053",
    "http://edamontology.org/topic_2269"
@@ -40590,7 +40501,7 @@
   "slug": "levenshtein-approximate-string-matching",
   "name": "levenshtein-approximate-string-matching",
   "description": "Use when noisy sequencing data must be matched against a barcode/sequence whitelist allowing up to e edits (default e=2), and you need minimum-edit-distance matches rather than exact string equality.",
-  "edam_operation": "http://edamontology.org/operation_3743",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0080",
    "http://edamontology.org/topic_0654"
@@ -40816,10 +40727,7 @@
   "name": "linear-regression-stoichiometry-estimation",
   "description": "Use when ONT direct RNA sequencing feature tables (mismatch/insertion/deletion frequencies, per-base quality) are available for a wild-type sample plus matched fully-modified and unmodified references, and per-site modification fraction estimates are needed.",
   "edam_operation": "http://edamontology.org/operation_3659",
-  "edam_topics": [
-   "http://edamontology.org/topic_0099",
-   "http://edamontology.org/topic_3579"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0099"],
   "tools": [
    "EpiNano",
    "Oxford Nanopore Technologies (ONT)"
@@ -41318,7 +41226,7 @@
   "slug": "long-read-adapter-trimming",
   "name": "long-read-adapter-trimming",
   "description": "Use when raw Nanopore long-read FASTQ data is about to enter de novo genome or plasmid assembly (e.g. Unicycler hybrid assembly in NanoGalaxy) and native or supplied adapter sequences must be removed first.",
-  "edam_operation": "http://edamontology.org/operation_2019",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0196"
   ],
@@ -41771,10 +41679,7 @@
   "name": "long-read-alignment-to-seed-sequences",
   "description": "Use when you have long-read FASTA files and a uniform-length seed FASTA (unique numeric IDs, excluding 0) and need seed-to-read alignment files in SAM format to build a TULIP seed graph.",
   "edam_operation": "http://edamontology.org/operation_0292",
-  "edam_topics": [
-   "http://edamontology.org/topic_0622",
-   "http://edamontology.org/topic_3188"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "BWA MEM",
    "TULIP",
@@ -43310,10 +43215,7 @@
   "name": "long-read-genome-assembly",
   "description": "Use when you have long-read FASTQ/FASTA datasets (e.g. HG002 PacBio HiFi or CycloneSEQ G400-ER) and need a de novo whole-genome assembly benchmarked on contiguity and accuracy against a reference.",
   "edam_operation": "http://edamontology.org/operation_0525",
-  "edam_topics": [
-   "http://edamontology.org/topic_0193",
-   "http://edamontology.org/topic_0622"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "BUSCO",
    "Fedrann",
@@ -44176,7 +44078,7 @@
   "slug": "long-read-metagenomic-quality-control",
   "name": "long-read-metagenomic-quality-control",
   "description": "Use when raw Nanopore or PacBio long-read metagenomic FASTQs must be cleaned before ARG profiling (e.g., Argo/SARG+), including removal of yeast-mapped and unmapped reads from mock communities.",
-  "edam_operation": "http://edamontology.org/operation_3238",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3697"
@@ -44498,7 +44400,7 @@
   "slug": "long-read-qc-metrics-interpretation",
   "name": "long-read-qc-metrics-interpretation",
   "description": "Use when raw nanopore FASTQ reads need QC before AMR or assembly analysis in NanoGalaxy, or when per-read length, Phred quality, and yield summary statistics must be reported.",
-  "edam_operation": "http://edamontology.org/operation_3220",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0196",
    "http://edamontology.org/topic_3174"
@@ -45134,7 +45036,7 @@
   "slug": "long-read-simulation-parameter-grid-design",
   "name": "long-read-simulation-parameter-grid-design",
   "description": "Use when you need to isolate the effect of long-read data characteristics (read length, coverage, accuracy) on a pipeline's performance by simulating reads against a reference genome with controlled parameter values.",
-  "edam_operation": "http://edamontology.org/operation_3519",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0196",
    "http://edamontology.org/topic_0622"
@@ -45434,10 +45336,7 @@
   "name": "long-read-splice-aware-alignment",
   "description": "Use when FLNC reads (post CCS/LIMA/refine and TAMA polyA cleanup, in FASTA form) must be spliced-aligned to a genome and a reference GTF may or may not exist, requiring a dispatch between uLTRA and minimap2.",
   "edam_operation": "http://edamontology.org/operation_3198",
-  "edam_topics": [
-   "http://edamontology.org/topic_0102",
-   "http://edamontology.org/topic_0662"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0102"],
   "tools": [
    "BAMTools",
    "BioPerl",
@@ -45802,10 +45701,7 @@
   "name": "long-read-sv-benchmarking",
   "description": "Use when evaluating or reproducing SV caller performance on long-read (PacBio HiFi/CLR, ONT) datasets where a truth or high-confidence callset exists and recall/precision/F1/GT_F1 comparisons are the deliverable.",
   "edam_operation": "http://edamontology.org/operation_3227",
-  "edam_topics": [
-   "http://edamontology.org/topic_0622",
-   "http://edamontology.org/topic_0257"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "DeBreak",
    "Dipcall",
@@ -46982,10 +46878,7 @@
   "name": "m6a-deep-learning-model-training",
   "description": "Use when you have RedNano-extracted comb_basecall_raw features (k-mer, 65-signal window, qual/mis/ins/dele) from modified and unmodified Nanopore DRS FAST5s and need a trained m6A site classifier.",
   "edam_operation": "http://edamontology.org/operation_3927",
-  "edam_topics": [
-   "http://edamontology.org/topic_3557",
-   "http://edamontology.org/topic_3170"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3170"],
   "tools": [
    "CUDA",
    "PyTorch 1.10.0",
@@ -47050,10 +46943,7 @@
   "name": "m6a-detection-tool-benchmarking",
   "description": "Use when comparing m6A detection tools on Nanopore direct RNA-seq data, tuning 'default' vs 'relaxed' thresholds, or assessing whether sequencing depth (e.g. 25/50/75% subsampling) saturates m6A hit discovery.",
   "edam_operation": "http://edamontology.org/operation_3802",
-  "edam_topics": [
-   "http://edamontology.org/topic_0080",
-   "http://edamontology.org/topic_3563"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0080"],
   "tools": [
    "NanOlympicsMod",
    "Nextflow",
@@ -47258,11 +47148,7 @@
   "name": "m6a-prediction-performance-benchmarking",
   "description": "Use when comparing m6A detection methods at the transcriptome level on Nanopore DRS data, or when validating that a re-trained RedNano model reproduces published metrics such as AUC 0.9405 vs DENA 0.8763 on Arabidopsis RRACH sites.",
   "edam_operation": "http://edamontology.org/operation_2945",
-  "edam_topics": [
-   "http://edamontology.org/topic_0032",
-   "http://edamontology.org/topic_3524",
-   "http://edamontology.org/topic_0622"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3524", "http://edamontology.org/topic_0622"],
   "tools": [
    "CUDA",
    "PyTorch",
@@ -47760,7 +47646,7 @@
   "slug": "mapping-quality-based-read-resolution",
   "name": "mapping-quality-based-read-resolution",
   "description": "Use when you have two coordinate-sorted BAMs — one from C-to-T converted reads and one from G-to-A converted reads, both aligned to the same converted reference — and must assign each original FASTQ read to exactly one alignment before methylation calling.",
-  "edam_operation": "http://edamontology.org/operation_0328",
+  "edam_operation": "http://edamontology.org/operation_2415",
   "edam_topics": [
    "http://edamontology.org/topic_3295",
    "http://edamontology.org/topic_0622"
@@ -47816,7 +47702,7 @@
   "slug": "marker-ablation-segmentation-evaluation",
   "name": "marker-ablation-segmentation-evaluation",
   "description": "Use when you need to determine which multiplexed imaging markers actually drive segmentation quality, e.g. testing whether dropping DAPI or membrane markers like NaKATPase degrades MIRIAM's cell-border segmentation against a manually annotated gold standard.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3382",
    "http://edamontology.org/topic_3474"
@@ -48800,7 +48686,7 @@
   "slug": "mendelian-randomization-parameter-configuration",
   "name": "mendelian-randomization-parameter-configuration",
   "description": "Use when setting up MR simulation scenarios in simmrd that require explicit parameter choices such as GWAS sample sizes, SNP counts, sample overlap, weak-instrument regimes, or UHP/CHP horizontal pleiotropy before data generation.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3524",
    "http://edamontology.org/topic_0622"
@@ -48829,10 +48715,7 @@
   "name": "mendelian-randomization-simulation-execution",
   "description": "Use when a task requires simulating GWAS summary or individual-level data for UVMR/MVMR under weak instruments, sample overlap, UHP/CHP, correlated IVs, or winner's curse, or when reproducing named scenarios from the simmrd paper.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3557",
-   "http://edamontology.org/topic_0622"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "MendelianRandomization R package",
    "R",
@@ -50006,7 +49889,7 @@
   "slug": "methylation-modification-calling",
   "name": "methylation-modification-calling",
   "description": "Use when you have plant ONT R10.4 POD5 reads with a sorted BAM and reference genome and need per-read or genome-wide 5mC calls in CHH (or CpG/CHG) contexts, particularly where Dorado's CHH accuracy is insufficient.",
-  "edam_operation": "http://edamontology.org/operation_3202",
+  "edam_operation": "http://edamontology.org/operation_3227",
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3295",
@@ -51309,7 +51192,7 @@
   "slug": "minion-trained-alignment-parameter-application",
   "name": "minion-trained-alignment-parameter-application",
   "description": "Use when aligning MinION nanopore reads (FASTA/FASTQ) against a target genome and you need MinION-trained LAST scoring parameters plus split-alignment handling for chimeric or rearranged reads.",
-  "edam_operation": "http://edamontology.org/operation_3298",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3168"
@@ -51821,7 +51704,7 @@
   "slug": "mock-community-quantitative-recovery-analysis",
   "name": "mock-community-quantitative-recovery-analysis",
   "description": "Use when fastq data from mock (bulk) communities with known taxon composition and known input DNA amounts exist, and you must compare platform-specific recovery bias, e.g. Nanopore MinION vs Illumina MiSeq.",
-  "edam_operation": "http://edamontology.org/operation_3238",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3697",
    "http://edamontology.org/topic_3053"
@@ -51914,10 +51797,7 @@
   "name": "model-checkpoint-selection-and-inference",
   "description": "Use when a trained methylation model checkpoint must be chosen from a training run and applied to held-out POD5/FAST5 signal plus move-table BAM to generate per-read 5mC probability calls.",
   "edam_operation": "http://edamontology.org/operation_3919",
-  "edam_topics": [
-   "http://edamontology.org/topic_3295",
-   "http://edamontology.org/topic_3539"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3295", "http://edamontology.org/topic_0736"],
   "tools": [
    "DeepMod2",
    "Dorado",
@@ -52303,7 +52183,7 @@
   "slug": "moreau-broto-autocorrelation-feature-extraction",
   "name": "moreau-broto-autocorrelation-feature-extraction",
   "description": "Use when encoding protein sequences into fixed-length physicochemical autocorrelation features (e.g., as one descriptor block of a multi-view feature vector for protein classification such as DBP detection).",
-  "edam_operation": "http://edamontology.org/operation_2936",
+  "edam_operation": "http://edamontology.org/operation_2938",
   "edam_topics": [
    "http://edamontology.org/topic_0080",
    "http://edamontology.org/topic_3474"
@@ -52895,7 +52775,7 @@
   "slug": "mtf-nnps-computation",
   "name": "mtf-nnps-computation",
   "description": "Use when you need to model detector MTF(f) = S_out(f)/S_out(0) and NNPS(f) = W_out(f)/S_out(0)^2 for a direct (a-Se) or indirect (CsI) x-ray detector described by a YAML system configuration, and validate against measured MTF/NNPS.",
-  "edam_operation": "http://edamontology.org/operation_0241",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "CASYMIR",
@@ -53782,10 +53662,7 @@
   "name": "multi-strategy-transcript-filtering",
   "description": "Use when reconstructing transcripts from aligned full-length LRTS BAM files (e.g. PacBio hepatocyte CTL/VPA data) and you need to choose a filtering stringency by comparing permissive, balanced, and strict add_filter outcomes.",
   "edam_operation": "http://edamontology.org/operation_3800",
-  "edam_topics": [
-   "http://edamontology.org/topic_3170",
-   "http://edamontology.org/topic_3116"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3170"],
   "tools": [
    "IsoTools",
    "Python",
@@ -54749,7 +54626,7 @@
   "slug": "mummer-nucmer-whole-genome-alignment",
   "name": "mummer-nucmer-whole-genome-alignment",
   "description": "Use when assembled scaffolds or contigs (e.g., DFS hybrid NA12878 scaffolds) must be structurally validated against a reference genome and compared to competing assemblies (Canu, MaSuRCA, 10X, DOVETAIL) via whole-genome alignment statistics.",
-  "edam_operation": "http://edamontology.org/operation_0192",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0102"
   ],
@@ -55144,10 +55021,7 @@
   "name": "nanodisco-baseline-accuracy-comparison",
   "description": "Use when evaluating a Nanopore methylation typing or fine-mapping method against the nanodisco baseline on the 12-motif independent dataset (SRA BioProject PRJNA559199), or when reproducing the reported 66.58% nanodisco accuracy.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0654",
-   "http://edamontology.org/topic_0296"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0654"],
   "tools": [
    "Nanoident",
    "Nanoident (pretrained model best_model/Nanoident.pt)",
@@ -55781,7 +55655,7 @@
   "slug": "nanopore-current-rescaling-and-event-assignment",
   "name": "nanopore-current-rescaling-and-event-assignment",
   "description": "Use when raw ONT fastq/fast5 reads (basecalled with Albacore or another event-preserving basecaller) must be aligned and event-level, model-scaled current values extracted before per-read methylation classification with mCaller.",
-  "edam_operation": "http://edamontology.org/operation_0494",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3168"
@@ -57985,7 +57859,7 @@
   "slug": "nanopore-read-phasing-with-snp-haplotyping",
   "name": "nanopore-read-phasing-with-snp-haplotyping",
   "description": "Use when ONT reads need to be assigned to parental haplotypes to resolve haplotype-specific methylation — e.g. detecting imprinted control regions, parent-of-origin labeling in a trio, or differential methylation between phases.",
-  "edam_operation": "http://edamontology.org/operation_3236",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0654",
    "http://edamontology.org/topic_0622"
@@ -58247,7 +58121,7 @@
   "slug": "nanopore-read-subsampling",
   "name": "nanopore-read-subsampling",
   "description": "Use when you need to determine how many Nanopore amplicon reads are sufficient for an accurate majority-vote consensus, by sweeping subsample sizes and measuring consensus error against a higher-accuracy reference consensus.",
-  "edam_operation": "http://edamontology.org/operation_3148",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3174"
@@ -58634,10 +58508,7 @@
   "name": "nanopore-signal-feature-extraction",
   "description": "Use when raw Nanopore FAST5/POD5 reads have been basecalled and re-squiggled against a genome reference and per-base sequence-context plus raw-signal features are needed to train or run a methylation-calling model on cytosine sites.",
   "edam_operation": "http://edamontology.org/operation_0337",
-  "edam_topics": [
-   "http://edamontology.org/topic_3557",
-   "http://edamontology.org/topic_0622"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "DeepSignal-plant",
    "Guppy",
@@ -59855,9 +59726,7 @@
   "name": "newick-tree-topology-comparison",
   "description": "Use when a reproduced Bayesian phylogeny (e.g. MrBayes consensus from MAFFT-aligned rDNA alignments) must be checked for agreement with a deposited reference Newick tree to confirm reproducibility of the topology.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0069"
-  ],
+  "edam_topics": [],
   "tools": [
    "MAFFT",
    "MrBayes",
@@ -60370,9 +60239,7 @@
   "name": "noise-power-spectrum-error-quantification",
   "description": "Use when comparing NNPS and quantum-efficiency curves produced by two coefficient sources (approximate vs. reference) over a shared frequency grid up to Nyquist, to quantify propagation-mediated error reduction.",
   "edam_operation": "http://edamontology.org/operation_2239",
-  "edam_topics": [
-   "http://edamontology.org/topic_3872"
-  ],
+  "edam_topics": [],
   "tools": [
    "CASYMIR",
    "NumPy",
@@ -60633,7 +60500,7 @@
   "slug": "normalized-kmer-similarity-vector-computation",
   "name": "normalized-kmer-similarity-vector-computation",
   "description": "Use when a phased long-read assembly has leftover unphased reads (e.g. a VolcanoSV-asm phasing output with PS_HP haplotype blocks) that must be assigned to haplotypes before building a phased diploid assembly.",
-  "edam_operation": "http://edamontology.org/operation_0358",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0102",
    "http://edamontology.org/topic_3168"
@@ -60941,10 +60808,7 @@
   "name": "nucleotide-count-tabulation-from-maf-alignments",
   "description": "Use when a LAST/last-split MAF alignment (e.g. calc.lastalign.maf) of Oxford Nanopore MinION reads against a target sequence is available and per-position nucleotide counts are needed for consensus calling or polymorphism/SNP candidate detection.",
   "edam_operation": "http://edamontology.org/operation_3227",
-  "edam_topics": [
-   "http://edamontology.org/topic_0080",
-   "http://edamontology.org/topic_3268"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0080"],
   "tools": [
    "LAST",
    "NanoPipe"
@@ -61241,7 +61105,7 @@
   "slug": "ont-basecaller-guided-loss-implementation",
   "name": "ont-basecaller-guided-loss-implementation",
   "description": "Use when training a nanopore signal simulator on POD5/BAM-derived training chunks and you need a differentiable basecaller-guided CTC objective alongside signal-level MSE losses.",
-  "edam_operation": "http://edamontology.org/operation_3995",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3474",
    "http://edamontology.org/topic_0622"
@@ -61295,7 +61159,7 @@
   "slug": "ont-fast5-file-conversion",
   "name": "ont-fast5-file-conversion",
   "description": "Use when raw ONT direct RNA sequencing output consists of multi-read FAST5 files that must be split into single-read FAST5 files prior to Tombo resquiggle or signal-based modification analysis.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622"
   ],
@@ -61958,10 +61822,7 @@
   "name": "orf-prediction-with-genomic-correction",
   "description": "Use when you have full-length mRNA isoforms (FASTA plus GFF from PacBio lrCaptureSeq-style catalogs) and need to count or extract predicted ORFs/protein sequences per isoform and gene.",
   "edam_operation": "http://edamontology.org/operation_0362",
-  "edam_topics": [
-   "http://edamontology.org/topic_0257",
-   "http://edamontology.org/topic_3308"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3308"],
   "tools": [
    "IsoPops",
    "Pacific Biosciences (PacBio) long-read sequencing",
@@ -62166,10 +62027,7 @@
   "name": "overlap-graph-quality-assessment",
   "description": "Use when a candidate overlap graph from an overlap detection tool must be judged against truth/reference overlaps on long-read datasets, e.g. comparing Fedrann weighting x metric configurations or tools like minimap2 and MECAT2.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0193",
-   "http://edamontology.org/topic_0622"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "Fedrann",
    "kNN-overlap-finder",
@@ -62331,7 +62189,7 @@
   "slug": "pacbio-ccs-kinetics-feature-inference",
   "name": "pacbio-ccs-kinetics-feature-inference",
   "description": "Use when you have aligned PacBio HiFi/CCS BAMs and need per-read, single-molecule CpG methylation probabilities using native kinetics (IPD/PW) features, or when benchmarking ccsmeth vs primrose read-level 5mC calling.",
-  "edam_operation": "http://edamontology.org/operation_3754",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0160",
    "http://edamontology.org/topic_0654"
@@ -62395,10 +62253,7 @@
   "name": "pacbio-ccs-read-level-5mc-classification",
   "description": "Use when calling 5mCpG methylation states at single-molecule (per-read) resolution from long (≥10 Kb) PacBio CCS/HiFi reads (subreads.bam or hifi.bam), or when benchmarking read-level 5mC classifiers on M.SssI-methylated vs PCR-treated control datasets.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0657",
-   "http://edamontology.org/topic_0102"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0102"],
   "tools": [
    "HK model",
    "ccsmeth",
@@ -62871,9 +62726,7 @@
   "name": "paf-alignment-format-handling",
   "description": "Use when long reads must be mapped to draft assembly contigs in PAF format via minimizer sketches instead of a full read aligner, e.g. as input for Tigmint-long correction or misassembly detection.",
   "edam_operation": "http://edamontology.org/operation_0292",
-  "edam_topics": [
-   "http://edamontology.org/topic_0192"
-  ],
+  "edam_topics": [],
   "tools": [
    "ABySS",
    "minimap2",
@@ -63473,7 +63326,7 @@
   "slug": "parallel-cascade-cross-spectral-term-computation",
   "name": "parallel-cascade-cross-spectral-term-computation",
   "description": "Use when modeling a detector process whose quanta split or fork into parallel paths (e.g., K-fluorescence escape in CsI or charge trapping in a-Se) and signal/noise must be recombined with correct cross-spectral terms before computing MTF/NNPS.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "CASYMIR",
@@ -63504,7 +63357,7 @@
   "slug": "parallel-cascade-modeling",
   "name": "parallel-cascade-modeling",
   "description": "Use when modeling an x-ray detector whose cascade splits into parallel pathways — e.g., the Kim architecture where scintillator-transmitted x rays convert within the photodiode — and you need combined MTF/NNPS with cross-spectral noise terms.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3391"
   ],
@@ -63626,7 +63479,7 @@
   "slug": "parametric-distribution-fitting-and-comparison",
   "name": "parametric-distribution-fitting-and-comparison",
   "description": "Use when simulating sequencing reads or other stochastic quantities that must follow a realistic empirical length/size distribution, and the sampled output needs numerical validation against that target distribution.",
-  "edam_operation": "http://edamontology.org/operation_3579",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3168"
@@ -63952,10 +63805,7 @@
   "name": "pathogenic-variant-benchmark-evaluation",
   "description": "Use when you have a gold-standard germline variant set with ground-truth pathogenicity labels (e.g. 105 LP/P vs 683 nonpathogenic variants) and need to quantify an automated classifier's sensitivity/specificity.",
   "edam_operation": "http://edamontology.org/operation_3225",
-  "edam_topics": [
-   "http://edamontology.org/topic_0199",
-   "http://edamontology.org/topic_2643"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0199"],
   "tools": [
    "CPSR",
    "Docker",
@@ -64816,9 +64666,7 @@
   "name": "per-cell-type-confidence-aggregation",
   "description": "Use when comparing cell-type annotation quality between two representations of Visium HD data (e.g. bin2cell cells vs 8 μm bins) and you need per-cell-type tallies of median confidence and mean genes detected.",
   "edam_operation": "http://edamontology.org/operation_3800",
-  "edam_topics": [
-   "http://edamontology.org/topic_6170"
-  ],
+  "edam_topics": [],
   "tools": [
    "CellTypist",
    "Python",
@@ -65191,7 +65039,7 @@
   "slug": "per-position-base-insertion-count-tallying",
   "name": "per-position-base-insertion-count-tallying",
   "description": "Use when consensus sequences must be derived directly from read alignments (SAM/BAM/CRAM, possibly unsorted or streamed from a mapper) and you need fast, memory-efficient per-position base and insertion tallies rather than sorted pileups.",
-  "edam_operation": "http://edamontology.org/operation_3483",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3673",
    "http://edamontology.org/topic_0622"
@@ -65250,7 +65098,7 @@
   "slug": "per-position-methylation-accuracy-benchmarking",
   "name": "per-position-methylation-accuracy-benchmarking",
   "description": "Use when ONT eventalign TSVs have been classified with trained mCaller models and you must quantify per-position detection accuracy against orthogonal methylated/unmethylated position labels.",
-  "edam_operation": "http://edamontology.org/operation_3202",
+  "edam_operation": "http://edamontology.org/operation_3227",
   "edam_topics": [
    "http://edamontology.org/topic_3168"
   ],
@@ -66771,9 +66619,7 @@
   "name": "phylogenetic-substitution-model-selection",
   "description": "Use when a cleaned multiple alignment of consensus genomes plus database sequences must be converted into phylogenetic trees under both maximum-likelihood and Bayesian inference, and a substitution model compatible with both programs is required.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0182"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0080"],
   "tools": [
    "IQ-TREE2",
    "MAFFT",
@@ -67184,10 +67030,7 @@
   "name": "platform-error-comparison-ont-illumina",
   "description": "Use when a benchmark or analysis contains per-replicate consensus error measurements from both ONT and Illumina read sets (e.g. simulated SARS-CoV-2 reads at 30x/40x/50x) and the goal is to test whether ONT reconstruction error exceeds Illumina error at equal coverage.",
   "edam_operation": "http://edamontology.org/operation_3227",
-  "edam_topics": [
-   "http://edamontology.org/topic_3673",
-   "http://edamontology.org/topic_3194"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3673"],
   "tools": [
    "ViralConsensus",
    "minimap2",
@@ -67213,7 +67056,7 @@
   "slug": "plogo-sequence-motif-visualization",
   "name": "plogo-sequence-motif-visualization",
   "description": "Use when comparing per-site methylation discrepancies between nanopore tools and WGBS and you need to test whether sequence context (e.g. AT-rich NNNCGNNN 8-mers) drives tool-specific error.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [
    "http://edamontology.org/topic_0160"
   ],
@@ -68728,7 +68571,7 @@
   "slug": "precision-recall-f1-evaluation--2cc734bb45edfe1a",
   "name": "precision-recall-f1-evaluation",
   "description": "Use when you have variant/insertion callsets (VCF) and a curated truth set (e.g., 5,630 HGSVC TE insertions) and need to quantify detection performance as precision/recall/F1, or compare tools head-to-head.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3175"
@@ -69146,7 +68989,7 @@
   "slug": "probabilistic-kmer-dictionary-construction",
   "name": "probabilistic-kmer-dictionary-construction",
   "description": "Use when you need to index the unique k-mer content of reference contigs for fast k-mer look-up in reads (e.g. scaffolding-graph construction), especially for k-mer sizes in the 12–256 range and memory-frugal probabilistic storage.",
-  "edam_operation": "http://edamontology.org/operation_3519",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0102",
    "http://edamontology.org/topic_3168"
@@ -69489,7 +69332,7 @@
   "slug": "protein-multiview-feature-vector-concatenation",
   "name": "protein-multiview-feature-vector-concatenation",
   "description": "Use when encoding protein sequences for classification (e.g. DBP vs non-DBP) requires combining evolutionary-profile, dipeptide-composition and physicochemical-property views into one fixed-length vector for downstream feature selection.",
-  "edam_operation": "http://edamontology.org/operation_2936",
+  "edam_operation": "http://edamontology.org/operation_2938",
   "edam_topics": [
    "http://edamontology.org/topic_3510"
   ],
@@ -69599,7 +69442,7 @@
   "slug": "protein-sequence-dipeptide-feature-extraction",
   "name": "protein-sequence-dipeptide-feature-extraction",
   "description": "Use when raw protein sequences (e.g. FASTA from PDB1075, PDB594, PDB186) must be converted into fixed-length dipeptide-composition feature vectors for machine-learning classification of DNA-binding proteins.",
-  "edam_operation": "http://edamontology.org/operation_2936",
+  "edam_operation": "http://edamontology.org/operation_2938",
   "edam_topics": [
    "http://edamontology.org/topic_3510",
    "http://edamontology.org/topic_0080"
@@ -69745,10 +69588,7 @@
   "name": "pseudo-read-fragmentation-from-reference-genome",
   "description": "Use when you need a ground-truth-based accuracy comparison of two or more genome assemblies (original vs polished variants) and lack sequencing reads, by simulating long reads from a trusted reference such as CHM13 T2T.",
   "edam_operation": "http://edamontology.org/operation_3180",
-  "edam_topics": [
-   "http://edamontology.org/topic_0102",
-   "http://edamontology.org/topic_3693"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0102"],
   "tools": [
    "NextPolish2",
    "minimap2",
@@ -69925,7 +69765,7 @@
   "slug": "psi-feature-ablation-modeling",
   "name": "psi-feature-ablation-modeling",
   "description": "Use when no wild-type Ψ values exist for the exons of interest and you need to run PredPSI-SVR without the '-p' PSI input, or when quantifying the contribution of the Ψ feature to ΔΨ prediction accuracy.",
-  "edam_operation": "http://edamontology.org/operation_0426",
+  "edam_operation": "http://edamontology.org/operation_2454",
   "edam_topics": [
    "http://edamontology.org/topic_0622"
   ],
@@ -70492,9 +70332,7 @@
   "name": "quast-assembly-contiguity-benchmarking",
   "description": "Use when you have two or more genome assembly FASTA files — such as a draft and a corrected version (e.g., celegans-abyss vs. celegans-abyss.cut500.tigmint.fa) — and need to judge whether correction/scaffolding improved contiguity and correctness.",
   "edam_operation": "http://edamontology.org/operation_0310",
-  "edam_topics": [
-   "http://edamontology.org/topic_0193"
-  ],
+  "edam_topics": [],
   "tools": [
    "ABySS",
    "QUAST",
@@ -70631,9 +70469,7 @@
   "name": "quast-split-scaffold-quality-assessment",
   "description": "Use when a scaffolded assembly contains N gaps introduced by long-read gap-filling (e.g. ntLink gap_fill output) and you need to quantify how much real sequence replaced the ambiguous Ns.",
   "edam_operation": "http://edamontology.org/operation_0306",
-  "edam_topics": [
-   "http://edamontology.org/topic_0193"
-  ],
+  "edam_topics": [],
   "tools": [
    "QUAST",
    "abyss-fac (ABySS)",
@@ -70825,7 +70661,7 @@
   "slug": "r-function-runtime-profiling",
   "name": "r-function-runtime-profiling",
   "description": "Use when comparing computational cost of competing R normalization (or other per-function) pipelines across datasets of increasing G (genes) and n (cells) and need comparable elapsed-time entries plus explicit failure records.",
-  "edam_operation": "http://edamontology.org/operation_2984",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3170"
   ],
@@ -71187,7 +71023,7 @@
   "slug": "random-forest-classifier-training--07fcf1197d6faaa1",
   "name": "random-forest-classifier-training",
   "description": "Use when you have aligned PacBio CCS reads with kinetic tags and need a baseline supervised classifier to test whether kinetic signals discriminate two base states and to rank feature contributions.",
-  "edam_operation": "http://edamontology.org/operation_3948",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3474",
    "http://edamontology.org/topic_0080"
@@ -71613,7 +71449,7 @@
   "slug": "raw-signal-sliding-window-segmentation",
   "name": "raw-signal-sliding-window-segmentation",
   "description": "Use when input is raw nanopore fast5 electrical signal too long for direct end-to-end basecalling, and you need to split it into overlapping 300-sample slices, basecall each, and reassemble a full read.",
-  "edam_operation": "http://edamontology.org/operation_3236",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3168"
   ],
@@ -72136,7 +71972,7 @@
   "slug": "read-chromosome-classification",
   "name": "read-chromosome-classification",
   "description": "Use when low-coverage (~5x) PacBio HiFi reads must be partitioned into chromosomal bins prior to per-chromosome de novo assembly, especially when translocations cause reads to span two chromosomes and naive reference alignment would misclassify them.",
-  "edam_operation": "http://edamontology.org/operation_3191",
+  "edam_operation": "http://edamontology.org/operation_3192",
   "edam_topics": [
    "http://edamontology.org/topic_0196",
    "http://edamontology.org/topic_0622"
@@ -72738,7 +72574,7 @@
   "slug": "read-length-distribution-sampling",
   "name": "read-length-distribution-sampling",
   "description": "Use when generating synthetic nanopore reads from a reference FASTA and you need realistic read-length heterogeneity rather than fixed-length reads, e.g. before seq2squiggle signal simulation.",
-  "edam_operation": "http://edamontology.org/operation_3520",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3168"
@@ -72999,9 +72835,7 @@
   "name": "read-overlap-graph-construction",
   "description": "Use when running DBG2OLC overlap-layout on hybrid data — an accurate DBG contig set (e.g., SparseAssembler Contigs.txt, N50 ~29-32 kbp) plus 10x-100x error-prone PacBio/ONT FASTA reads — and a backbone_raw.fasta must be produced before consensus.",
   "edam_operation": "http://edamontology.org/operation_0524",
-  "edam_topics": [
-   "http://edamontology.org/topic_0193"
-  ],
+  "edam_topics": [],
   "tools": [
    "AssemblyUtility",
    "DBG2OLC",
@@ -73027,9 +72861,7 @@
   "name": "read-overlap-overhang-filtering",
   "description": "Use when building an overlap graph or string graph from long noisy reads (Nanopore R9/R10, PacBio CLR) and partial overlaps with long unaligned overhangs would otherwise create spurious edges.",
   "edam_operation": "http://edamontology.org/operation_0525",
-  "edam_topics": [
-   "http://edamontology.org/topic_0193"
-  ],
+  "edam_topics": [],
   "tools": [
    "PECAT",
    "minimap2"
@@ -73987,7 +73819,7 @@
   "slug": "reference-based-percent-identity-assessment",
   "name": "reference-based-percent-identity-assessment",
   "description": "Use when you have corrected long reads (e.g., HECIL output FASTA) for an organism with a reference genome and need read-level PI / % matched bases to verify correction gains.",
-  "edam_operation": "http://edamontology.org/operation_0254",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3168",
    "http://edamontology.org/topic_0102"
@@ -74336,7 +74168,7 @@
   "slug": "reference-genome-sequence-extraction",
   "name": "reference-genome-sequence-extraction",
   "description": "Use when you have a coordinate-indexed variant list (e.g. CHROM/POS from a GIAB/1KGp3 truth VCF) and need the surrounding reference bases from GRCh37 or GRCh38 to classify sequence context such as homopolymer runs (>=4 identical bases) or STRs (>=3 units of a 1-6 bp motif).",
-  "edam_operation": "http://edamontology.org/operation_2402",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622"
   ],
@@ -74588,7 +74420,7 @@
   "slug": "regression-coefficient-tabulation",
   "name": "regression-coefficient-tabulation",
   "description": "Use when fitting simulated or real scRNA-seq counts under alternative model specifications (e.g., no ZI, intercept-only ZI, covariate-inclusive ZI) and you need a unified per-gene table of coefficient estimates and standard errors for comparison.",
-  "edam_operation": "http://edamontology.org/operation_3657",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3517",
    "http://edamontology.org/topic_0203"
@@ -74921,10 +74753,7 @@
   "name": "repeat-region-methylation-annotation",
   "description": "Use when you need CpG coverage/phasing counts or methylation-state detection rates in repetitive genomic regions (RepeatMasker, segmental duplications, cenSat annotations) from PacBio HiFi/CCS modbam and bedmethyl data aligned to T2T-CHM13.",
   "edam_operation": "http://edamontology.org/operation_3222",
-  "edam_topics": [
-   "http://edamontology.org/topic_0657",
-   "http://edamontology.org/topic_3168"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3168"],
   "tools": [
    "Singularity",
    "ccsmeth",
@@ -75261,10 +75090,7 @@
   "name": "repetitive-region-methylation-analysis",
   "description": "Use when a plant genome (e.g., A. thaliana TAIR10.1 or O. sativa IRGSP-1.0) has Nanopore-derived per-cytosine methylation frequencies and you must quantify 5mC in highly repetitive regions where short-read bisulfite sequencing fails to map reads.",
   "edam_operation": "http://edamontology.org/operation_3232",
-  "edam_topics": [
-   "http://edamontology.org/topic_0797",
-   "http://edamontology.org/topic_0776"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0797"],
   "tools": [
    "DeepSignal-plant",
    "MUMmer",
@@ -75757,9 +75583,7 @@
   "name": "repository-data-release-processing",
   "description": "Use when a published paper reports aggregate resource statistics (e.g. '58,970 genes from 11 tissue subtypes, 63 cell lines') and you must verify them by directly enumerating the data files in the accompanying repository release.",
   "edam_operation": "http://edamontology.org/operation_2409",
-  "edam_topics": [
-   "http://edamontology.org/topic_3272"
-  ],
+  "edam_topics": [],
   "tools": [
    "Ansanqi/GutUDB",
    "GutUDB",
@@ -75945,11 +75769,8 @@
   "slug": "rest-api-variant-annotation-querying",
   "name": "rest-api-variant-annotation-querying",
   "description": "Use when you need to fetch current structured annotations (allele frequencies, ClinVar CLNSIG classifications, COSMIC presence) for one or more variants from a REST API, or when building a re-annotation loop that must repeatedly re-query saved variant queries.",
-  "edam_operation": "http://edamontology.org/operation_0222",
-  "edam_topics": [
-   "http://edamontology.org/topic_0622",
-   "http://edamontology.org/topic_3275"
-  ],
+  "edam_operation": null,
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "DisGeNET",
    "Django",
@@ -76254,7 +76075,7 @@
   "slug": "rna-modification-co-occurrence-analysis",
   "name": "rna-modification-co-occurrence-analysis",
   "description": "Use when you have per-read modification predictions for two modification types (e.g. CHEUI-solo m6A and m5C calls) on the same direct RNA reads and want to test single-molecule co-occurrence at pairs of modified sites 1–15 nt apart.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622"
   ],
@@ -76282,10 +76103,7 @@
   "name": "rna-modification-ks-sample-compare-testing",
   "description": "Use when raw ionic-current signal from native and IVT-control direct RNA nanopore reads (multi-fast5 converted to per-read fast5) must be compared to localize endogenous 2'-O-methyl or base modifications per nucleotide.",
   "edam_operation": "http://edamontology.org/operation_3204",
-  "edam_topics": [
-   "http://edamontology.org/topic_3524",
-   "http://edamontology.org/topic_0697"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3524"],
   "tools": [
    "multi_to_single_fast5",
    "tombo",
@@ -76949,10 +76767,7 @@
   "name": "roc-auc-evaluation",
   "description": "Use when you have per-read posterior modification probabilities from a binary RNA-modification classifier (e.g. CHEUI Model 1 on IVT reads) and need to report accuracy, precision, recall, and ROC-AUC to validate or benchmark the model.",
   "edam_operation": "http://edamontology.org/operation_3891",
-  "edam_topics": [
-   "http://edamontology.org/topic_3557",
-   "http://edamontology.org/topic_3307"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3307"],
   "tools": [
    "CHEUI",
    "nanopore direct RNA sequencing"
@@ -78191,11 +78006,7 @@
   "name": "sam-streaming-bioinformatics-pipelines",
   "description": "Use when running long-read WGS (e.g. ONT PromethION) alignments with minimap2 and you need immediate downstream prediction (HLA typing) without storing large intermediate SAM files.",
   "edam_operation": "http://edamontology.org/operation_0310",
-  "edam_topics": [
-   "http://edamontology.org/topic_3531",
-   "http://edamontology.org/topic_0622",
-   "http://edamontology.org/topic_3170"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3542", "http://edamontology.org/topic_0622", "http://edamontology.org/topic_3170"],
   "tools": [
    "HLAminer v1.4",
    "HLAminer.pl",
@@ -78615,10 +78426,7 @@
   "name": "scaffold-graph-traversal",
   "description": "Use when a draft assembly FASTA (e.g. a Flye assembly) plus long-read FASTQ (e.g. ONT SRR10028109) are available and mapping-supported contig joins have been inferred, and the scaffold graph must be traversed to produce ordered, oriented scaffold sequences.",
   "edam_operation": "http://edamontology.org/operation_0310",
-  "edam_topics": [
-   "http://edamontology.org/topic_0193",
-   "http://edamontology.org/topic_0622"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "ABySS",
    "QUAST",
@@ -78646,10 +78454,7 @@
   "name": "scaffold-statistics-verification",
   "description": "Use when a TULIP (tulipseed.perl + tulipbulb.perl) assembly run has finished and you must confirm scaffold counts, size range, >1 Mbp length fraction, and per-seed-link read support before polishing.",
   "edam_operation": "http://edamontology.org/operation_0525",
-  "edam_topics": [
-   "http://edamontology.org/topic_0193",
-   "http://edamontology.org/topic_0622"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "BWA MEM",
    "TULIP",
@@ -78779,7 +78584,7 @@
   "slug": "scaling-factor-estimation",
   "name": "scaling-factor-estimation",
   "description": "Use when raw single-cell RNA-seq count matrices (general or sparse Matrix, e.g. dgCMatrix) exhibit technical biases from sequencing depth, capture efficiency, or dropout, and per-cell scaling factors plus normalized counts are needed without linear count-depth or distributional assumptions.",
-  "edam_operation": "http://edamontology.org/operation_2803",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3170"
   ],
@@ -79367,10 +79172,7 @@
   "name": "segmental-duplication-region-stratification",
   "description": "Use when comparing long-read vs short-read SNV call sets and you need to show whether calls in highly similar segmental duplications differ in number and transition/transversion quality between platforms.",
   "edam_operation": "http://edamontology.org/operation_3227",
-  "edam_topics": [
-   "http://edamontology.org/topic_3692",
-   "http://edamontology.org/topic_0622"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "FreeBayes",
    "Longshot"
@@ -79802,7 +79604,7 @@
   "slug": "sensitivity-precision-computation",
   "name": "sensitivity-precision-computation",
   "description": "Use when evaluating how well transcript annotation/junction-prediction tools recover true splice junctions under incomplete references, needing per-tool sensitivity and precision values for comparison.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3170",
    "http://edamontology.org/topic_0080"
@@ -79896,7 +79698,7 @@
   "slug": "sensitivity-specificity-fscore-computation",
   "name": "sensitivity-specificity-fscore-computation",
   "description": "Use when benchmarking gene-fusion detection tools on data with known ground truth (e.g., simulated Iso-seq datasets with spiked-in fusions) and you need sensitivity, specificity, and F-score per caller.",
-  "edam_operation": "http://edamontology.org/operation_3648",
+  "edam_operation": "http://edamontology.org/operation_3649",
   "edam_topics": [
    "http://edamontology.org/topic_0080",
    "http://edamontology.org/topic_3170"
@@ -80239,11 +80041,7 @@
   "name": "sequencing-error-rate-benchmarking",
   "description": "Use when raw PacBio CLR read sets (e.g., yeast pseudo-diploid, NWC metagenome, Microbial 10-plex) must be corrected and their residual sequencing error rate computed to reproduce or compare against published correction benchmarks.",
   "edam_operation": "http://edamontology.org/operation_3218",
-  "edam_topics": [
-   "http://edamontology.org/topic_0622",
-   "http://edamontology.org/topic_3174",
-   "http://edamontology.org/topic_3693"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622", "http://edamontology.org/topic_3174"],
   "tools": [
    "VeChat",
    "fpa",
@@ -80610,10 +80408,7 @@
   "name": "short-read-alignment-benchmarking",
   "description": "Use when the goal is to quantify how an alignment-free scaffolding-graph builder compares with Bowtie/Bowtie2/Bwa/Bwa-Mem on short-read data, via precision/recall of link recovery and wall-clock runtime per k-mer size.",
   "edam_operation": "http://edamontology.org/operation_0448",
-  "edam_topics": [
-   "http://edamontology.org/topic_0193",
-   "http://edamontology.org/topic_0091"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0091"],
   "tools": [
    "Bowtie",
    "Bowtie2",
@@ -80752,10 +80547,7 @@
   "name": "short-read-and-long-read-genome-mapping",
   "description": "Use when a draft de novo assembly (FASTA/contigs) needs quality assessment at single-nucleotide resolution, and matched short-read (Illumina) plus long-read (PacBio HiFi, PacBio CLR, or ONT) sequencing data are available to remap onto it.",
   "edam_operation": "http://edamontology.org/operation_3182",
-  "edam_topics": [
-   "http://edamontology.org/topic_0102",
-   "http://edamontology.org/topic_3617"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0102"],
   "tools": [
    "CRAQ",
    "Integrative Genomics Viewer (IGV)",
@@ -81360,11 +81152,8 @@
   "slug": "short-read-variant-based-assembly-polishing",
   "name": "short-read-variant-based-assembly-polishing",
   "description": "Use when a long-read (e.g. Oxford Nanopore) assembly has high raw error rates and paired Illumina reads are available to raise base-level accuracy, and when the improvement must be quantified per polishing stage.",
-  "edam_operation": "http://edamontology.org/operation_3181",
-  "edam_topics": [
-   "http://edamontology.org/topic_0196",
-   "http://edamontology.org/topic_3693"
-  ],
+  "edam_operation": null,
+  "edam_topics": ["http://edamontology.org/topic_0196"],
   "tools": [
    "BUSCO",
    "Pilon",
@@ -81424,7 +81213,7 @@
   "slug": "short-read-vs-long-read-coverage-comparison",
   "name": "short-read-vs-long-read-coverage-comparison",
   "description": "Use when both Illumina and ONT cDNA BAM alignments of the same mRNA (e.g. eGFP vaccine construct) are available and you must quantify short-read misalignment at low-complexity poly(A) regions versus long-read coverage.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3524",
    "http://edamontology.org/topic_3170"
@@ -81589,7 +81378,7 @@
   "slug": "signal-based-cpg-methylation-detection",
   "name": "signal-based-cpg-methylation-detection",
   "description": "Use when POD5 or FAST5 Nanopore signal files from R9.4.1 or R10.4.1 flowcells must be converted into per-read and per-site CpG 5mC methylation calls (MM/ML-tagged BAM, BED outputs) without bisulfite conversion.",
-  "edam_operation": "http://edamontology.org/operation_3202",
+  "edam_operation": "http://edamontology.org/operation_3227",
   "edam_topics": [
    "http://edamontology.org/topic_3295",
    "http://edamontology.org/topic_0622"
@@ -82752,7 +82541,7 @@
   "slug": "single-cell-count-data-simulation",
   "name": "single-cell-count-data-simulation",
   "description": "Use when you need synthetic scRNA-seq count matrices with known variance-component structure (random intercepts in mean and/or zero-inflation components) to evaluate type-I error or power of mixed-effects DE tests.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3517",
    "http://edamontology.org/topic_0203"
@@ -84012,10 +83801,7 @@
   "name": "slurm-hpc-script-generation",
   "description": "Use when a user supplies a project name, FASTQ file paths, and a node count for a Slurm-managed HPC cluster and needs the JWES pipeline auto-scripted and deployed as a batch job.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0091",
-   "http://edamontology.org/topic_3272"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0091"],
   "tools": [
    "BWA",
    "FastQC",
@@ -85522,11 +85308,7 @@
   "name": "sparql-gene-disease-association-retrieval",
   "description": "Use when HPO patient phenotypes have already been mapped to UMLS CUIs and a ranked candidate gene list must be produced from a DisGeNET-based RDF triple store.",
   "edam_operation": "http://edamontology.org/operation_0337",
-  "edam_topics": [
-   "http://edamontology.org/topic_0622",
-   "http://edamontology.org/topic_3062",
-   "http://edamontology.org/topic_0091"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622", "http://edamontology.org/topic_0091"],
   "tools": [
    "Apache Jena",
    "Java 8",
@@ -85608,9 +85390,7 @@
   "name": "spatial-transcriptomics-anndata-construction",
   "description": "Use when starting from destriped Visium HD 2 um bin-count AnnData plus a scaled H&E or IF morphology image and you need cell-level objects with spatial coordinates instead of default 8 um binned counts.",
   "edam_operation": "http://edamontology.org/operation_3222",
-  "edam_topics": [
-   "http://edamontology.org/topic_6170"
-  ],
+  "edam_topics": [],
   "tools": [
    "Python",
    "StarDist",
@@ -85640,10 +85420,7 @@
   "name": "spatial-transcriptomics-bin-to-cell-assignment",
   "description": "Use when working with 10X Visium HD 2 μm bin data plus a morphology image (H&E or IF) and the goal is to reconstruct per-cell transcriptomic objects instead of using the default 8 μm bins.",
   "edam_operation": "http://edamontology.org/operation_3928",
-  "edam_topics": [
-   "http://edamontology.org/topic_6394",
-   "http://edamontology.org/topic_3170"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3170"],
   "tools": [
    "StarDist",
    "Visium HD",
@@ -86120,7 +85897,7 @@
   "slug": "splice-junction-annotation-matching",
   "name": "splice-junction-annotation-matching",
   "description": "Use when you need to quantify splice-junction prediction accuracy of Iso-seq aligners against a curated annotation (e.g., Ensembl GTF) on PacBio full-length transcript FASTA data.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3170",
    "http://edamontology.org/topic_0080"
@@ -86551,7 +86328,7 @@
   "slug": "split-alignment-translocation-signal-extraction",
   "name": "split-alignment-translocation-signal-extraction",
   "description": "Use when HiFi reads aligned with minimap2 '-ax map-hifi' produce split alignment records whose segments map to different chromosomes, and you must extract SigBND translocation signals to recover correct chromosome labels for breakpoint-spanning reads.",
-  "edam_operation": "http://edamontology.org/operation_0454",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_0102"
@@ -86880,7 +86657,7 @@
   "slug": "squiggle-dtw-mapping",
   "name": "squiggle-dtw-mapping",
   "description": "Use when nanopore raw signal reads (BLOW5/FAST5) must be mapped to a reference genome FASTA in the signal domain without basecalling, e.g. for Read Until adaptive sampling or benchmarking sDTW throughput against software baselines.",
-  "edam_operation": "http://edamontology.org/operation_3190",
+  "edam_operation": "http://edamontology.org/operation_3192",
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3168"
@@ -87655,9 +87432,7 @@
   "name": "string-graph-assembly",
   "description": "Use when assembling diploid genomes from long noisy reads (Nanopore R9/R10, PacBio CLR) where overlap-graph construction and phasing of haplotype-specific contigs is the goal.",
   "edam_operation": "http://edamontology.org/operation_0525",
-  "edam_topics": [
-   "http://edamontology.org/topic_0193"
-  ],
+  "edam_topics": [],
   "tools": [
    "Clair3",
    "Medaka",
@@ -88483,7 +88258,7 @@
   "slug": "structural-variant-candidate-detection",
   "name": "structural-variant-candidate-detection",
   "description": "Use when you have a sorted, indexed .bam/.cram (bwa-mem paired-end or minimap2/ngmlr long reads) and need to partition reads carrying SV signals (soft-clips >=15 bp, discordant pairs, supplementary mappings, cigar gaps) before SV calling.",
-  "edam_operation": "http://edamontology.org/operation_0329",
+  "edam_operation": "http://edamontology.org/operation_0474",
   "edam_topics": [
    "http://edamontology.org/topic_0102"
   ],
@@ -88642,7 +88417,7 @@
   "slug": "structural-variant-detection-from-spanning-alignments",
   "name": "structural-variant-detection-from-spanning-alignments",
   "description": "Use when long, error-prone nanopore reads are aligned to a reference carrying known structural variants (e.g. Mutatrix-mutated E. coli K-12 with 20 induced SVs, 100 bp–4 kbp) and SV calls must be extracted from spanning alignments and scored for recall/precision.",
-  "edam_operation": "http://edamontology.org/operation_0329",
+  "edam_operation": "http://edamontology.org/operation_0474",
   "edam_topics": [
    "http://edamontology.org/topic_0622"
   ],
@@ -92116,7 +91891,7 @@
   "slug": "tandem-repeat-region-annotation",
   "name": "tandem-repeat-region-annotation",
   "description": "Use when you have VCF-style variant call sets from two or more simulators (e.g. seq2squiggle vs squigulator) and need to stratify TP/FP calls by repeat context (homopolymer, TRF, neither) to explain error patterns.",
-  "edam_operation": "http://edamontology.org/operation_3281",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_0102"
@@ -92378,7 +92153,7 @@
   "slug": "targeted-assembly-polishing-between-unique-contigs",
   "name": "targeted-assembly-polishing-between-unique-contigs",
   "description": "Use when a HASLR draft hybrid assembly shows elevated mismatch/indel error rates versus other assemblers and you want parity via polishing, without polishing the entire assembly.",
-  "edam_operation": "http://edamontology.org/operation_3834",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0196",
    "http://edamontology.org/topic_0622"
@@ -94283,7 +94058,7 @@
   "slug": "transcript-to-genomic-coordinate-lifting",
   "name": "transcript-to-genomic-coordinate-lifting",
   "description": "Use when modification predictions are in transcript coordinates (e.g., CHEUI output on a transcriptome reference) and genomic positions, gene annotation, or comparison to genome-based datasets (e.g., bsRNA-seq sites) are required.",
-  "edam_operation": "http://edamontology.org/operation_3806",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3511",
    "http://edamontology.org/topic_0099"
@@ -95051,7 +94826,7 @@
   "slug": "trna-derived-fragment-subtype-classification",
   "name": "trna-derived-fragment-subtype-classification",
   "description": "Use when single-end sRNA-seq FASTQ reads (quality-filtered, adapter-trimmed) must be classified as tRNA-derived fragments and halves and assigned to tRF/tRH subtypes in plant genomes.",
-  "edam_operation": "http://edamontology.org/operation_3235",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0659",
    "http://edamontology.org/topic_0099"
@@ -96294,7 +96069,7 @@
   "slug": "umls-metathesaurus-concept-lookup",
   "name": "umls-metathesaurus-concept-lookup",
   "description": "Use when patient symptoms are encoded as HPO codes and must be translated to UMLS CUIs to seed downstream gene-disease association retrieval, e.g. in the VIBE prioritization pipeline.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0091"
   ],
@@ -96940,7 +96715,7 @@
   "slug": "variant-calling-f1-evaluation",
   "name": "variant-calling-f1-evaluation",
   "description": "Use when assessing how faithfully a simulated ONT read set recapitulates real variant-calling performance, or when quantifying sensitivity of variant detection to simulator noise parameters (e.g. sigma_amp, duration SD) or genomic context (homopolymer/STR).",
-  "edam_operation": "http://edamontology.org/operation_0329",
+  "edam_operation": "http://edamontology.org/operation_0474",
   "edam_topics": [
    "http://edamontology.org/topic_0102",
    "http://edamontology.org/topic_0199"
@@ -97036,10 +96811,7 @@
   "name": "variant-calling-pipeline-orchestration",
   "description": "Use when raw WGS/WES FASTQ files must be converted into annotated variant calls and the full tool chain (FastQC to HaplotypeCaller) plus HPC resource allocation needs to be scripted and launched automatically.",
   "edam_operation": "http://edamontology.org/operation_3227",
-  "edam_topics": [
-   "http://edamontology.org/topic_3623",
-   "http://edamontology.org/topic_3169"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3169"],
   "tools": [
    "BWA",
    "FastQC",
@@ -97429,7 +97201,7 @@
   "slug": "variant-effect-annotation-with-snpeff",
   "name": "variant-effect-annotation-with-snpeff",
   "description": "Use when a filtered VCF of SNPs and INDELs (e.g., GATK HaplotypeCaller output recalibrated against hg38) needs gene-level variant annotation and effect prediction as the last stage of a WGS/WES variant-discovery workflow.",
-  "edam_operation": "http://edamontology.org/operation_0803",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0625"
   ],
@@ -99027,11 +98799,7 @@
   "name": "viral-read-simulation",
   "description": "Use when benchmarking a viral genomics tool (e.g. a consensus caller) against a known ground-truth genome and you need simulated Illumina and/or Nanopore read sets at defined coverage levels (e.g. 30x, 40x, 50x) with replicates.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_0769",
-   "http://edamontology.org/topic_3673",
-   "http://edamontology.org/topic_3194"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0769", "http://edamontology.org/topic_3673"],
   "tools": [
    "ART",
    "MAFFT",
@@ -99576,10 +99344,7 @@
   "name": "welchs-t-test-significance-testing",
   "description": "Use when a putative DEL/DUP call (e.g., from Sniffles/CuteSV/SVIM/NanoVar nanopore pipelines) needs coverage-based validation: supported if coverage shift >=40% with Welch t-test p < 0.05, discarded otherwise.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0266",
-   "http://edamontology.org/topic_0622"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0622"],
   "tools": [
    "Mosdepth",
    "disCoverage"
@@ -100032,7 +99797,7 @@
   "slug": "wilcoxon-signed-rank-paired-testing",
   "name": "wilcoxon-signed-rank-paired-testing",
   "description": "Use when comparing two binners evaluated on the same set of samples with paired per-sample quality scores (e.g., CheckM/GUNC-classified high-quality bins per sample) and you need a significance P-value without assuming normality.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_2269",
    "http://edamontology.org/topic_0622"
@@ -100532,7 +100297,7 @@
   "slug": "z-drop-heuristic-graph-path-search",
   "name": "z-drop-heuristic-graph-path-search",
   "description": "Use when low-coverage (~5x) HiFi reads are misclassified or unclassified ('None') after minimap2 alignment to a linear reference, and overlap-graph-based de novo chromosome-class correction is needed before per-chromosome assembly.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622"
   ],
@@ -100597,7 +100362,7 @@
   "slug": "zero-inflated-negative-binomial-data-generation",
   "name": "zero-inflated-negative-binomial-data-generation",
   "description": "Use when building simulated scRNA-seq benchmarks that require excess zeros plus overdispersed counts with within-sample correlation, mirroring the TWO-SIGMA simulation design (10 individuals x 1000 cells, ZINB with random effects).",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3512",
    "http://edamontology.org/topic_0203"

@@ -9,8 +9,7 @@ when_to_use_negative:
 - Only raw sequencing reads are available with no classified CRE/CSE breakpoints —
   read mapping, clipping-based error calling (Minimap2/SAMtools filtering), and CRE/CSE
   classification must be completed before scoring.
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_topics: []
 tools:
 - name: CRAQ
   role: Source of CRE/CSE breakpoints and of the AQI transformation (Nw normalization
@@ -36,8 +35,7 @@ metadata:
   - CRAQ
   - Perl
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

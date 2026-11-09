@@ -10,7 +10,7 @@ when_to_use_negative:
   correction applies at the read level
 - Data are short reads from Illumina MiSeq or Ion Torrent PGM rather than full-length
   nanopore amplicon reads
-edam_operation: http://edamontology.org/operation_2003
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3173
@@ -38,7 +38,7 @@ metadata:
   - blastn
   - chopSeq
   - nanoClust
-  edam_operation: http://edamontology.org/operation_2003
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3173

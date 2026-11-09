@@ -10,7 +10,7 @@ when_to_use_negative:
   — annotate only the re-selected passing variants, not the full HaplotypeCaller output
 - A web/interactive interface is required — the current JWES version offers only a
   command-line workflow
-edam_operation: http://edamontology.org/operation_0803
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 tools:
@@ -47,7 +47,7 @@ metadata:
   - SortSam
   - Trimmomatic
   - snpEff
-  edam_operation: http://edamontology.org/operation_0803
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   provenance_tier: literature

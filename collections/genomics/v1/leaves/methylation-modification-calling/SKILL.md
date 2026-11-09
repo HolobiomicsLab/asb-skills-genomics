@@ -10,7 +10,7 @@ when_to_use_negative:
   trained on plant species screened for abundant high-methylation CHH sites
 - Runtime-constrained pipelines — DeepPlant is less computationally efficient than
   Dorado and took much longer to call methylation on the same dataset
-edam_operation: http://edamontology.org/operation_3202
+edam_operation: http://edamontology.org/operation_3227
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3295
@@ -43,7 +43,7 @@ metadata:
   - DeepPlant
   - DeepSignal-Plant
   - Dorado
-  edam_operation: http://edamontology.org/operation_3202
+  edam_operation: http://edamontology.org/operation_3227
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3295

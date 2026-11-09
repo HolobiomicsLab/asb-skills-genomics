@@ -10,7 +10,7 @@ when_to_use_negative:
   (positive/negative) acceptor and donor sets
 - Your goal is single-organism deep training with large-scale data rather than controlled
   cross-organism benchmarking at 5000/7500 scale
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0654
 - http://edamontology.org/topic_3474
@@ -37,7 +37,7 @@ metadata:
   tools:
   - CNNSplice
   - StratifiedKFold
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0654
   - http://edamontology.org/topic_3474

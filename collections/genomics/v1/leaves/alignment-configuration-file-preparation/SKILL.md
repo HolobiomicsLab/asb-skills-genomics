@@ -11,7 +11,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2409
 edam_topics:
 - http://edamontology.org/topic_0102
-- http://edamontology.org/topic_3275
 tools:
 - name: TULIP
   role: Consumes the configuration file via --config in tulipseed.perl and tulipbulb.perl
@@ -38,7 +37,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2409
   edam_topics:
   - http://edamontology.org/topic_0102
-  - http://edamontology.org/topic_3275
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

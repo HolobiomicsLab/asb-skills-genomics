@@ -11,7 +11,7 @@ when_to_use_negative:
   small contigs from the dataset before merging.
 - Input dataset is extremely large, since overlap-based consensus tools' run-times
   increase exponentially with increasing input dataset size.
-edam_operation: http://edamontology.org/operation_3129
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0196
 - http://edamontology.org/topic_3697
@@ -51,7 +51,7 @@ metadata:
   - MeGAMerge
   - Minimus2
   - Newbler
-  edam_operation: http://edamontology.org/operation_3129
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0196
   - http://edamontology.org/topic_3697

@@ -10,7 +10,7 @@ when_to_use_negative:
   expressible as a 2x2 hawk-dove payoff matrix
 - The user is less adept in R and only needs a prebuilt interactive web interface
   rather than a scripted simulation
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: learnPopGen
   role: R package whose hawk-dove game function takes an initial frequency of hawks
@@ -34,7 +34,7 @@ metadata:
   tools:
   - R
   - learnPopGen
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

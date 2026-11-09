@@ -12,10 +12,9 @@ when_to_use_negative:
 - When raw sequence data re-analysis is needed (reference genome or variant-calling
   updates) — this skill only covers knowledge-base annotation updates, not pipeline
   re-execution
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
-- http://edamontology.org/topic_3275
 tools:
 - name: VariantAlert
   role: Django/Python web application whose client methods forward user requests to
@@ -62,10 +61,9 @@ metadata:
   - Psycopg2
   - Python
   - VariantAlert
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
-  - http://edamontology.org/topic_3275
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

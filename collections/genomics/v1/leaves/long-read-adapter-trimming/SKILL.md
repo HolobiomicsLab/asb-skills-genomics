@@ -8,7 +8,7 @@ when_to_use_negative:
   quality- and adapter-trimming of Illumina reads, not Porechop.
 - The reads are already adapter-trimmed and length/quality filtered and are ready
   to be passed directly to Unicycler hybrid assembly or Bandage graph rendering.
-edam_operation: http://edamontology.org/operation_2019
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0196
 tools:
@@ -40,7 +40,7 @@ metadata:
   - Galaxy
   - NanoGalaxy
   - Porechop
-  edam_operation: http://edamontology.org/operation_2019
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0196
   provenance_tier: literature

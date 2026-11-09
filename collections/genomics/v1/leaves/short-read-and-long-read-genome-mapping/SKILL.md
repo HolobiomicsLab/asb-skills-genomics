@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3182
 edam_topics:
 - http://edamontology.org/topic_0102
-- http://edamontology.org/topic_3617
 tools:
 - name: Minimap2
   role: Reads mapper; '-ax sr' preset for NGS short reads and '-ax map-hifi'/'-ax
@@ -51,7 +50,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3182
   edam_topics:
   - http://edamontology.org/topic_0102
-  - http://edamontology.org/topic_3617
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted
