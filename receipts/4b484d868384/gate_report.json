@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T13:37:28.218197+00:00",
+  "generated_at": "2026-11-10T15:34:49.572022+00:00",
   "collection_dir": "collections/genomics/v1",
   "corpus_path": "collections/genomics/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "2ed1d5e3519c137d6a54d8eeed88fa548395d122621dbdfea87064b39fde3517",
+      "sha256": "e9c5f82f70ac42b7e7cffde41bfc8bd0d1b20fc68fd1b332704045f5081b038b",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -68,7 +68,7 @@
         {
           "path": ".zenodo.json",
           "bytes": 2487,
-          "sha256": "cd06720f4d200405b4843c38e172dc304a04df6c24a79046c716377e99b3b11e"
+          "sha256": "4a7e22fce640f910c2b99fc8811355ad95fd649cd958d3ca9f1ead9c3de61938"
         },
         {
           "path": "CITATION.cff",
@@ -81,13 +81,13 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 23077,
-          "sha256": "040142e31018bc9b6d5997a25a2b00d7efad11440cbdb726fd28c5fb23487f26"
+          "bytes": 25695,
+          "sha256": "63048acfbe6a5ef80cb881dbf53350e9d1125e3e0da8a39d87499eb0cf159661"
         },
         {
           "path": "collection.yaml",
-          "bytes": 147394,
-          "sha256": "8ba76bacfaa6dae5cc5ae2bebc30b2c4d3275e39b349792300ac5a6ad697b2f8"
+          "bytes": 147393,
+          "sha256": "6bc6a1499b84ce7e454a09fc5c6d49ee6a8503ee74721872d4101bd7af87dcdb"
         },
         {
           "path": "corpus.yaml",
@@ -29332,8 +29332,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 2249,
-          "sha256": "1515f94ebe9e9074a0be2e016cd3ee51114a5cf501a88a6b9cea665a6c714ab2"
+          "bytes": 3037,
+          "sha256": "ceec03f84b0f4f78ae2372ab329a6fb316e8d992bff21b50f8f05ed5682fa014"
         },
         {
           "path": "skills_index.json",
@@ -33694,8 +33694,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 3011,
-          "sha256": "ec3c9fe9cde816fa8ca08bacf85e8f44c63688295d65547ad79577c03743ef39"
+          "bytes": 3417,
+          "sha256": "1716aa718dd1572e8af4f3abe6914cfd6607e10f1bb60f66276d1e8d30cc13c7"
         },
         {
           "path": "workflows/long-read-structural-variant",
@@ -34153,5 +34153,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "5b0a7e6e6d2cb28b3caaec2820df2b12a371a9f067517afe4098c940c2227086"
+  "receipt_sha256": "f89a9c307bb6ba7faa9ca8c89fa357de7707dddffb9c7b05f8ea4c3ca55a7a46"
 }
