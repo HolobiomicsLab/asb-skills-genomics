@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T15:34:49.572022+00:00",
+  "generated_at": "2026-11-10T16:40:18.522350+00:00",
   "collection_dir": "collections/genomics/v1",
   "corpus_path": "collections/genomics/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "e9c5f82f70ac42b7e7cffde41bfc8bd0d1b20fc68fd1b332704045f5081b038b",
+      "sha256": "b90d1d4e22d0e948667752e8036150024312e5fd7746b19701d1f68af08a750a",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -81,8 +81,8 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 25695,
-          "sha256": "63048acfbe6a5ef80cb881dbf53350e9d1125e3e0da8a39d87499eb0cf159661"
+          "bytes": 24610,
+          "sha256": "9d5c78655c4d447338d92380b3bc98c2b573da4d6bdff0b0f8c1928441f08367"
         },
         {
           "path": "collection.yaml",
@@ -34153,5 +34153,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "f89a9c307bb6ba7faa9ca8c89fa357de7707dddffb9c7b05f8ea4c3ca55a7a46"
+  "receipt_sha256": "6ab0eb1fcad89315a8184d9327fe6c76cafb58cef719a95c8fbf9b3749f16ede"
 }
