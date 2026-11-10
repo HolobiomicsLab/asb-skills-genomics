@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/papers-137-00284b" alt="137 source papers">
   <img src="https://img.shields.io/badge/content-CC--BY--4.0-04919a" alt="content CC-BY-4.0">
   <img src="https://img.shields.io/badge/code-Apache--2.0-04919a" alt="code Apache-2.0">
-  <img src="https://img.shields.io/badge/status-candidate-5d6a78" alt="status candidate">
+  <img src="https://img.shields.io/badge/status-released-04919a" alt="status released">
 </p>
 
 ---
@@ -26,17 +26,24 @@
 
 This repository holds the genomics skill collection of AgenticScienceBuilder (ASB): 3,246 skills over 867 software tools and 2 composite workflows, distilled from 137 method papers and their code repositories. Each skill is a `SKILL.md` file that an agent can load. It names its source paper; 2,703 of the 3,246 also quote it or its repository README. The collection installs as a Claude Code plugin, and a script that needs only the Python standard library searches it offline.
 
+## Collections
+
+| Path | Title | Skills | Tools | Released | DOI |
+|---|---|---|---|---|---|
+| `collections/genomics/v1` | ASB Genomics Skill Collection v1 | 3246 | 867 | 2026-11-09 | [10.5281/zenodo.24093085](https://doi.org/10.5281/zenodo.24093085) |
+
 ## Status
 
-Candidate, not a release. Branch `candidate/4b484d868384` holds collection `v1`, built from corpus cut `4b484d868384`. The marketplace manifest sets `"release": false`. A release is a merge to `main` tagged `v<major>.<minor>.<patch>`.
+Collection `v1`, built from corpus cut `4b484d868384`, is released on `main` at tag `genomics-v1.0.0` and archived on Zenodo under the version DOI [10.5281/zenodo.24093085](https://doi.org/10.5281/zenodo.24093085).
 
 | Item | State |
 |---|---|
 | Release gate | `receipts/4b484d868384/gate_report.json` reports `warn`: 13 of 16 checks pass, 1 gives a warning and 2 are not applicable (`cut_manifest`, and `peer_review_claim` because the corpus holds no preprint or deposit DOI). The warning is on the scan of quote spans for personal data and dual-use content (`pii_dual_use`): 4 low-confidence findings of pattern `placeholder_subject`, flagged for human review. [`receipts/4b484d868384/VERIFY.md`](receipts/4b484d868384/VERIFY.md) gives the command that re-verifies it. |
-| Plugin manifests | `claude plugin validate` passes for `.claude-plugin/marketplace.json` (3 warnings on fields Claude Code ignores) and for `collections/genomics/v1` |
+| Plugin manifests | `claude plugin validate` passes for `.claude-plugin/marketplace.json` and for `collections/genomics/v1` |
 | Collection IRI | `https://w3id.org/holobiomicslab/asb-skill/collection/genomics/v1` |
 | IRI resolution (2026-10-30) | Registered at w3id.org. It redirects (HTTP 302) to a path in the asb-skill-collections registry that returns 404: the collection lives in this repository, not in the registry. |
-| DOI | None yet. The Zenodo deposit metadata is in [`.zenodo.json`](.zenodo.json). |
+| DOI | [10.5281/zenodo.24093085](https://doi.org/10.5281/zenodo.24093085) (this version). The Zenodo deposit metadata is in [`.zenodo.json`](.zenodo.json). |
+| Concept DOI | [10.5281/zenodo.24093084](https://doi.org/10.5281/zenodo.24093084) (all versions) |
 
 ## What is inside
 
@@ -75,10 +82,9 @@ The tier is advice about the tool. It does not change the licence of this collec
 
 ## Install
 
-Claude Code, from the directory that holds your clone of this repository, with the candidate branch checked out (the default branch `main` does not hold the collection yet):
+Claude Code, from the directory that holds your clone of this repository:
 
 ```bash
-git -C asb-skills-genomics switch candidate/4b484d868384
 claude plugin marketplace add ./asb-skills-genomics
 claude plugin install genomics@asb-skills-genomics
 ```
@@ -134,7 +140,7 @@ Each leaf names its source paper in `provenance.source_papers` (3,246 of 3,246 l
 
 ## Citation
 
-Cite the collection with [`CITATION.cff`](CITATION.cff). Cite also the source paper of each skill you use: its DOI is in `provenance.source_papers` in the skill's front matter. The collection has no DOI yet.
+Cite the collection with [`CITATION.cff`](CITATION.cff). Cite also the source paper of each skill you use: its DOI is in `provenance.source_papers` in the skill's front matter. The collection's version DOI is [10.5281/zenodo.24093085](https://doi.org/10.5281/zenodo.24093085); its concept DOI, which covers all versions, is [10.5281/zenodo.24093084](https://doi.org/10.5281/zenodo.24093084).
 
 ## Licence
 
