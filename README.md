@@ -30,7 +30,7 @@ This repository holds the genomics skill collection of AgenticScienceBuilder (AS
 
 | Path | Title | Skills | Tools | Released | DOI |
 |---|---|---|---|---|---|
-| `collections/genomics/v1` | ASB Genomics Skill Collection v1 | 3246 | 867 | 2026-11-09 | [10.5281/zenodo.24093085](https://doi.org/10.5281/zenodo.24093085) |
+| `collections/genomics/v1` | ASB Genomics Skill Collection v1 | 3246 | 867 | 2026-11-10 | [10.5281/zenodo.24122105](https://doi.org/10.5281/zenodo.24122105) |
 
 ## Status
 
