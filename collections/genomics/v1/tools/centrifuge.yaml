@@ -14,8 +14,10 @@ source_repos:
 - https://github.com/xinehc/argo
 - https://github.com/opr-group-bnitm/vimop
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/xinehc/argo
+license_evidence: null
+repo_url: null

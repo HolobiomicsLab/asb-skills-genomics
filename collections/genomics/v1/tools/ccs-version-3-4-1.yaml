@@ -11,8 +11,10 @@ source_repos:
 - https://github.com/PacificBiosciences/IsoSeq3
 - https://github.com/niehu2018/GV_oocyte_PAIsoSeqAnalysis
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/PacificBiosciences/IsoSeq3
+license_evidence: null
+repo_url: null

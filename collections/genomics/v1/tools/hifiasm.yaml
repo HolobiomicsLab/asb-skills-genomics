@@ -29,8 +29,10 @@ source_repos:
 - https://github.com/PacificBiosciences/sawfish
 - https://github.com/maiziezhoulab/VolcanoSV
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/hifiasm
 repo_url: https://github.com/chhylp123/hifiasm

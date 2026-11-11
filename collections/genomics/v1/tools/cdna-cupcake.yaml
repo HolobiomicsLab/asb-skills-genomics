@@ -12,8 +12,10 @@ source_repos:
 - https://github.com/Magdoll/cDNA_Cupcake
 - https://github.com/shizhuoxing/scISA-Tools
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/Magdoll/cDNA_Cupcake
+license_evidence: null
+repo_url: null

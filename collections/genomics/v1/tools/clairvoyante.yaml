@@ -12,8 +12,10 @@ derived_from:
 source_repos:
 - https://github.com/aquaskyline/Clairvoyante
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: repository-licence-file
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/aquaskyline/Clairvoyante/HEAD/LICENSE.md
 repo_url: https://github.com/aquaskyline/Clairvoyante
