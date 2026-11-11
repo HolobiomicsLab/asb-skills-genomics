@@ -16,8 +16,10 @@ source_repos:
 - https://github.com/liniguez/Insplico_simulations
 - https://github.com/tallulandrews/M3Drop
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/liniguez/Insplico_simulations
+entry_kind: software
+license_tier: open
+license: Artistic-2.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://cran.r-project.org/web/packages/BiocManager/index.html
+repo_url: https://github.com/Bioconductor/BiocManager

@@ -26,8 +26,10 @@ source_repos:
 - https://github.com/IOB-Muenster/nanopipe2
 - https://github.com/mroosmalen/nanosv
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/isovic/graphmap
+license_evidence: null
+repo_url: null

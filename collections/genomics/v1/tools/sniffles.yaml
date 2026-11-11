@@ -36,8 +36,10 @@ source_repos:
 - https://github.com/friend1ws/nanomonsv
 - https://github.com/mroosmalen/nanosv
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/SFGLab/ConsensuSV-ONT-pipeline
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/sniffles
+repo_url: https://github.com/fritzsedlazeck/Sniffles

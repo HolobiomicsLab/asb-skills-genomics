@@ -11,8 +11,10 @@ derived_from:
 source_repos:
 - https://github.com/cfarkas/annotate_my_genomes
 schema_version: 0.2.0
-license_tier: unknown
+entry_kind: vendor_product
+license_tier: restricted
 license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/cfarkas/annotate_my_genomes
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://www.anaconda.com/legal/terms/terms-of-service
+repo_url: null

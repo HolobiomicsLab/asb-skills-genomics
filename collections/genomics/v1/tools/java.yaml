@@ -32,8 +32,10 @@ source_repos:
 - https://github.com/forestbiotech-lab/miRPursuit
 - https://github.com/molgenis/vibe
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/ucagenomix/sicelore-2.1
+license_evidence: null
+repo_url: null

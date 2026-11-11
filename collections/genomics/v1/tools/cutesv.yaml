@@ -33,8 +33,10 @@ source_repos:
 - https://github.com/javiercguard/retroinspector
 - https://github.com/maiziezhoulab/VolcanoSV
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/SFGLab/ConsensuSV-ONT-pipeline
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/cutesv
+repo_url: https://github.com/tjiangHIT/cuteSV
