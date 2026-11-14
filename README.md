@@ -41,7 +41,7 @@ Collection `v1`, built from corpus cut `4b484d868384`, is released on `main` at 
 | Release gate | `receipts/4b484d868384/gate_report.json` reports `warn`: 13 of 16 checks pass, 1 gives a warning and 2 are not applicable (`cut_manifest`, and `peer_review_claim` because the corpus holds no preprint or deposit DOI). The warning is on the scan of quote spans for personal data and dual-use content (`pii_dual_use`): 4 low-confidence findings of pattern `placeholder_subject`, flagged for human review. [`receipts/4b484d868384/VERIFY.md`](receipts/4b484d868384/VERIFY.md) gives the command that re-verifies it. |
 | Plugin manifests | `claude plugin validate` passes for `.claude-plugin/marketplace.json` and for `collections/genomics/v1` |
 | Collection IRI | `https://w3id.org/holobiomicslab/asb-skill/collection/genomics/v1` |
-| IRI resolution (2026-10-30) | Registered at w3id.org. It redirects (HTTP 302) to a path in the asb-skill-collections registry that returns 404: the collection lives in this repository, not in the registry. |
+| IRI resolution (2026-11-14) | Registered at w3id.org. It redirects (HTTP 302) to the collection landing page in the asb-skill-collections registry (HTTP 200), which names this repository and the Zenodo record. |
 | DOI | [10.5281/zenodo.24093085](https://doi.org/10.5281/zenodo.24093085) (this version). The Zenodo deposit metadata is in [`.zenodo.json`](.zenodo.json). |
 | Concept DOI | [10.5281/zenodo.24093084](https://doi.org/10.5281/zenodo.24093084) (all versions) |
 
