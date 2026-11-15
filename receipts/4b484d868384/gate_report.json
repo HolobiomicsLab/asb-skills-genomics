@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-14T21:12:24.296207+00:00",
+  "generated_at": "2026-11-15T16:52:58.614301+00:00",
   "collection_dir": "collections/genomics/v1",
   "corpus_path": "collections/genomics/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "270e9b179b30e6a3e308ea38e8ec1fd38d08f702303d62a7aa0e84fbe6612b0c",
+      "sha256": "694f7aefbd994b18e4316656197622bb331d6a93b42211cbe636c0adf5072b2a",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -67,8 +67,8 @@
         },
         {
           "path": ".zenodo.json",
-          "bytes": 2498,
-          "sha256": "349692b1a6bb9c885e49c23ffa221fc0d6e5479be712db90d630c038bdc0c8b1"
+          "bytes": 2646,
+          "sha256": "edbdb1dd6596798d0b0b74c9fd4719064e1c85a3e36a0752c77714833e4d7ee5"
         },
         {
           "path": "CITATION.cff",
@@ -81,8 +81,8 @@
         },
         {
           "path": "bin/report_issue.py",
-          "bytes": 44558,
-          "sha256": "91a8606109067b015cd6d1af497b12f82149cc2b4aa9fcdabb67984201eee197"
+          "bytes": 44518,
+          "sha256": "fc5f56dc586aa6bb28d4930ce4170204633cdcc0f70ade2221b3c1db79ae5d4d"
         },
         {
           "path": "bin/search_skills.py",
@@ -29337,8 +29337,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 4284,
-          "sha256": "5ead13004057fea64e996e198adb5a903cc5e1aa1e9f82d424353ccad696c69c"
+          "bytes": 4276,
+          "sha256": "d899b779a95ab9c0f923320e5c755c1d5b9f09eb6f13fda313db68591bc819b0"
         },
         {
           "path": "skills_index.json",
@@ -33704,8 +33704,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 4664,
-          "sha256": "d90a428904cf61b05f7e7a7ebcb4cdcb41fb522a9ed0aa2c1819d73e98caa70d"
+          "bytes": 4656,
+          "sha256": "4ae297ec4718b1969214bd7adf187cbacf95e560cad129ce2f023f92f7fda189"
         },
         {
           "path": "workflows/long-read-structural-variant",
@@ -34163,5 +34163,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "bc573c8425723857a8dd689523bbba4af27cbb953ff5d1adbc02cd8857c72039"
+  "receipt_sha256": "4cf61bb8844d6c17141fcf2196911b1f7b9c12e53e25efd1a05a41f227f07489"
 }
