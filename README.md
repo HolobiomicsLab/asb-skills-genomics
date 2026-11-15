@@ -136,7 +136,7 @@ Each leaf names its source paper in `provenance.source_papers` (3,246 of 3,246 l
 
 - [ASB skill collections](https://github.com/HolobiomicsLab/asb-skill-collections): the registry of every domain, the shared tooling, the governance documents, the contribution loop and the earlier metabolomics v2 tree. The current metabolomics collection (v3) is in the `asb-skills-metabolomics` repository.
 - AgenticScienceBuilder: the pipeline that generated this collection. Repository follows.
-- `indicium-adapters-genomics`: the Indicium domain adapter for the same domain. Repository follows.
+- [`indicium-adapters-genomics`](https://github.com/HolobiomicsLab/indicium-adapters-genomics): the Indicium domain adapter for the same domain.
 
 ## Citation
 
